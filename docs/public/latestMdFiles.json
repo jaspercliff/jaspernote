@@ -1,5 +1,12 @@
 [
   "README.md",
-  "docs/java/jvm/utils/jmap.md",
-  "docs/java/jvm/utils/mat(memory analyzer tool).md"
+  "docs/database/mysql/functions/count.md",
+  "docs/java/framework/spring/api/utils/Assert.md",
+  "docs/java/framework/spring/dataAccess/transaction.md",
+  "docs/java/utils/mapStruct/mapStruct.md",
+  "docs/linux/docker/demo.md",
+  "docs/linux/shell/function.md",
+  "docs/outline/javaFramework.md",
+  "docs/outline/{ => python}/python.md",
+  "docs/python/basic/utils.md"
 ]

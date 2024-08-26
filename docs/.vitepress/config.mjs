@@ -13,7 +13,7 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/jaspercliff/jaspernote/edit/master/docs/:path'
+      pattern: 'https://github.com/jaspercliff/jaspernote/edit/dev/docs/:path'
     },
     nav,
     sidebar,

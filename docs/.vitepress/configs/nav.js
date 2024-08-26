@@ -6,10 +6,10 @@ export const nav = [
     {
         text: "java",
         items: [
-            { text: "java核心基础", link: "/outline/java核心基础.md" },
-            { text: "jvm", link: "/outline/jvm.md" },
-            { text: "framework", link: "/outline/javaFramework.md" },
-            { text: "设计模式", link: "/outline/designPattern.md" },
+            { text: "java核心基础", link: "/outline//java/java核心基础.md" },
+            { text: "jvm", link: "/outline/java/jvm.md" },
+            { text: "framework", link: "/outline/java/javaFramework.md" },
+            { text: "设计模式", link: "/outline/java/designPattern.md" },
             { text: "guava", link: "/outline/java/guava.md" },
         ],
     },
@@ -35,6 +35,6 @@ export const nav = [
     },
     {
         text: "python",
-        link: "/outline/python.md",
+        link: "/outline/python/python.md",
     }
 ]
