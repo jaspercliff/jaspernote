@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: /outline/java核心基础.md
+      link: /outline/java/java核心基础.md
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/jaspercliff
@@ -38,6 +38,7 @@ features:
 </div>
 
 <style>
+
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);

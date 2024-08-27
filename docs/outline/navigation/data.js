@@ -16,7 +16,7 @@ export const websites = [
             },
             {
                 icon: 'https://spring.io/favicon-32x32.png?v=96334d577af708644f6f0495dd1c7bc8',
-                title: 'spring',
+                title: 'spring.md',
                 desc: '为构建企业级应用程序提供全面的基础架构支持的 Java 开发框架',
                 link: 'https://spring.io/'
             },
