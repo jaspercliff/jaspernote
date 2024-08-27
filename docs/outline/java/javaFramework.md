@@ -12,6 +12,7 @@
 ### data access
 
 - [transaction](../../java/framework/spring/dataAccess/transaction.md)
+- [transactionPropagation](../../java/framework/spring/dataAccess/事务传播机制.md)
 
 ### api utils
 
