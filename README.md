@@ -27,3 +27,8 @@ todo
 - spring cache 和jetcache
 - Resilience4j 和 Spring Cloud CircuitBreaker
 - Spring Cloud Config 或 Consul
+- pr
+- 责任链模式
+
+
+

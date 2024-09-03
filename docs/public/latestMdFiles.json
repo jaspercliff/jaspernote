@@ -1,12 +1,12 @@
 [
-  "docs/java/utils/lombok/index.md",
-  "docs/outline/java/javaFramework.md",
-  "docs/java/framework/spring/dataAccess/transaction.md",
-  "docs/java/java8/function.md",
   "README.md",
-  "docs/database/mysql/functions/count.md",
-  "docs/java/framework/spring/api/utils/Assert.md",
-  "docs/java/utils/mapStruct/mapStruct.md",
-  "docs/linux/docker/demo.md",
-  "docs/linux/shell/function.md"
+  "docs/database/redis/redis-benchmark.md",
+  "docs/java/basic/basic.md",
+  "docs/java/designPattern/behavioral/observer.md",
+  "docs/java/framework/jetcache/index.md",
+  "docs/java/framework/springboot/log/logback/index.md",
+  "docs/java/framework/springboot/logback.md",
+  "docs/java/utils/Caffeine/index.md",
+  "docs/java/utils/lombok/annotations/Builder.md",
+  "docs/java/utils/lombok/annotations/Generated.md"
 ]

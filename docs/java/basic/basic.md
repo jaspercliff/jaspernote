@@ -431,31 +431,35 @@ output:true
 - 直接使用双引号声明出来的 `String`对象会直接存储在常量池中。
 - 如果不是用双引号声明的 `String`对象，可以使用 `String`提供的 `intern`方法。intern 方法会从字符串常量池中查询当前字符串是否存在，若不存在就会将当前字符串放入常量池中
 
-```java
-package com.jasper.StringDemo.stringdemo;
-public class Demo3 {
-    public static void main(String[] args) {
-        String  s1 = new String("abc");
-        String s2 = s1.intern();
-        System.out.println(s1 == s2);
-        String s3 = new String("a")+new String("b");
-        String s4 = s3.intern();
-        System.out.println(s3 == s4);
-    }
-}
-false
-true
+``` java
+String s1 = new String("hello"); // 创建了一个新的字符串对象
+String s2 = s1.intern();         // s2 是池中的 "hello" 对象的引用
+String s3 = "hello";             // s3 也是池中的 "hello" 对象的引用
+System.out.println(s1 == s2); // 输出 false，因为 s1 是堆中的对象
+System.out.println(s2 == s3); // 输出 true，因为 s2 和 s3 都指向字符串池中的对象
 ```
 
-s1 是在堆中的引用
-s2 是在 string pool 中
-创建了三个字符串对象： **`"a"`**、**`"b"`** 和 **`"ab"`**。
-s3 是 stringbuilder.append 拼接的 最后 toString，这个新的字符串 "ab" 并不会直接放入字符串池，因为它是通过操作创建的，而不是直接使用字符串字面量
-在这里，**`s3`** 的值为 "ab"，并且这个字符串并没有在池中
-对 s3 执行 `intern()` 方法，该方法会从字符串常量池中查找“ab”这个对象是否存在，此时不存在的，但堆中已经存在了，所以字符串常量池中保存的是堆中这个“ab”对象的引用，也就是说，s3 和 s4 的引用地址是相同的，所以输出的结果为 true
+在上面的代码中：
+
+s1 是通过 new String("hello") 创建的一个新的对象，它不在字符串池中。
+s2 是通过 s1.intern() 得到的池中的对象引用。
+s3 直接指向池中的 "hello" 对象。
+可以看出，s2 和 s3 实际上指向的是同一个内存位置，即字符串池中的 "hello"。
+
+#### intern() 方法的应用场景
+   intern() 通常用于以下场景：
+
+内存优化： 当你的应用程序中有大量重复的字符串时，使用 intern() 可以显著减少内存的使用。通过将这些字符串放入池中，所有相同内容的字符串都会共享同一个对象。
+
+字符串比较优化： 在需要大量进行字符串比较的场景下，使用 intern() 可以使比较操作更快，因为可以直接比较对象引用而不是逐字符比较。
+
+多线程同步： 在多线程环境中，可以使用 intern() 方法确保相同的字符串内容使用同一个锁对象
+#### 风险
+
+使用 intern() 后，字符串对象将被放入堆中的字符串池中。尽管堆的大小通常比永久代大得多，但如果大量不同的字符串对象都被放入池中，仍然会占用堆内存，这可能会导致内存消耗增大。
+堆内存耗尽的风险依然存在，特别是在大量使用 intern() 的情况下，因为 JVM 会不断创建新的字符串对象并将它们放入池中
 
 ### stringbuilder and stringbuffer
-
 - 每次对 String 类型进行改变的时候，都会生成一个新的 String 对象
 - `StringBuffer` 每次都会对 `StringBuffer` 对象本身进行操作，而不是生成新的对象并改变对象引用
 - 使用 `StringBuilder` 相比使用 `StringBuffer` 能获得性能提升，但却要冒多线程不安全的风险

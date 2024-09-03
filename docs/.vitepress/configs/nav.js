@@ -8,16 +8,19 @@ export const nav = [
         items: [
             {text: "java核心基础", link: "/outline//java/java核心基础.md"},
             {text: "jvm", link: "/outline/java/jvm.md"},
-            {text: "设计模式", link: "/outline/java/designPattern.md"},
+            {text: "设计模式", link: "/java/designPattern/index.md"},
             {text: "guava", link: "/outline/java/guava.md"},
+            {text: "lombok", link: "/java/utils/lombok/index.md"},
         ],
     },
     {
         text: "framework",
         items: [
-            {text: "spring.md", link: "/outline/java/framework/spring.md"},
-            {text: "springboot", link: "/outline/java/framework/springboot.md"},
+            {text: "spring.md", link: "/outline/java/framework/spring"},
+            {text: "springboot", link: "/outline/java/framework/springboot"},
             {text: "springSecurity", link: "/outline/java/framework/springSecurity.md"},
+            {text: "jetCache", link: "/java/framework/jetcache/index.md"},
+
         ],
     },
     {
