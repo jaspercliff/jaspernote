@@ -11,6 +11,8 @@ export const nav = [
             {text: "设计模式", link: "/java/designPattern/index.md"},
             {text: "guava", link: "/outline/java/guava.md"},
             {text: "lombok", link: "/java/utils/lombok/index.md"},
+            {text: "mapStruct", link: "/java/utils/mapStruct/index.md"},
+            {text: "orika", link: "/java/utils/orika/index.md"},
         ],
     },
     {

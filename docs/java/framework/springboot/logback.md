@@ -147,3 +147,6 @@ public void handleRequest(String requestId) {
 - %cyan{...} 用于改变日志输出中特定部分的颜色，使其以青色（cyan）显示
 - %msg%n：这部分表示日志消息和换行符，%msg 表示实际的日志消息文本，而 %n 表示换行符。
 %black{控制台} %red{%d{yyyy-MM-dd HH:mm:ss.SSS}} %green{[ %thread ]} %highlight{%-5level} %boldMagenta{[%logger{36}]} - %cyan{%msg%n}
+- %method：输出调用日志记录方法的方法名。
+- %line：输出调用日志记录方法所在的行号。
+- %file：输出调用日志记录方法所在的文件名。
