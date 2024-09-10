@@ -1,12 +1,12 @@
 [
+  "docs/java/framework/spring/api/utils/AnnotatedElementUtils.md",
+  "docs/java/framework/spring/core/ioc.md",
+  "docs/java/framework/spring/core/ioc/BeanDefInheritance.md",
+  "docs/java/framework/spring/core/ioc/bean.md",
+  "docs/{outline/java/framework => java/framework/spring}/spring.md",
+  "docs/java/utils/lombok/annotations/SneakThrows.md",
+  "docs/java/utils/lombok/index.md",
+  "temp.md",
   "docs/database/redis/index.md",
-  "docs/java/framework/springboot/logback.md",
-  "README.md",
-  "docs/database/redis/redis-benchmark.md",
-  "docs/java/basic/basic.md",
-  "docs/java/designPattern/behavioral/observer.md",
-  "docs/java/framework/jetcache/index.md",
-  "docs/java/framework/springboot/log/logback/index.md",
-  "docs/java/utils/Caffeine/index.md",
-  "docs/java/utils/lombok/annotations/Builder.md"
+  "docs/java/framework/springboot/logback.md"
 ]
