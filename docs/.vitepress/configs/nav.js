@@ -9,7 +9,7 @@ export const nav = [
             {text: "java核心基础", link: "/java/basic/index.md"},
             {text: "jvm", link: "/java/jvm/index.md"},
             {text: "设计模式", link: "/java/designPattern/index.md"},
-            {text: "guava", link: "/outline/java/guava.md"},
+            {text: "guava", link: "/java/utils/guava/index.md"},
             {text: "lombok", link: "/java/utils/lombok/index.md"},
             {text: "mapStruct", link: "/java/utils/mapStruct/index.md"},
             {text: "orika", link: "/java/utils/orika/index.md"},
@@ -30,14 +30,8 @@ export const nav = [
         items: [
             {text: "mysql", link: "/outline/mysql.md"},
             {text: "redis", link: "/outline/redis.md"},
-            {text: "sqllite", link: "/outline/sqlite.md"},
-        ],
-    },
-    {
-        text: "对象存储",
-        items: [
-            {text: "minio", link: "/outline/minio.md"},
-            // { text: "阿里云", link: "/item-5" },
+            {text: "sqlite", link: "/outline/sqlite.md"},
+            {text: "minio", link: "/database/minio/index.md"},
         ],
     },
     {text: "数据结构", link: "/outline/dataStructure.md"},
@@ -48,5 +42,12 @@ export const nav = [
     {
         text: "python",
         link: "/outline/python/python.md",
+    },
+    {
+        text: "utils",
+        items: [
+            {text: "git", link: "/utils/git/index.md"},
+        ],
+
     }
 ]

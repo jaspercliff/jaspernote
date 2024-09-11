@@ -1,5 +1,3 @@
-# minio
-
 ## docker compose 搭建
 
 ```

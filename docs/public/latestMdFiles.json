@@ -1,12 +1,12 @@
 [
+  "docs/java/utils/guava/index.md",
+  "docs/outline/java/guava.md",
+  "\"docs/outline/java/java\\346\\240\\270\\345\\277\\203\\345\\237\\272\\347\\241\\200.md\" => docs/java/basic/index.md",
   "docs/java/framework/spring/api/utils/AnnotatedElementUtils.md",
-  "docs/java/framework/spring/core/ioc.md",
-  "docs/java/framework/spring/core/ioc/BeanDefInheritance.md",
+  "docs/java/framework/spring/core/Event.md",
   "docs/java/framework/spring/core/ioc/bean.md",
-  "docs/{outline/java/framework => java/framework/spring}/spring.md",
+  "docs/java/framework/springSecurity/impl.md",
+  "docs/java/framework/springSecurity/index.md",
   "docs/java/utils/lombok/annotations/SneakThrows.md",
-  "docs/java/utils/lombok/index.md",
-  "temp.md",
-  "docs/database/redis/index.md",
-  "docs/java/framework/springboot/logback.md"
+  "docs/java/utils/lombok/index.md"
 ]

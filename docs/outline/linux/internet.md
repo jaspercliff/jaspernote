@@ -1,5 +1,5 @@
 # internet
 
-[netstat](../../linux/internet/netstat.md)
+[netstat](../../os/linux/internet/netstat.md)
 
-[frp](../../linux/internet/frp.md)
+[frp](../../os/linux/internet/frp.md)
