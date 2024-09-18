@@ -1,12 +1,12 @@
 [
-  "docs/java/utils/guava/index.md",
-  "docs/outline/java/guava.md",
-  "\"docs/outline/java/java\\346\\240\\270\\345\\277\\203\\345\\237\\272\\347\\241\\200.md\" => docs/java/basic/index.md",
-  "docs/java/framework/spring/api/utils/AnnotatedElementUtils.md",
-  "docs/java/framework/spring/core/Event.md",
-  "docs/java/framework/spring/core/ioc/bean.md",
-  "docs/java/framework/springSecurity/impl.md",
-  "docs/java/framework/springSecurity/index.md",
-  "docs/java/utils/lombok/annotations/SneakThrows.md",
-  "docs/java/utils/lombok/index.md"
+  "docs/java/framework/spring/annotation/Async.md",
+  "docs/java/framework/spring/annotation/DependsOn.md",
+  "docs/java/framework/spring/annotation/PostConstruct.md",
+  "docs/java/framework/spring/annotation/annotation.md",
+  "docs/java/utils/mapStruct/index.md",
+  "docs/business/01signup.md",
+  "docs/business/index.md",
+  "docs/database/minio/index.md",
+  "docs/{objectStorage => database}/minio/java.md",
+  "docs/java/utils/guava/index.md"
 ]

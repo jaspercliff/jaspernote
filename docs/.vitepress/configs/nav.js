@@ -8,11 +8,19 @@ export const nav = [
         items: [
             {text: "java核心基础", link: "/java/basic/index.md"},
             {text: "jvm", link: "/java/jvm/index.md"},
-            {text: "设计模式", link: "/java/designPattern/index.md"},
+            {text: "设计模式", link: "/java/designPattern/index.md"}
+        ],
+    },
+    {
+        text: "utils",
+        items: [
+            {text: "git", link: "/utils/git/index.md"},
             {text: "guava", link: "/java/utils/guava/index.md"},
             {text: "lombok", link: "/java/utils/lombok/index.md"},
             {text: "mapStruct", link: "/java/utils/mapStruct/index.md"},
             {text: "orika", link: "/java/utils/orika/index.md"},
+            {text: "cglib", link: "/java/utils/cglib/index.md"},
+            {text: "jackson", link: "/java/utils/jackson/index.md"},
         ],
     },
     {
@@ -43,11 +51,5 @@ export const nav = [
         text: "python",
         link: "/outline/python/python.md",
     },
-    {
-        text: "utils",
-        items: [
-            {text: "git", link: "/utils/git/index.md"},
-        ],
 
-    }
 ]

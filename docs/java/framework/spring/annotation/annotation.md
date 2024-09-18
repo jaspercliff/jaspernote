@@ -1,3 +1,0 @@
-# annotations
-
-* [AliasFor](./AliasFor.md)
