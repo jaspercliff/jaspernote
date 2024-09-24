@@ -1,12 +1,12 @@
 [
+  "docs/java/java8/Optional.md",
+  "docs/java/java8/stream/reduce.md",
+  "docs/java/utils/guava/EventBus.md",
+  "temp.md",
   "docs/java/framework/spring/annotation/Async.md",
   "docs/java/framework/spring/annotation/DependsOn.md",
   "docs/java/framework/spring/annotation/PostConstruct.md",
   "docs/java/framework/spring/annotation/annotation.md",
-  "docs/java/utils/mapStruct/index.md",
-  "docs/business/01signup.md",
-  "docs/business/index.md",
-  "docs/database/minio/index.md",
-  "docs/{objectStorage => database}/minio/java.md",
-  "docs/java/utils/guava/index.md"
+  "docs/java/framework/spring/annotation/index.md",
+  "docs/java/framework/spring/index.md"
 ]

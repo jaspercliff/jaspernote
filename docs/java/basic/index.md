@@ -14,7 +14,10 @@ java基础教程
 - [utils](/java/basic/utils.md)
 - [terminology](/java/basic/terminology.md)
 ### java8
-
+- [optional](./java8/optional.md)
+- [function](./java8/function.md)
+- stream
+  - [reduce](./java8/stream/reduce.md)
 ### 集合
 - [index](/java/collection/index.md)
 - [ArrayList](/java/collection/ArrayList.md)
