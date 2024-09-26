@@ -17,7 +17,8 @@ java基础教程
 - [optional](./java8/optional.md)
 - [function](./java8/function.md)
 - stream
-  - [reduce](./java8/stream/reduce.md)
+  - [reduce](java8/collect/reduce.md)
+  - [collectors](java8/collect/Collectors.md)
 ### 集合
 - [index](/java/collection/index.md)
 - [ArrayList](/java/collection/ArrayList.md)

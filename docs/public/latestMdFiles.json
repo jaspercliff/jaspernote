@@ -1,12 +1,12 @@
 [
-  "docs/java/java8/Optional.md",
-  "docs/java/java8/stream/reduce.md",
-  "docs/java/utils/guava/EventBus.md",
-  "temp.md",
-  "docs/java/framework/spring/annotation/Async.md",
-  "docs/java/framework/spring/annotation/DependsOn.md",
-  "docs/java/framework/spring/annotation/PostConstruct.md",
-  "docs/java/framework/spring/annotation/annotation.md",
-  "docs/java/framework/spring/annotation/index.md",
-  "docs/java/framework/spring/index.md"
+  "docs/java/basic/index.md",
+  "docs/java/basic/java8/collect/Collectors.md",
+  "docs/java/basic/java8/{stream => collect}/reduce.md",
+  "docs/java/basic/java8/function.md",
+  "docs/java/framework/jetcache/index.md",
+  "docs/java/framework/spring/api/utils/ReflectionUtils.md",
+  "docs/java/utils/hessian/index.md",
+  "docs/java/utils/protoStuff/index.md",
+  "docs/os/linux/index.md",
+  "docs/java/framework/spring/core/ioc/bean.md"
 ]

@@ -21,6 +21,8 @@ export const nav = [
             {text: "orika", link: "/java/utils/orika/index.md"},
             {text: "cglib", link: "/java/utils/cglib/index.md"},
             {text: "jackson", link: "/java/utils/jackson/index.md"},
+            {text: "Hessian", link: "/java/utils/hessian/index.md"},
+            {text: "ProtoStuff", link: "/java/utils/protoStuff/index.md"}
         ],
     },
     {

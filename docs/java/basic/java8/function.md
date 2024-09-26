@@ -122,3 +122,20 @@ public class FunctionDemo {
 ```
 compose：先执行前一个函数，再执行当前函数。
 andThen：先执行当前函数，再执行后一个函数。
+
+## identity
+在Java 8中，`Function.identity()` 是一个静态方法，它返回一个特殊的函数实例，这个实例会作为标识函数来使用。标识函数的特点是它返回的值与传入的参数相同，即对于任何输入`x`，都有`f(x) = x`。
+
+这个方法通常用于当你需要一个函数对象，但实际上并不需要对输入进行任何处理的时候。这样的场景可能出现在集合流操作中，例如当你要创建一个映射但是实际上不需要改变元素本身的时候。
+
+``` java
+Student a = new Student().setName("jasper").setAge("18");
+Student a1 = new Student().setName("jasper").setAge("18");
+Student b = new Student().setName("jasper1").setAge("18");
+Student c = new Student().setName("jasper2").setAge("18");
+
+List<Student> list = Arrays.asList(a, a1, b, c);
+Map<String, Student> collect1 = list.stream().collect(Collectors.toMap(Student::getName, Function.identity(), (e, f) -> e));
+System.out.println("collect1 = " + collect1);
+
+```
