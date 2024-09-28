@@ -1,5 +1,4 @@
-![image.png](assets/image.png)
-
+docker save -o novanc.tar theasp/novnc:latest
 
 `docker save` 命令用于将 Docker 镜像导出为 tar 文件，这样你可以将镜像文件转移到其他系统或存储介质上。命令的基本语法如下：
 
