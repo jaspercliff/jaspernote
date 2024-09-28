@@ -9,6 +9,7 @@ java基础教程
 - [异常](/java/basic/异常.md)
 - [泛型](/java/basic/泛型.md)
 - [反射](/java/basic/反射.md)
+- [序列化](./序列化.md)
 - [io](/java/basic/io.md)
 - [网络编程](/java/basic/网络编程.md)
 - [utils](/java/basic/utils.md)
