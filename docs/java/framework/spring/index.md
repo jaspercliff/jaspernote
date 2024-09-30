@@ -2,8 +2,8 @@
 
 ## core
 
-- [ioc](../../java/framework/spring/core/ioc.md)
-- [aop](../../java/framework/spring/core/aop.md)
+- [ioc](./core/ioc/index.md)
+- [aop](./core/aop.md)
 - [annotation](./annotation/index.md)
 - [spel](/java/framework/spring/core/spel/spel.md)
 
@@ -14,6 +14,9 @@
 - [transactionPropagation](../../java/framework/spring/dataAccess/事务传播机制.md)
 #### programmatic transaction management
 
+
+## integration
+- [schedule.md](./integration/schedule.md)
 ## api utils
-[Assert](../../java/framework/spring/api/utils/Assert.md)
+[Assert](./api/utils/Assert.md)
 

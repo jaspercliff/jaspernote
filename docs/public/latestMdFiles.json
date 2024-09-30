@@ -1,12 +1,12 @@
 [
-  "docs/java/framework/spring/api/utils/ReflectionUtils.md",
-  "docs/java/basic/index.md",
-  "docs/java/basic/java8/collect/Collectors.md",
-  "docs/java/basic/java8/{stream => collect}/reduce.md",
-  "docs/java/basic/java8/function.md",
-  "docs/java/framework/jetcache/index.md",
-  "docs/java/utils/hessian/index.md",
-  "docs/java/utils/protoStuff/index.md",
-  "docs/os/linux/index.md",
-  "docs/java/framework/spring/core/ioc/bean.md"
+  "docs/java/{utils/orika => framework/spring/core/ioc}/index.md",
+  "docs/java/framework/spring/index.md",
+  "docs/java/framework/springboot/CommandLineRunner.md",
+  "docs/java/framework/springboot/index.md",
+  "docs/java/framework/springboot/{ => integration}/freemarker.md",
+  "docs/java/framework/springboot/{ => integration}/logback.md",
+  "docs/java/framework/springboot/{ => integration}/sqlite.md",
+  "docs/java/utils/{ => objectMapping}/mapStruct/index.md",
+  "docs/java/utils/objectMapping/orika/index.md",
+  "docs/java/utils/serialization/hessian/index.md"
 ]

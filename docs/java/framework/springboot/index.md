@@ -1,10 +1,12 @@
 # springboot
 
-## 集成
+- [CommandLineRunner](./CommandLineRunner.md)
 
+
+## 集成
 - springboot配置
-- [springboot集成sqlite](../../java/framework/springboot/sqlite.md)
-- [springboot集成freemarker](../../java/framework/springboot/freemarker.md)
-- [springboot日志logback](logback.md)
+- [springboot集成sqlite](integration/sqlite.md)
+- [springboot集成freemarker](integration/freemarker.md)
+- [springboot日志logback](integration/logback.md)
 
 
