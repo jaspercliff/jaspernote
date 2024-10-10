@@ -32,6 +32,12 @@ export const websites = [
                 desc: 'MyBatis 的增强工具包，简化 MyBatis 的使用，提供更便捷的 CRUD 操作和复杂查询支持',
                 link: 'https://mybatis.plus/'
             },
+            {
+                icon: 'https://mybatis.plus/favicon.ico',
+                title: 'mapStruct',
+                desc: '对象映射框架',
+                link: 'http://182.92.151.195:3300/study-notes/java/02MapStruct.html'
+            },
         ]
     },
     {

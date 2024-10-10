@@ -1,7 +1,9 @@
 # AliasFor
 
 
-`@AliasFor` 是 Spring 框架中的一个元注解（meta-annotation），用于声明注解中属性之间的别名关系。这意味着当一个注解属性被标记为 `@AliasFor`，它就可以作为另一个注解属性的别名。这样可以在使用注解时提供更大的灵活性，并允许开发者以不同的方式指定相同的属性值。
+`@AliasFor` 是 Spring 框架中的一个元注解（meta-annotation），用于声明注解中属性之间的别名关系。
+这意味着当一个注解属性被标记为 `@AliasFor`，它就可以作为另一个注解属性的别名。这样可以在使用注解时提供更大的灵活性，
+并允许开发者以不同的方式指定相同的属性值。
 
 ### 示例用法
 
@@ -77,9 +79,11 @@ public @interface MyMapping {
 }
 ```
 
-在 `@MyMapping` 中，`action` 是 `@RequestMapping` 中属性 `method` 的显式别名。也就是说，组合注解中的 `action` 重写了元注解中的 `method`。
+在 `@MyMapping` 中，`action` 是 `@RequestMapping` 中属性 `method` 的显式别名。
+也就是说，组合注解中的 `action` 重写了元注解中的 `method`。
 
-与注解中的别名类似，元注解属性别名也必须具有相同的返回类型。例如，在本例中就是 `RequestMethod[]`。另外，属性 `annotation` 应引用元注解，在本例中就是 `annotation = RequestMapping.class`。
+与注解中的别名类似，元注解属性别名也必须具有相同的返回类型。例如，在本例中就是 `RequestMethod[]`。
+另外，属性 `annotation` 应引用元注解，在本例中就是 `annotation = RequestMapping.class`。
 
 接下来，创建一个名为 `MyMappingController` 的 Controller 类，使用自定义注解来进行演示。
 
