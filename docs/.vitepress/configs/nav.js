@@ -15,6 +15,7 @@ export const nav = [
         text: "utils",
         items: [
             {text: "git", link: "/utils/git/index.md"},
+            {text: "jmeter", link: "/utils/jmeter/index.md"},
             {text: "guava", link: "/java/utils/guava/index.md"},
             {text: "lombok", link: "/java/utils/lombok/index.md"},
             {text: "mapStruct", link: "/java/utils/mapStruct/index.md"},

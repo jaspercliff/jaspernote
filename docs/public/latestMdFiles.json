@@ -1,12 +1,12 @@
 [
-  "docs/java/{utils/orika => framework/spring/core/ioc}/index.md",
+  "docs/database/oracle/index.md",
+  "docs/java/framework/spring/annotation/AliasFor.md",
+  "docs/java/framework/spring/annotation/Async.md",
+  "docs/java/framework/spring/core/{ => aop}/aop.md",
+  "docs/java/framework/spring/core/aop/index.md",
   "docs/java/framework/spring/index.md",
-  "docs/java/framework/springboot/CommandLineRunner.md",
-  "docs/java/framework/springboot/index.md",
-  "docs/java/framework/springboot/{ => integration}/freemarker.md",
-  "docs/java/framework/springboot/{ => integration}/logback.md",
-  "docs/java/framework/springboot/{ => integration}/sqlite.md",
-  "docs/java/utils/{ => objectMapping}/mapStruct/index.md",
-  "docs/java/utils/objectMapping/orika/index.md",
-  "docs/java/utils/serialization/hessian/index.md"
+  "docs/{java/utils/hessian => database/oracle}/index.md",
+  "docs/java/{utils/orika => framework/spring/core/aop}/index.md",
+  "docs/java/{utils/protoStuff => framework/spring/core/ioc}/index.md",
+  "docs/java/framework/springboot/CommandLineRunner.md"
 ]
