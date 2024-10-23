@@ -1,12 +1,12 @@
 [
   "docs/database/oracle/index.md",
+  "docs/java/utils/jmeter/index.md",
+  "docs/utils/jmeter/index.md",
+  "docs/database/oracle/fun.md",
   "docs/java/framework/spring/annotation/AliasFor.md",
   "docs/java/framework/spring/annotation/Async.md",
   "docs/java/framework/spring/core/{ => aop}/aop.md",
   "docs/java/framework/spring/core/aop/index.md",
   "docs/java/framework/spring/index.md",
-  "docs/{java/utils/hessian => database/oracle}/index.md",
-  "docs/java/{utils/orika => framework/spring/core/aop}/index.md",
-  "docs/java/{utils/protoStuff => framework/spring/core/ioc}/index.md",
-  "docs/java/framework/springboot/CommandLineRunner.md"
+  "docs/java/{utils/hessian => framework/spring/core/aop}/index.md"
 ]
