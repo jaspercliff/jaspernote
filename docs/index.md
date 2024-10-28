@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: /outline/java/java核心基础.md
+      link: /java/basic/index.md
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/jaspercliff

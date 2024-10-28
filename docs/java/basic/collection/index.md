@@ -2,9 +2,9 @@
 
 ## Collection
 
-![image.png](../assets/Collection.png)
+![image.png](../../assets/Collection.png)
 
-![image.png](../assets/Map.png)
+![image.png](../../assets/Map.png)
 
 ### List
 
