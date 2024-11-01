@@ -1,5 +1,5 @@
 # mysql
-- [index](/database/mysql/index.md)
+- [index](/database/mysql/basic.md)
 - [数据类型](/database/mysql/数据类型.md)
 - [存储引擎](/database/mysql/存储引擎.md)
 - [索引](/database/mysql/索引.md)

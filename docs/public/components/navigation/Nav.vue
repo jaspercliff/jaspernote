@@ -3,7 +3,7 @@ import { ref, computed } from 'vue'
 import { inBrowser } from 'vitepress'
 
 import { websites } from './data'
-import NavLinks from "../../.vitepress/theme/components/NavLinks.vue";
+import NavLinks from "../../../.vitepress/theme/components/NavLinks.vue";
 
 const LINKS_KEY = 'jaspernote-links'
 

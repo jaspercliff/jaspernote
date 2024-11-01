@@ -1,7 +1,7 @@
 export const nav = [
     {
         text: "导航",
-        link: "/outline/navigation/nav.md",
+        link: "/public/components/navigation/nav.md",
     },
     {
         text: "java",
@@ -37,15 +37,21 @@ export const nav = [
         ],
     },
     {
+        text: "中间件",
+        items: [
+            {text: "minio",link:""},
+            {text: "rocketmq",link:""}
+        ]
+    },
+    {
         text: "数据库",
         items: [
             {text: "mysql", link: "/outline/mysql.md"},
-            {text: "redis", link: "/outline/redis.md"},
-            {text: "sqlite", link: "/outline/sqlite.md"},
-            {text: "minio", link: "/database/minio/index.md"},
+            {text: "redis", link: "/database/redis/index.md"},
+            {text: "sqlite", link: "/sqlite/index.md"},
         ],
     },
-    {text: "数据结构", link: "/outline/dataStructure.md"},
+    {text: "数据结构", link: "/dataStructure/index.md"},
     {
         text: "linux",
         items: [],

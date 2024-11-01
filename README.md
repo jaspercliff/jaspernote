@@ -29,6 +29,7 @@ todo
 - Spring Cloud Config 或 Consul
 - pr
 - 责任链模式
+- gateway
 
 
 

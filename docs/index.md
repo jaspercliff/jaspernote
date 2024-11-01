@@ -21,9 +21,7 @@ features:
   - title: Java 基础
     details: 从Java的基础语法到高级特性，全面学习Java编程。
   - title: Java 实战
-    details: 通过实际项目和案例，掌握Java在不同场景中的应用。
-  - title: 面试指南
-    details: 为Java开发者准备的面试题和解答，助你在面试中脱颖而出。
+    details: project
 ---
 
 <div class="latest-md-files">

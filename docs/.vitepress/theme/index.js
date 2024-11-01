@@ -3,7 +3,7 @@ import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import {useData, useRoute} from 'vitepress';
 import {toRefs} from "vue";
 import NavLinks from "./components/NavLinks.vue";
-import Nav from "../../outline/navigation/Nav.vue";
+import Nav from "../../public/components/navigation/Nav.vue";
 
 export default {
     ...DefaultTheme,
