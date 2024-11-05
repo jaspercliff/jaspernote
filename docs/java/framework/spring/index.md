@@ -4,7 +4,7 @@
 
 - [ioc](./core/ioc/index.md)
 - [aop](core/aop/aop.md)
-- [annotation](./annotation/index.md)
+- [annotation](../springboot/annotation/index.md)
 - [spel](/java/framework/spring/core/spel/spel.md)
 
 ## data access
