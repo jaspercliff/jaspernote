@@ -1,4 +1,5 @@
 [
+  "docs/java/basic/dateRelated.md",
   "docs/outline/mysql.md",
   "README.md",
   "docs/database/mysql/basic.md",
@@ -7,6 +8,5 @@
   "docs/{java/middleware => database}/redis/redis-benchmark.md",
   "docs/index.md",
   "docs/{outline => index}/dataStructure.md",
-  "docs/os/linux/index.md",
-  "docs/outline/java/guava.md"
+  "docs/os/linux/index.md"
 ]

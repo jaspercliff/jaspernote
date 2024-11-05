@@ -23,6 +23,7 @@ export const sidebar = {
                         {text: "反射", link: "/java/basic/反射.md"},
                         {text: "io", link: "/java/basic/io.md"},
                         {text: "网络编程", link: "/java/basic/网络编程.md"},
+                        {text: "日期相关", link: "/java/basic/dateRelated.md"},
                         {text: "utils", link: "/java/basic/utils.md"},
                         {text: "terminology", link: "/java/basic/terminology.md"},
                     ],

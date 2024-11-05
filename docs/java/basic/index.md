@@ -12,9 +12,9 @@ java基础教程
 - [序列化](./序列化.md)
 - [io](./io.md)
 - [网络编程](./网络编程.md)
+- [日期相关](./dateRelated)
 - [utils](./utils.md)
 - [terminology](./terminology.md)
-- [日期相关](./dateRelated)
 ### java8
 - [optional](./java8/optional.md)
 - [function](./java8/function.md)
