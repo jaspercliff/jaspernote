@@ -1,11 +1,12 @@
 # vm参数
 
 vm参数：命令行选项来控制jvm行为
--Xms<size>: 设置JVM启动时的初始堆内存大小。  minimum size
--Xmx<size>: 设置JVM的最大堆内存大小。  maximum
+-Xms size: 设置JVM启动时的初始堆内存大小。  minimum size
+-Xmx size: 设置JVM的最大堆内存大小。  maximum
 
-
+```bash
 java -Xms512m -jar myapp.jar
+```
 JVM 启动时就会分配 512MB 的堆内存。如果应用程序在运行过程中需要更多的内存，JVM 会根据 -Xmx 参数设置的最大堆内存大小动态扩展堆内存。
 
 如果初始堆内存设置得足够大，那么 JVM 可以避免频繁地扩展堆内存，从而减少启动时间和运行时的性能开销
@@ -31,7 +32,8 @@ Class-Path 属性列出了所有实际的类文件和依赖库的路径。
 当你运行 Java 应用程序时，IDEA 会使用 -jar 选项来指定这个 classpath.jar 文件。
 JVM 会读取 classpath.jar 中的 MANIFEST.MF 文件，并根据 Class-Path 属性加载所有的类文件和依赖库。
 通俗解释
-简单来说，IDEA 通过创建一个临时的 JAR 文件（classpath.jar），并在其中的 MANIFEST.MF 文件里记录所有实际的类路径。这样，即使类路径非常长，也不会超过操作系统的限制，因为 JVM 只需要处理一个较短的路径（即 classpath.jar 的路径）。
+简单来说，IDEA 通过创建一个临时的 JAR 文件（classpath.jar），并在其中的 MANIFEST.MF 文件里记录所有实际的类路径。这样，即使类路径非常长，
+也不会超过操作系统的限制，因为 JVM 只需要处理一个较短的路径（即 classpath.jar 的路径）。
 
 示例
 假设你的项目有以下依赖库：
