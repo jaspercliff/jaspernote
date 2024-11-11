@@ -16,12 +16,17 @@ hero:
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/jaspercliff
+    - theme: brand
+      text: 相关代码
+      link: 
 
 features:
-  - title: Java 基础
-    details: 从Java的基础语法到高级特性，全面学习Java编程。
-  - title: Java 实战
-    details: project
+  - title: 工具及软件
+    details: 常用工具以及软件
+    link: ./software/index.md
+  - title: 工具及软件
+    details: 常用工具以及软件
+    link: ./software/index.md
 ---
 
 <div class="latest-md-files">
