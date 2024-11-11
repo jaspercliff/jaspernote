@@ -1,5 +1,5 @@
 # java核心基础
-java基础教程
+
 ## 目录
 ### 基础
 - [basic](./basic.md)
