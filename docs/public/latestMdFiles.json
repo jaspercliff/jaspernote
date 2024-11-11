@@ -1,12 +1,12 @@
 [
-  "docs/java/basic/dateRelated.md",
-  "docs/outline/mysql.md",
-  "README.md",
-  "docs/database/mysql/basic.md",
-  "docs/database/mysql/index.md",
-  "docs/{java/middleware => database}/redis/index.md",
-  "docs/{java/middleware => database}/redis/redis-benchmark.md",
-  "docs/index.md",
-  "docs/{outline => index}/dataStructure.md",
-  "docs/os/linux/index.md"
+  "docs/front/node/npm.md",
+  "docs/java/framework/spring/ApplicationContextAware.md",
+  "docs/java/basic/utils.md",
+  "docs/java/jdk/javap.md",
+  "docs/java/jdk/jps.md",
+  "docs/java/framework/spring/annotation/index.md",
+  "docs/java/framework/spring/index.md",
+  "docs/java/framework/{spring => springboot}/annotation/AliasFor.md",
+  "docs/java/framework/{spring => springboot}/annotation/Async.md",
+  "docs/java/framework/{spring => springboot}/annotation/ConditionalOnProperty.md"
 ]

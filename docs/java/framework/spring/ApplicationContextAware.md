@@ -1,0 +1,1 @@
+运行时根据某些条件动态选择依赖的 bean 时，通过 ApplicationContext 获取 bean 可以提供更大的灵活性。
