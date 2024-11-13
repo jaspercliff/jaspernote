@@ -19,7 +19,7 @@ export const nav = [
             {text: "jmeter", link: "/utils/jmeter/index.md"},
             {text: "guava", link: "/java/utils/guava/index.md"},
             {text: "lombok", link: "/java/utils/lombok/index.md"},
-            {text: "mapStruct", link: "/java/utils/mapStruct/index.md"},
+            {text: "mapStruct", link: "/java/utils/objectMapping/mapStruct/index.md"},
             {text: "orika", link: "/java/utils/orika/index.md"},
             {text: "cglib", link: "/java/utils/cglib/index.md"},
             {text: "jackson", link: "/java/utils/jackson/index.md"},
