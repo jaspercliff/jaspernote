@@ -8,6 +8,7 @@ export const nav = [
         items: [
             {text: "devTools", link: "/java/devTools/index.md"},
             {text: "java核心基础", link: "/java/basic/index.md"},
+            {text: "java8", link: "/java/basic/java8/index.md"},
             {text: "jvm", link: "/java/jvm/index.md"},
             {text: "设计模式", link: "/java/designPattern/index.md"}
         ],

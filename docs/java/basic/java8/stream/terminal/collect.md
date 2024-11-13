@@ -1,6 +1,6 @@
-# Collectors
+# collect
 
-## toMap
+## Collectors.toMap
 
 `Collectors.toMap()` 是 Java 8 中引入的一个工具方法，用于将流中的元素收集成一个 `Map`。它属于 `Collectors` 类，该类提供了许多收集器（Collector）来汇总流中的元素。
 
@@ -37,8 +37,8 @@
        mapSupplier
    ));
    ```
-   这个形式除了前三个参数外，还接受第四个参数：
-    - `mapSupplier`：一个函数，用于创建要收集到的 `Map` 类型。默认情况下，它会使用 `HashMap`。
+这个形式除了前三个参数外，还接受第四个参数：
+- `mapSupplier`：一个函数，用于创建要收集到的 `Map` 类型。默认情况下，它会使用 `HashMap`。
 
 ### 示例
 
