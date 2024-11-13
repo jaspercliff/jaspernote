@@ -24,7 +24,7 @@ export default defineConfig({
       provider: "local",
     },
     outline: {
-      level: 3,
+      level: [2,3], //显示几级标题 on this page
     },
     footer: {
       message:
