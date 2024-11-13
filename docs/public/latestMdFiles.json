@@ -1,12 +1,12 @@
 [
+  "README.md",
+  "docs/java/designPattern/structural/proxy.md",
+  "docs/java/designPattern/index.md",
   "docs/java/devTools/idea/index.md",
   "docs/java/middleware/rocketmq/index.md",
   "docs/os/systemDesign/index.md",
   "docs/java/basic/index.md",
   "docs/java/devTools/buildTools/gradle/index.md",
   "docs/java/devTools/buildTools/maven/index.md",
-  "docs/java/devTools/idea/debug.md",
-  "docs/java/devTools/index.md",
-  "docs/index.md",
-  "docs/java/basic/java8/stream/index.md"
+  "docs/java/devTools/idea/debug.md"
 ]

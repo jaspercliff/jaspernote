@@ -15,7 +15,7 @@ rss 51la
 - sonar 代码质量
 - SonarScanner
 - Jenkins 调用SonarScanner
-- git merge and rebase squash
+- git merge and rebase
 - jmap
 - spring boot starter
 - guava  stopwatch 事件总线
