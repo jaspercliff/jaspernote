@@ -3,7 +3,7 @@
 ## core
 
 - [ioc](./core/ioc/index.md)
-- [aop](core/aop/aop.md)
+- [aop](./core/aop/index.md)
 - [annotation](../springboot/annotation/index.md)
 - [spel](/java/framework/spring/core/spel/spel.md)
 

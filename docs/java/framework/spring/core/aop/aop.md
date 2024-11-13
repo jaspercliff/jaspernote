@@ -1,5 +1,7 @@
 # AOP
-Spring Framework 中的 AOP (Aspect-Oriented Programming，面向切面编程) 提供了一种强大的方式来分离关注点，特别是将横切关注点（如日志、事务管理、安全等）从业务逻辑中分离出来。在 Spring 中，AOP 是通过代理模式实现的，主要支持两种代理方式：基于JDK的动态代理和基于CGLIB的代理。
+Spring Framework 中的 AOP (Aspect-Oriented Programming，面向切面编程) 提供了一种强大的方式来分离关注点，
+特别是将横切关注点（如日志、事务管理、安全等）从业务逻辑中分离出来。在 Spring 中，AOP 是通过代理模式实现的，
+主要支持两种代理方式：基于JDK的动态代理和基于CGLIB的代理。
 
 ### 核心概念
 - **切面 (Aspect)**：一个关注点的模块化，这个关注点可能会横切多个对象。切面可以是一个带有 `@Aspect` 注解的类。
