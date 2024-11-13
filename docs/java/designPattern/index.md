@@ -4,8 +4,11 @@
 - [单例模式](/java/designPattern/creational/singleton.md)
 
 
-## 结构型 Structural 
-- [代理模式](/java/designPattern/structural/proxy.md)
+## 结构型 Structural
+
+该模式涉及到如何组合类和对象以获得更大的结构。
+
+- [代理模式](./structural/proxy.md)
 
 ## 行为型 Behavioral
 - [观察者模式](/java/designPattern/behavioral/observer.md)
@@ -36,16 +39,12 @@
    - 原型模式（Prototype）
 
 2. 结构型模式（Structural Patterns）：
-   这类模式涉及到如何组合类和对象以获得更大的结构。
-
-   具体模式包括：
    - 适配器模式（Adapter）
    - 桥接模式（Bridge）
    - 组合模式（Composite）
    - 装饰器模式（Decorator）
    - 外观模式（Facade）
    - 享元模式（Flyweight）
-   - 代理模式（Proxy）
 
 3. 行为型模式（Behavioral Patterns）：
    这类模式涉及到对象之间的通信，以及算法和职责的分配。

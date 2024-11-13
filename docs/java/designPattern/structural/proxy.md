@@ -26,14 +26,14 @@
 
 **动态代理在我们日常开发中使用的相对较少，但是在框架中的几乎是必用的一门技术。学会了动态代理之后，对于我们理解和学习各种框架的原理也非常有帮助。**
 
-就 Java 来说，动态代理的实现方式有很多种，比如 **JDK 动态代理**、**CGLIB 动态代理**等等。
+就 Java 来说，动态代理的实现方式有很多种，比如**JDK 动态代理**、**CGLIB 动态代理**等等。
 
 ### jdk动态代理
 
 1. 定义一个接口及其实现类；
-2. 自定义 `InvocationHandler` 并重写`invoke`方法，在 `invoke` 方法中我们会调用原生方法（被代理类的方法）并自定义一些处理逻辑；
-3. 通过 `Proxy.newProxyInstance(ClassLoader loader,Class<?>[] interfaces,InvocationHandler h)` 方法创建代理对象；
-- Prxoy Class 部分源码
+2. 自定义`InvocationHandler`并重写`invoke`方法，在`invoke`方法中我们会调用原生方法（被代理类的方法）并自定义一些处理逻辑；
+3. 通过`Proxy.newProxyInstance(ClassLoader loader,Class<?>[] interfaces,InvocationHandler h)`方法创建代理对象；
+- Proxy Class 部分源码
 
 ``` java
 public class Proxy implements java.io.Serializable {
@@ -101,7 +101,7 @@ public class Proxy implements java.io.Serializable {
     }
 ```
 
-### InvocationHandler
+#### InvocationHandler
 
 ``` java
 
@@ -151,17 +151,15 @@ public class DebugInvocationHandler implements InvocationHandler {
     }
 
     public Object invoke(Object proxy, Method method, Object[] args) throws InvocationTargetException, IllegalAccessException {
-        //调用方法之前，我们可以添加自己的操作
         System.out.println("before method " + method.getName());
         Object result = method.invoke(target, args);
-        //调用方法之后，我们同样可以添加自己的操作
         System.out.println("after method " + method.getName());
         return result;
     }
 }
 ```
 
-`invoke()` 方法: 当我们的动态代理对象调用原生方法的时候，最终实际上调用到的是 `invoke()` 方法，然后 `invoke()` 方法代替我们去调用了被代理对象的原生方法。
+`invoke()`方法: 当我们的动态代理对象调用原生方法的时候，最终实际上调用到的是`invoke()`方法，然后`invoke()`方法代替我们去调用了被代理对象的原生方法。
 
 **4.获取代理对象的工厂类**
 
