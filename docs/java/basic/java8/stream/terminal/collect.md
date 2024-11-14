@@ -59,3 +59,64 @@ collect(Collectors.toMap(Student::getName, Function.identity(), (e, f) -> e,Link
 System.out.println("collect2 = " + collect2);
 
 ```
+
+
+## Collectors.groupingBy
+
+`Stream.groupingBy` 是 Java 8 中引入的一个非常有用的方法，它位于 `java.util.stream.Collectors` 类中。这个方法用于将流中的元素根据某个条件（或属性）进行分组，并返回一个 `Map`，其中键是分组的依据，值则是与该键对应的元素集合。
+
+### 基本用法
+
+`groupingBy` 方法的基本形式如下：
+
+```java
+Map<K, List<T>> map = stream.collect(Collectors.groupingBy(classifier));
+```
+
+这里：
+- `K` 表示键的类型。
+- `T` 表示流中元素的类型。
+- `classifier` 是一个函数，用于确定如何对每个元素进行分组。这个函数通常是一个 lambda 表达式或方法引用，返回值决定元素应该归入哪个组。
+
+### 进阶用法
+
+除了基本的分组功能外，`groupingBy` 还支持更复杂的操作，例如使用 `Collectors` 的其他方法来进一步处理每个分组的结果：
+
+#### 使用 `counting()` 计算每个组的数量
+
+```java
+Map<Integer, Long> countByAge = people.stream()
+    .collect(Collectors.groupingBy(Person::getAge, Collectors.counting()));
+```
+#### 使用 `reducing()` 或 `summingInt()` 等聚合函数
+
+```java
+Map<Integer, Integer> totalAgeByAgeGroup = people.stream()
+    .collect(Collectors.groupingBy(Person::getAge, 
+        Collectors.summingInt(Person::getAge)));
+```
+这些例子展示了 `groupingBy` 的灵活性和强大功能，能够满足多种数据处理需求。
+
+```java
+public class GroupingByDemo {
+   public static void main(String[] args) {
+      List<Cup> list = Arrays.asList(
+              new Cup("hh", 1),
+              new Cup("bb", 1),
+              new Cup("gg", 1),
+              new Cup("cc", 2)
+      );
+      Map<Integer, List<Cup>> collect = list.stream().collect(Collectors.groupingBy(Cup::getHigh));
+      System.out.println("collect = " + collect);
+
+      Map<Integer, Long> collect1 = list.stream().collect(Collectors.groupingBy(Cup::getHigh, Collectors.counting()));
+      System.out.println("collect1 = " + collect1);
+
+      Map<Integer, IntSummaryStatistics> collect2 = list.stream().collect(Collectors.groupingBy(Cup::getHigh, Collectors.summarizingInt(Cup::getHigh)));
+      System.out.println("collect2 = " + collect2);
+   }
+}
+//collect = {1=[Cup(name=hh, high=1), Cup(name=bb, high=1), Cup(name=gg, high=1)], 2=[Cup(name=cc, high=2)]}
+//collect1 = {1=3, 2=1}
+//collect2 = {1=IntSummaryStatistics{count=3, sum=3, min=1, average=1.000000, max=1}, 2=IntSummaryStatistics{count=1, sum=2, min=2, average=2.000000, max=2}}
+```
