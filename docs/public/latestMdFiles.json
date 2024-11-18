@@ -1,12 +1,12 @@
 [
   "README.md",
-  "docs/java/designPattern/structural/proxy.md",
-  "docs/java/designPattern/index.md",
-  "docs/java/devTools/idea/index.md",
-  "docs/java/middleware/rocketmq/index.md",
-  "docs/os/systemDesign/index.md",
+  "docs/java/basic/String.md",
+  "docs/java/basic/basic.md",
+  "docs/java/basic/file.md",
   "docs/java/basic/index.md",
-  "docs/java/devTools/buildTools/gradle/index.md",
-  "docs/java/devTools/buildTools/maven/index.md",
-  "docs/java/devTools/idea/debug.md"
+  "docs/java/framework/spring/core/aop/basic.md",
+  "docs/java/framework/spring/core/aop/aop.md",
+  "docs/java/framework/spring/core/aop/index.md",
+  "docs/java/framework/spring/core/aop/spring.md",
+  "docs/java/basic/java8/stream/terminal/collect.md"
 ]
