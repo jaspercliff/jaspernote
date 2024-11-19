@@ -56,7 +56,7 @@ export const nav = [
     {text: "数据结构", link: "/dataStructure/index.md"},
     {
         text: "linux",
-        items: [],
+        link: '/os/linux/index.md'
     },
     {
         text: "python",
