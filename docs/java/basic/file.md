@@ -23,3 +23,8 @@ File directory =
 File[] files = directory.listFiles();
     Arrays.stream(files).skip(2).forEach(File::delete);
 ```
+
+## file.separator
+File.separator 和 File.separatorChar
+File.separator：这是一个字符串，表示当前操作系统的文件路径分隔符。在 Windows 上是 \，在 Unix/Linux 上是 /。
+File.separatorChar：这是一个字符，表示当前操作系统的文件路径分隔符。例如，在 Windows 上是 \，在 Unix/Linux 上是 /。
