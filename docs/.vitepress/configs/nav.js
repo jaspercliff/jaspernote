@@ -60,7 +60,7 @@ export const nav = [
     },
     {
         text: "python",
-        link: "/outline/python/python.md",
+        link: "/python/index.md",
     },
 
 ]
