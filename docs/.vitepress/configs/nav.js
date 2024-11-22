@@ -35,14 +35,14 @@ export const nav = [
             {text: "springboot", link: "/java/framework/springboot/index.md"},
             {text: "springSecurity", link: "/java/framework/springSecurity/index.md"},
             {text: "jetCache", link: "/java/framework/jetcache/index.md"},
-
+            {text: "flowable",link: "/java/工作流/flowable/index.md"}
         ],
     },
     {
         text: "中间件",
         items: [
-            {text: "minio",link:""},
-            {text: "rocketmq",link:""}
+            {text: "minio",link:"/java/middleware/minio/index.md"},
+            {text: "rocketmq",link:"/java/middleware/rocketmq/index.md"}
         ]
     },
     {
