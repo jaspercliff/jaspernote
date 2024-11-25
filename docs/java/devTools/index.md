@@ -1,9 +1,10 @@
 # devTools
 
 ## development
+
 - [idea](./idea/index.md)
 
-## buildTools 
+## buildTools
 
 - [maven](./buildTools/maven/index.md)
 - [gradle](./buildTools/gradle/index.md)
