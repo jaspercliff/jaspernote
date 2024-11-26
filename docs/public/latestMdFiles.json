@@ -1,12 +1,12 @@
 [
-  "README.md",
-  "docs/java/basic/String.md",
-  "docs/java/basic/basic.md",
-  "docs/java/basic/file.md",
-  "docs/java/basic/index.md",
-  "docs/java/framework/spring/core/aop/basic.md",
-  "docs/java/framework/spring/core/aop/aop.md",
-  "docs/java/framework/spring/core/aop/index.md",
-  "docs/java/framework/spring/core/aop/spring.md",
-  "docs/java/basic/java8/stream/terminal/collect.md"
+  "docs/java/framework/springmvc/index.md",
+  "docs/java/devTools/buildTools/gradle/index.md",
+  "docs/java/devTools/buildTools/maven/index.md",
+  "docs/java/devTools/index.md",
+  "docs/java/framework/jpa/index.md",
+  "docs/java/utils/lombok/import.md",
+  "docs/java/utils/lombok/index.md",
+  "docs/java/devTools/buildTools/maven/basic.md",
+  "docs/java/devTools/buildTools/maven/install.md",
+  "docs/os/linux/chmod.md"
 ]
