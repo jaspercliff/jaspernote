@@ -42,7 +42,7 @@ scp username@remote_host:/path/to/remote/file /path/to/local/directory
 
 bash
 复制代码
-scp user@192.168.1.100:/home/user/file.txt /home/localuser/
+scp user@192.168.1.100:/home/user/file.txt /home/local/
 传输整个目录：
 使用 -r 参数递归传输目录。
 
