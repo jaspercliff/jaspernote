@@ -34,7 +34,6 @@
 
 ---
 
-
 ### 代码示例
 
 假设有一个模块 `library`，它依赖 `commons-lang3`，而另一个模块 `app` 依赖 `library`：
@@ -69,3 +68,9 @@
 
 `implementation` 是 Gradle 中用于声明模块内部依赖的最佳实践，除非需要显式暴露依赖给其他模块（这种情况用 `api`），大部分场景都应使用
 `implementation`。这样可以实现模块间的高内聚和低耦合，同时提高构建效率。
+
+gradlew：这是在 Unix 类系统（包括 macOS 和 Linux）上运行 Gradle 的可执行脚本。它是一个 shell 脚本，用于包装 Gradle
+Wrapper，确保使用正确的 Gradle 版本来执行构建任务。
+gradlew.bat：这是在 Windows 系统上运行 Gradle 的批处理文件。它是一个批处理脚本，用于包装 Gradle Wrapper，确保使用正确的
+Gradle 版本来执行构建任务。
+这些文件通常位于项目的根目录下，并且是通过运行 gradle wrapper 命令自动生成的。
