@@ -2,7 +2,6 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-
 hero:
   name: "Jasper's Java Blog"
   text: "学习和分享Java编程的知识和经验"
@@ -16,32 +15,31 @@ hero:
     - theme: alt
       text: 在 GitHub 上查看
       link: https://github.com/jaspercliff
-    - theme: brand
-      text: 相关代码
-      link: 
 
 features:
-  - title: 工具及软件
-    details: 常用工具以及软件
-    link: ./software/index.md
-  - title: 工具及软件
-    details: 常用工具以及软件
-    link: ./software/index.md
+  - title: Java 核心
+    details: Java基础、JVM、并发编程等核心知识
+    link: /java/basic/index.md
+  - title: 框架与中间件
+    details: Spring、SpringBoot、RocketMQ等主流框架和中间件
+    link: /java/framework/spring/index.md
+  - title: 工具与最佳实践
+    details: 开发工具、设计模式、编程技巧
+    link: /java/devTools/index.md
 ---
 
 <div class="latest-md-files">
   <div class="card">
     <h1>最新发布的文章</h1>
     <ul>
-      <!-- <li v-for="file in files" :key="file">
+      <li v-for="file in files" :key="file">
         <a :href="`/${file}`">{{ file }}</a>
-      </li> -->
+      </li>
     </ul>
   </div>
 </div>
 
 <style>
-
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
