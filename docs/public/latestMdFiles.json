@@ -1,12 +1,12 @@
 [
+  "README.md",
+  "docs/java/devTools/idea/index.md",
+  "docs/java/devTools/idea/tips.md",
+  "docs/index.md",
   "docs/java/framework/logback/index.md",
   "docs/java/framework/springcli/index.md",
   "docs/java/middleware/rocketmq/basic.md",
   "docs/java/devTools/buildTools/gradle/index.md",
   "docs/java/devTools/buildTools/maven/basic.md",
-  "docs/java/devTools/idea/docker.md",
-  "docs/java/devTools/idea/index.md",
-  "docs/java/devTools/idea/plugin.md",
-  "docs/os/linux/index.md",
-  "docs/os/linux/utils/rsync.md"
+  "docs/java/devTools/idea/docker.md"
 ]

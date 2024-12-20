@@ -13,15 +13,12 @@ rss 51la
 - mybatis 缓存
 - threadLocalManager
 - shardingjdbc
+- mycat
 - completeFuture
 - https://github.com/Snailclimb/guide-rpc-framework
-- sonar 代码质量
-- SonarScanner
-- Jenkins 调用SonarScanner
 - git merge and rebase
 - jmap
 - spring boot starter
-- guava  stopwatch 事件总线
 - logback 日志
 - spring batch
 - [Profiles :: Spring Boot](https://docs.spring.io/spring-boot/reference/features/profiles.html)
