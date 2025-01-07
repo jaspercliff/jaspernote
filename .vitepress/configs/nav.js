@@ -1,48 +1,17 @@
 export const nav = [
     {
         text: "导航",
-        link: "/public/components/navigation/nav.md",
+        link: "/public/nav/index",
     },
     {
         text: "java",
-        items: [
-            {text: "devTools", link: "/java/devTools/index.md"},
-            {text: "java核心基础", link: "/java/basic/index.md"},
-            {text: "java8", link: "/java/basic/java8/index.md"},
-            {text: "jvm", link: "/java/jvm/index.md"},
-            {text: "设计模式", link: "/java/designPattern/index.md"}
-        ],
-    },
-    {
-        text: "utils",
-        items: [
-            {text: "git", link: "/utils/git/index.md"},
-            {text: "jmeter", link: "/utils/jmeter/index.md"},
-            {text: "guava", link: "/java/utils/guava/index.md"},
-            {text: "lombok", link: "/java/utils/lombok/index.md"},
-            {text: "mapStruct", link: "/java/utils/objectMapping/mapStruct/index.md"},
-            {text: "orika", link: "/java/utils/orika/index.md"},
-            {text: "cglib", link: "/java/utils/cglib/index.md"},
-            {text: "jackson", link: "/java/utils/jackson/index.md"},
-            {text: "Hessian", link: "/java/utils/hessian/index.md"},
-            {text: "ProtoStuff", link: "/java/utils/protoStuff/index.md"}
-        ],
-    },
-    {
-        text: "framework",
-        items: [
-            {text: "spring", link: "/java/framework/spring/index.md"},
-            {text: "springboot", link: "/java/framework/springboot/index.md"},
-            {text: "springSecurity", link: "/java/framework/springSecurity/index.md"},
-            {text: "jetCache", link: "/java/framework/jetcache/index.md"},
-            {text: "flowable",link: "/java/工作流/flowable/index.md"}
-        ],
+        link: "/java/index.md",
     },
     {
         text: "中间件",
         items: [
-            {text: "minio",link:"/java/middleware/minio/index.md"},
-            {text: "rocketmq",link:"/java/middleware/rocketmq/index.md"}
+            {text: "minio", link: "/java/middleware/minio/index.md"},
+            {text: "rocketmq", link: "/java/middleware/rocketmq/index.md"}
         ]
     },
     {
@@ -62,5 +31,9 @@ export const nav = [
         text: "python",
         link: "/python/index.md",
     },
+    {
+        text: "cpp",
+        link: "/cpp/index.md",
+    }
 
 ]

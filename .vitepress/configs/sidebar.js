@@ -3,6 +3,7 @@ export const sidebar = {
     "/java/": [
         {
             text: "java核心基础",
+            collapsed: true,
             items: [
                 {
                     text: "java核心基础",

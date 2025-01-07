@@ -10,7 +10,7 @@
    - queue   分区 partition
    - 一个topic对应多个queue（partition）
 4. 分片
-   ![img.png](img.png)
+   ![img.png](assets/img.png)
 5. 消息标识 
    - msgId
    - offsetMsgId
