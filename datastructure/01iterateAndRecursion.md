@@ -46,3 +46,4 @@ def factorial(n, accumulator=1):
     else:
         return factorial(n - 1, n * accumulator) # 递归调用是最后的操作
 ```
+
