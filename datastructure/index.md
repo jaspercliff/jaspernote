@@ -6,4 +6,5 @@
 
 ## doc
 
+- [常见算法](./algo)
 - [迭代和递归](./01iterateAndRecursion.md)
