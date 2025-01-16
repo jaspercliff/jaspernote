@@ -28,6 +28,10 @@ export const nav = [
         link: '/os/linux/index.md'
     },
     {
+      text: "os",
+      link: "/os/index"
+    },
+    {
         text: "python",
         link: "/python/index.md",
     },

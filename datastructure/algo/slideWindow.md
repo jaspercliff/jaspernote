@@ -3,7 +3,7 @@
 ## 相关题目
 
 - [3297](https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-i/description/?envType=daily-question&envId=2025-01-09)
-
+- [list](https://leetcode.cn/circle/discuss/0viNMK/)
 ## concept
 
 主要用于处理数组或列表中的一些连续子集问题。它通过维护一个窗口，这个窗口可以在序列上向右滑动，从而有效地解决问题。
