@@ -9,14 +9,18 @@ git 是一个分布式的版本控制工具
 
 ## git 仓库
 ![](assets/basic.png)
-+ 本地仓库   自己电脑上的
-+ 远程仓库   远程服务器  github
+- commit:提交,将本地文件和版本信息保存到本地仓库
+- push:推送,将本地仓库文件和版本信息上传到远程仓库，
+- pull:拉取,将远程仓库文件和版本信息下载到本地仓库
 
-commit:提交,将本地文件和版本信息保存到本地仓库
+## git代码托管服务
+- gitHub (地址: [https://github.com/](https://github.com/) )，是一个面向开源及私有软件项目的托管平台，因为只支持Git作为唯一GitHulb(地址：地址)，是一个面向开源及私有软件项目的托管平台，因为只支持Git作为唯一的版本库格式进行托管，故名gitHub的版本库格式进行托管，故名GitHub
 
-push:推送,将本地仓库文件和版本信息上传到远程仓库，
+- 码云(地址: [https://gitee.com/](https://gitee.com/) ) ,是国内的一个代码托管平台，由于服务器在国内,所以相比于GitHub,码8Https://gitee.com/)，是国内的一个代码托管平台，由于服务器在国内，所以相比于GitHub，码8
 
-pull:拉取,将远程仓库文件和版本信息下载到本地仓库
+- GitLab ( 地址: [https://about.gitlab.com/](https://about.gitlab.com/) )，是一个用于仓库管理系统的开源项目，使用Git作为代码管理工GitLab(地址：地址)，是一个用于仓库管理系统的开源项目，使用Git作为代码管理工具，并在此基础上搭建起来的web服务具，并在此基础上搭建起来的服务
+
+- BitBucket ( 地址: [https://bitbucket.org/)](https://bitbucket.org/)) ，是一家源代码托管网站，采用Mercurial和Git作为分布式版本控制Bitbucket(地址：地址，是--家源代码托管网站，采用Mercurial和Git作为分布式版本控制)系统，同时提供商业计划和免费账户系统，同时提供商业计划和免费账户
 
 ## git常用命令
 ### git全局设置
