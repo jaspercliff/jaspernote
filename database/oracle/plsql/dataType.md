@@ -1,14 +1,43 @@
-%TYPE 是一个属性，用于引用数据库列或已有变量的数据类型。使用 %TYPE
-的主要优点是它提供了数据类型的动态引用，这意味着如果将来数据库表的结构发生变化（例如，列的数据类型被修改），只要你的代码中使用了
-%TYPE 来定义变量类型，就不需要手动更新这些变量的声明
-
-
-## variable
+# data type 
 
 在PL/SQL中定义变量可以通过指定变量名及其数据类型来完成。变量的定义通常位于`DECLARE`部分（对于匿名块）或包、过程、函数等的声明部分。
-你可以直接指定数据类型，也可以使用数据库表列的数据类型或已有变量的数据类型（通过`%TYPE`和`%ROWTYPE`）。下面是几种定义变量的方法：
+你可以直接指定数据类型，也可以使用数据库表列的数据类型或已有变量的数据类型（通过`%TYPE`和`%ROWTYPE`）。
 
-### specification
+## 标量类型
+
+- boolean:true false null
+  - 不能将数据库列插入boolean，也不能将列值保存到boolean变量中
+- 日期：date
+- 数字：number dec（38）float（38）real（18）
+- 字符：varchar2、varchar、string（只能pl/sql使用）、char、long
+
+
+## 变量声明
+
+```
+var_name type [constant][not null][:=value]
+```
+
+## eg
+```oracle
+declare
+    v_system_date date :=SYSDATE;
+    v_system_date_char varchar2(100);
+begin
+    v_system_date_char:=to_char(v_system_date,'yyyy-mm-dd');
+    DBMS_OUTPUT.PUT_LINE('current date is'||v_system_date_char);
+end;
+```
+> || 字符串连接运算符  将俩个字符串拼接在一起
+
+> %TYPE 是一个属性，用于引用数据库列或已有变量的数据类型。使用 %TYPE
+的主要优点是它提供了数据类型的动态引用，这意味着如果将来数据库表的结构发生变化（例如，列的数据类型被修改），只要使用了
+`%TYPE` 来定义变量类型，就不需要手动更新这些变量的声明
+
+>当需要处理一整行的数据时，可以使用 `%ROWTYPE` 属性来定义记录变量，该变量的结构与表或视图的行结构相匹配。
+
+
+## specification
 
 1. **前缀（Prefixes）**：
     - 使用前缀来表示变量的类型或作用域。例如：
@@ -112,5 +141,3 @@ END;
 - **使用 `%ROWTYPE`** 对于需要处理整行数据的情况非常有用。
 - **定义和初始化复合数据类型** 如记录或集合，适用于复杂的数据结构。
 - **定义常量** 用于那些在整个程序执行期间都不应改变的值。
-
-通过合理地定义和使用变量，可以使你的PL/SQL代码更加清晰、易于维护。如果你有更具体的需求或场景，请提供更多信息，我可以给出更有针对性的例子。
