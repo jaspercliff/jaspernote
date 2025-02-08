@@ -18,8 +18,7 @@
 var_name type [constant][not null][:=value]
 ```
 
-## eg
-```oracle
+```plsql
 declare
     v_system_date date :=SYSDATE;
     v_system_date_char varchar2(100);

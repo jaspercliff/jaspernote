@@ -72,3 +72,12 @@ BEGIN
 END;
 /
 ```
+
+
+
+SQL%NOTFOUND 是一个在 SQL 和 PL/SQL（Oracle 数据库使用的编程语言）中的属性，用于检测最近执行的单行 SQL 操作
+（如 INSERT、UPDATE、DELETE 或 SELECT INTO）是否影响了任何行。
+它是一个布尔属性，当最近的 SQL 操作没有影响到任何行时返回 TRUE；否则返回 FALSE。
+
+NO_DATA_FOUND 是在 PL/SQL 中预定义的一个异常，它会在执行 SELECT INTO 语句但未能返回任何行时被触发。这意味着当你尝试从数据库中
+查询数据并期望该查询会返回一行结果到一个或多个PL/SQL变量中，但如果实际上没有找到符合查询条件的数据时，就会抛出这个异常
