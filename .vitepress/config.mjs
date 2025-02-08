@@ -2,7 +2,7 @@ import {defineConfig} from 'vitepress'
 import {nav} from "./configs/nav.js";
 import {sidebar} from "./configs/sidebar.js";
 import {socialLinks} from "./configs/socialLinks.js";
-
+import markdownItTextualUml from 'markdown-it-textual-uml'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "jasper note",
@@ -39,6 +39,11 @@ export default defineConfig({
         },
         search: {
             provider: 'local'
+        }
+    },
+    markdown: {
+        config: (md) => {
+            md.use(markdownItTextualUml);
         }
     }
 })

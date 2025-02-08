@@ -5,7 +5,7 @@ export const nav = [
     },
     {
         text: "java",
-        link: "/java/basic",
+        link: "/java",
     },
     {
         text: "中间件",
