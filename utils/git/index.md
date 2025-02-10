@@ -1,5 +1,7 @@
 # git
 
+- [常见问题](./problem.md)
+
 git status  查看文件状态
 
 
