@@ -49,3 +49,6 @@ git commit --amend
 - **公钥**：这个密钥可以安全地分享给任何人。它通常命名为`id_rsa.pub`。你可以将此公钥添加到远程服务器或服务（如GitHub、GitLab等）的SSH keys列表中，以便通过SSH进行安全登录。
 
 生成完成后，你可以使用`cat ~/.ssh/id_rsa.pub`（Linux/macOS）或`type %USERPROFILE%\.ssh\id_rsa.pub`（Windows）查看你的公钥内容。然后就可以将其添加到你需要访问的服务器或在线服务的SSH Keys设置中了。
+
+
+
