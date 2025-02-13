@@ -2,6 +2,9 @@
 
 ## 目录
 ### 基础
+
+- [数据类型](dataType.md)
+- [控制和循环](control.md)
 - [basic](./basic.md)
 - [面向对象](./object-oriented.md)
 - [枚举](./enum.md)
