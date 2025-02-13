@@ -4,6 +4,7 @@
 
 
 - [pl/sql](plsql/index.md)
+- [杂七杂八](other.md)
 
 - [oracle的安装](./install.md)
 - [容器数据库](./container.md)
