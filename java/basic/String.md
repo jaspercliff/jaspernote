@@ -182,3 +182,15 @@ public class FormatDemo {
 }
 //jasper = name is jasper and age is 20
 ```
+
+## equals
+
+使用字符串比较时，将字符串常量写到前面更好，可以避免空指针问题
+
+``` java
+if("abc".equals(a)){
+}else if(a.equals("abc")){
+} 
+```
+
+写到后面 a变量为null就会报空指针异常

@@ -3,6 +3,7 @@
 ## 目录
 ### 基础
 
+- [关键字](keyword.md)
 - [数据类型](dataType.md)
 - [控制和循环](control.md)
 - [basic](./basic.md)
