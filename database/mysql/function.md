@@ -20,7 +20,7 @@ FUNC_ID | FUNC_ACTION_ID
 1      | C
 2      | X
 2      | Y
-```mysql
+``` sql
 SELECT FUNC_ID, GROUP_CONCAT(FUNC_ACTION_ID) AS ACTION_CODE
 FROM your_table_name
 GROUP BY FUNC_ID;

@@ -6,7 +6,7 @@ import markdownItTextualUml from 'markdown-it-textual-uml'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "jasper note",
-    description: "jasper develop note",
+    description: "个人开发笔记",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav,
@@ -24,7 +24,7 @@ export default defineConfig({
             message:
                 'Released under the <a href="https://github.com/jaspercliff/jaspernote?tab=License-1-ov-file">CC BY-NC-ND 4.0</a>.',
             copyright:
-                'Copyright © 2024-present <a href="https://github.com/jaspercliff">jaspercliff</a>',
+                'Copyright © 2024-present <a href="https://github.com/jaspercliff">jasperCliff</a>',
         },
         lastUpdated: {
             text: 'Updated at',

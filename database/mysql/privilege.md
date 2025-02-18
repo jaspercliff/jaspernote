@@ -1,4 +1,4 @@
-```mysql
+``` sql
 GRANT ALL PRIVILEGES ON *.* TO 'your_username'@'%' IDENTIFIED BY 'your_password' WITH GRANT OPTION;
 ```
 
@@ -6,9 +6,10 @@ GRANT ALL PRIVILEGES ON *.* TO 'your_username'@'%' IDENTIFIED BY 'your_password'
 *.*   database.table
 `WITH GRANT OPTION`: 允许用户将其获得的权限授予其他用户。
 ```
-## user 
+
+## user
 
 | host       | func          |
-| ---------- | ------------- |
-| %          | every address 
-| localhoast | 本机          |
+|------------|---------------|
+| %          | every address |
+| localhoast | 本机            |

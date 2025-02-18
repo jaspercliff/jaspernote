@@ -1,12 +1,12 @@
 # backup
 
 - 备份
-``` mysql
+``` sql
 mysqldump -u root -p sub > sub.sql 
 ```
 
 - 恢复
-``` mysql
+``` sql
 mysql -u root -p sub < sub.sql
 ```
 
