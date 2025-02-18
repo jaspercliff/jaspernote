@@ -2,7 +2,7 @@
 
 
 基本结构
-``` oracle
+``` sql
 DECLARE
   -- 声明部分
 BEGIN
@@ -13,7 +13,7 @@ END;
 ```
 
 
-``` oracle
+``` sql
 DECLARE
   -- 声明部分
   v_name VARCHAR2(100);
@@ -42,7 +42,7 @@ into 指定查询结果存储到那个变量中
 
 
 - 使用CREATE OR REPLACE TYPE语句可以定义一个新的对象类型或者替换一个已经存在的对象类型
-``` oracle
+``` sql
 CREATE OR REPLACE TYPE EmployeeType AS OBJECT (
   employee_id NUMBER,
   first_name VARCHAR2(50),
@@ -56,7 +56,7 @@ CREATE OR REPLACE TYPE EmployeeType AS OBJECT (
 
 - SELECT INTO 在 PL/SQL 中主要用于从数据库表中查询单行数据并将其存入变量
 
-``` oracle
+``` sql
 DECLARE
   v_employee_id employees.employee_id%TYPE;
   v_first_name employees.first_name%TYPE;
