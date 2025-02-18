@@ -40,7 +40,7 @@
 
 - 如果 `library` 中用 `implementation` 声明依赖：
 
-  ```gradle
+  ```groovy
   // library/build.gradle
   dependencies {
       implementation 'org.apache.commons:commons-lang3:3.12.0'
@@ -52,7 +52,7 @@
 
 - 如果 `library` 中用 `api` 声明依赖：
 
-  ``` gradle
+  ``` groovy
   // library/build.gradle
   dependencies {
       api 'org.apache.commons:commons-lang3:3.12.0'
