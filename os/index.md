@@ -1,8 +1,9 @@
 # system and system design
 
-- [hardware]()
-- [windows]()
+- [hardware](hardware)
+- [linux](linux)
+- [windows](windows)
 - [mac](mac)
-- [linux]()
-- [docker]()
-- [system design]()
+- [docker](docker)
+- [k8s](k8s)
+- [system design](systemDesign)

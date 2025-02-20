@@ -25,10 +25,6 @@ export const nav = [
     },
     {text: "数据结构", link: "/dataStructure/index.md"},
     {
-        text: "linux",
-        link: '/os/linux/index.md'
-    },
-    {
       text: "os",
       link: "/os/index"
     },
@@ -39,6 +35,18 @@ export const nav = [
     {
         text: "cpp",
         link: "/cpp/index.md",
+    },
+    {
+        text: "front",
+        link: "/front/index.md",
+    },
+    {
+        text:  "groovy",
+        link: "/groovy/index.md",
+    },
+    {
+        text: 'lua',
+        link: "/lua/index.md",
     }
 
 ]
