@@ -1,7 +1,7 @@
 # minio
 
-- [build](/database/minio/docker搭建.md)
-- [minio in java](/database/minio/java.md)
+- [docker 搭建](/java/middleware/minio/docker搭建.md)
+- [minio in java](/java/middleware/minio/java.md)
 
 
 

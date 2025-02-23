@@ -3,7 +3,7 @@
 ## development
 
 - [idea](./idea/index.md)
-- [toad](toad)
+- [toad](toad/index.md)
 
 ## buildTools
 

@@ -3,7 +3,7 @@
 
 - [html]()
 - [css]()
-- [js](./js)
-- [node](node)
-- [vitepress](vitepress)
+- [js](./js/index)
+- [node](./node/index)
+- [vitepress](vitepress/index.md)
 - [vue]()

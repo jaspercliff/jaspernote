@@ -6,7 +6,7 @@
 
 ## toc
 
-- [常见算法](./algo)
+- [常见算法](./algo/index)
 - [迭代、递归、回溯](./01iterateAndRecursion.md)
 
 ### 线性数据结构

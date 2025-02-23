@@ -72,7 +72,7 @@ public class Singleton {
     }
 }
 ```
-[volatile](../java/thread/volatile.md)
+[volatile](/java/basic/thread/volatile.md)
 
 ### synchronized作用的比较
 - 同步方法（第一个示例）的synchronized确保了线程安全，但每次访问getInstance()都需要进行同步，这在实例已经存在之后仍然会导致性能开销。

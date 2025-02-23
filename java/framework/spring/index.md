@@ -9,9 +9,9 @@
 
 ## data access
 ### transactionManagement
-- [transaction](../../java/framework/spring/dataAccess/transaction.md)
+- [transaction](/java/framework/spring/dataAccess/transaction.md)
 #### declarative transaction management
-- [transactionPropagation](../../java/framework/spring/dataAccess/事务传播机制.md)
+- [transactionPropagation](/java/framework/spring/dataAccess/事务传播机制.md)
 #### programmatic transaction management
 
 

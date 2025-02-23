@@ -13,6 +13,6 @@ title java8新特性
 @endmindmap
 ```
 
-- [函数式编程](functionInterface)
-- [stream](stream)
+- [函数式编程](functionInterface/index.md)
+- [stream](stream/index.md)
 - [optional](optional.md)

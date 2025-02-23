@@ -91,4 +91,4 @@ print("Hello, World!")
 `env` 命令是一个非常有用的工具，可以用于临时设置环境变量、运行程序，以及确保脚本的便携性。希望这些示例和解释能帮助你更好地理解和使用 `env` 命令。如果有任何其他问题，请随时提问。
 
 
-- [python获取env](../../python/basic/env.md)
+- [python获取env](/python/env.md)

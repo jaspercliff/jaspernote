@@ -3,6 +3,7 @@
 > 接口中只有一个抽象方法的接口（可以包含多个默认方法或静态方法）
 
 ## 常见的四个函数式接口
+```
 1. **Predicate<T>**：接收一个参数，返回一个布尔值。通常用于测试条件。
     - 抽象方法: `boolean test(T t)`
 
@@ -14,9 +15,10 @@
 
 4. **Supplier<T>**：不接收参数，返回一个结果。用来创建对象或生成某个值。
     - 抽象方法: `T get()`
+```
 
 ## 其他函数式接口
-
+```
 1. **UnaryOperator<T>**：继承自`Function<T, T>`，表示一个参数相同类型的函数。适用于“一元操作”。
     - 抽象方法: `T apply(T t)`
 
@@ -30,8 +32,7 @@
 
 5. **BiFunction<T, U, R>**：类似于`Function`，但是接收两个输入参数，并返回一个结果。
     - 抽象方法: `R apply(T t, U u)`
-
-
+```
 ```java
 @FunctionalInterface
 public interface GreetingService {
