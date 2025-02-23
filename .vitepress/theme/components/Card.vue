@@ -59,6 +59,7 @@ const navigate = (link) => {
   overflow: hidden;
   transition: transform 0.2s ease-in-out;
   background: white;
+  margin-top: 20px;
 }
 
 .card:hover {
@@ -72,7 +73,7 @@ const navigate = (link) => {
 }
 
 .card-content {
-  padding: 1px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -85,6 +86,6 @@ const navigate = (link) => {
 .card-description {
   font-size: 14px;
   color: #555;
-  margin-bottom: 1px; /* 减小描述和标题之间的间距 */
+  margin-bottom: 4px; /* 减小描述和标题之间的间距 */
 }
 </style>
