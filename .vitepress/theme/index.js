@@ -2,6 +2,8 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import Card from "./components/Card.vue";
+import CardList from "./components/CardList.vue";
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -12,6 +14,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+      app.component('Card', Card);
+    app.component('CardList', CardList);
   }
 }

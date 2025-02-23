@@ -1,6 +1,6 @@
 # index
 
-- [ssh](./ssh.md)
+- [ssh](ssh.md)
 - [常用命令](./commonCommand.md)
 
 ## utils
