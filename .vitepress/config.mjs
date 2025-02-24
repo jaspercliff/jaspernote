@@ -8,6 +8,7 @@ import markdownItTextualUml from 'markdown-it-textual-uml'
 export default defineConfig({
     title: "jasper note",
     description: "个人开发笔记",
+    base: "repo",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav,
