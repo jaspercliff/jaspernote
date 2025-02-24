@@ -15,7 +15,7 @@ export default defineConfig({
         sidebar,
         socialLinks,
         editLink: {
-            pattern: 'https://github.com/jaspercliff/jaspernote/edit/dev/docs/:path'
+            pattern: 'https://github.com/jaspercliff/jaspernote/edit/dev/:path'
         },
         returnToTopLabel: '返回顶部',
         logo: "/logo.png",
