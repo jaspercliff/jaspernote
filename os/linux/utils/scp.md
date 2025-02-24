@@ -12,7 +12,15 @@ scp /path/to/local/file username@remote_host:/path/to/remote/directory
 ```shell
 scp file.txt user@192.168.1.100:/home/user/
 ```
+文件夹
+```bash
+scp -r /path/to/local/folder username@remote:/path/to/remote/destination
+```
 
+scp  可以识别本地ssh config配置的服务器信息
+```
+scp -r dist jd:/var/www/note
+```
 --- 
 
 从远程服务器传输文件到本地：
