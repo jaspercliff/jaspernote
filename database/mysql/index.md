@@ -9,4 +9,5 @@
 - [jdbc](./jdbc.md)
 
 ## 常见问题
--[exist和in的区别](problems/exist和in的区别.md)
+- [exist和in的区别](problems/exist和in的区别.md)
+- [count(*),count(1),count(column)的区别](problems/countDifference.md)
