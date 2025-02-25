@@ -7,3 +7,6 @@
 - [log](./log.md)
 - [锁及mvcc](./锁及mvcc.md)
 - [jdbc](./jdbc.md)
+
+## 常见问题
+-[exist和in的区别](problems/exist和in的区别.md)
