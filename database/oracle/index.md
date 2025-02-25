@@ -9,4 +9,4 @@
 - [oracle的安装](./install.md)
 - [容器数据库](./container.md)
 - [oracle用户]()
-- [fun](./fun.md)
+- [常用函数](function/index.md)
