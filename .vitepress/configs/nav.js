@@ -17,7 +17,7 @@ export const nav = [
     {
         text: "数据库",
         items: [
-            {text: "mysql", link: "/outline/mysql.md"},
+            {text: "mysql", link: "/database/mysql"},
             {text: "oracle", link: "/database/oracle"},
             {text: "redis", link: "/database/redis/index.md"},
             {text: "sqlite", link: "/sqlite/index.md"},

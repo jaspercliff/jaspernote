@@ -15,3 +15,9 @@
    - msgId
    - offsetMsgId
    - key
+
+
+   
+## mqbroker
+
+接收和分发消息到订阅者
