@@ -84,7 +84,7 @@ SUBSTRING(str, pos, [length])
 ```
 
 #### 示例
-```sql
+``` sql
 SELECT SUBSTRING('Hello, World!', 7) AS result;
 ```
 
@@ -95,7 +95,7 @@ result
 World!
 ```
 
-```sql
+``` sql
 SELECT SUBSTRING('Hello, World!', 7, 5) AS result;
 ```
 
