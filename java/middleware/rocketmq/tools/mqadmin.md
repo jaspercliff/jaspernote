@@ -20,6 +20,9 @@
   mqadmin updateTopic -n <nameserver_address> -c <cluster_name> -t <topic_name>
   ```
   这个命令可以创建或更新一个主题。
+```bash
+sh mqadmin updatetopic -n 127.0.0.1:9876 -t TopicTest 
+```
 
 ---
 
