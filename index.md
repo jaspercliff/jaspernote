@@ -1,26 +1,25 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "Jasper的开发笔记"
-  text: "Java开发者的技术分享"
-  tagline: "深入Java技术栈，记录开发过程中的心得与解决方案"
+  text: "探索开发的无限可能"
+  tagline: "记录技术成长之路，分享开发中的每个精彩时刻"
   actions:
     - theme: brand
-      text: Java 示例
-      link: /java-examples
+      text: 开发示例
+      link: /dev-examples
     - theme: alt
-      text: 框架与工具
-      link: /frameworks-tools
+      text: 工具与技巧
+      link: /tools-tips
 
 features:
-  - title: Java基础与进阶
-    details: 从基础语法到高级特性，帮助你深入理解Java语言的核心。
-  - title: 常用Java框架
-    details: 详细解析Spring、Hibernate等主流框架的使用方法及最佳实践。
-  - title: 性能优化与调试
-    details: 分享常见的性能优化技巧，帮助你提升Java应用的性能与可维护性。
+  - title: 高效开发实践
+    details: 分享高效的开发实践，帮助你在开发过程中节省时间与精力。
+  - title: 深入工具链
+    details: 介绍主流开发工具链，提升开发效率与代码质量。
+  - title: 前后端协作
+    details: 探索前后端协作的最佳实践，实现快速高效的开发流程。
 ---
 
 
