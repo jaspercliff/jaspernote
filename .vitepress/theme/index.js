@@ -1,16 +1,17 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import Card from "./components/Card.vue";
 import CardList from "./components/CardList.vue";
+import { h } from 'vue'
+import Giscus from "./components/Giscus.vue";
 
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
-  Layout: () => {
+  Layout() {
     return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'doc-after': () => h(Giscus)
     })
   },
   enhanceApp({ app, router, siteData }) {
