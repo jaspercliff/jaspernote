@@ -4,14 +4,17 @@ layout: home
 hero:
   name: "Jasper的开发笔记"
   text: "探索开发的无限可能"
+  image:
+    src: /logo.png
+    alt: VitePress
   tagline: "记录技术成长之路，分享开发中的每个精彩时刻"
   actions:
     - theme: brand
-      text: 开发示例
-      link: /dev-examples
+      text: java开发
+      link: /java
     - theme: alt
       text: 工具与技巧
-      link: /tools-tips
+      link: /utils
 
 features:
   - title: 高效开发实践
@@ -27,19 +30,21 @@ features:
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #007bff, #28a745);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
   --vp-home-hero-text-font-family: 'Arial', sans-serif;
   --vp-home-hero-text-font-weight: bold;
   --vp-home-hero-tagline-font-size: 1.25rem;
   --vp-home-hero-tagline-color: #555;
   --vp-home-hero-actions-gap: 20px;
+  --vp-home-hero-image-border-radius: 50%;
 }
-
 .vp-home-hero {
   text-align: center;
   padding: 50px 20px;
 }
-
+.vp-home-hero img {
+  border-radius: 50%;
+}
 .vp-home-hero h1 {
   font-size: 3rem;
   color: var(--vp-home-hero-name-background);
