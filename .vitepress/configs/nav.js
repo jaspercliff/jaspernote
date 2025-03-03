@@ -32,10 +32,10 @@ export const nav = [
         text: "python",
         link: "/python/index.md",
     },
-    {
-        text: "cpp",
-        link: "/cpp/index.md",
-    },
+    // {
+    //     text: "cpp",
+    //     link: "/cpp/index.md",
+    // },
     {
         text: "front",
         link: "/front/index.md",
