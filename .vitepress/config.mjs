@@ -9,6 +9,9 @@ export default defineConfig({
     title: "jasper note",
     description: "个人开发笔记",
     base: "/jaspernote/",
+    sitemap: {
+        hostname: 'https://jaspercliff.github.io/jaspernote/' // 你的 GitHub Pages 地址
+    },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav,
