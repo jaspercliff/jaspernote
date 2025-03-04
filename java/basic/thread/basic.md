@@ -72,4 +72,148 @@ x = x + 1;     //语句4： 同语句3
 
 
 
-## 实现线程的三种方式
+## java实现线程的方式
+在 Java 中，可以通过以下几种方法实现线程的创建和使用：
+
+---
+
+### **1. 继承 `Thread` 类**
+通过继承 `Thread` 类并重写其 `run()` 方法来实现线程。
+
+```java
+class MyThread extends Thread {
+    @Override
+    public void run() {
+        System.out.println("线程运行：" + Thread.currentThread().getName());
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread thread = new MyThread();
+        thread.start(); // 启动线程
+    }
+}
+```
+
+**注意**：需要调用 `start()` 方法启动线程，而不是直接调用 `run()` 方法。
+
+---
+
+### **2. 实现 `Runnable` 接口**
+通过实现 `Runnable` 接口并实现其 `run()` 方法，然后将其实例传递给 `Thread` 类。
+
+```java
+class MyRunnable implements Runnable {
+    @Override
+    public void run() {
+        System.out.println("线程运行：" + Thread.currentThread().getName());
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Thread thread = new Thread(new MyRunnable());
+        thread.start(); // 启动线程
+    }
+}
+```
+
+**优点**：这种方式更适合多线程共享资源的场景，因为 Java 不支持多重继承，但可以实现多个接口。
+
+---
+
+### **3. 使用 `Callable` 和 `FutureTask`**
+`Callable` 接口类似于 `Runnable`，但它可以返回结果并抛出异常。结合 `FutureTask` 可以获取线程执行的结果。
+
+```java
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.FutureTask;
+
+class MyCallable implements Callable<Integer> {
+    @Override
+    public Integer call() throws Exception {
+        System.out.println("线程运行：" + Thread.currentThread().getName());
+        return 42; // 返回结果
+    }
+}
+
+public class Main {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        FutureTask<Integer> task = new FutureTask<>(new MyCallable());
+        Thread thread = new Thread(task);
+        thread.start();
+
+        // 获取线程返回值
+        System.out.println("线程返回值：" + task.get());
+    }
+}
+```
+
+**优点**：支持返回值和异常处理。
+
+---
+
+### **4. 使用线程池 (`ExecutorService`)**
+Java 提供了高级的线程管理工具——线程池，推荐使用它来管理线程。
+
+```java
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Main {
+    public static void main(String[] args) {
+        ExecutorService executor = Executors.newFixedThreadPool(2); // 创建固定大小的线程池
+
+        Runnable task = () -> {
+            System.out.println("任务运行：" + Thread.currentThread().getName());
+        };
+
+        executor.submit(task); // 提交任务
+        executor.submit(task);
+
+        executor.shutdown(); // 关闭线程池
+    }
+}
+```
+
+**优点**：线程池可以复用线程，避免频繁创建和销毁线程带来的开销。
+
+---
+
+### **5. 使用 `CompletableFuture`**
+`CompletableFuture` 是 Java 8 引入的一种异步编程工具，可以简化线程的管理和回调操作。
+
+```java
+import java.util.concurrent.CompletableFuture;
+
+public class Main {
+    public static void main(String[] args) {
+        CompletableFuture.runAsync(() -> {
+            System.out.println("异步任务运行：" + Thread.currentThread().getName());
+        });
+
+        try {
+            Thread.sleep(1000); // 等待异步任务完成
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+**优点**：提供了强大的异步编程能力，支持链式调用和组合操作。
+
+---
+
+### 总结
+| 方法                     | 特点                                |
+|------------------------|-----------------------------------|
+| 继承 `Thread`            | 简单易用，但不适合资源共享场景，且无法返回值。           |
+| 实现 `Runnable`          | 更灵活，适合资源共享场景，但无法返回值。              |
+| 使用 `Callable`          | 支持返回值和异常处理，但需要配合 `FutureTask` 使用。 |
+| 使用线程池                  | 高效管理线程，避免频繁创建和销毁线程，推荐用于实际项目中。     |
+| 使用 `CompletableFuture` | 异步编程的强大工具，适合复杂的异步任务和回调操作。         |
+
+根据具体需求选择合适的线程实现方式！
