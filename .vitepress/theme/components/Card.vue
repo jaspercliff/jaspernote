@@ -1,8 +1,8 @@
 <template>
   <div class="card" @click="navigate(link)">
-    <img :src="randomImage" class="card-image" alt="Card Image" />
+    <img :src="image" class="card-image" alt="Card Image" />
     <div class="card-content">
-      <p class="card-description">{{ description }}</p> <!-- 新增描述 -->
+      <p class="card-description">{{ description }}</p>
       <h3 class="card-title">{{ title }}</h3>
     </div>
   </div>
@@ -14,7 +14,8 @@ import { ref, onMounted } from "vue";
 defineProps({
   title: String,
   link: String,
-  description: String  // 新增 description 属性
+  description: String,  // 新增 description 属性
+  image: String
 });
 
 const images = [
@@ -28,19 +29,6 @@ const images = [
   "https://picsum.photos/500/300?random=8",
   "https://picsum.photos/500/300?random=9"
 ];
-
-const randomImage = ref("https://picsum.photos/500/300");
-const usedImages = ref(new Set());
-
-onMounted(() => {
-  let image;
-  do {
-    image = images[Math.floor(Math.random() * images.length)];
-  } while (usedImages.value.has(image));  // 检查图片是否已被使用
-
-  randomImage.value = image;
-  usedImages.value.add(image);  // 将选中的图片标记为已使用
-});
 
 const navigate = (link) => {
   if (typeof link === "string" && link.trim() !== "") {

@@ -5,6 +5,7 @@
         :key="index"
         :title="item.title"
         :link="item.link"
+        :image = "item.image"
     />
   </div>
 </template>
