@@ -3,7 +3,6 @@ export const sidebar = {
     "/java/": [
         {
             text: "java核心基础",
-            collapsed: true,
             items: [
                 {
                     text: "java核心基础",
@@ -11,22 +10,22 @@ export const sidebar = {
                     items: [
                         {
                             text: "基础",
-                            link: "/java/basic/basic.md",
+                            link: "/java/basic/common/basic.md",
                         },
                         {
                             text: "面向对象",
-                            link: "/java/basic/object-oriented.md",
+                            link: "/java/basic/common/object-oriented.md",
                         },
-                        {text: "枚举", link: "/java/basic/enum.md"},
-                        {text: "注解", link: "/java/basic/注解.md"},
-                        {text: "异常", link: "/java/basic/异常.md"},
-                        {text: "泛型", link: "/java/basic/泛型.md"},
-                        {text: "反射", link: "/java/basic/反射.md"},
-                        {text: "io", link: "/java/basic/io.md"},
-                        {text: "网络编程", link: "/java/basic/网络编程.md"},
-                        {text: "日期相关", link: "/java/basic/dateRelated.md"},
-                        {text: "utils", link: "/java/basic/utils.md"},
-                        {text: "terminology", link: "/java/basic/terminology.md"},
+                        {text: "枚举", link: "/java/basic/common/enum.md"},
+                        {text: "注解", link: "/java/basic/common/注解.md"},
+                        {text: "异常", link: "/java/basic/common/异常.md"},
+                        {text: "泛型", link: "/java/basic/common/泛型.md"},
+                        {text: "反射", link: "/java/basic/common/反射.md"},
+                        {text: "io", link: "/java/basic/common/io.md"},
+                        {text: "网络编程", link: "/java/basic/common/网络编程.md"},
+                        {text: "日期相关", link: "/java/basic/common/dateRelated.md"},
+                        {text: "utils", link: "/java/basic/common/utils.md"},
+                        {text: "terminology", link: "/java/basic/common/terminology.md"},
                     ],
                 },
                 {
@@ -35,19 +34,19 @@ export const sidebar = {
                     items: [
                         {
                             text: "basic",
-                            link: "/java/collection/index.md",
+                            link: "/java/basic/collection/index.md",
                         },
                         {
                             text: "ArrayList",
-                            link: "/java/collection/ArrayList.md",
+                            link: "/java/basic/collection/ArrayList.md",
                         },
                         {
                             text: "LinkedList",
-                            link: "/java/collection/LinkedList.md",
+                            link: "/java/basic/collection/LinkedList.md",
                         },
                         {
                             text: "HashMap",
-                            link: "/java/collection/HashMap.md",
+                            link: "/java/basic/collection/HashMap.md",
                         },
                     ],
                 },
@@ -57,117 +56,31 @@ export const sidebar = {
                     items: [
                         {
                             text: "basic",
-                            link: "/java/thread/basic.md",
+                            link: "/java/basic/thread/basic.md",
                         },
                         {
                             text: "线程基础",
-                            link: "/java/thread/线程基础.md",
+                            link: "/java/basic/thread/线程基础.md",
                         },
                         {
                             text: "锁",
-                            link: "/java/thread/锁.md",
+                            link: "/java/basic/thread/锁.md",
                         },
                         {
                             text: "volatile",
-                            link: "/java/thread/volatile.md",
+                            link: "/java/basic/thread/volatile.md",
                         },
                         {
                             text: "final",
-                            link: "/java/thread/final.md",
+                            link: "/java/basic/thread/final.md",
                         },
                         {
                             text: "unsafe",
-                            link: "/java/thread/unsafe.md",
+                            link: "/java/basic/thread/unsafe.md",
                         },
                     ],
                 },
-                {
-                    text: "juc",
-                    collapsed: true,
-                    items: [
-                        {
-                            text: "basic",
-                            items: [
-                                {
-                                    text: "basic",
-                                    link: "/java/juc/basic.md",
-                                },
-                            ],
-                        },
-                        {
-                            text: "collection",
-                            items: [
-                                {
-                                    text: "collection",
-                                    link: "/java/juc/collections/basic.md",
-                                },
-                            ],
-                        },
-                        {
-                            text: "lock",
-                            items: [
-                                {
-                                    text: "ReentrantLock",
-                                    link: "/java/juc/lock/ReentrantLock.md",
-                                },
-                                {
-                                    text: "ReentrantReadWriteLock",
-                                    link: "/java/juc/lock/ReentrantReadWriteLock.md",
-                                },
-                                {
-                                    text: "LockSupport",
-                                    link: "/java/juc/lock/LockSupport.md",
-                                },
-                            ],
-                        },
-                        {
-                            text: "atomic",
-                            items: [
-                                {
-                                    text: "Atomic",
-                                    link: "/java/juc/atomic/atomic.md",
-                                },
-                            ],
-                        },
-                        {
-                            text: "executor",
-                            items: [
-                                {
-                                    text: "FutureTask",
-                                    link: "/java/juc/executor/FutureTask.md",
-                                },
-                                {
-                                    text: "线程池",
-                                    link: "/java/juc/executor/线程池.md",
-                                },
-                                {
-                                    text: "completableFuture",
-                                    link: "/java/juc/executor/completableFuture.md",
-                                },
-                            ],
-                        },
-                        {
-                            text: "tool",
-                            items: [
-                                {
-                                    text: "CountDownLatch",
-                                    link: "/java/juc/tools/CountDownLatch.md",
-                                },
-                                {
-                                    text: "CyclicBarrier",
-                                    link: "/java/juc/tools/CyclicBarrier.md",
-                                },
-                                {text: "Semaphore", link: "/java/juc/tools/Semaphore.md"},
-                                {text: "Phaser", link: "/java/juc/tools/Phaser.md"},
-                                {text: "Exchanger", link: "/java/juc/tools/Exchanger.md"},
-                            ],
-                        },
-                        {
-                            text: "ThreadLocal",
-                            link: "/java/juc/ThreadLocal.md",
-                        },
-                    ],
-                },
+
             ],
         },
     ],
@@ -177,6 +90,94 @@ export const sidebar = {
         {text: "锁的优化和升级", link: "/java/jvm/锁的优化和升级.md"},
         {text: "类加载", link: "/java/jvm/类加载.md"},
         {text: "垃圾回收", link: "/java/jvm/gc.md"},
+    ],
+    "/java/basic/juc/": [
+        {
+            text: "juc",
+            items: [
+                {
+                    text: "basic",
+                    items: [
+                        {
+                            text: "basic",
+                            link: "/java/juc/basic.md",
+                        },
+                    ],
+                },
+                {
+                    text: "collection",
+                    items: [
+                        {
+                            text: "collection",
+                            link: "/java/juc/collections/basic.md",
+                        },
+                    ],
+                },
+                {
+                    text: "lock",
+                    items: [
+                        {
+                            text: "ReentrantLock",
+                            link: "/java/juc/lock/ReentrantLock.md",
+                        },
+                        {
+                            text: "ReentrantReadWriteLock",
+                            link: "/java/juc/lock/ReentrantReadWriteLock.md",
+                        },
+                        {
+                            text: "LockSupport",
+                            link: "/java/juc/lock/LockSupport.md",
+                        },
+                    ],
+                },
+                {
+                    text: "atomic",
+                    items: [
+                        {
+                            text: "Atomic",
+                            link: "/java/juc/atomic/atomic.md",
+                        },
+                    ],
+                },
+                {
+                    text: "executor",
+                    items: [
+                        {
+                            text: "FutureTask",
+                            link: "/java/juc/executor/FutureTask.md",
+                        },
+                        {
+                            text: "线程池",
+                            link: "/java/juc/executor/线程池.md",
+                        },
+                        {
+                            text: "completableFuture",
+                            link: "/java/juc/executor/completableFuture.md",
+                        },
+                    ],
+                },
+                {
+                    text: "tool",
+                    items: [
+                        {
+                            text: "CountDownLatch",
+                            link: "/java/juc/tools/CountDownLatch.md",
+                        },
+                        {
+                            text: "CyclicBarrier",
+                            link: "/java/juc/tools/CyclicBarrier.md",
+                        },
+                        {text: "Semaphore", link: "/java/juc/tools/Semaphore.md"},
+                        {text: "Phaser", link: "/java/juc/tools/Phaser.md"},
+                        {text: "Exchanger", link: "/java/juc/tools/Exchanger.md"},
+                    ],
+                },
+                {
+                    text: "ThreadLocal",
+                    link: "/java/juc/ThreadLocal.md",
+                },
+            ],
+        },
     ],
     "/java/framework/": [
         {

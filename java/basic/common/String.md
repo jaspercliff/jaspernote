@@ -14,8 +14,8 @@ private final char value[];
 
 对字符串的截取、拼接等操作都是重新生成了新的字符串对象
 给一个已有字符串第二次赋值，不是在原内存地址修改数据，而是一个新的对象（新地址）
-![](../assets/04String.png)
-![](../assets/05String.png)
+![](assets/04String.png)
+![](assets/05String.png)
 
 - 保存字符串的字符数组是 final 并且私有的 没有提供/暴露修改这个字符串的方法
 - 类被 final 修饰 防止子类破坏 String 不可变
@@ -154,7 +154,7 @@ intern() 通常用于以下场景：
 ### 字符串的拼接
 
 字符串通过+的方式拼接，本质是通过 StringBuilder 调用 append 方法实现的，拼接完之后会调用 toString 方法得到一个字符串对象
-![](../assets/06String.png)
+![](assets/06String.png)
 
 
 

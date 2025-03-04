@@ -1,3 +1,4 @@
+# CountDownLatch
 `CountDownLatch` 是 Java 并发包（`java.util.concurrent`）中的一个同步辅助类，它允许一个或多个线程等待其他线程完成一系列操作。`CountDownLatch` 的工作原理是初始化一个计数器，这个计数器表示需要等待完成的操作数量。当一个操作完成后，计数器的值就会减少。当计数器的值减到零时，那些因为等待 `CountDownLatch` 而阻塞的线程就会被唤醒，继续执行。
 
 ### 使用场景

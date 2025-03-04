@@ -1,6 +1,6 @@
 ## 数据类型
 
-![数据类型](../assets/01数据类型.png)
+![数据类型](assets/01数据类型.png)
 
 ### 基本数据类型
 
@@ -234,7 +234,7 @@ public static Integer valueOf(int i) {
         int c2 = c1;//拆箱
 ```
 
-![unboxing](../assets/02unboxing.png)
+![unboxing](assets/02unboxing.png)
 
 从字节码中，我们发现装箱其实就是调用了 包装类的 `valueOf()`方法，拆箱其实就是调用了 `xxxValue()`方法。
 
@@ -306,7 +306,7 @@ Integer i = 0;
 
 因为例子中，flag ? i : j;片段中，第二段的 i 是一个包装类型的对象，而第三段的 j 是一个基本类型，所以会对包装类进行自动拆箱。如果这个时候 i 的值为 null，那么就会发生 NPE。
 
-![npe](../assets/03unboxingscene.png)
+![npe](assets/03unboxingscene.png)
 
 ### 引用类型
 
@@ -317,7 +317,7 @@ Integer i = 0;
 
 ## String
 
-- [String详解](./String.md)
+- [String详解](String.md)
 ## 操作符
 
 ### 原码 反码 补码
@@ -603,7 +603,7 @@ public class Student {
 }
 ```
 
-![alt text](../assets/07static.png)
+![alt text](assets/07static.png)
 
 ## Q&A
 
