@@ -17,7 +17,7 @@
 - [文件](common/file.md)
 - [io](common/io.md)
 - [网络编程](common/网络编程.md)
-- [日期相关](./dateRelated)
+- [日期相关](common/dateRelated.md)
 - [utils](common/utils.md)
 - [terminology](common/terminology.md)
 ### 集合
