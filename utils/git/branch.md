@@ -44,7 +44,7 @@ git branch -v
 ### 5. 结合过滤条件
 如果分支很多，可以结合 `grep` 进行过滤。例如，查找包含 "feature" 的分支：
 ```bash
-git branch -a | grep "feature"
+git branch -a | grep.md "feature"
 ```
 
 ---

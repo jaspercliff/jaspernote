@@ -1,5 +1,7 @@
 # rocketmq
 
+- [problems](./problems.md)
+
 ## mq
 
 mq,message queue,提供消息队列服务的中间件，提供了消息生产、存储、消费全过程api的软件系统
