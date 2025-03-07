@@ -7,3 +7,4 @@
 - [node](./node/index)
 - [vitepress](vitepress/index.md)
 - [vue]()
+- [nginx](./nginx/index.md)
