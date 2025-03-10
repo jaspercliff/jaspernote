@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9fc782368a93e463",
+        "id": "f4f72c110c9ecf27",
         "type": "tabs",
         "children": [
           {
-            "id": "b6a6d92704d81a6f",
+            "id": "181a32b4202f8a59",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "readme.md",
-                "bFile": "readme.md",
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: readme"
+              "title": "Diff: .gitignore"
             }
           }
         ]
@@ -180,13 +180,13 @@
       "vitepress-publisher:start vitepress": false
     }
   },
-  "active": "b6a6d92704d81a6f",
+  "active": "181a32b4202f8a59",
   "lastOpenFiles": [
+    "utils/obsidian/obsidian如何git 提交.md",
     "readme.md",
     "index.md",
     "python/uv.md",
     "todo.md",
-    "utils/obsidian/obsidian如何git 提交.md",
     "utils/obsidian",
     "python/dataType/02string.md",
     "python/dataType/index.md",
