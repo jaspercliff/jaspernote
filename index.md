@@ -1,13 +1,12 @@
 ---
 layout: home
-
 hero:
-  name: "Jasper的开发笔记"
-  text: "探索开发的无限可能"
+  name: Jasper的开发笔记
+  text: 探索开发的无限可能
   image:
     src: /logo.png
     alt: VitePress
-  tagline: "记录技术成长之路，分享开发中的每个精彩时刻"
+  tagline: 记录技术成长之路，分享开发中的每个精彩时刻
   actions:
     - theme: brand
       text: java开发
@@ -15,7 +14,6 @@ hero:
     - theme: alt
       text: 工具与技巧
       link: /utils
-
 features:
   - title: 高效开发实践
     details: 分享高效的开发实践，帮助你在开发过程中节省时间与精力。

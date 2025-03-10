@@ -23,13 +23,13 @@ Conda vs Pip
 conda --version
 
 
-	3.	创建新环境
+3.	创建新环境
 
 conda create -n myenv python=3.9
 
 这将在 myenv 环境中安装 Python 3.9。
 
-	4.	激活环境
+4.	激活环境
 
 conda activate myenv
 
