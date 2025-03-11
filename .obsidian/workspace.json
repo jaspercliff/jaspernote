@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f4f72c110c9ecf27",
+        "id": "961b41bb702d8087",
         "type": "tabs",
         "children": [
           {
-            "id": "181a32b4202f8a59",
+            "id": "3613eb1419fc0927",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
+                "aFile": "utils/obsidian/obsidian如何git 提交.md",
+                "bFile": "utils/obsidian/obsidian如何git 提交.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: .gitignore"
+              "title": "Diff: obsidian如何git 提交"
             }
           }
         ]
@@ -148,7 +148,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of obsidian如何git 提交"
+              "title": "obsidian如何git 提交 的大纲"
             }
           },
           {
@@ -180,7 +180,7 @@
       "vitepress-publisher:start vitepress": false
     }
   },
-  "active": "181a32b4202f8a59",
+  "active": "3613eb1419fc0927",
   "lastOpenFiles": [
     "utils/obsidian/obsidian如何git 提交.md",
     "readme.md",
