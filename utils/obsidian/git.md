@@ -1,8 +1,7 @@
-
+# obsidian如何git提交
+# macOS 
 
 ## ssh
-
-# macOS 
 
 ## HTTPS 
 
