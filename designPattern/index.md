@@ -1,17 +1,17 @@
 # designPattern 
 
 ## 创建型 Creational 
-- [单例模式](/java/designPattern/creational/singleton.md)
+- [单例模式](./creational/singleton.md)
 
 
 ## 结构型 Structural
 
 该模式涉及到如何组合类和对象以获得更大的结构。
 
-- [代理模式](./structural/proxy.md)
+- [代理模式](structural/proxy.md)
 
 ## 行为型 Behavioral
-- [观察者模式](/java/designPattern/behavioral/observer.md)
+- [观察者模式](./behavioral/observer.md)
 
 
 
@@ -26,7 +26,7 @@
 
 设计模式通常分为三大类。
 
-
+简单工厂模式
 
 1. 创建型模式（Creational Patterns）：
    这类模式与对象的创建机制有关，试图根据实际情况使用合适的方式创建对象。
@@ -67,5 +67,3 @@
 - 创建型模式主要解决对象的创建问题，将对象的创建与使用分离。
 - 结构型模式主要解决类或对象的组合或组装问题。
 - 行为型模式主要解决类或对象之间的交互问题以及职责分配问题。
-
-了解这些模式可以帮助开发者更好地设计软件，提高代码的可维护性、可扩展性和重用性。但需要注意的是，设计模式不是银弹，应该根据具体情况合理使用，避免过度设计。

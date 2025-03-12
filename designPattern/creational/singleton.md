@@ -3,6 +3,11 @@
 
 单例模式主要有两种实现方式：懒汉式和饿汉式。
 
+## 实现单例模式的关键步骤
+1. 私有构造函数：防止外部通过构造函数直接创建对象实例。
+2. 静态变量保存唯一实例：通常使用一个静态成员变量来持有该类的唯一实例。
+3， 公共静态方法提供实例访问：提供一个公共的静态方法用于返回唯一实例给外界使用。
+
 ### 饿汉式
 
 饿汉式单例在类加载时就立即初始化，并且创建单例对象。
@@ -12,7 +17,6 @@
 
 ```java
 public class Singleton {
-    // 在自己内部定义自己一个实例，是不是很奇怪？
     // 注意这是private只供内部调用
     private static Singleton instance = new Singleton();
     
@@ -39,7 +43,7 @@ public class Singleton {
     
     private Singleton() {}
     
-    public static synchronized Singleton getInstance() {
+    public static  Singleton getInstance() {
         if (instance == null) {
             instance = new Singleton();
         }
@@ -59,7 +63,12 @@ public class Singleton {
     private volatile static Singleton instance;
     
     private Singleton() {}
-    
+    /**
+     * 这是因为当一个线程A正在同步块内执行实例化操作时，其他线程（比如线程B）会被阻塞在外，直到线程A完成实例化并退出同步块。
+     * 此时，如果没有第二次检查，线程B直接跳过判断并重新创建一个新的实例，就会导致多个实例被创建的问题。
+     * 因此，第二次判空确保了即便在多线程环境下，也只会创建一个实例
+     * @return instance
+     */
     public static Singleton getInstance() {
         if (instance == null) {
             synchronized (Singleton.class) {

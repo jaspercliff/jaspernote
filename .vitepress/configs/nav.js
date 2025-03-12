@@ -8,6 +8,10 @@ export const nav = [
         link: "/java",
     },
     {
+        text: "设计模式",
+        link: "/designPattern/index.md",
+    },
+    {
         text: "中间件",
         items: [
             {text: "minio", link: "/java/middleware/minio/index.md"},
