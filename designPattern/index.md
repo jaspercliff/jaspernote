@@ -1,17 +1,17 @@
 # designPattern 
 
 ## 创建型 Creational 
-- [单例模式](/java/designPattern/creational/singleton.md)
+- [单例模式](./creational/singleton.md)
 
 
 ## 结构型 Structural
 
 该模式涉及到如何组合类和对象以获得更大的结构。
 
-- [代理模式](./structural/proxy.md)
+- [代理模式](structural/proxy.md)
 
 ## 行为型 Behavioral
-- [观察者模式](/java/designPattern/behavioral/observer.md)
+- [观察者模式](/designPatternvioral/observer.md)
 
 
 
