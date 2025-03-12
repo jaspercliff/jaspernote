@@ -5,6 +5,7 @@ import Card from "./components/Card.vue";
 import CardList from "./components/CardList.vue";
 import { h } from 'vue'
 import Giscus from "./components/Giscus.vue";
+import {enhanceAppWithTabs} from "vitepress-plugin-tabs/client";
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -15,7 +16,8 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-      app.component('Card', Card);
+    app.component('Card', Card);
     app.component('CardList', CardList);
+    enhanceAppWithTabs(app)
   }
 }

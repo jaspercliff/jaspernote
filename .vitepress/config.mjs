@@ -3,7 +3,7 @@ import {nav} from "./configs/nav.js";
 import {sidebar} from "./configs/sidebar.js";
 import {socialLinks} from "./configs/socialLinks.js";
 import markdownItTextualUml from 'markdown-it-textual-uml'
-
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "jasper note",
@@ -49,6 +49,7 @@ export default defineConfig({
     markdown: {
         config: (md) => {
             md.use(markdownItTextualUml);
+            md.use(tabsMarkdownPlugin)
         }
     }
 })
