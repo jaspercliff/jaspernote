@@ -15,6 +15,9 @@
 - **优点**：没有加锁，执行效率会提高。
 - **缺点**：类加载时就初始化，没有达到懒加载的效果。如果自始至终从未使用过这个实例，则会造成内存的浪费。
 
+
+:::tabs
+==  java
 ```java
 public class Singleton {
     // 注意这是private只供内部调用
@@ -29,7 +32,22 @@ public class Singleton {
     }
 }
 ```
+== python
+```python
+class Singleton:
+    _instance = None
 
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+
+# 测试单例模式
+s1 = Singleton()
+s2 = Singleton()
+print(s1 is s2)  # True，说明两个实例是同一个对象
+```
+:::
 ### 懒汉式
 
 懒汉式单例在第一次被引用时，才会创建实例。

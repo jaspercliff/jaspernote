@@ -1,7 +1,7 @@
 # designPattern 
 
 ## 创建型 Creational 
-- [单例模式](/java/designPattern/creational/singleton.md)
+- [单例模式](./creational/singleton.md)
 
 
 ## 结构型 Structural
