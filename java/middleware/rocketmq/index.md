@@ -3,6 +3,7 @@
 - [docker compose安装](dockercompose.md)
 - [部署和开发过程中遇到的问题](./problems.md)
 - [消息过滤](./message/messageFilter.md)
+- [事务消息](./message/transaction.md)
 - [源码调试](./调试源码.md)
 
 ## mq
