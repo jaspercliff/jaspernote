@@ -43,43 +43,79 @@ CAS操作包含三个操作数：内存位置（V）、预期原值（A）和新
 ### 1. 使用`AtomicInteger`
 `AtomicInteger`提供了一种线程安全的方式来操作单个`int`值。它是通过CAS来实现的。
 
+:::tabs
+== demo1
+```java
+package com.jasper.juc.atom.basic;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class AtomicIntegerDemo {
+  public static void main(String[] args) {
+    AtomicInteger atomicInteger = new AtomicInteger(0);
+    System.out.println(atomicInteger.get());
+    atomicInteger.set(1);
+    System.out.println(atomicInteger.get());
+
+    //获取旧值并设置新值
+    int oldValue = atomicInteger.getAndSet(2);
+    System.out.println("get and set oldValue:" +oldValue+", newValue:" +atomicInteger.get());
+    //获取旧值并自增
+    int oldValue1 = atomicInteger.getAndIncrement();
+    System.out.println("getAndIncrement:" +oldValue1+", newValue:" +atomicInteger.get());
+    //自增后返回新值
+    int newValue = atomicInteger.incrementAndGet();
+    System.out.println("getAndIncrement , newValue:" +atomicInteger.get());
+
+    //添加当前值并返回新值
+    int addValue = atomicInteger.addAndGet(2);
+    System.out.println("addAndGet , addValue:" + addValue);
+
+    //如果当前值等于预期值，则更新为给定的更新值
+    boolean b = atomicInteger.compareAndSet(2, addValue);
+    System.out.println("是否成功更新:" + b+ ",atomicInteger.get():" + atomicInteger.get());
+
+    boolean b1 = atomicInteger.compareAndSet(6, 4);
+    System.out.println("是否成功更新:" + b1+ ",atomicInteger.get():" + atomicInteger.get());
+
+  }
+}
+```
+== demo2
 ```java
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class AtomicIntegerExample {
-    public static void main(String[] args) {
-        AtomicInteger atomicInteger = new AtomicInteger(0);
+public class Counter {
+    private AtomicInteger atomicCounter = new AtomicInteger(0);
 
-        // 获取当前的值
-        System.out.println("当前值: " + atomicInteger.get());
+    public void increment() {
+        atomicCounter.incrementAndGet(); // 以原子方式将当前值加1
+    }
 
-        // 设置值
-        atomicInteger.set(10);
-        System.out.println("设置后的值: " + atomicInteger.get());
+    public int getCounter() {
+        return atomicCounter.get(); // 获取当前值
+    }
 
-        // 获取当前的值，并设置新的值
-        int oldValue = atomicInteger.getAndSet(5);
-        System.out.println("旧值: " + oldValue + ", 新值: " + atomicInteger.get());
+    public static void main(String[] args) throws InterruptedException {
+        Counter counter = new Counter();
+        Thread t1 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) counter.increment();
+        });
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) counter.increment();
+        });
 
-        // 自增并返回新值
-        int newValue = atomicInteger.incrementAndGet();
-        System.out.println("自增后的值: " + newValue);
+        t1.start();
+        t2.start();
 
-        // 自增后返回旧值
-        oldValue = atomicInteger.getAndIncrement();
-        System.out.println("自增前的旧值: " + oldValue + ", 当前值: " + atomicInteger.get());
+        t1.join();
+        t2.join();
 
-        // 添加到当前值并返回新值
-        newValue = atomicInteger.addAndGet(5);
-        System.out.println("添加后的值: " + newValue);
-
-        // 如果当前值==预期值，则以原子方式将该值设置为给定的更新值
-        boolean updated = atomicInteger.compareAndSet(11, 20);
-        System.out.println("是否成功更新: " + updated + ", 当前值: " + atomicInteger.get());
+        System.out.println("Final count is: " + counter.getCounter());
     }
 }
 ```
-
+:::
 ### 2. 使用`AtomicReference`
 `AtomicReference`提供了一种线程安全的方式来操作对象引用。
 

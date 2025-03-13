@@ -100,7 +100,7 @@ export const sidebar = {
                     items: [
                         {
                             text: "basic",
-                            link: "/java/juc/basic.md",
+                            link: "/java/basic/juc/basic.md",
                         },
                     ],
                 },
@@ -109,7 +109,7 @@ export const sidebar = {
                     items: [
                         {
                             text: "collection",
-                            link: "/java/juc/collections/basic.md",
+                            link: "/java/basic/juc/collections/basic.md",
                         },
                     ],
                 },
@@ -118,15 +118,15 @@ export const sidebar = {
                     items: [
                         {
                             text: "ReentrantLock",
-                            link: "/java/juc/lock/ReentrantLock.md",
+                            link: "/java/basic/juc/lock/ReentrantLock.md",
                         },
                         {
                             text: "ReentrantReadWriteLock",
-                            link: "/java/juc/lock/ReentrantReadWriteLock.md",
+                            link: "/java/basic/juc/lock/ReentrantReadWriteLock.md",
                         },
                         {
                             text: "LockSupport",
-                            link: "/java/juc/lock/LockSupport.md",
+                            link: "/java/basic/juc/lock/LockSupport.md",
                         },
                     ],
                 },
@@ -135,7 +135,7 @@ export const sidebar = {
                     items: [
                         {
                             text: "Atomic",
-                            link: "/java/juc/atomic/atomic.md",
+                            link: "/java/basic/juc/atomic/atomic.md",
                         },
                     ],
                 },
@@ -144,15 +144,15 @@ export const sidebar = {
                     items: [
                         {
                             text: "FutureTask",
-                            link: "/java/juc/executor/FutureTask.md",
+                            link: "/java/basic/juc/executor/FutureTask.md",
                         },
                         {
                             text: "线程池",
-                            link: "/java/juc/executor/线程池.md",
+                            link: "/java/basic/juc/executor/线程池.md",
                         },
                         {
                             text: "completableFuture",
-                            link: "/java/juc/executor/completableFuture.md",
+                            link: "/java/basic/juc/executor/completableFuture.md",
                         },
                     ],
                 },
@@ -161,20 +161,20 @@ export const sidebar = {
                     items: [
                         {
                             text: "CountDownLatch",
-                            link: "/java/juc/tools/CountDownLatch.md",
+                            link: "/java/basic/juc/tools/CountDownLatch.md",
                         },
                         {
                             text: "CyclicBarrier",
-                            link: "/java/juc/tools/CyclicBarrier.md",
+                            link: "/java/basic/juc/tools/CyclicBarrier.md",
                         },
-                        {text: "Semaphore", link: "/java/juc/tools/Semaphore.md"},
-                        {text: "Phaser", link: "/java/juc/tools/Phaser.md"},
-                        {text: "Exchanger", link: "/java/juc/tools/Exchanger.md"},
+                        {text: "Semaphore", link: "/java/basic/juc/tools/Semaphore.md"},
+                        {text: "Phaser", link: "/java/basic/juc/tools/Phaser.md"},
+                        {text: "Exchanger", link: "/java/basic/juc/tools/Exchanger.md"},
                     ],
                 },
                 {
                     text: "ThreadLocal",
-                    link: "/java/juc/ThreadLocal.md",
+                    link: "/java/basic/juc/ThreadLocal.md",
                 },
             ],
         },
