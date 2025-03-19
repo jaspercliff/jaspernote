@@ -34,7 +34,7 @@ export const sidebar = {
                     items: [
                         {
                             text: "basic",
-                            link: "/java/basic/collection/index.md",
+                            link: "/java/basic/collection/dataType.md",
                         },
                         {
                             text: "ArrayList",
@@ -213,7 +213,7 @@ export const sidebar = {
             text: "springSecurity",
             collapsed: true,
             items: [
-                {text: "index", link: "/java/framework/springSecurity/index.md"},
+                {text: "index", link: "/java/framework/springSecurity/dataType.md"},
             ],
         },
     ],
@@ -248,7 +248,7 @@ export const sidebar = {
         {
             text: "mysql",
             items: [
-                {text: "index", link: "/database/mysql/index.md"},
+                {text: "index", link: "/database/mysql/dataType.md"},
                 {text: "数据类型", link: "/database/mysql/数据类型.md"},
                 {text: "存储引擎", link: "/database/mysql/存储引擎.md"},
                 {text: "索引", link: "/database/mysql/索引.md"},
@@ -262,14 +262,14 @@ export const sidebar = {
     "/database/redis": [
         {
             text: "redis",
-            items: [{text: "index", link: "/database/redis/index.md"}],
+            items: [{text: "index", link: "/database/redis/dataType.md"}],
         },
     ],
     "/objectStorage/minio": [
         {
             text: "minio",
             items: [
-                {text: "index", link: "/objectStorage/minio/index.md"},
+                {text: "index", link: "/objectStorage/minio/dataType.md"},
                 {text: "minio in java", link: "/objectStorage/minio/java.md"},
             ],
         },
@@ -278,7 +278,7 @@ export const sidebar = {
         {
             text: "datastructure",
             items: [
-                {text: "index", link: "/dataStructure/index.md"},
+                {text: "index", link: "/dataStructure/dataType.md"},
                 {text: "stack", link: "/dataStructure/Stack.md"},
                 {text: "queue", link: "/dataStructure/Queue.md"},
                 {text: "Hash", link: "/dataStructure/Hash.md"},

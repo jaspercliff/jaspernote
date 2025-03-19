@@ -11,6 +11,9 @@ hero:
     - theme: brand
       text: java开发
       link: /java
+    - theme: brand
+      text: python开发
+      link: /python
     - theme: alt
       text: 工具与技巧
       link: /utils
@@ -25,8 +28,7 @@ features:
 
 
 
-<style>
-:root {
+<style>:root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
   --vp-home-hero-text-font-family: 'Arial', sans-serif;

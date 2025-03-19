@@ -9,13 +9,13 @@ export const nav = [
     },
     {
         text: "设计模式",
-        link: "/designPattern/index.md",
+        link: "/designPattern/dataType.md",
     },
     {
         text: "中间件",
         items: [
-            {text: "minio", link: "/java/middleware/minio/index.md"},
-            {text: "rocketmq", link: "/java/middleware/rocketmq/index.md"}
+            {text: "minio", link: "/java/middleware/minio/dataType.md"},
+            {text: "rocketmq", link: "/java/middleware/rocketmq/dataType.md"}
         ]
     },
     {
@@ -23,34 +23,38 @@ export const nav = [
         items: [
             {text: "mysql", link: "/database/mysql"},
             {text: "oracle", link: "/database/oracle"},
-            {text: "redis", link: "/database/redis/index.md"},
-            {text: "sqlite", link: "/sqlite/index.md"},
+            {text: "redis", link: "/database/redis/dataType.md"},
+            {text: "sqlite", link: "/sqlite/dataType.md"},
         ],
     },
-    {text: "数据结构", link: "/dataStructure/index.md"},
+    {text: "数据结构", link: "/dataStructure/dataType.md"},
     {
       text: "os",
       link: "/os/index"
     },
     {
         text: "python",
-        link: "/python/index.md",
+        link: "/python/dataType.md",
     },
     // {
     //     text: "cpp",
-    //     link: "/cpp/index.md",
+    //     link: "/cpp/dataType.md",
     // },
     {
         text: "front",
-        link: "/front/index.md",
+        link: "/front/dataType.md",
     },
     {
         text:  "groovy",
-        link: "/groovy/index.md",
+        link: "/groovy/dataType.md",
     },
     {
         text: 'lua',
-        link: "/lua/index.md",
+        link: "/lua/dataType.md",
+    },
+    {
+        text: "源码解析",
+        link: "/sourceCode/dataType.md",
     }
 
 ]
