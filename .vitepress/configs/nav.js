@@ -34,7 +34,7 @@ export const nav = [
     },
     {
         text: "python",
-        link: "/python/dataType.md",
+        link: "/python/index.md",
     },
     // {
     //     text: "cpp",
