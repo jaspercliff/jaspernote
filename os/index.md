@@ -10,5 +10,5 @@ layout: home
 - [macos](./mac/index.md)
 - [windows](./windows/index.md)
 - [docker](./docker/index.md)
-- [k8s](./k8s)
+- [k8s](./k8s/index.md)
 - [system design](./systemDesign/index.md)
