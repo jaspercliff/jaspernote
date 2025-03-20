@@ -23,3 +23,59 @@ broker.conf   默认不支持sql92标准
 enablePropertyFilter=true
 
 ---
+
+
+## Unrecognized VM option 'UseBiasedLocking' Error: Could not create the Java Virtual Machine. Error: A fatal exception has occurred. Program will exit.
+
+表示 Java 虚拟机（JVM）无法识别 UseBiasedLocking 这个 JVM 选项 ,JDK 版本过高
+UseBiasedLocking 选项在 JDK 21 及更高版本已被移除
+
+但是控制台 java -version 是1.8    
+
+![img.png](assets/biasedLock.png)  
+发现实际的jdk是23的 
+
+runbroker.sh  获取java路径的shell脚本
+
+```bash
+error_exit ()
+{
+    echo "ERROR: $1 !!"
+    exit 1
+}
+
+find_java_home()
+{
+    case "`uname`" in
+        Darwin)
+          if [ -n "$JAVA_HOME" ]; then
+            JAVA_HOME=$JAVA_HOME
+            return
+          fi
+            JAVA_HOME=$(/usr/libexec/java_home)
+        ;;
+        *)
+            JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
+        ;;
+    esac
+}
+
+find_java_home
+
+[ ! -e "$JAVA_HOME/bin/java" ] && JAVA_HOME=$HOME/jdk/java
+[ ! -e "$JAVA_HOME/bin/java" ] && JAVA_HOME=/usr/java
+[ ! -e "$JAVA_HOME/bin/java" ] && error_exit "Please set the JAVA_HOME variable in your environment, We need java(x64)!"
+
+export JAVA_HOME
+export JAVA="$JAVA_HOME/bin/java"
+export BASE_DIR=$(dirname $0)/..
+export CLASSPATH=.:${BASE_DIR}/conf:${BASE_DIR}/lib/*:${CLASSPATH}
+
+```
+$JAVA_HOME 没有配置的话会使用 /usr/libexec/java_home 获取java路径
+
+/usr/libexec/java_home -V 是 macOS 上用于查找和列出所有已安装的 JDK 版本的命令。
+
+默认情况下会返回最高版本的jdk 
+
+配置java版本为1.8 

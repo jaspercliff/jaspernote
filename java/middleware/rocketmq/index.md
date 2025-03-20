@@ -2,6 +2,7 @@
 > [示例代码github地址](https://github.com/jaspercliff/springbootIntegration/tree/master/rocketmqIntegration)
 
 - [usage](usage.md)
+- [从源码构建](build.md)
 - [docker compose安装](dockercompose.md)
 - [基本概念](./concept.md)
 - [特性](./feature.md)
