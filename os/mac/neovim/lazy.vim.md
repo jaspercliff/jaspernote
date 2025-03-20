@@ -6,3 +6,10 @@ LazyVim 和一些插件可能会使用特殊的图标或符号，这些符号需
 
 安装nead fonts
 https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-2-homebrew-fonts
+
+
+
+rm -rf ~/.local/share/nvim/lazy
+rm -rf ~/.cache/nvim
+rm -rf ~/.config/nvim/plugin
+nvim
