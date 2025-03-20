@@ -5,4 +5,4 @@
 - [finder](finder.md)
 - [截图](screeShot)
 - [环境变量](pathVariable.md)
-- [neovim](neovim/neovim.md)
+- [mac neovim配置](neovim/neovim.md)
