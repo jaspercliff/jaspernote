@@ -12,6 +12,4 @@
 
 
 ## shell
-
 - [shell](./shell/index.md)
-- [控制结构](./shell/control.md)
