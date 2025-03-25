@@ -13,4 +13,4 @@
 
 ## shell
 - [shell](./shell/index.md)
-- [brace expansion](braceExpansion.md)
+- [brace expansion](shell/braceExpansion.md)
