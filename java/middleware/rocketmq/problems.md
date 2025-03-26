@@ -79,3 +79,9 @@ $JAVA_HOME 没有配置的话会使用 /usr/libexec/java_home 获取java路径
 默认情况下会返回最高版本的jdk 
 
 配置java版本为1.8 
+
+##  VM option 'UseG1GC' is experimental and must be enabled via -XX:+UnlockExperimentalVMOptions.
+
+![img.png](runBroker.png)
+
+添加 -XX:+UnlockExperimentalVMOptions配置
