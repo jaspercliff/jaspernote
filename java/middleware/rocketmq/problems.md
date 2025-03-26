@@ -27,6 +27,8 @@ enablePropertyFilter=true
 
 ## Unrecognized VM option 'UseBiasedLocking' Error: Could not create the Java Virtual Machine. Error: A fatal exception has occurred. Program will exit.
 
+> [biasedLock](/java/jvm/lock/biasedLock.md)
+
 表示 Java 虚拟机（JVM）无法识别 UseBiasedLocking 这个 JVM 选项 ,JDK 版本过高
 UseBiasedLocking 选项在 JDK 21 及更高版本已被移除
 
@@ -79,3 +81,9 @@ $JAVA_HOME 没有配置的话会使用 /usr/libexec/java_home 获取java路径
 默认情况下会返回最高版本的jdk 
 
 配置java版本为1.8 
+
+##  VM option 'UseG1GC' is experimental and must be enabled via -XX:+UnlockExperimentalVMOptions.
+
+![img.png](assets/runBroker.png)
+
+添加 -XX:+UnlockExperimentalVMOptions配置
