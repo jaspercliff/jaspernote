@@ -53,3 +53,106 @@ cmd
 深色版本
 java -jar path/to/classpath.jar com.example.myapp.Main
 这样，JVM 就会根据 classpath.jar 中的 MANIFEST.MF 文件加载所有的依赖库，而不会受到类路径长度的限制。
+
+
+
+
+
+
+## -XX 参数详解
+
+在 JVM 启动参数中：
+•	-X 开头的参数是非标准参数（JVM 可能不支持所有的 -X 参数）。
+•	-XX 开头的参数是 高级（实验性）参数，用于调优 GC、JIT、堆大小 等功能。
+
+⸻
+
+1. -XX 参数的常见分类
+
+-XX 参数一般分为三类：
+1.	布尔型参数（-XX:+<option> / -XX:-<option>）
+•	+ 代表启用该选项，- 代表禁用该选项。
+•	示例：
+
+-XX:+UseG1GC   # 启用 G1 GC
+-XX:-UseGCOverheadLimit  # 关闭 GC 开销限制
+
+
+	2.	整型/字符串参数（-XX:<option>=<value>）
+	•	直接指定一个数值或字符串参数。
+	•	示例：
+
+-XX:MaxHeapSize=512M  # 最大堆大小 512MB
+-XX:MetaspaceSize=128M  # Metaspace 大小 128MB
+-XX:SurvivorRatio=8  # Eden:Survivor = 8:1
+
+
+	3.	诊断参数（-XX:+UnlockDiagnosticVMOptions）
+	•	一些调试或实验性功能默认被锁定，必须先解锁。
+	•	示例：
+
+-XX:+UnlockExperimentalVMOptions -XX:+UseZGC  # 启用实验性的 ZGC
+-XX:+UnlockDiagnosticVMOptions -XX:+PrintSafepointStatistics  # 打印 Safepoint 统计信息
+
+
+
+⸻
+
+2. 常见的 -XX 参数
+
+（1）GC 相关参数
+
+参数	说明
+-XX:+UseSerialGC	使用 Serial GC（单线程）
+-XX:+UseParallelGC	使用 Parallel GC（吞吐量优先）
+-XX:+UseG1GC	使用 G1 GC（默认 GC）
+-XX:+UseZGC	启用 ZGC（低延迟 GC，需要 -XX:+UnlockExperimentalVMOptions）
+-XX:+UseShenandoahGC	启用 Shenandoah GC（低延迟 GC）
+-XX:MaxGCPauseMillis=200	目标 GC 停顿时间（单位：ms）
+-XX:GCTimeRatio=4	GC 时间占比（用于 Parallel GC）
+
+（2）堆内存参数
+
+参数	说明
+-XX:InitialHeapSize=256M	初始堆大小
+-XX:MaxHeapSize=1024M	最大堆大小
+-XX:NewRatio=2	老年代:新生代 = 2:1
+-XX:SurvivorRatio=8	Eden:Survivor = 8:1
+-XX:+UseLargePages	启用大页内存
+
+（3）GC 日志相关参数
+
+参数	说明
+-XX:+PrintGC	打印 GC 信息
+-XX:+PrintGCDetails	打印详细 GC 信息
+-XX:+PrintGCTimeStamps	打印 GC 发生的时间戳
+-XX:+PrintGCApplicationStoppedTime	打印 GC 导致应用程序暂停的时间
+-XX:+PrintReferenceGC	监测软引用/弱引用的回收情况
+
+（4）元空间（Metaspace）参数
+
+参数	说明
+-XX:MetaspaceSize=128M	初始 Metaspace 大小
+-XX:MaxMetaspaceSize=512M	最大 Metaspace 大小
+-XX:+UseCompressedOops	开启指针压缩（默认启用，32-bit 运行 64-bit JVM 时）
+
+
+
+⸻
+
+3. 如何查看 -XX 参数
+
+你可以用以下命令 查看 JVM 的默认 -XX 参数：
+
+java -XX:+PrintFlagsFinal -version
+
+这会列出所有 JVM 运行时参数，并显示它们的默认值。
+
+⸻
+
+4. 结论
+   •	-XX 参数用于 高级 JVM 调优，可以控制 GC、堆、JIT 等行为。
+   •	-XX:+ 启用某个功能，-XX:- 禁用某个功能。
+   •	-XX:<参数>=<值> 设置具体的 JVM 选项，如 -XX:MaxHeapSize=512M。
+
+🚀 想调优 GC？试试 -XX:+UseG1GC -XX:MaxGCPauseMillis=200！

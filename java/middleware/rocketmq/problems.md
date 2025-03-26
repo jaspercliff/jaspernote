@@ -84,6 +84,9 @@ $JAVA_HOME 没有配置的话会使用 /usr/libexec/java_home 获取java路径
 
 ##  VM option 'UseG1GC' is experimental and must be enabled via -XX:+UnlockExperimentalVMOptions.
 
+my jdk version 1.8.0_441
+> [github issue](https://github.com/apache/rocketmq/issues/7996)
+g1gc 在jdk8中为实验性功能 jdk11不用加该选项
 ![img.png](assets/runBroker.png)
 
 添加 -XX:+UnlockExperimentalVMOptions配置
