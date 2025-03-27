@@ -14,3 +14,7 @@ mkdir -p /home/user/{docs,images,videos}
 
 没有-p则不会创建相关文件夹
 -p 递归创建目录  如果目录已经存在不会报错，不存在则创建
+
+
+
+ 使用> filename 可以快速清空文件内容。重定向空内容到文件
