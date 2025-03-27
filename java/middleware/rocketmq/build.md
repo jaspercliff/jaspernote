@@ -41,3 +41,6 @@ tail -f ~/logs/rocketmqlogs/broker.log
 sh mqshutdown broker
 sh mqshutdown namesrv
 ```
+
+## 测试发送消息
+
