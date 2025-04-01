@@ -5,4 +5,4 @@ Homebrew is a package manager for macOS that simplifies the installation and man
 ## service
 
 - brew services  / brew services list  # 查看服务列表
-- brew services start <service>  # 启动服务
+- brew services start service  # 启动服务
