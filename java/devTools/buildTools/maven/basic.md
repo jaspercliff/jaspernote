@@ -15,3 +15,14 @@
 
 
 
+为该项目添加额外的仓库地址。Maven 在解析依赖时，会同时检查 pom.xml 和 settings.xml 中定义的所有仓库。
+```xml
+    <!-- 使用 aliyun 的 Maven 源，提升下载速度 -->
+    <repositories>
+        <repository>
+            <id>aliyunmaven</id>
+            <name>aliyun</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+        </repository>
+    </repositories>
+```
