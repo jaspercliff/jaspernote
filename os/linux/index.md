@@ -5,10 +5,12 @@
 
 ## utils
 
-- [frp内网穿透](utils/frp.md)
+- [grep](utils/grep.md)
 - [awk](utils/awk.md)
 - [scp](utils/scp.md)
 - [rsync](utils/rsync.md)
+- [frp内网穿透](utils/frp.md)
+- [systemctl](utils/systemctl.md)
 
 
 ## shell
