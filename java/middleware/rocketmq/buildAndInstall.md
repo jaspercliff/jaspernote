@@ -42,5 +42,23 @@ sh mqshutdown broker
 sh mqshutdown namesrv
 ```
 
-## 测试发送消息
+## jps 
 
+也可以使用jps来查看是否启动成功
+> [jps](/java/basic/jdk/jps.md)
+
+## 测试发送消息
+```bash
+export NAMESRV_ADDR=localhost:9876
+sh bin/tools.sh org.apache.rocketmq.example.quickstart.Producer
+sh bin/tools.sh org.apache.rocketmq.example.quickstart.Consumer
+```
+
+
+## 集群部署
+
+### namesrv
+
+namesrv是无状态的，namesrv之间没有消息同步
+
+### broker

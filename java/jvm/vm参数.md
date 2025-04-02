@@ -3,6 +3,7 @@
 vm参数：命令行选项来控制jvm行为
 -Xms size: 设置JVM启动时的初始堆内存大小。  minimum size
 -Xmx size: 设置JVM的最大堆内存大小。  maximum
+-Xmn size: 设置新生代的大小。  new generation
 
 ```bash
 java -Xms512m -jar myapp.jar
