@@ -4,10 +4,11 @@ JDBC提供了以下几种接口和类来访问数据库：
 
 DriverManager：管理JDBC驱动程序的基本服务。
 Connection：与特定数据库的连接。
-Statement：用于发送SQL语句到数据库。
-PreparedStatement：继承自Statement接口，用于执行预编译的SQL语句。
-CallableStatement：用于调用数据库中的存储过程。
 ResultSet：表示SQL查询的结果集。
+
+STATEMENT：使用普通的 Statement 对象执行 SQL。这种方式不支持预编译（PreparedStatement），因此不适合处理包含参数的查询。
+PREPARED：使用 PreparedStatement 对象执行 SQL。这是最常用的方式，因为它支持预编译 SQL 语句，并且可以防止 SQL 注入攻击，同时也能提高性能，特别是在需要多次执行相同 SQL 语句的情况下。
+CALLABLE：使用 CallableStatement 对象执行存储过程。当你需要调用数据库中的存储过程时，就需要使用这种类型
 
 ```java
 package com.jasper;
