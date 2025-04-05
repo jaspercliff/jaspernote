@@ -7,3 +7,4 @@
 sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
 systemctl --user restart docker-desktop
 ```
+https://github.com/docker/for-mac/issues/7160#issuecomment-2061040813
