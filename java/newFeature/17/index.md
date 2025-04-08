@@ -19,27 +19,36 @@ JDK 17 引入了多项新特性和改进，以下是一些主要的新特性：
     - ZGC 是一个可扩展的低延迟垃圾收集器，旨在处理从相对较小的堆到非常大的堆（大小为数TB）。在 JDK 17 中，ZGC 得到了进一步的优化，以提高性能和稳定性。
 
 6. **Switch 表达式的改进**：
-    - Switch 表达式在之前的版本中被引入并进行了标准化，在 JDK 17 中继续得到改进，提供了更加简洁和安全的语法来处理复杂的条件逻辑。
+    - Switch 表达式在之前的版本中被引入并进行了标准化，在 JDK 17 中继续得到改进，提供了更加简洁和安全的语法来处理复杂的条件逻辑。支持模式匹配
 
 ## path variable
 ``` java
-if(body instanceof Page){  
-    HashMap<Object, Object> map = new HashMap<>();  
-    Page<?> page = (Page<?>) body;  
-    map.put("total",page.getTotal());  
-    map.put("records",page.getRecords());  
-    map.put("current",page.getCurrent());  
-    map.put("size",page.getSize());  
-    return R.success(map);  
-}
-
-
-if(body instanceof Page<?> page){  
-    HashMap<Object, Object> map = new HashMap<>();  
-    map.put("total",page.getTotal());  
-    map.put("records",page.getRecords());  
-    map.put("current",page.getCurrent());  
-    map.put("size",page.getSize());  
-    return ResultVO.success(map);  
-}
+    public static boolean isNUllObj(Object o){
+        switch (o) {
+            case null -> {
+                return true;
+            }
+            case String str -> {
+                return str.isEmpty();
+            }
+            case Collection<?> collection -> {
+                switch (o) {
+                    case List<?> list -> {
+                        return list.isEmpty();
+                    }
+                    case Map<?, ?> map -> {
+                        return map.isEmpty();
+                    }
+                    case Set<?> set -> {
+                        return set.isEmpty();
+                    }
+                    default -> {
+                    }
+                }
+            }
+            default -> {
+            }
+        }
+        return false;
+    }
 ```
