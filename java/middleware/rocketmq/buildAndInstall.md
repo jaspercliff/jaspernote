@@ -62,3 +62,8 @@ sh bin/tools.sh org.apache.rocketmq.example.quickstart.Consumer
 namesrv是无状态的，namesrv之间没有消息同步
 
 ### broker
+
+
+
+## 配置
+

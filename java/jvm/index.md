@@ -13,3 +13,8 @@
 ### 垃圾回收器
 - [ps](/java/jvm/gc/parallelScavenge.md)
 - [g1](/java/jvm/gc/g1.md)
+
+
+## other
+
+- [jvm内置系统属性](/java/jvm/systemProperties.md)
