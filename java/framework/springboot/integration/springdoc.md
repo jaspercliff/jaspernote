@@ -1,8 +1,12 @@
+# springdoc 
+
+> [官网地址](https://springdoc.org)
 ```
-<dependency>  
-  <groupId>org.springdoc</groupId>  
-  <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>  
-  <version>2.3.0</version>  
+<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui -->
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.8.6</version>
 </dependency>
 ```
 ```yml
@@ -58,7 +62,7 @@ public class User {
 ```
 ## How do I add authorization header in requests?  
 
-- You should add the `@SecurityRequirement` tags to your protected APIs.
+- You should add the`@SecurityRequirement`tags to your protected APIs.
 - For example:
 ```java
 @Operation(security = { @SecurityRequirement(name = "bearer-key") })

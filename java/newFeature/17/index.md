@@ -20,7 +20,7 @@ JDK 17 引入了多项新特性和改进，以下是一些主要的新特性：
 
 6. **Switch 表达式的改进**：
     - Switch 表达式在之前的版本中被引入并进行了标准化，在 JDK 17 中继续得到改进，提供了更加简洁和安全的语法来处理复杂的条件逻辑。支持模式匹配
-
+    -  switch 表达式的写法是 Java 12 引入的作为一种改进的、更为简洁的语法形式，称为“增强的switch”或“switch表达式”。它允许switch语句返回一个值，并且可以更加简洁地编写代码
 ## path variable
 ``` java
     public static boolean isNUllObj(Object o){
@@ -50,5 +50,15 @@ JDK 17 引入了多项新特性和改进，以下是一些主要的新特性：
             }
         }
         return false;
+    }
+```
+
+```java
+    private static ObjectMapper selectMapper(JsonInclude.Include include) {
+        return switch (include) {
+            case NON_NULL -> MAPPER_NON_NULL;
+            case NON_EMPTY -> MAPPER_NON_EMPTY;
+            default -> MAPPER_ALWAYS; // 默认包含所有字段
+        };
     }
 ```
