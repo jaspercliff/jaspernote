@@ -5,3 +5,4 @@
 - [finder](finder.md)
 - [截图](screeShot)
 - [环境变量](pathVariable.md)
+- [Powerlevel10k](zsh.md)

@@ -6,6 +6,8 @@
 
 ### 事务的传播行为
 
+- [propagation](事务传播机制.md)
+
 ## programmatic transaction management
 
 ## 事务失效场景
