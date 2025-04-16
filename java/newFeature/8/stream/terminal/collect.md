@@ -120,3 +120,14 @@ public class GroupingByDemo {
 //collect1 = {1=3, 2=1}
 //collect2 = {1=IntSummaryStatistics{count=3, sum=3, min=1, average=1.000000, max=1}, 2=IntSummaryStatistics{count=1, sum=2, min=2, average=2.000000, max=2}}
 ```
+
+## Collectors.collectingAndThen
+Collectors.collectingAndThen 它允许你在收集完结果之后，对结果再做一次转换或处理
+
+```java
+Map<String, Integer> countMap = list.stream()
+    .collect(Collectors.groupingBy(
+        Person::getName,
+        Collectors.collectingAndThen(Collectors.counting(), Long::intValue)
+    ));
+```
