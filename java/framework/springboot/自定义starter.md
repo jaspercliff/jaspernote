@@ -169,7 +169,7 @@ public class TraceFilter implements Filter {
         // 打印请求参数（可根据需求选择性打印）
         Map<String, String> requestParams = getRequestParameters(request);
         if (!requestParams.isEmpty()) {
-            message.append(" with parameters ").append(requestParams.toString());
+            message.append(" with parameters ").append(requestParams);
         }
 
         log.info(message.toString());
@@ -201,3 +201,13 @@ com.jasper.autoconfigure.TraceAutoConfiguration
 ```
 
 使用时导入starter模块即可
+
+
+## annotations
+
+`@AutoConfigureBefore` 在另外一个配置类之前生效
+`@AutoConfigureAfter` 在另外一个配置类之后生效
+`@AutoConfigureOrder` 该注解用于指定自动配置的顺序，值越小，优先级越高。
+`@AutoConfigureBefore` 和 `@AutoConfigureAfter` 注解可以用来指定自动配置的顺序。
+
+
