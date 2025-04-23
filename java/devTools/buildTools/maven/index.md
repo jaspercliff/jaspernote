@@ -2,6 +2,7 @@
 
 - [install](./install.md)
 - [基本概念](./basic.md)
+- [依赖冲突](confilct.md)
 
 
 ## 常见依赖声明
