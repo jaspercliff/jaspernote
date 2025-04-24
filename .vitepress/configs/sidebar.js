@@ -1,9 +1,10 @@
 import {sidebarShell} from './sidebarShell'
 import {sidebarJvm} from "./sidebarJvm";
-
+import {sidebarRedis} from "./sidebarRedis";
 export const sidebar = {
     ...sidebarShell,
     ...sidebarJvm,
+    ...sidebarRedis,
     // 当用户位于 `java` 目录时，会显示此侧边栏
     "/java/": [
         {
@@ -255,12 +256,6 @@ export const sidebar = {
                 {text: "锁及mvcc", link: "/database/mysql/锁及mvcc.md"},
                 {text: "jdbc", link: "/database/mysql/jdbc.md"},
             ],
-        },
-    ],
-    "/database/redis": [
-        {
-            text: "redis",
-            items: [{text: "index", link: "/database/redis/dataType.md"}],
         },
     ],
     "/objectStorage/minio": [
