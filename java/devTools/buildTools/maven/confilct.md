@@ -30,14 +30,15 @@ mvn dependency:tree
 
 来看项目实际依赖了哪些 jar，会看到类似这样：
 
+```txt
 [INFO] +- org.springframework.boot:spring-boot-starter-jdbc:3.2.4
 [INFO] |  +- org.springframework.boot:spring-boot-autoconfigure:3.2.4
 [INFO] +- org.springframework.boot:spring-boot-starter-web:3.2.4
 [INFO] |  +- org.springframework.boot:spring-boot-autoconfigure:3.2.4 (omitted for duplicate)
+```
 
 它会标记 (omitted for duplicate)，表示不会重复引入。
 
-⸻
 
 🤔 如果版本不一致怎么办？
 
@@ -45,7 +46,7 @@ mvn dependency:tree
 
 这时：
 •	Maven 会默认使用第一个声明的版本；
-•	你可以使用 <dependencyManagement> 手动指定版本，统一依赖版本；
+•	你可以使用 dependencyManagement 手动指定版本，统一依赖版本；
 
 问题	结论
 多个地方导入了同一个包（如 spring-boot-autoconfigure）怎么办？	Maven/Gradle 会自动去重，只保留一个
