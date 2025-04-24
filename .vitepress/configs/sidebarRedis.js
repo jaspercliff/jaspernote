@@ -1,10 +1,20 @@
-export const sidebarRedis= {
-    "/database/redis": [
+export const sidebarRedis = {
+    "/dataLayer/redis": [
         {
             text: "redis",
             items: [
-                {text: "index", link: "/database/redis/index.md"},
-                {text: "interact with data", link: "/database/redis/interactWithData/pubsub.md"}
+                {
+                    text: "dataType",
+                    items: [
+                        {text: "stream",link: "/dataLayer/redis/dataType/stream.md"}
+                    ]
+                },
+                {
+                    text: "interact with data",
+                    items: [
+                        {text: "pubsub",link: "/dataLayer/redis/interactWithData/pubsub.md"}
+                    ]
+                }
             ],
         },
     ]

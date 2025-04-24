@@ -19,12 +19,12 @@ export const nav = [
         ]
     },
     {
-        text: "数据库",
+        text: "数据层",
         items: [
-            {text: "mysql", link: "/database/mysql"},
-            {text: "oracle", link: "/database/oracle"},
-            {text: "redis", link: "/database/redis/index.md"},
-            {text: "sqlite", link: "/sqlite/index.md"},
+            {text: "mysql", link: "/dataLayer/mysql"},
+            {text: "oracle", link: "/dataLayer/oracle"},
+            {text: "redis", link: "/dataLayer/redis/index.md"},
+            {text: "sqlite", link: "/dataLayer/sqlite/index.md"},
         ],
     },
     {text: "数据结构", link: "/dataStructure/index.md"},
