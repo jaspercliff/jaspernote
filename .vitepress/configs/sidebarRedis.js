@@ -6,7 +6,7 @@ export const sidebarRedis = {
                 {
                     text: "dataType",
                     items: [
-                        {text: "stream",link: "/dataLayer/redis/dataType/stream.md"}
+                        {text: "stream",link: '/dataLayer/redis/dataType/stream.md'}
                     ]
                 },
                 {
