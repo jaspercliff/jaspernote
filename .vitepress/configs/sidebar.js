@@ -6,7 +6,7 @@ export const sidebar = {
     ...sidebarJvm,
     ...sidebarRedis,
     // 当用户位于 `java` 目录时，会显示此侧边栏
-    "/java/": [
+    "/java/basic": [
         {
             text: "java核心基础",
             items: [
@@ -175,44 +175,6 @@ export const sidebar = {
                     text: "ThreadLocal",
                     link: "/java/basic/juc/ThreadLocal.md",
                 },
-            ],
-        },
-    ],
-    "/java/framework/": [
-        {
-            text: "spring.md",
-            collapsed: true,
-            items: [
-                {
-                    text: "core",
-                    collapsed: true,
-                    items: [
-                        {text: "ioc", link: "/java/framework/spring.md/core/ioc.md"},
-                        {text: "aop", link: "/java/framework/spring.md/core/aop.md"},
-                        {text: "annotation", link: "/java/framework//spring.md/annotation/annotation.md"},
-                    ],
-                },
-                {
-                    text: "dataAccess",
-                    items: [
-                        {
-                            text: "transaction",
-                            link: "/java/framework/spring.md/dataAccess/transaction.md",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
-            text: "springBoot",
-            collapsed: true,
-            items: [],
-        },
-        {
-            text: "springSecurity",
-            collapsed: true,
-            items: [
-                {text: "index", link: "/java/framework/springSecurity/dataType.md"},
             ],
         },
     ],

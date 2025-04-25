@@ -165,3 +165,7 @@ XCLAIM mystream mygroup consumer2 0 1745487293419-0
 ## stream的数据结构
 
 [Radix tree](/dataStructure/tree/radixTree.md)
+
+## spring中使用
+
+> [文档地址](https://docs.spring.io/spring-data/redis/reference/redis/redis-streams.html)
