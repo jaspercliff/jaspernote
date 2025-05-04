@@ -121,6 +121,12 @@ public class GroupingByDemo {
 //collect2 = {1=IntSummaryStatistics{count=3, sum=3, min=1, average=1.000000, max=1}, 2=IntSummaryStatistics{count=1, sum=2, min=2, average=2.000000, max=2}}
 ```
 
+## partitioningBy
+
+`partitioningBy` 是 `Collectors` 类中的一个静态方法，用于将流中的元素根据某个条件进行二元分区。
+它返回一个 `Map<Boolean, List<T>>`，其中键是布尔值（`true` 或 `false`），值是满足条件或不满足条件的元素列表。
+
+
 ## Collectors.collectingAndThen
 Collectors.collectingAndThen 它允许你在收集完结果之后，对结果再做一次转换或处理
 
