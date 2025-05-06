@@ -1,6 +1,7 @@
 # springboot
 
 - [CommandLineRunner](./CommandLineRunner.md)
+- [springboot读取配置文件的几种方式](./springboot读取配置文件的几种方式.md)
 
 ## core feature
 - [自定义starter](./自定义starter.md)

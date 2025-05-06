@@ -1,5 +1,82 @@
 # 读取配置文件
 
-## @Value
-@Value 注解被用来从外部配置文件（通常是一个 XML 文件或一个 properties 文件）中注入一个布尔值到 subSeqEnable 字段上。、
-"${test.Seq.enable:true}" 表示从配置文件中读取 tae.subSeq.enable 属性的值，如果没有找到则默认为 true。
+在 Spring Boot 中，读取配置是开发中非常常见的需求。Spring Boot 提供了多种方式来读取 `application.properties` 或 `application.yml` 等配置文件中的值。以下是几种主要方式及其适用场景：
+
+---
+
+##  使用 `@Value` 注解（适用于简单配置项）**
+
+```java
+@Value("${my.config.enable:true}")
+private String configName;
+```
+- **优点**：适合读取简单的配置，如字符串、数字等。
+- **缺点**：不适合复杂结构、不能自动绑定集合对象。
+  "${my.config.enable:true}"表示从配置文件中读取my.config.enable属性的值，如果没有找到则默认为 true。
+---
+
+## 2. 使用 `@ConfigurationProperties`（推荐用于绑定整个配置前缀）**
+
+```java
+@Component
+@ConfigurationProperties(prefix = "my.config")
+@Validated
+public class MyConfigProperties {
+    private String name;
+    @min(1)
+    @max(60)
+    private int timeout;
+    private List<String> servers;
+    
+    // getter 和 setter 必须有
+}
+```
+
+配置文件中：
+
+```yaml
+my:
+  config:
+    name: example
+    timeout: 30
+    servers:
+      - server1
+      - server2
+```
+
+- **优点**：结构清晰、可绑定复杂结构（如 List、Map 等），更适合配置类。
+- **建议**：使用 `@Validated` + 注解进行校验（如 `@NotNull`）。
+
+`@EnableConfigurationProperties`（通常用于不加 @Component 的情况）
+
+---
+
+### 3. 通过 `Environment` 接口编程方式获取**
+
+```java
+@Autowired
+private Environment environment;
+
+public void printConfig() {
+    String name = environment.getProperty("my.config.name");
+}
+```
+
+- **优点**：动态读取配置，适合需要运行时读取的场景。
+- **缺点**：相比注解方式可读性较差，不利于维护。
+
+---
+
+### 4. 使用 `@PropertySource` 读取自定义配置文件**
+
+```java
+@Configuration
+@PropertySource("classpath:custom-config.properties")
+public class CustomConfig {
+    @Value("${custom.property}")
+    private String value;
+}
+```
+
+- **适用场景**：读取非默认路径的 `.properties` 文件。
+- **注意**：不支持 `.yml` 文件；如需支持 yml，推荐使用 Spring Boot 的配置方式（`@ConfigurationProperties`）。
