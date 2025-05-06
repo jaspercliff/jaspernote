@@ -56,7 +56,7 @@ my:
 
 ---
 
-### 3. 通过 `Environment` 接口编程方式获取
+## 3. 通过 `Environment` 接口编程方式获取
 
 ```java
 
@@ -73,7 +73,7 @@ public void printConfig() {
 
 ---
 
-### 4. 使用 `@PropertySource` 读取自定义配置文件
+## 4. 使用 `@PropertySource` 读取自定义配置文件
 
 ```java
 
