@@ -1,5 +1,7 @@
 # 读取配置文件
 
+> [代码地址](https://github.com/jaspercliff/springbootIntegration/blob/28bed861b46c3b228093e09f8e58f7d5e523f116/springDemo/src/main/java/com/jasper/webdemo/config/JasperConfigProperties.java#L29)
+
 在 Spring Boot 中，读取配置是开发中非常常见的需求。Spring Boot 提供了多种方式来读取 `application.properties` 或
 `application.yml` 等配置文件中的值。以下是几种主要方式及其适用场景：
 
@@ -22,31 +24,88 @@ private String configName;
 ## 2. 使用 `@ConfigurationProperties`（推荐用于绑定整个配置前缀）
 
 ```java
+package com.jasper.webdemo.config;
 
-@Component
-@ConfigurationProperties(prefix = "my.config")
-@Validated
-public class MyConfigProperties {
-    private String name;
-    @min(1)
-    @max(60)
-    private int timeout;
-    private List<String> servers;
+import lombok.Data;
 
-    // getter 和 setter 必须有
+@Data
+public class ClientConfig {
+  private String id;
+  private String name;
 }
+
+
+```
+```java
+package com.jasper.webdemo.config;
+
+
+import jakarta.annotation.PostConstruct;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
+import lombok.Data;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.validation.annotation.Validated;
+
+import java.util.List;
+import java.util.Map;
+
+@Configuration
+@ConfigurationProperties(prefix = "jasper.config")
+@Validated
+@Data
+public class JasperConfigProperties {
+    private static final Logger log = LoggerFactory.getLogger(JasperConfigProperties.class);
+    private String name;
+    @Min(1)
+    @Max(60)
+    private Integer timeout;
+
+    private List<String> servers;
+    private Map<String,String> urls;
+    private Map<String,ClientConfig> clients;
+
+    @PostConstruct
+    public void print(){
+        log.info("=====================name: {}",name);
+        log.info("=====================timeout: {}",timeout);
+        log.info("=====================servers: {}",servers);
+        log.info("=====================urls: {}",urls);
+        log.info("=====================clients: {}", clients);
+    }
+}
+
 ```
 
 配置文件中：
 
 ```yaml
-my:
+spring:
+  application:
+    name: webDemo
+server:
+  port: 9091
+jasper:
   config:
-    name: example
-    timeout: 30
+    name: testConfigurationProperties
+    timeout: 40
     servers:
       - server1
       - server2
+    urls:
+      home: https://example.com
+      login: https://example.com/login
+      logout: https://example.com/logout
+    clients:
+      client1:
+        id: abc
+        name: 123
+      client2:
+        id: def
+        name: 456
 ```
 
 - **优点**：结构清晰、可绑定复杂结构（如 List、Map 等），更适合配置类。
