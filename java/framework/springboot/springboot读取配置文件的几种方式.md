@@ -112,6 +112,11 @@ jasper:
 
 `@EnableConfigurationProperties`（通常用于不加 @Component 的情况）
 
+
+![img.png](img.png)
+springboot的配置会优先获取 没有才会获取系统属性或者环境变量
+
+- [system.getProperty](/java/basic/commonClass/System.md)
 ---
 
 ## 3. 通过 `Environment` 接口编程方式获取
