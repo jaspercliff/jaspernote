@@ -103,7 +103,7 @@ TransactionStatus 是 Spring 事务管理中的一个接口，用于表示当前
 
 - setRollbackOnly 标记事务为只能回滚，后续即使没有出现异常，事务提交时也会回滚      和直接rollback的区别就是。   该方法不会立刻回滚，事务仍然会继续执行
 
-### 使用 TransactionTemplate
+## 使用 TransactionTemplate
 
 ```java
 private final TransactionTemplate transactionTemplate;
