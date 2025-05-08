@@ -11,5 +11,6 @@
 - [springboot集成sqlite](integration/sqlite.md)
 - [springboot集成freemarker](integration/freemarker.md)
 - [springboot日志logback](integration/logback.md)
+- [springboot集成mybatis](integration/mybatis.md)
 
 
