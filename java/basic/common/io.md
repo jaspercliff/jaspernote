@@ -102,6 +102,32 @@ public class BufferCharDemo {
 }
 
 ```
+## properties
+
+用于读取和写入 .properties 配置文件的一个类，常用于配置参数、国际化、多环境支持等场景
+```java
+package com.jasper.io;
+
+import java.io.*;
+import java.util.Properties;
+
+public class PropertiesDemo {
+   public static void main(String[] args) throws FileNotFoundException {
+      final Properties properties = new Properties();
+      final File file = new File("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/test.properties");
+      try( FileInputStream fileInputStream = new FileInputStream(file);) {
+         //用于从输入流中加载属性配置
+         properties.load(fileInputStream);
+         final String property = properties.getProperty("name");
+         System.out.println("property = " + property);
+      } catch (IOException e) {
+         throw new RuntimeException(e);
+      }
+   }
+}
+```
+
+
 
 ## 基本数据类型
 `DataInputStream` 和 `DataOutputStream` 是 Java I/O 库中用于读写基本数据类型（如 `int`、`long`、`float`、`double`、`String` 等）的两个类。

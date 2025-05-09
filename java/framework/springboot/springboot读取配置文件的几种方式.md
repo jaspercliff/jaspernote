@@ -225,3 +225,27 @@ public class AppConfig {
 
 - @PropertySource 默认只支持 .properties 无法直接读取 .yml 文件
 - factory 属性 指定自定义的 PropertySourceFactory 来支持更多格式
+
+## 直接使用properties获取
+
+```java
+package com.jasper.io;
+
+import java.io.*;
+import java.util.Properties;
+
+public class PropertiesDemo {
+    public static void main(String[] args) {
+        final Properties properties = new Properties();
+        final File file = new File("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/test.properties");
+        try( FileInputStream fileInputStream = new FileInputStream(file);) {
+            properties.load(fileInputStream);
+            final String property = properties.getProperty("name");
+            System.out.println("property = " + property);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}
+
+```

@@ -2,6 +2,7 @@
 
 在 Spring 中，事务管理有两种主要方式：**声明式事务（Declarative Transaction Management）
 **和**编程式事务（Programmatic Transaction Management）**
+
 ---
 
 ## ✅ 一、声明式事务（Declarative Transaction）
