@@ -1,7 +1,4 @@
 # 02 object-oriented
-## encapsulation extends polymorphism
-
-有助于构建模块化、可维护和可扩展的代码
 
 ## encapsulation
 
@@ -190,51 +187,108 @@ public class OuterClass {
 
 ###  匿名内部类（Anonymous Inner Class）
 
-匿名内部类是没有名字的内部类，通常用于只需要使用一次的场景。它们通常用于接口或抽象类的实例化。
+匿名内部类（Anonymous Inner Class）是 Java 中的一种简化语法，用于在`不需要单独定义一个类的情况下创建类的实例`。
+匿名内部类常常用于实现接口或继承类，并且通常用于一次性使用的实例化。
+
+#### 匿名内部类的特点：
+
+1. **没有类名**：匿名内部类没有类名，它直接定义在创建对象的地方。
+2. **简化代码**：适用于只需要使用一次的实现，尤其是实现接口或继承类时。
+3. **可以访问外部类的成员**：匿名内部类可以访问其外部类的成员（包括私有成员），但不能直接定义外部类的构造器。
 
 ``` java
-new Thread(new Runnable() {
+new SomeClassOrInterface() {
+    // Override methods or add new methods
+}
+```
+其中，`SomeClassOrInterface` 是你要实现的接口或继承的类，花括号 `{}` 内部是你对该类或接口的实现。
+
+#### 示例：
+
+假设有一个接口 `Listener`，你想要创建一个 `Listener` 的实例：
+
+```java
+public interface Listener {
+    void onChanged(String path);
+}
+```
+使用匿名内部类创建一个 `Listener` 实例，并实现 `onChanged` 方法：
+
+```java
+Listener listener = new Listener() {
     @Override
-    public void run() {
-        System.out.println("Anonymous Inner Class");
+    public void onChanged(String path) {
+        System.out.println("File changed: " + path);
     }
-}).start();
+};
 ```
 
-内部类的使用有助于使代码更加简洁且具有更好的封装性，但也增加了复杂性。合理使用内部类可以使设计更加灵活，更好地将实现细节隐藏起来。
+```java
+class Animal {
+    public void speak() {
+        System.out.println("Animal speaks");
+    }
+}
+Animal animal = new Animal() {
+    @Override
+    public void speak() {
+        System.out.println("Dog barks");
+    }
+};
+//一次性使用某个类的子类时，使用匿名内部类会让代码更加简洁
+```
 
-[//]: # (### 合成构造函数)
+在这个例子中，`Listener` 接口的实现没有显式地定义一个类，而是直接在 `new Listener()` 后面用大括号定义了实现类。
 
-[//]: # (在Java中，合成构造函数是由编译器自动生成的构造函数，主要用于在某些特定的场景下，)
+#### 匿名内部类的常见使用场景：
 
-[//]: # (如内部类访问其外部类的私有成员时，提供必要的访问权限。)
+1. **事件监听器**：在 GUI 程序或其他异步编程中，匿名内部类经常用于事件处理器或回调函数。
+   例如：
+   ``` java
+   button.addActionListener(new ActionListener() {
+       @Override
+       public void actionPerformed(ActionEvent e) {
+           System.out.println("Button clicked!");
+       }
+   });
+   ```
+2. **回调函数**：在需要回调函数的场景下，匿名内部类也非常常见。
+   例如，文件监听：
+   ```java
+   FileWatchService fileWatchService = new FileWatchService(new String[] {filePath}, new FileWatchService.Listener() {
+       @Override
+       public void onChanged(String path) {
+           System.out.println("File changed: " + path);
+       }
+   });
+   ```
 
-[//]: # (合成构造函数并不直接出现在源代码中，但在编译后的字节码中可以看到它们的存在)
+#### 匿名内部类的限制：
+1. **无法定义构造方法**：匿名内部类不能有构造方法，它只能调用外部类的构造方法。
+2. **只能继承一个类或实现一个接口**：匿名内部类可以实现接口或继承类，但不能同时继承多个类或实现多个接口。
+3. **无法定义静态成员**：匿名内部类不能有静态成员变量或方法。
 
-[//]: # (``` java)
+#### 匿名内部类与 Lambda 表达式的比较：
+匿名内部类的引入和 Lambda 表达式的使用有些相似，但它们有一些差异：
 
-[//]: # (public class OuterClass {)
+- **匿名内部类**可以用来实现接口或继承类，并且在实现时可以定义多个方法。
+- **Lambda 表达式**只适用于函数式接口（即只有一个抽象方法的接口），而且它更加简洁，代码更短。
 
-[//]: # (    private int privateField = 1;)
+#### 例子：匿名内部类 vs Lambda 表达式
 
-[//]: # ()
-[//]: # (    private class InnerClass {)
+**匿名内部类**：
+```java
+Thread thread = new Thread(new Runnable() {
+    @Override
+    public void run() {
+        System.out.println("Thread is running");
+    }
+});
+```
 
-[//]: # (        void show&#40;&#41; {)
+**Lambda 表达式**：
+```java
+Thread thread = new Thread(() -> System.out.println("Thread is running"));
+```
 
-[//]: # (            System.out.println&#40;"Accessing private field: " + privateField&#41;;)
-
-[//]: # (        })
-
-[//]: # (    })
-
-[//]: # (})
-
-[//]: # ()
-[//]: # (```)
-
-[//]: # (- OuterClass.class 是 OuterClass 这个外部类的编译结果。当你编译包含 OuterClass 的 .java 文件时，会生成这个 .class 文件。)
-
-[//]: # (- OuterClass$InnerClass1.class 是 OuterClass 中定义的一个内部类 InnerClass1 的编译结果。在Java中，内部类被编译成它们自己的 .class 文件，)
-
-[//]: # (这个文件的命名约定是 外部类名$内部类名.class。这样的命名表示 InnerClass1 是 OuterClass 的一个内部类。)
+总的来说，匿名内部类用于需要临时创建对象并实现某些方法的场景，而 Lambda 表达式是为了进一步简化代码并且提高可读性，尤其是在函数式接口的场景下。
