@@ -112,7 +112,7 @@ import java.io.*;
 import java.util.Properties;
 
 public class PropertiesDemo {
-   public static void main(String[] args) throws FileNotFoundException {
+   public static void main(String[] args) {
       final Properties properties = new Properties();
       final File file = new File("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/test.properties");
       try( FileInputStream fileInputStream = new FileInputStream(file);) {
