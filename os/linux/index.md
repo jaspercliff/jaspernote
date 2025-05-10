@@ -12,6 +12,9 @@
 - [frp内网穿透](utils/frp.md)
 - [systemctl](utils/systemctl.md)
 
+## 进程
+
+- [ps](process/ps.md)
 
 ## shell
 - [shell](./shell/index.md)
