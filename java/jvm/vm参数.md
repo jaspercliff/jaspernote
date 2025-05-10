@@ -3,7 +3,7 @@
 vm参数：命令行选项来控制jvm行为
 -Xms size: 设置JVM启动时的初始堆内存大小。  minimum size
 -Xmx size: 设置JVM的最大堆内存大小。  maximum
--Xmn size: 设置新生代的大小。  new generation
+-Xmn size: 设置新生代的大小。  new generation  通常为堆内存的1/3 1/4
 
 ```bash
 java -Xms512m -jar myapp.jar
@@ -12,9 +12,6 @@ JVM 启动时就会分配 512MB 的堆内存。如果应用程序在运行过程
 
 如果初始堆内存设置得足够大，那么 JVM 可以避免频繁地扩展堆内存，从而减少启动时间和运行时的性能开销
 如果初始堆内存太小，JVM 频繁地增加堆内存可能会导致内存碎片，影响性能
-
-
-
 
 ## -XX 参数详解
 
