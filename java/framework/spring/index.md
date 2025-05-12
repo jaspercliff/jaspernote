@@ -19,6 +19,12 @@
 
 ## api 
 
+### context
+
+- [applicationContext](./api/context/ApplicationContext.md)
+- [applicationContextAware](./api/context/ApplicationContextAware.md)
+- [FactoryBean](./api/context/FactoryBean.md)
+
 ### interface
 - [InitializingBean](./api/interfaces/InitializingBean.md)
 
