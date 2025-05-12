@@ -12,6 +12,7 @@
 
 ## 行为型 Behavioral
 - [观察者模式](./behavioral/observer.md)
+- [模版方法模式](./behavioral/templateMethod.md)
 
 
 
