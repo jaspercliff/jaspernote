@@ -1,5 +1,7 @@
 # Semaphore
-`Semaphore`（信号量）是 Java 中 `java.util.concurrent` 包提供的一个同步辅助类，它用于控制对共享资源的访问。信号量管理一组许可证（permits），线程可以通过调用 `acquire()` 方法来获取许可，如果许可不可用，线程则会阻塞直到许可证变得可用。当线程使用完资源后，它必须通过调用 `release()` 方法来释放许可。
+`Semaphore`（信号量）是 Java 中 `java.util.concurrent` 包提供的一个同步辅助类，它用于控制对共享资源的访问。
+信号量管理一组许可证（permits），线程可以通过调用 `acquire()` 方法来获取许可，如果许可不可用，线程则会阻塞直到许可证变得可用。
+当线程使用完资源后，它必须通过调用 `release()` 方法来释放许可。
 
 ### 主要用途
 
@@ -11,6 +13,7 @@
 ### 核心方法
 
 - `acquire()`：请求一个许可。如果请求不成功（即许可数量为0），当前线程将被阻塞直到许可证可用。
+- `tryAcquire(1,1000,ms)`: 尝试获取一个许可，如果成功则返回 `true`，否则返回 `false`。 等待1s 获得一个许可
 - `release()`：释放一个许可，增加可用许可证的数量。
 - `availablePermits()`：返回当前可用的许可证数量。
 
@@ -61,3 +64,28 @@ public class ParkingLot {
 3. **正确使用**：虽然 `Semaphore` 可以用于多种并发控制场景，但其主要还是用于资源的互斥访问控制，使用时需要谨慎设计逻辑，避免引入并发bug。
 
 `Semaphore` 是一个强大的同步工具，可以在你需要控制并发访问数量时提供大量的帮助。
+
+
+## 使用信号量等待异步事件
+
+```java
+    @Test
+    public void watchSingleFile() throws Exception {
+        final File file = tempFolder.newFile();
+//         0 就相当于阻塞 直到有人释放
+        final Semaphore waitSemaphore = new Semaphore(0);
+        FileWatchService fileWatchService = new FileWatchService(new String[] {file.getAbsolutePath()}, path -> {
+            assertThat(file.getAbsolutePath()).isEqualTo(path);
+            waitSemaphore.release();
+        });
+        fileWatchService.start();
+        fileWatchService.awaitStarted(1000);
+        modifyFile(file);
+//        主线程等待一秒
+        boolean result = waitSemaphore.tryAcquire(1, 1000, TimeUnit.MILLISECONDS);
+//        assertThat 是一种断言语法，通常用于单元测试中，用来判断一个值是否符合预期   判断
+//        文件监听是异步的，监听器可能还没来得及检测到变化、还没调用回调函数，直接就调用到asset了。结果就是assert错误
+        assertThat(result).isTrue();
+        fileWatchService.shutdown();
+    }
+```
