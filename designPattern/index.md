@@ -1,7 +1,12 @@
 # designPattern 
 
+## SOLID 五大设计原则
+
+- [solid](./SOLID.md)
+
 ## 创建型 Creational 
 - [单例模式](./creational/singleton.md)
+- [简单工厂(不属于Gof)](./creational/simpleFactory.md)
 
 
 ## 结构型 Structural
@@ -33,7 +38,6 @@
    这类模式与对象的创建机制有关，试图根据实际情况使用合适的方式创建对象。
 
    具体模式包括：
-   - 单例模式（Singleton）
    - 工厂方法模式（Factory Method）
    - 抽象工厂模式（Abstract Factory）
    - 建造者模式（Builder）
