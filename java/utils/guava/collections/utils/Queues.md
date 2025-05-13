@@ -1,5 +1,6 @@
 # queues
 
+[jdk文档](https://guava.dev/releases/snapshot/api/docs/com/google/common/collect/Queues.html#drain(java.util.concurrent.BlockingQueue,java.util.Collection,int,long,java.util.concurrent.TimeUnit))
 Queues.drain 是 Guava 提供的一个用于批量从队列中提取元素的工具方法，
 能简化从 BlockingQueue 中批量拉取数据的操作
 比blockingQueue自带的drain更多功能
