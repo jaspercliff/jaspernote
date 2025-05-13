@@ -115,4 +115,4 @@ public class BlockingQueueDrainDemo {
 
 ## guava 
 
-- [Queue.drain()]()
+- [Queues.drain()](/java/utils/guava/collections/utils/Queues.md)
