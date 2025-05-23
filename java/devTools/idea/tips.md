@@ -4,3 +4,17 @@
 
 直接在文件夹复制可以直接生成类
 ![asd](./assets/快速通过复制的代码生成java类.gif)
+
+## 注释
+
+渲染的文档 可以使用 <br> 换行
+
+
+## source code
+
+Library source does not match the bytecode for class
+1.	打开 IntelliJ IDEA，进入菜单：File > Project Structure > Libraries。
+2.	在左侧列表中，找到并选择显示问题的库（Library）。
+3.	在右侧的“Classes”、“Sources”、“JavaDocs”选项卡中，切换到 Sources。
+4.	选中已附加的源代码路径，点击右侧的减号（-）按钮，移除该源代码。
+5.	点击 Apply，然后点击 OK，保存并关闭设置窗口

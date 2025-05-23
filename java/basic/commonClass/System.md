@@ -12,6 +12,12 @@ stdout.encoding = UTF-8
 path.separator = :
 os.version = 15.4.1
 
+## 常用属性
+
+``` java
+System.getProperty("user.dir") 获取当前工作目录
+```
+
 
 -D 是 Java 启动参数中的一个标志，用于设置系统属性（System Properties），这些属性在程序中可以通过 System.getProperty("key") 获取
 
