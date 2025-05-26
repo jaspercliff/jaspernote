@@ -27,7 +27,7 @@ export default defineConfig({
         },
         footer: {
             message:
-                'Released under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0</a>.',
+                'Released under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.',
             copyright:
                 'Copyright © 2024-present <a href="https://github.com/jaspercliff">jasperCliff</a>',
         },
