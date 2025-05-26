@@ -2,13 +2,13 @@ import {sidebarShell} from './sidebar/sidebarShell'
 import {sidebarJvm} from "./sidebar/sidebarJvm";
 import {sidebarRedis} from "./sidebar/sidebarRedis";
 import {sidebarJuc} from "./sidebar/sidebarJuc";
+import {sidebarJavaBasic} from "./sidebar/sidebarJavaBasic";
 export const sidebar = {
     ...sidebarShell,
     ...sidebarJvm,
     ...sidebarRedis,
     ...sidebarJuc,
-
-
+    ...sidebarJavaBasic,
     "/java/designPattern/": [
         {
             text: "创建型",

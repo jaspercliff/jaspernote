@@ -9,7 +9,7 @@ export const sidebarJavaBasic = {
                     collapsed: false,
                     items: [
                         {text: "关键字", link: "/java/basic/common/01keyword.md"},
-                        {text: "数据类型", link: "/java/basic/common/02dateType.md"},
+                        {text: "数据类型", link: "/java/basic/common/02dataclearType.md"},
                         {text: "运算符", link: "/java/basic/common/03operator.md"},
                         {text: "控制和循环", link: "/java/basic/common/04control.md"},
                         {text: "面向对象",link: "/java/basic/common/object-oriented.md"},
