@@ -3,10 +3,10 @@
 ## 目录
 ### 基础
 
-- [关键字](common/keyword.md)
-- [数据类型](common/dataType.md)
-- [控制和循环](common/control.md)
-- [basic](common/basic.md)
+- [关键字](common/01keyword.md)
+- [数据类型](common/02dataType.md)
+- [运算符](common/03operator.md)
+- [控制和循环](common/04control.md)
 - [面向对象](common/object-oriented.md)
 - [枚举](common/enum.md)
 - [注解](common/注解.md)
