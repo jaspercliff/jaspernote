@@ -44,5 +44,6 @@ layout: home
 ### 实现法
 - 使用 **Master-Slave 集群** 增强高可用
 - 配合 **Controller** 进行 Broker 的应急处理
-- 采用 **Proxy** 支持多语言与跨网络访问
+- 采用 **Proxy** 支持多语言与跨网络访问 所有客户端流量统一接入 Proxy，再转发给后端 Broker
+
 

@@ -57,13 +57,61 @@ sh bin/tools.sh org.apache.rocketmq.example.quickstart.Consumer
 
 ## 集群部署
 
+> [官网地址](https://rocketmq.apache.org/zh/docs/deploymentOperations/01deploy)
+
+local模式下broker和proxy同进程部署
+cluster模式下broker和proxy分开部署
+
 ### namesrv
 
 namesrv是无状态的，namesrv之间没有消息同步
 
 ### broker
 
+1. 单master    broker 挂了就不能使用
+2. 多master    任一broker宕机，不影响其他broker        崩溃了之后消息可能丢失   非核心业务 
+3. 多master 多slave 异步复制。    性能较高  存在消息丢失风险                   默认   大多数通用业务
+4. 多master 多slave 同步复制。    性能较低  不存在消息丢失风险                 核心业务 对数据可靠性较高
 
+local 
+```bash 
+#3
+### 在机器A，启动第一个Master，例如NameServer的IP为：192.168.1.1
+$ nohup sh bin/mqbroker -n 192.168.1.1:9876;127.0.0.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/broker-a.properties --enable-proxy &
+ 
+### 在机器B，启动第二个Master，例如NameServer的IP为：192.168.1.1
+$ nohup sh bin/mqbroker -n 192.168.1.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/broker-b.properties --enable-proxy &
+ 
+### 在机器C，启动第一个Slave，例如NameServer的IP为：192.168.1.1
+$ nohup sh bin/mqbroker -n 192.168.1.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/broker-a-s.properties --enable-proxy &
+ 
+### 在机器D，启动第二个Slave，例如NameServer的IP为：192.168.1.1
+$ nohup sh bin/mqbroker -n 192.168.1.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/broker-b-s.properties --enable-proxy &
+```
+cluster 
+```bash
+### 在机器A，启动第一个Master，例如NameServer的IP为：192.168.1.1
+$ nohup sh bin/mqbroker -n 192.168.1.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/broker-a.properties &
+ 
+### 在机器B，启动第二个Master，例如NameServer的IP为：192.168.1.1
+$ nohup sh bin/mqbroker -n 192.168.1.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/broker-b.properties &
+ 
+### 在机器C，启动第一个Slave，例如NameServer的IP为：192.168.1.1
+$ nohup sh bin/mqbroker -n 192.168.1.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/broker-a-s.properties &
+ 
+### 在机器D，启动第二个Slave，例如NameServer的IP为：192.168.1.1
+$ nohup sh bin/mqbroker -n 192.168.1.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/broker-b-s.properties &
+```
 
-## 配置
+> master的brokerId必须是0。slave必须大于0 
+### proxy
+RocketMQ Proxy 是 RocketMQ 的一个组件，主要用于支持多语言客户端的接入。它允许非 Java 客户端（如 Go、Python、Node.js 等）通过 HTTP 或 gRPC 协议与 RocketMQ 进行交互。
+```bash
+nohup sh bin/mqproxy -n 192.168.1.1:9876 &
+```
+
+### controller
+
+提供主备自动切换的功能，需要部署三副本以上 遵循raft的多数派协议（5个节点需要三个节点同意）
+
 
