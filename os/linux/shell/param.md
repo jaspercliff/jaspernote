@@ -38,13 +38,21 @@ fi
 ```
 
 output:
-第二个参数: 2
+sh parm a "b c" d
+shell 传递参数
+参数文件名：parm
+第一个参数: a
+第二个参数: b c
 参数的个数: 3
-1 2 3
-1 2 3
-进程id:26541
-运行的最后一个进程id 26542
+a b c d
+a b c d
+进程id:56388
+运行的最后一个进程id 56389
 最后命令的状态 0
 cp: file1.txt: No such file or directory
-parm: line 14: 26542 Terminated: 15 sleep 100
+parm: line 14: 56389 Terminated: 15          sleep 100
 复制失败
+
+
+$* 有双引号时 会将所有的参数合并为一个参数  a b c d
+$@ 有双引号时 会将每个参数都作为一个独立的参数  a "b c"  d

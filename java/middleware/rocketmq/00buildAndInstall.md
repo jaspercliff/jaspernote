@@ -1,4 +1,4 @@
-# rocketmq 从源码构建 
+# rocketmq 启动和部署 
 
 - [遇到的问题](./problems.md)
 
@@ -27,6 +27,13 @@ nohup sh bin/mqnamesrv &
 tail -f ~/logs/rocketmqlogs/namesrv.log
  ```
 2025-03-19 20:56:26 INFO main - The Name Server boot success. serializeType=JSON, address 0.0.0.0:9876
+
+### 指定端口 
+
+listenPort=9875
+```bash
+nohup sh mqnamesrv -c ../conf/namesrv.conf &
+```
 
 ## 启动broker and proxy 
 ```bash
@@ -102,16 +109,45 @@ $ nohup sh bin/mqbroker -n 192.168.1.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/b
 ### 在机器D，启动第二个Slave，例如NameServer的IP为：192.168.1.1
 $ nohup sh bin/mqbroker -n 192.168.1.1:9876 -c $ROCKETMQ_HOME/conf/2m-2s-async/broker-b-s.properties &
 ```
+## 如果一台机器启动的话
 
+### broker
+必须修改端口号和storePathRootDir
+
+listenPort=10911
+storePathRootDir=/opt/services/rocketmq/rocketmq-all-5.3.2-master/stores
+
+```bash
+nohup sh mqbroker -n "117.72.97.254:9875;117.72.97.254:9876" -c ../conf/2m-2s-async/broker-a.properties &
+```
+配置文件中修改
+namesrvAddr=117.72.97.254:9875;117.72.97.254:9876
+```bash
+nohup sh mqbroker -c ../conf/2m-2s-async/broker-a.properties &
+```
 > master的brokerId必须是0。slave必须大于0 
+
+
 ### proxy
 RocketMQ Proxy 是 RocketMQ 的一个组件，主要用于支持多语言客户端的接入。它允许非 Java 客户端（如 Go、Python、Node.js 等）通过 HTTP 或 gRPC 协议与 RocketMQ 进行交互。
 ```bash
 nohup sh bin/mqproxy -n 192.168.1.1:9876 &
 ```
+指定配置文件
+```bash
+nohup sh mqproxy -pc ../conf/rmq-proxy.json &
+```
+rmq-proxy.json
+```json
+{
+  "rocketMQClusterName": "DefaultCluster",
+  "namesrvAddr": "117.72.97.254:9875;117.72.97.254:9876"
+}
+```
 
 ### controller
 
+[//]: # (todo 后面在实现)
 提供主备自动切换的功能，需要部署三副本以上 遵循raft的多数派协议（5个节点需要三个节点同意）
 
 

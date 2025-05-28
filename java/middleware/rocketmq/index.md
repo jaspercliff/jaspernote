@@ -4,7 +4,7 @@
 ![outline](assets/outline.png)
 
 - [usage](usage.md)
-- [从源码构建并搭建](00buildAndInstall)
+- [deploy](00buildAndInstall)
 - [docker compose安装](dockercompose.md)
 ---
 - [基本概念](mq/concept.md)
