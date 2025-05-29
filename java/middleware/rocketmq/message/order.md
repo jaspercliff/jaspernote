@@ -1,7 +1,8 @@
 # 顺序消息
 
-RocketMQ 的顺序消息（Ordered Message）是一种保证消息严格按照发送顺序进行消费的消息类型，适用于对消息顺序有严格要求的场景，如订单处理、交易流水等。RocketMQ 提供了两种顺序消息方式：全局顺序消息和分区顺序消息。
-
+RocketMQ 的顺序消息（Ordered Message）是一种保证消息严格按照发送顺序进行消费的消息类型，适用于对消息顺序有严格要求的场景，如订单处理、交易流水等。
+RocketMQ 提供了两种顺序消息方式：全局顺序消息和分区顺序消息。
+![img.png](../assets/order.png)
 - 全局顺序消息
 
 全局顺序消息保证所有消息按照严格的顺序被消费，这意味着所有消息都被写入同一个队列（queue）并按照 FIFO（First In First Out）的顺序进行消费。
@@ -38,11 +39,6 @@ SendResult sendResult = producer.send(new Message("TopicTest", "TagA", "OrderID0
            }
         }, "OrderID001");
 ```
-
-
-
-
-
 - 消费端的顺序消费
 
 RocketMQ 采用消费锁机制保证顺序消费：
@@ -77,5 +73,3 @@ return ConsumeOrderlyStatus.SUCCESS;
 总结：
 •	全局顺序消息适用于要求严格顺序的业务，但吞吐量较低。
 •	分区顺序消息适用于部分顺序的场景，能够在保证局部顺序的同时提高吞吐量。
-
-在实际项目中，应根据业务需求选择合适的顺序消息方式，以保证消息的正确性和系统的吞吐能力。
