@@ -11,6 +11,7 @@
 - [rsync](utils/rsync.md)
 - [frp内网穿透](utils/frp.md)
 - [systemctl](utils/systemctl.md)
+- [curl](utils/curl.md)
 
 ## 进程
 
