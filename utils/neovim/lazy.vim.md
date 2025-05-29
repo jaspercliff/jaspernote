@@ -1,5 +1,6 @@
-# lazy.vim
+# lazyVim
 
+neovim的各种常用插件的集合，相当于一键安装了许多常用插件
 ## 安装
 
 - https://lazy.folke.io/installation
@@ -24,3 +25,13 @@ nvim
 空格 ｜ 打开多个文件垂直切分
 空格 - 打开多个文件horizon split 拆分之后 ctrl+h+j+k+l切换
 
+H  L   在缓冲区之前切换 左右 
+
+:Mason  查看插件
+
+
+
+space +e/E
+
+e root dir 项目根目录
+E cwd current working directory 当前文件所在目录
