@@ -5,7 +5,17 @@ export const nav = [
     },
     {
         text: "java",
-        link: "/java",
+        items: [
+            {
+                text: "java基础", link: "/java/basic/index.md",
+            },
+            {text: "常用类方法",link: "/java/basic/commonClass/index.md"},
+            {text: "新特性",link: "/java/basic/newFeature/index.md"},
+            {text: "juc",link: "/java/basic/juc/basic.md"},
+            {text: "jvm",link: "/java/jvm/index.md"},
+            {text: "framework",link: "/java/framework/index.md"},
+
+        ]
     },
     {
         text: "设计模式",
@@ -29,8 +39,8 @@ export const nav = [
     },
     {text: "数据结构", link: "/dataStructure/index.md"},
     {
-      text: "os",
-      link: "/os/index"
+        text: "os",
+        link: "/os/index"
     },
     {
         text: "python",
@@ -45,7 +55,7 @@ export const nav = [
         link: "/front/index.md",
     },
     {
-        text:  "groovy",
+        text: "groovy",
         link: "/groovy/index.md",
     },
     {

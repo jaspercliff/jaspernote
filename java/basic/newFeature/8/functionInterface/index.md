@@ -16,8 +16,8 @@
 4. **Supplier<T>**：不接收参数，返回一个结果。用来创建对象或生成某个值。
     - 抽象方法: `T get()`
 ```
-- [Function](./function.md)
-- [Supplier](./Supplier.md)
+- [Function](function.md)
+- [Supplier](Supplier.md)
 ## 其他函数式接口
 ```
 1. **UnaryOperator<T>**：继承自`Function<T, T>`，表示一个参数相同类型的函数。适用于“一元操作”。
