@@ -2,105 +2,88 @@
 - InputStream/Reader: 所有的输入流的基类，前者是字节输入流，后者是字符输入流。
 - OutputStream/Writer: 所有输出流的基类，前者是字节输出流，后者是字符输出流。
 ## File
-``` java
-package com.jasper.file;
-
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
-public class ByteDemo {
+```java
+@Slf4j
+public class FileByteDemo {
     public static void main(String[] args) {
-        try(FileInputStream fileInputStream = new FileInputStream
-                ("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\file\\test.png");
-            FileOutputStream fileOutputStream = new FileOutputStream
-                    ("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\file\\testCopy.png")
-
+        try (FileInputStream fileInputStream = new FileInputStream("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/doc/1.jpeg");
+             final FileOutputStream fileOutputStream = new FileOutputStream("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/doc/2.jpeg")
         ) {
-            int byteValue;
-            while ((byteValue = fileInputStream.read())!=-1){
-                fileOutputStream.write(byteValue);
+            int byteRead;
+            while ((byteRead = fileInputStream.read()) != -1) {
+                fileOutputStream.write(byteRead);
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+        }catch (IOException e) {
+            log.error(e.getMessage());
         }
     }
 }
-
 ```
-``` java
-package com.jasper.file;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-
-public class CharDemo {
+```java
+@Slf4j
+public class FileCharDemo {
     public static void main(String[] args) {
-        try (FileReader
-                     fileReader = new FileReader("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\file\\source.txt");
-             FileWriter fileWriter = new FileWriter("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\file\\destination.txt");
-        ){
+//        是基于字符的，它会尝试用默认编码（通常是 UTF-8）来解释字节
+        try (final FileReader fileReader = new FileReader("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/doc/source.txt");
+             final FileWriter fileWriter = new FileWriter("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/doc/target.txt")
+        ) {
             int byteValue;
-            while ((byteValue = fileReader.read())!= -1){
+            while ((byteValue = fileReader.read()) != -1) {
                 fileWriter.write(byteValue);
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            log.error(e.getMessage());
         }
     }
 }
-
 ```
+
 ## buffed
-ava中的缓冲输入输出流主要是通过BufferedInputStream和BufferedOutputStream类来实现的。这些流类包装了其他类型的输入输出流（如文件流FileInputStream和FileOutputStream），
+java中的缓冲输入输出流主要是通过BufferedInputStream和BufferedOutputStream类来实现的。这些流类包装了其他类型的输入输出流（如文件流FileInputStream和FileOutputStream），
 提供了缓冲功能，以增强文件读写操作的效率和性能。缓冲流通过减少实际的物理读写次数来提高IO操作的效率，因为直接对磁盘的读写操作相比内存操作要慢得多
-``` java
-package com.jasper.file;
-import java.io.*;
+```java
+@Slf4j
 public class BufferByteDemo {
+   public static void main(String[] args) {
+      try (FileInputStream fileInputStream = new FileInputStream("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/doc/1.jpeg");
+           final FileOutputStream fileOutputStream = new FileOutputStream("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/doc/2.jpeg");
+           final BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
+           final BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream)
+      ) {
+         int byteRead;
+         while ((byteRead = bufferedInputStream.read()) != -1) {
+            bufferedOutputStream.write(byteRead);
+            //                数据先写到内存缓冲区 不会立即写到磁盘或者网络上，只有缓冲区慢了或者流关闭的时候才会写入，使用flush可以手动刷新缓冲区，立刻写入文件
+            bufferedOutputStream.flush();
+         }
+      } catch (IOException e) {
+         log.error(e.getMessage());
+      }
+   }
+}
+```
+```java
+@Slf4j
+public class BufferedCharDemo {
     public static void main(String[] args) {
-        try(FileInputStream fileInputStream = new FileInputStream
-                ("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\file\\test.png");
-            FileOutputStream fileOutputStream = new FileOutputStream
-                    ("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\file\\testCopy.png");
-            BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream);
-            BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream)
+//        是基于字符的，它会尝试用默认编码（通常是 UTF-8）来解释字节
+        try (final FileReader fileReader = new FileReader("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/doc/source.txt");
+             final FileWriter fileWriter = new FileWriter("/Users/jasper/IdeaProjects/person/javaLearn/javaBasic/src/main/java/com/jasper/io/doc/target.txt");
+             final BufferedReader bufferedReader = new BufferedReader(fileReader);
+             final BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
         ) {
-            int byteData;
-            while ((byteData = bufferedInputStream.read()) != -1) {
-                bufferedOutputStream.write(byteData);
+            int byteValue;
+            while ((byteValue = bufferedReader.read()) != -1) {
+                bufferedWriter.write(byteValue);
+               //                数据先写到内存缓冲区 不会立即写到磁盘或者网络上，只有缓冲区慢了或者流关闭的时候才会写入，使用flush可以手动刷新缓冲区，立刻写入文件
+               bufferedWriter.flush();
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error(e.getMessage());
         }
     }
 }
-
-
-
-
-package com.jasper.file;
-import java.io.*;
-public class BufferCharDemo {
-    public static void main(String[] args) {
-        try (FileReader
-                     fileReader = new FileReader("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\file\\source.txt");
-             FileWriter fileWriter = new FileWriter("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\file\\destination.txt");
-             BufferedReader bufferedReader = new BufferedReader(fileReader);
-             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
-        ){
-            String line;
-         while ((line =  bufferedReader.readLine())!= null){
-             bufferedWriter.write(line);
-         }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-}
-
 ```
 ## properties
 
