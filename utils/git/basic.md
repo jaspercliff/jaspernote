@@ -38,6 +38,8 @@ git config --global user.email "hello@itcast.cn"
 
 git config --list
 
+git config --global init.defaultBranch master
+设置git init之后的默认分支名称
 
 
 ### 获取Git仓库
