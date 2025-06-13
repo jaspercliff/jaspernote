@@ -25,6 +25,7 @@
 - [ArrayList](collection/ArrayList.md)
 - [LinkedList](collection/LinkedList.md)
 - [HashMap](collection/HashMap.md)
+- [enumMap](collection/enumMap.md)
 ### 线程
 - [basic](thread/basic.md)
 - [线程基础](thread/线程基础.md)
