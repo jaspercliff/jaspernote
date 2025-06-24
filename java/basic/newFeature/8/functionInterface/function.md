@@ -1,3 +1,4 @@
+# function 
 Java 8 引入了 `Function` 接口作为其函数式编程特性的一部分。`Function` 接口是 Java 8 中新增的重要功能之一，它允许你编写简洁且易于理解的代码。下面是对 `Function` 接口的详细介绍：
 
 ### Function 接口简介

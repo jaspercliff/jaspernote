@@ -17,7 +17,10 @@
     - 抽象方法: `T get()`
 ```
 - [Function](function.md)
-- [Supplier](Supplier.md)
+- [Supplier](supplier.md)
+- [Consumer](consumer.md)
+- [Predicate](predicate.md)
+
 ## 其他函数式接口
 ```
 1. **UnaryOperator<T>**：继承自`Function<T, T>`，表示一个参数相同类型的函数。适用于“一元操作”。
@@ -34,3 +37,5 @@
 5. **BiFunction<T, U, R>**：类似于`Function`，但是接收两个输入参数，并返回一个结果。
     - 抽象方法: `R apply(T t, U u)`
 ```
+
+- [BiConsumer](BiConsumer.md)

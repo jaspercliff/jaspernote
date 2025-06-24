@@ -26,3 +26,8 @@ mkdir -p /home/user/{docs,images,videos}
 
 `>` 文件存在，会清空文件在写入新内容
 `>>` 文件存在，会在文件末尾追加内容
+
+
+du -sl /path/to/directory  查看这个目录占了多大空间
+
+清空文件内容 > filename 
