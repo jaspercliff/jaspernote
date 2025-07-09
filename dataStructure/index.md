@@ -8,6 +8,8 @@
 
 - [常见算法](./algo/index)
 - [迭代、递归、回溯](./01iterateAndRecursion.md)
+- [栈](./stack.md)
+- [堆](./heap.md)
 
 ### 线性数据结构
 
