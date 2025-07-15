@@ -35,6 +35,7 @@ export const nav = [
             {text: "oracle", link: "/dataLayer/oracle"},
             {text: "redis", link: "/dataLayer/redis/index.md"},
             {text: "sqlite", link: "/dataLayer/sqlite/index.md"},
+            {text: "hive", link: "/dataLayer/hive/index.md"}
         ],
     },
     {text: "数据结构", link: "/dataStructure/index.md"},
@@ -51,16 +52,20 @@ export const nav = [
     //     link: "/cpp/dataType.md",
     // },
     {
-        text: "front",
-        link: "/front/index.md",
-    },
-    {
         text: "groovy",
         link: "/groovy/index.md",
     },
     {
         text: 'lua',
         link: "/lua/index.md",
+    },
+    {
+        text: "front",
+        link: "/front/index.md",
+    },
+    {
+        text: "flutter",
+        link: "/flutter/index.md",
     },
     {
         text: "源码解析",
