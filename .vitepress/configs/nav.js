@@ -70,6 +70,27 @@ export const nav = [
     {
         text: "源码解析",
         link: "/sourceCode/index.md",
+    },
+    {
+        text: "utils",
+        items: [
+            {
+                text: "git",
+                link: "utils/git/index.md",
+            },
+            {
+                text: "jmeter",
+                link: "utils/jmeter/index.md",
+            },
+            {
+                text: "vim",
+                link: "utils/vim/index.md",
+            },
+            {
+                text: "neovim",
+                link: "utils/neovim/index.md",
+            }
+        ]
     }
 
 ]
