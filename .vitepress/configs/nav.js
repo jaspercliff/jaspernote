@@ -14,7 +14,7 @@ export const nav = [
             {text: "juc",link: "/java/basic/juc/basic.md"},
             {text: "jvm",link: "/java/jvm/index.md"},
             {text: "framework",link: "/java/framework/index.md"},
-
+            {text: "utils",link: "/java/utils/index.md"},
         ]
     },
     {

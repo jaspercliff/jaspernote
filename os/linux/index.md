@@ -13,6 +13,11 @@
 - [systemctl](utils/systemctl.md)
 - [curl](utils/curl.md)
 
+## file 
+
+- [index](file/index.md)
+- [压缩解压缩](./file/compress.md)
+
 ## 进程
 
 - [ps](process/ps.md)

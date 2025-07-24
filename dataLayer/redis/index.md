@@ -1,5 +1,6 @@
 # redis
 
+- [install](./basic/install.md)
 
 ## data type
 
