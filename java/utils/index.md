@@ -9,7 +9,7 @@
 
 ## 缓存
 
-- [caffeine](./caffeine)
+- [caffeine](./caffeine/index.md)
 - [guava cache]()
 
 ## json 处理

@@ -4,4 +4,4 @@
 - [concurrentHashmap]()
 
 ## queue
-- [blockingqueue](./queue/blockingqueue.md)
+- [blockingqueue](./queue/blockingQueue.md)
