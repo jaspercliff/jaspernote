@@ -20,7 +20,7 @@ Library source does not match the bytecode for class
 5.	点击 Apply，然后点击 OK，保存并关闭设置窗口
 
 
-## 注释缩紧 
+## 注释缩进
 
 前后效果对比： 
 ```java
@@ -32,3 +32,7 @@ void test(){
 ```
 
 ![img.png](assets/注释设置.png)
+
+## 导包设置 
+
+![img.png](assets/导包设置.png)
