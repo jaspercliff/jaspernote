@@ -9,6 +9,7 @@ export const nav = [
             {
                 text: "java基础", link: "/java/basic/index.md",
             },
+            {text: "dev tools",link: "/java/devTools/index.md"},
             {text: "常用类方法",link: "/java/basic/commonClass/index.md"},
             {text: "新特性",link: "/java/basic/newFeature/index.md"},
             {text: "juc",link: "/java/basic/juc/basic.md"},

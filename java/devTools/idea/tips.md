@@ -18,3 +18,17 @@ Library source does not match the bytecode for class
 3.	在右侧的“Classes”、“Sources”、“JavaDocs”选项卡中，切换到 Sources。
 4.	选中已附加的源代码路径，点击右侧的减号（-）按钮，移除该源代码。
 5.	点击 Apply，然后点击 OK，保存并关闭设置窗口
+
+
+## 注释缩紧 
+
+前后效果对比： 
+```java
+void test(){
+// 你好
+    // 你好 
+    System.out.println("hello");
+}
+```
+
+![img.png](assets/注释设置.png)
