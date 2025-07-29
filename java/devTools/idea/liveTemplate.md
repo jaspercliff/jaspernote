@@ -14,7 +14,7 @@ editor.liveTemplate
 
 ## 添加liev template
 
-添加固定注释：
+添加固定注释： anno  则生成  add by xxx for xxx 20250728 start
 
 在右侧点击 + 号，选择 Live Template。
 - Abbreviation（缩写）：anno（这是你输入 .anno 后触发的关键词）
@@ -23,6 +23,8 @@ editor.liveTemplate
 
 ![setting](./assets/liveTemplate.png)
 ![img.png](assets/template.png)
+
+
 
 
 
