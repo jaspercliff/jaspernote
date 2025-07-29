@@ -12,3 +12,6 @@
 ## 加密算法
 
 - [gpg加密算法](encryption/gpg.md)]
+
+## 
+LRU（Least Recently Used）：最近最少使用

@@ -31,8 +31,8 @@ void test(){
 }
 ```
 
-![img.png](assets/注释设置.png)
+![img.png](assets/annoSetting.png)
 
 ## 导包设置 
 
-![img.png](assets/导包设置.png)
+![img1.png](assets/importSetting.png)
