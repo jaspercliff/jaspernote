@@ -12,7 +12,7 @@ editor.liveTemplate
 - .cast
 
 
-## 添加liev template
+## 添加live templateve
 
 添加固定注释： anno  则生成  add by xxx for xxx 20250728 start
 
