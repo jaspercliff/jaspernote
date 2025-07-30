@@ -99,9 +99,39 @@ public class Singleton {
     }
 }
 ```
+#### violent 作用
 [volatile](/java/basic/thread/volatile.md)
 
-### synchronized作用的比较
+instance = new Singleton(); 这一行代码实际上包含三个步骤：
+
+1. 分配内存空间（为 Singleton 对象分配内存）
+2. 初始化对象（调用构造函数，设置字段值等）
+3. 将 instance 指向该内存地址（引用赋值）
+
+在多线程环境下，由于 编译器优化 和 CPU 指令重排序，JVM 可能会将执行顺序从 1→2→3 优化为：
+
+1 → 3 → 2
+
+也就是说：
+
+1. 分配内存
+2. instance = 指向内存地址（此时 instance 不为 null！）
+3. 才开始初始化对象（构造函数执行）
+
+💥 死亡场景：线程拿到“未构造完”的对象
+假设两个线程 A 和 B 同时调用 getInstance()：
+
+线程 A 进入同步块，执行 new Singleton()，但发生了重排序（1→3→2）：
+1. 内存分配 ✅
+2. instance = 地址 ✅（instance 不再为 null）
+3. 构造函数还没执行 ❌
+
+此时 线程 B 执行到第一个 if (instance == null)：
+发现 instance != null，于是直接返回这个“半成品”对象！但这个对象的字段还没初始化，构造函数没执行完！👉 线程 B 拿到了一个未初始化完成的对象，程序崩溃！
+
+
+
+#### synchronized作用的比较
 - 同步方法（第一个示例）的synchronized确保了线程安全，但每次访问getInstance()都需要进行同步，这在实例已经存在之后仍然会导致性能开销。
 - 双重检查锁定（第二个示例）中的synchronized仅在实例尚未创建并且有创建实例的需要时才会被执行，减少了获取锁的次数，提高了效率。volatile关键字防止了指令重排序，保证了安全性。
 ### 枚举方式

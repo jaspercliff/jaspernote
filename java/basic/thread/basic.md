@@ -7,6 +7,56 @@
 - 可见性
   - 一个线程对共享变量的修改，另外一个线程能够立刻看到
 
+如果线程可以保持这三个特性，则说明线程是安全的
+
+## 死锁
+
+俩个或者多个线程同时等待对方对共享资源的释放，从而导致都无法执行
+
+### 发生条件
+- 资源一次只能被一个线程占用
+- 资源不能强制从线程手中夺走
+- 占有并等待，线程1手中拿着锁1 等待锁2的释放， 线程2拿着锁2 等待锁1的释放
+- 存在循环等待
+
+```java
+import java.util.Arrays;
+import java.util.List;
+
+public class ParallelStreamDeadlock {
+    private final Object lock1 = new Object();
+    private final Object lock2 = new Object();
+
+    public void processWithParallelStream() {
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+
+        list.parallelStream().forEach(item -> {
+            if (item % 2 == 0) {
+                synchronized (lock1) {
+                    System.out.println("Processing even: " + item);
+                    try { Thread.sleep(100); } catch (InterruptedException e) {}
+                    synchronized (lock2) {
+                        System.out.println("Even: " + item + " done");
+                    }
+                }
+            } else {
+                synchronized (lock2) {
+                    System.out.println("Processing odd: " + item);
+                    try { Thread.sleep(100); } catch (InterruptedException e) {}
+                    synchronized (lock1) {
+                        System.out.println("Odd: " + item + " done");
+                    }
+                }
+            }
+        });
+    }
+
+    public static void main(String[] args) {
+        new ParallelStreamDeadlock().processWithParallelStream();
+    }
+}
+```
+
 ## 为什么需要多线程
 CPU、内存、I/O 设备的速度是有极大差异的
 - CPU 增加了缓存，以均衡与内存的速度差异 //可见性
