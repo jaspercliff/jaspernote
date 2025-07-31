@@ -1,3 +1,3 @@
-# grdle kotlin dsl(Domain Specific Language)
+# gradle kotlin dsl(Domain Specific Language)
 
 
