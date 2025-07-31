@@ -1,5 +1,8 @@
 # gradle
 
+
+- [gradle kotlin dsl](/kotlin/gradle-kotlin-dsl/index.md)
+
 .gradle文件夹是缓存文件夹
 
 `implementation` 是 Gradle 中声明依赖的一种方式，它定义了当前模块对某个依赖的引用，同时控制该依赖的可见性和传播性。
