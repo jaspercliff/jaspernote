@@ -57,6 +57,10 @@ export const nav = [
         link: "/groovy/index.md",
     },
     {
+        text: "kotlin",
+        link: "/kotlin/index.md"
+    },
+    {
         text: 'lua',
         link: "/lua/index.md",
     },
