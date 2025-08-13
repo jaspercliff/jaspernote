@@ -2,9 +2,6 @@
 
 
 Powerlevel10k 是 Oh My Zsh 上最强大的主题之一，功能超强、速度飞快、样式超炫！⚡
-下面教你从零开始配置 Powerlevel10k，让你的终端一秒变帅！
-
-⸻
 
 🛠️ 一、安装 Powerlevel10k
 
