@@ -18,7 +18,15 @@ export const sidebarJavaBasic = {
                         {text: "异常", link: "/java/basic/common/异常.md"},
                         {text: "泛型", link: "/java/basic/common/泛型.md"},
                         {text: "反射", link: "/java/basic/common/反射.md"},
-                        {text: "io", link: "/java/basic/common/io.md"},
+                        {
+                            text: "io",
+                            collapsed: false,
+                            items: [
+                                {text: "BIO",link:"/java/basic/foundation/IO/BIO.md"},
+                                {text: "NIO",link:"/java/basic/foundation/IO/NIO.md"},
+                                {text: "AIO",link:"/java/basic/foundation/IO/AIO.md"},
+                            ]
+                        },
                         {text: "网络编程", link: "/java/basic/common/网络编程.md"},
                         {text: "日期相关", link: "/java/basic/common/dateRelated.md"},
                         {text: "utils", link: "/java/basic/common/utils.md"},
