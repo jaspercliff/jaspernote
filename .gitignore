@@ -7,3 +7,5 @@ node_modules
 .obsidian/
 
 .obsidian/workspace.json
+# mac finder中查看这个文件的设置 所有子目录下
+**/.DS_Store

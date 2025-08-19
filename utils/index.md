@@ -4,5 +4,9 @@
 - [git](./git/index.md)
 - [svn](./svn/index.md)
 - [jmeter](./jmeter/index.md)
-- [lazygit](./lazygit.md)
-- [lazydocker](./lazydocker.md)
+
+
+## lazy 
+- [lazygit](lazy/lazygit.md)
+- [lazydocker](lazy/lazydocker.md)
+- [lazyVim](lazy/lazyVim.md)

@@ -25,3 +25,7 @@
 ## shell
 - [shell](./shell/index.md)
 - [brace expansion](shell/braceExpansion.md)
+
+## ubuntu
+
+- [index](index.md)
