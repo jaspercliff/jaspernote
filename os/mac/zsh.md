@@ -1,6 +1,16 @@
 # zsh
 
+## plugins
 
+克隆插件到 .oh-my-zsh/plugins 目录
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
+vim .zshrc
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+
+## p10k 
 Powerlevel10k 是 Oh My Zsh 上最强大的主题之一，功能超强、速度飞快、样式超炫！⚡
 
 🛠️ 一、安装 Powerlevel10k
