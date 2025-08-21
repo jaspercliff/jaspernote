@@ -9,6 +9,37 @@
 - SocketChannel：可以通过TCP读写网络中的数据，支持非阻塞模式。
 - ServerSocketChannel：可以监听新进来的TCP连接，像Web服务器那样。对每一个新进来的连接都会创建一个SocketChannel。
 
+###  FileChannel.transferTo
+将数据从一个文件通道传输到另一个可写入字节通道（WritableByteChannel）,底层也是操作系统的零拷贝
+
+- position: 指定从文件通道的哪个位置开始读取数据。
+- count: 指定最多要传输的字节数。
+- target: 数据要传输到的目标通道，必须是可写入的字节通道（WritableByteChannel）。
+- 返回实际传输的字节数
+
+```java
+public class FileChannelDemo {
+    static void main(String[] args) throws IOException {
+        final RandomAccessFile file = new RandomAccessFile(Constants.NIO_FILE_PATH, "r");
+
+        final SocketChannel clientChannel = SocketChannel.open();
+        clientChannel.connect(new InetSocketAddress(Constants.IP, Constants.PORT));
+        FileChannel fileChannel = file.getChannel();
+        try (file; fileChannel; clientChannel) {
+            long position = 0;
+            long count = fileChannel.size();
+            long transferred;
+
+            while (count >0) {
+                transferred  = fileChannel.transferTo(position, count , clientChannel);
+                position += transferred;
+                count -= transferred;
+            }
+        }
+    }
+}
+```
+
 ## Buffer 缓冲区
 
 给通道发送或者接受数据都得先放到缓冲区中
@@ -128,7 +159,7 @@ public class NIOCopyFileDemo {
 
 ```
 
-### 选择器
+## 选择器
 NIO 实现了 IO 多路复用中的 Reactor 模型，**一个线程 Thread 使用一个选择器 Selector 通过轮询的方式去监听多个通道 Channel 上的事件**，
 从而让一个线程就可以处理多个事件。通过配置监听的通道 Channel 为非阻塞，那么当 Channel 上的 IO 事件还未到达时，就不会进入阻塞状态一直等待，
 而是继续轮询其它 Channel，找到 IO 事件已经到达的 Channel 执行
@@ -145,7 +176,7 @@ graph TD;
 多路复用I/O：通过使用选择器（Selector）和非阻塞通道（如SocketChannel），一个单独的线程可以管理多个网络连接，这对于需要处理成千上万个网络连接的高性能网络服务器尤其重要。
 Java NIO的选择器（Selector）是Java NIO中的一个高级组件，用于检查一个或多个NIO通道（Channel），并确定哪些通道准备好了进行读取、写入或连接。选择器使用单个线程来管理多个通道，这是非阻塞I/O的基础，允许你的程序更加高效地使用系统资源。
 
-#### 核心知识点概述：
+### 核心知识点概述：
 
 1. **多路复用**：
    选择器可以同时监控多个通道的I/O状态，这被称为I/O多路复用。这样，单个线程可以管理多个并发的数据传输。

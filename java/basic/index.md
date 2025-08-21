@@ -15,10 +15,12 @@
 - [反射](foundation/反射.md)
 - [序列化](foundation/序列化.md)
 - [文件](foundation/file.md)
-- [io](foundation/IO/BIO.md)
 - [网络编程](foundation/网络编程.md)
 - [utils](foundation/utils.md)
 - [terminology](foundation/terminology.md)
+- [io](foundation/IO/index.md)
+
+
 ### 集合
 - [index](collection/index.md)
 - [ArrayList](collection/ArrayList.md)
