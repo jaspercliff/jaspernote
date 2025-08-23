@@ -42,19 +42,19 @@ export const sidebarJavaBasic = {
                     items: [
                         {
                             text: "basic",
-                            link: "/java/basic/collection/dataType.md",
+                            link: "/java/basic/foundation/collection/dataType.md",
                         },
                         {
                             text: "ArrayList",
-                            link: "/java/basic/collection/ArrayList.md",
+                            link: "/java/basic/foundation/collection/ArrayList.md",
                         },
                         {
                             text: "LinkedList",
-                            link: "/java/basic/collection/LinkedList.md",
+                            link: "/java/basic/foundation/collection/LinkedList.md",
                         },
                         {
                             text: "HashMap",
-                            link: "/java/basic/collection/HashMap.md",
+                            link: "/java/basic/foundation/collection/HashMap.md",
                         },
                     ],
                 },

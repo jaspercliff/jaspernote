@@ -22,11 +22,11 @@
 
 
 ### 集合
-- [index](collection/index.md)
-- [ArrayList](collection/ArrayList.md)
-- [LinkedList](collection/LinkedList.md)
-- [HashMap](collection/HashMap.md)
-- [enumMap](collection/enumMap.md)
+- [index](foundation/collection/index.md)
+- [ArrayList](foundation/collection/ArrayList.md)
+- [LinkedList](foundation/collection/LinkedList.md)
+- [HashMap](foundation/collection/HashMap.md)
+- [enumMap](foundation/collection/enumMap.md)
 ### 线程
 - [basic](thread/basic.md)
 - [线程基础](thread/线程基础.md)
