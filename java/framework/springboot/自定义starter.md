@@ -211,3 +211,11 @@ com.jasper.autoconfigure.TraceAutoConfiguration
 `@AutoConfigureBefore` 和 `@AutoConfigureAfter` 注解可以用来指定自动配置的顺序。
 
 
+
+## 流程
+
+1. imports 文件 列出所有@Configuration类的全限定类名
+2. springboot加载找到@Configuration类
+3. 评估类级别的条件注解
+4. 如果条件满足加载配置类
+5. 评估bean的条件注解，如果满足则创建bean 
