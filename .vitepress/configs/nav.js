@@ -12,7 +12,7 @@ export const nav = [
             {text: "dev tools",link: "/java/devTools/index.md"},
             {text: "常用类方法",link: "/java/basic/commonClass/index.md"},
             {text: "新特性",link: "/java/basic/newFeature/index.md"},
-            {text: "juc",link: "/java/basic/juc/basic.md"},
+            {text: "juc",link: "/java/basic/juc/index.md"},
             {text: "jvm",link: "/java/jvm/index.md"},
             {text: "framework",link: "/java/framework/index.md"},
             {text: "utils",link: "/java/utils/index.md"},

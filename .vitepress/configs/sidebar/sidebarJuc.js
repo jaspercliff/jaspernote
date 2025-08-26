@@ -8,7 +8,7 @@ export const sidebarJuc = {
                     items: [
                         {
                             text: "basic",
-                            link: "/java/basic/juc/basic.md",
+                            link: "/java/basic/juc/index.md",
                         },
                     ],
                 },
@@ -57,19 +57,24 @@ export const sidebarJuc = {
                     ],
                 },
                 {
-                    text: "executor",
+                    text: "future",
                     items: [
                         {
                             text: "FutureTask",
-                            link: "/java/basic/juc/executor/FutureTask.md",
-                        },
-                        {
-                            text: "线程池",
-                            link: "/java/basic/juc/executor/线程池.md",
+                            link: "/java/basic/juc/future/Future.md",
                         },
                         {
                             text: "completableFuture",
-                            link: "/java/basic/juc/executor/completableFuture.md",
+                            link: "/java/basic/juc/future/completableFuture.md",
+                        },
+                    ],
+                },
+                {
+                    text: "executor",
+                    items: [
+                        {
+                            text: "线程池",
+                            link: "/java/basic/juc/executor/线程池.md",
                         },
                     ],
                 },
