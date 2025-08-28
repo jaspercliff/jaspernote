@@ -73,8 +73,12 @@ export const sidebarJuc = {
                     text: "executor",
                     items: [
                         {
-                            text: "线程池",
-                            link: "/java/basic/juc/executor/线程池.md",
+                            text: "自定义线程池",
+                            link: "/java/basic/juc/executor/customThreadPool.md",
+                        },
+                        {
+                            text: "Executors工具类",
+                            link: "/java/basic/juc/executor/executors.md",
                         },
                     ],
                 },
