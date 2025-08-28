@@ -17,3 +17,8 @@ sudo ln -s  /opt/soft/qq/qq  qq
 cd /usr/shar/application   
 vim qq.desktop # 修改其中的路径
 ```
+
+
+## appimagelauncher
+
+./appimageLauncher install redis-insight
