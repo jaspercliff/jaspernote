@@ -21,4 +21,6 @@ vim qq.desktop # 修改其中的路径
 
 ## appimagelauncher
 
-./appimageLauncher install redis-insight
+appimageLauncher 
+用来更方便地管理 AppImage 文件。它可以让 AppImage 不仅像普通应用一样运行，
+还能自动创建桌面快捷方式、集成到系统菜单中、统一管理 AppImage 应用。
