@@ -1,5 +1,6 @@
 # lazygit
 
+? 查看所有快捷键
 
 ## 快捷键
 c commit
@@ -8,6 +9,7 @@ P push
 q quit 
 
 space 空格 add 单个文件
+space 切换分支
 
 i 可以将文件添加到.gitIgnore中
 
