@@ -22,56 +22,80 @@
 2. **发起异步操作**：通过异步通道的方法发起异步I/O操作。这些操作通常会立即返回，不会阻塞调用线程。
 
 3. **处理结果**：异步操作可以通过两种方式处理结果：
-    - **回调方式**：传递一个实现了`CompletionHandler`接口的对象。异步操作完成（无论成功还是失败）时，会调用相应的回调方法。
-    - **Future方式**：异步操作会返回一个`Future`对象，通过它可以检查操作是否完成，等待操作完成，或者获取操作的结果。
-
-### 示例：使用AsynchronousFileChannel读取文件
+   - Future: 操作返回一个 java.util.concurrent.Future 对象。应用程序可以轮询 Future 的状态或调用 get() 方法来阻塞等待结果。
+   - CompletionHandler: 提供一个回调接口 CompletionHandler<V, A>。当操作完成时，系统会自动调用 completed(V result, A attachment)或 failed(Throwable exc, A attachment) 方法。### 示例：使用AsynchronousFileChannel读取文件
 
 ``` java
-package com.jasper.AIO;
-
-import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.channels.AsynchronousFileChannel;
-import java.nio.channels.CompletionHandler;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
-
-public class AsyncFileReadExample {
+    public static final String STRING_TO_WRITE = "THIS IS ASYNCHRONOUS FILE DATA TO WRITE";
     public static void main(String[] args) throws IOException, InterruptedException {
-        Path path = Paths.get("C:\\code\\javaBasic\\IO\\src\\main\\java\\com\\jasper\\AIO\\input.txt");
-        try(AsynchronousFileChannel asynchronousFileChannel = AsynchronousFileChannel.open(path, StandardOpenOption.READ)){
-            ByteBuffer buffer = ByteBuffer.allocate(1024);
-            asynchronousFileChannel.read(buffer, 0, buffer, new CompletionHandler<Integer, ByteBuffer>() {
-                @Override
-                public void completed(Integer result, ByteBuffer attachment) {
-                    try {
-                        Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
-                    System.out.println("Read done! Bytes read: " + result);
-                    attachment.flip();
-                    byte[] data = new byte[attachment.limit()];
-                    attachment.get(data);
-                    System.out.println(new String(data));
-                    attachment.clear();
+        final Path path = Paths.get(Constants.COMMON_PATH);
+        final AsynchronousFileChannel asyncFileChannel = AsynchronousFileChannel.open(path, StandardOpenOption.CREATE,
+                StandardOpenOption.WRITE,
+                StandardOpenOption.TRUNCATE_EXISTING);
+        final ByteBuffer buffer = ByteBuffer.wrap(STRING_TO_WRITE.getBytes(StandardCharsets.UTF_8));
+        asyncFileChannel.write(buffer,0,asyncFileChannel,new CompletionHandler<Integer, AsynchronousFileChannel>() {
+            @Override
+            public void completed(final Integer result, final AsynchronousFileChannel attachment) {
+                System.out.println("Writing completed asynchronous file... with result bytes written " + result);
+                try {
+                    attachment.close();
+                    asyncRead(path);
+                } catch (IOException e) {
+                    log.error(e.getMessage());
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
                 }
+            }
 
-                @Override
-                public void failed(Throwable exc, ByteBuffer attachment) {
-                    System.out.println("Read failed!");
-                    exc.printStackTrace();
+            @Override
+            public void failed(final Throwable exc, final AsynchronousFileChannel attachment) {
+                if (attachment!=null && attachment.isOpen()) {
+                    try {
+                        attachment.close();
+                    } catch (IOException e) {
+                        log.info(exc.getMessage());
+                    }
                 }
-            });
-            System.out.println("haha");
-            // 模拟其他任务执行
-            Thread.sleep(2000); // 等待异步读取完成
-            System.out.println("system exit");
-        }
+            }
+        });
+
+        Thread.sleep(2000);
+        System.out.println("Writing asynchronous file...");
+
     }
-}
+
+
+    public static void asyncRead(Path path) throws IOException, InterruptedException {
+        final AsynchronousFileChannel readChannel = AsynchronousFileChannel.open(path, StandardOpenOption.READ);
+        final long size = readChannel.size();
+        ByteBuffer buffer = ByteBuffer.allocate((int) size);
+        readChannel.read(buffer,0,new Object[]{readChannel,buffer},new CompletionHandler<Integer, Object[]>() {
+
+            @Override
+            public void completed(final Integer result, final Object[] attachment) {
+                ByteBuffer byteBuffer = (ByteBuffer) attachment[1];
+                AsynchronousFileChannel readChannel = (AsynchronousFileChannel) attachment[0];
+                byteBuffer.flip();
+                final String content = StandardCharsets.UTF_8.decode(byteBuffer).toString();
+                System.out.println("read date is ".concat(content));
+                try {
+                    readChannel.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+
+            @Override
+            public void failed(final Throwable exc, final Object[] attachment) {
+                AsynchronousFileChannel writeChannel = (AsynchronousFileChannel) attachment[0];
+                try {
+                    writeChannel.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
+    }
 
 ```
 
