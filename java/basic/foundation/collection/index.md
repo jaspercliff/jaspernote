@@ -37,16 +37,12 @@
 ## Map
 
 - HashMap
-
     - 基于哈希表实现
 - HashTable
-
     - 线程安全 使用 ConcurrentHashMap 来支持线程安全 ConcurrentHashMap 引入了分段锁
 - LinkedHashMap
-
     - 维护着一个双向链表来记录插入顺序或访问顺序
 - TreeMap
-
     - TreeMap 是基于红黑树的 NavigableMap 实现
 
 
