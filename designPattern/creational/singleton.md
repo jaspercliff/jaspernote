@@ -100,7 +100,7 @@ public class Singleton {
 }
 ```
 #### violent 作用
-[volatile](/java/basic/thread/volatile.md)
+[volatile](/java/basic/foundation/thread/volatile.md)
 
 instance = new Singleton(); 这一行代码实际上包含三个步骤：
 

@@ -28,11 +28,11 @@
 - [HashMap](foundation/collection/HashMap.md)
 - [enumMap](foundation/collection/enumMap.md)
 ### 线程
-- [basic](thread/basic.md)
-- [线程基础](thread/线程基础.md)
-- [锁](thread/锁.md)
-- [volatile](thread/volatile.md)
-- [final](thread/final.md)
-- [unsafe](thread/unsafe.md)
+- [basic](foundation/thread/basic.md)
+- [线程基础](foundation/thread/线程基础.md)
+- [锁](foundation/thread/锁.md)
+- [volatile](foundation/thread/volatile.md)
+- [final](foundation/thread/final.md)
+- [unsafe](foundation/thread/unsafe.md)
 
 
