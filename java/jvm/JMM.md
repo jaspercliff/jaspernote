@@ -39,7 +39,7 @@ JMM通过以下几部分组成来提供线程之间的通信机制：
 
 - 确保变量对所有线程的可见性。
 - 禁止指令重排序优化。
-  [volatile](/java/basic/thread/volatile.md)
+  [volatile](/java/basic/foundation/thread/volatile.md)
 
 ### 6. 锁的优化和升级
 
