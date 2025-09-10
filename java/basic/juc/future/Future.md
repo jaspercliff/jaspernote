@@ -1,8 +1,16 @@
-# FutureTask
+# future and futureTask
 
 ## Future
-在 Java 并发编程中，`Future` 接口表示一个异步计算的结果。使用 `Future` 可以对长时间运行的计算结果进行查询、判断是否完成、获取结果，
-甚至可以取消计算。`Future` 提供了一种在将来某个时刻获取计算结果的机制，而不用阻塞等待计算完成。
+在 Java 并发编程中，`Future` 接口表示一个异步计算的结果。使用 `Future` 可以对长时间运行的计算结果进行查询
+`Future` 提供了一种在将来某个时刻获取计算结果的机制，而不用阻塞等待计算完成。
+- 是否完成
+- 获取结果 阻塞
+- 取消计算
+
+## disadvantage 
+- get 只能阻塞的获取结果 没有办法回调
+- 不能很方便的组合多个任务
+- 异常处理不灵活 需要手动try catch
 
 ### 核心方法
 
@@ -16,31 +24,27 @@
 
 ### 示例代码
 
-下面是一个使用 `ExecutorService` 提交任务，并使用 `Future` 获取结果的简单示例：
-
 ```java
-import java.util.concurrent.*;
-
-public class FutureExample {
-    public static void main(String[] args) {
-        ExecutorService executor = Executors.newCachedThreadPool();
-        
-        // 提交一个 Callable 任务，并获得一个 Future
-        Future<Integer> futureResult = executor.submit(() -> {
-            TimeUnit.SECONDS.sleep(1); // 模拟长时间运行的计算
-            return 123; // 返回计算结果
+public class FutureDemo {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        ExecutorService executorService = Executors.newFixedThreadPool(2);
+        Future<Integer> future = executorService.submit(() -> {
+            try {
+                TimeUnit.SECONDS.sleep(5);
+                return 42;
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         });
-        
-        try {
-            // 在结果可用之前，get 方法会阻塞
-            System.out.println("future result: " + futureResult.get());
-        } catch (InterruptedException | ExecutionException e) {
-            e.printStackTrace();
-        } finally {
-            executor.shutdown();
-        }
+        System.out.println("submit complete");
+
+//        阻塞获取
+        Integer i = future.get();
+        System.out.println("i = " + i);
+        executorService.shutdown();
     }
 }
+
 ```
 
 ### 使用场景

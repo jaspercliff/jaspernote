@@ -19,6 +19,11 @@ cp /opt/homebrew/etc/redis.conf /opt/redis
 redis-serve -c /opt/redis/redis.conf
 ```
 
+## ubuntu apt 安装 
+
+> [redia 官网](https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/apt/)
+
+
 ## config redis.conf
 
 - daemonize yes 守护进程 

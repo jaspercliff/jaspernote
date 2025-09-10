@@ -2,26 +2,23 @@
 `CompletableFuture` 是 Java 8 引入的一个高性能的异步编程工具，它扩展了 `Future` 接口，并提供了一种更加灵活的方式来处理异步操作的结果。
 `CompletableFuture` 提供了丰富的 API 来支持异步编程，包括完成异步操作、组合异步操作、处理完成结果等。
 
-下面是一些 `CompletableFuture` 的关键特性和使用示例：
+## advantage 
+- 非阻塞回调 任务完成后自动触发下一步
+- 链式编程
+- 异常处理
 
 ### 关键特性
 
-supplyAsync:
-用于创建一个异步任务，该任务最终会产生一个结果。
-接受一个 Supplier 函数式接口作为参数。
-返回一个 CompletableFuture 实例，其中 T 是任务的结果类型。
-runAsync:
-用于创建一个异步任务，该任务不产生任何结果。
-接受一个 Runnable 作为参数。
-返回一个 CompletableFuture实例。
+- supplyAsync: 用于创建一个异步任务，该任务最终会产生一个结果。 接受一个 Supplier 函数式接口作为参数。 返回一个 CompletableFuture 实例，其中 T 是任务的结果类型。
+- runAsync: 用于创建一个异步任务，该任务不产生任何结果。接受一个 Runnable 作为参数。 返回一个 CompletableFuture实例。
 1. **异步操作**:
     - `supplyAsync`: 异步执行一个函数并返回一个 `CompletableFuture`。
     - `runAsync`: 异步执行一个 Runnable 任务。
-2. **组合操作**:
-    - `thenApply`: 在当前 `CompletableFuture` 完成后，对其结果应用一个函数。
+2. **组合操作**: 属于回调 不像get一样阻塞
+    - `thenApply(Function)`: 在当前 `CompletableFuture` 完成后，对其结果应用一个函数。
+    - `thenAccept(Consumer)`: 在当前 `CompletableFuture` 完成后，消费其结果。
+    - `thenCombine(BiFunction)`: 结合两个 `CompletableFuture`，在两者都完成时，使用一个函数处理两个结果。
     - `thenCompose`: 在当前 `CompletableFuture` 完成后，返回一个新的 `CompletableFuture`。
-    - `thenAccept`: 在当前 `CompletableFuture` 完成后，消费其结果。
-    - `thenCombine`: 结合两个 `CompletableFuture`，在两者都完成时，使用一个函数处理两个结果。
     - `thenRun`: 在当前 `CompletableFuture` 完成后，执行一个 Runnable 任务。
 
 3. **错误处理**:
@@ -39,38 +36,30 @@ runAsync:
 下面是一个简单的示例，展示如何使用 `CompletableFuture` 来执行异步任务：
 
 ```java
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-
-public class CompletableFutureExample {
-
+public class CompletableFutureDemo {
     public static void main(String[] args) {
-        // 创建一个CompletableFuture实例，通过supplyAsync()方法异步获取一个值
-        CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
-            try {
-                // 模拟耗时操作
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            return 100; // 返回一个整数值
+        CompletableFuture<Integer> completeFuture = CompletableFuture.supplyAsync(() -> {
+            System.out.println("supplyAsync");
+            return 42;
         });
+        // apply 对其结果应用一个Function  accept 对结果应用一个Consumer 属于回调 和get阻塞不一样
+        completeFuture.thenApply(i -> i*2).thenAccept(result -> System.out.println("异步处理的结果".concat(result.toString())));
+        completeFuture.thenAccept(System.out::println);
 
-        // 处理future的结果
-        future.thenAccept(result -> {
-            System.out.println("异步计算的结果是: " + result);
+        CompletableFuture<Integer> a = CompletableFuture.supplyAsync(() -> 10);
+        CompletableFuture<Integer> b = CompletableFuture.supplyAsync(() -> 16);
+        //组合   join也是阻塞的 join 抛出CompletionException
+        CompletableFuture<Integer> combine = a.thenCombine(b, Integer::sum);
+        System.out.println("combine = " + combine.join());
+
+        CompletableFuture<Integer> exceptionally = CompletableFuture.supplyAsync(() -> {
+            if (true) throw new RuntimeException();
+            return 15;
+        }).exceptionally(throwable -> {
+            System.out.println("throwable = " + throwable);
+            return 0;
         });
-
-        // 主线程继续执行其他任务
-        System.out.println("主线程继续执行其他任务...");
-
-        // 如果需要阻塞等待结果
-        try {
-            int result = future.get(); // 阻塞直到计算完成
-            System.out.println("最终结果: " + result);
-        } catch (InterruptedException | ExecutionException e) {
-            e.printStackTrace();
-        }
+        System.out.println("exceptionally = " + exceptionally.join());
     }
 }
 ```
