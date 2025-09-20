@@ -38,4 +38,5 @@
     - 抽象方法: `R apply(T t, U u)`
 ```
 
+- [BiFunction](biFunction.md)
 - [BiConsumer](BiConsumer.md)

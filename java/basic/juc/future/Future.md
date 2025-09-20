@@ -1,13 +1,16 @@
 # future and futureTask
 
 ## Future
+
 在 Java 并发编程中，`Future` 接口表示一个异步计算的结果。使用 `Future` 可以对长时间运行的计算结果进行查询
 `Future` 提供了一种在将来某个时刻获取计算结果的机制，而不用阻塞等待计算完成。
+
 - 是否完成
 - 获取结果 阻塞
 - 取消计算
 
-## disadvantage 
+## disadvantage
+
 - get 只能阻塞的获取结果 没有办法回调
 - 不能很方便的组合多个任务
 - 异常处理不灵活 需要手动try catch
@@ -47,6 +50,25 @@ public class FutureDemo {
 
 ```
 
+```java
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        Future<?> future1= executor.submit(() -> {
+            for (int j = 0; j < 10; j++) {
+                System.out.println(j);
+                try {
+                    TimeUnit.SECONDS.sleep(1);
+                } catch (InterruptedException e) {
+                    System.out.println("线程被中断，退出任务");
+                    return;
+                }
+            }
+        });
+
+        TimeUnit.SECONDS.sleep(1);
+        future1.cancel(true);
+        executor.shutdown();
+```
+
 ### 使用场景
 
 `Future` 通常与 `ExecutorService` 配合使用，用于异步执行任务。在实际开发中，如果需要执行一个耗时的操作，
@@ -61,6 +83,7 @@ public class FutureDemo {
 - Java 8 引入的 `CompletableFuture` 类提供了更丰富的功能，例如结果组合、转换以及异步执行操作。
 
 ## FutureTask
+
 `FutureTask` 是一个实现了 `RunnableFuture<V>` 接口的类，`RunnableFuture<V>` 接口继承自 `Runnable` 和 `Future<V>` 接口。这使得 `FutureTask` 既可以作为 `Runnable` 被线程执行，
 又可以作为 `Future` 提供异步计算的结果。
 
@@ -108,6 +131,7 @@ if (canceled) {
     System.out.println("Task was canceled.");
 }
 ```
+
 ``` java
 final Callable<Integer> callable = () -> {
     Thread.sleep(2000);
@@ -122,10 +146,10 @@ final Thread thread = new Thread(futureTask);
         System.out.println(futureTask.isDone());
         System.out.println(futureTask.isCancelled());
 ```
+
 ### 注意事项
 
 - 当任务已经开始执行时，`cancel` 方法将尝试中断执行任务的线程。但如果任务不响应中断，则无法取消。
 - 一旦任务执行完成，就不能再次执行或取消任务。
 - 使用 `get()` 方法时，如果任务执行期间抛出异常，则这些异常会被封装为 `ExecutionException` 抛出。
 - `FutureTask` 的 `get` 方法在任务完成之前会阻塞当前线程，可以使用带超时的 `get` 方法来避免无限期等待。
-
