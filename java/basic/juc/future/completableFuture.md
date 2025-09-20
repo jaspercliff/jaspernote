@@ -3,6 +3,8 @@
 `CompletableFuture` 是 Java 8 引入的一个高性能的异步编程工具，它扩展了 `Future` 接口，并提供了一种更加灵活的方式来处理异步操作的结果。
 `CompletableFuture` 提供了丰富的 API 来支持异步编程，包括完成异步操作、组合异步操作、处理完成结果等。
 
+![completableFuture](../assets/completableFuture.svg)
+
 ## advantage
 
 - 非阻塞回调 任务完成后自动触发下一步
