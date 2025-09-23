@@ -47,6 +47,9 @@ Ctrl+u：向上翻动一页（相当于按下 Page Down 键）。
 Ctrl+d：向下翻动一页（相当于按下 Page Up 键）。
 ctrl+n: 向下一行
 
+gt 切换到下一个标签页
+gT 切换到上一个标签页
+
 ## 可视化模式下 v
 
 viw visual inner word 选中一个单词内容
