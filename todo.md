@@ -26,6 +26,8 @@
 
 todolist   flutter+kotlin+ktor+exposed(mybatis)
 
-
+- oracle 数据库 
 - Prometheus
 - Grafana
+- canal
+- datax 数据同步 
