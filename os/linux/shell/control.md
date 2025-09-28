@@ -1,9 +1,11 @@
 # 流程控制
 
 ## if  else
+
 if else 的 [...] 判断语句中大于使用 -gt，小于使用 -lt。
 
 [ ] 是 test 命令的别名，test 命令用于检查文件类型和比较值。
+
 ```shell
 如果使用 ((...)) 作为判断语句，大于和小于可以直接使用 > 和 <。
 
@@ -40,6 +42,7 @@ for i in this is a str
   done
 
 ```
+
 ## while 循环
 
 while : 无限循环
@@ -53,6 +56,7 @@ while (($i <= 5))
     let i++
   done
 ```
+
 while 可以循环读取键盘输入
 
 ```shell
@@ -63,6 +67,7 @@ while read website
     echo " $website is a good website"
   done
 ```
+
 ## util 循环
 
 ```shell
@@ -74,7 +79,9 @@ do
 done
 
 ```
+
 ## case 循环
+
 ```shell
 echo "please enter a number between 1 and 4"
 read n
@@ -93,7 +100,9 @@ esac
 ```
 
 ## break continue
+
 break 退出所有循环 continue 跳出当前循环
+
 ```shell
 while :
   do 
