@@ -1,2 +1,2 @@
-- [jps](../jdk/jps.md)
-- [javap](../jdk/javap.md)
+- [jps](../jdk/monitor/jps.md)
+- [javap](../jdk/monitor/javap.md)

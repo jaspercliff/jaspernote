@@ -16,10 +16,9 @@
 - [序列化](foundation/序列化.md)
 - [文件](foundation/file.md)
 - [网络编程](foundation/网络编程.md)
-- [utils](foundation/utils.md)
 - [terminology](foundation/terminology.md)
 - [io](foundation/IO/index.md)
-
+- [utils](foundation/utils.md)
 
 ### 集合
 - [index](foundation/collection/index.md)
