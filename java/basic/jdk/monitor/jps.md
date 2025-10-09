@@ -2,9 +2,9 @@
 
 显示当前所有java进程pid的命令，通过该命令可以查看当前的java进程只能查看当前用户的
 
-![](assets/wherejps.png)
+![](../assets/wherejps.png)
 
-![](assets/jps--help.png)
+![](../assets/jps--help.png)
 
 - -q只显示进程id
 - -l 显示应用程序mainClass的完整package名
