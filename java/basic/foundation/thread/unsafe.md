@@ -1,5 +1,7 @@
 # unsafe
+
 ## Atomic
+
 Java中的`Atomic`类是在`java.util.concurrent.atomic`包下，这些类提供了一组原子操作工具类，
 使得在单个变量上的操作可以在并行程序中进行线程安全的操作，而无需使用`synchronized`关键字。
 这些类利用底层硬件的原子指令，以达到较低的开销和更高的性能，特别是在高并发环境下。
@@ -55,6 +57,7 @@ public class AtomicExample {
 `Atomic`类在构建高性能并发应用时非常有用，它们使得实现无锁的线程安全操作成为可能。
 
 ### AtomicIntegerArray
+
 ```java
 package com.jasper.cas;
 
@@ -104,7 +107,9 @@ public class CourseRegistration {
 
 
 ```
+
 ### AtomicIntegerFieldUpdater
+
 `AtomicIntegerFieldUpdater`是Java中一个有用的工具类，它提供了一种方式来原子地更新某个类的实例的指定`volatile int`字段，而无需将该类的整个字段定义为原子的。这个类在`java.util.concurrent.atomic`包中。它是在那些需要原子操作但又不想使用`AtomicInteger`包装器对象的情况下的理想选择，因为使用包装器会增加额外的内存负担。
 
 #### 使用场景
