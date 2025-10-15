@@ -2,6 +2,7 @@
 
 
 - [gradle kotlin dsl](/kotlin/gradle-kotlin-dsl/index.md)
+- [config](./config.md)
 
 .gradle文件夹是缓存文件夹
 

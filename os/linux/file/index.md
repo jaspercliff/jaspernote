@@ -31,3 +31,13 @@ mkdir -p /home/user/{docs,images,videos}
 du -sl /path/to/directory  查看这个目录占了多大空间
 
 清空文件内容 > filename 
+
+
+## 软链接
+sudo ln -s /opt/gradle/gradle-9.1.0 /opt/gradle
+
+# 然后在 .bashrc 中写：
+export PATH=$PATH:/opt/gradle/bin
+这样，当你升级到 Gradle 9.2 时，只需：
+sudo rm /opt/gradle
+sudo ln -s /opt/gradle/gradle-9.2 /opt/gradle
