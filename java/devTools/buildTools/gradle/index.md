@@ -1,7 +1,7 @@
-# gradle
+# gradlekotlin
 
 
-- [gradle kotlin dsl](/kotlin/gradle-kotlin-dsl/index.md)
+- [gradle kotlin dsl](/java/devTools/buildTools/gradle/kotlin/index.md)
 - [config](./config.md)
 
 .gradle文件夹是缓存文件夹
