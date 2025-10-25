@@ -35,13 +35,13 @@ print(r, type(r))  # 输出：(4+0j) <class 'complex'>
 
 ## 序列类型
 
-### string 
+### string
 
 - ''' 或者 """可以表示多行字符串
 
 ```python
 print("hello world")
-print('''hello 
+print('''hello
 world''')
 ```
 
@@ -56,7 +56,7 @@ print("hello" * 3)  # 字符串重复
 
 ```python
 print("test \n转义")
-print(r"test \n转义") 
+print(r"test \n转义")
 ```
 
 - 从左往右 0开始 从右往左-1开始
@@ -97,25 +97,13 @@ print(lst)  # 输出：[1, 10, 3, 4, 5, 6]
 
 # 列表中的元素可以是不同的数据类型
 my_list = [1, 2, 3, 'hello', 5.0]
-print(my_list) 
+print(my_list)
 ```
 
 ### tuple
-元组是一种不可变的序列类型，可以存储任意类型的元素
 
-```python
-tpl = (1, 2, 3, 4, 5,'hello')
-print(tpl, type(tpl))  # 输出：(1, 2, 3, 4, 5) <class 'tuple'>
+- [tuple](./dataType/tuple.md)
 
-# 访问元组元素
-print(tpl[0])  # 输出：1
-
-# 元组切片
-tpl_slice = tpl[1:4]
-print(tpl_slice)  # 输出：(2, 3, 4)
-
-# tpl[0] = 2 'tuple' object does not support item assignment
-```
 ## 映射类型
 映射类型包括字典（dict），它是一种键值对的集合。
 ### 字典（dict）
@@ -136,7 +124,7 @@ d['country'] = 'USA'
 print(d)  # 输出：{'name': 'Alice', 'age': 26, 'city': 'New York', 'country': 'USA'}
 
 d['sex'] = 'Male'
-print(d) 
+print(d)
 ```
 ## 集合类型
 ### 集合（set）
