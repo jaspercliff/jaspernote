@@ -12,4 +12,3 @@ layout: home
 - [docker](./docker/index.md)
 - [k8s](./k8s/index.md)
 - [system design](./systemDesign/index.md)
-- [useful software](./software/index.md)
