@@ -1,5 +1,8 @@
 # 常用命令
 
+
+gd go to definition 查找该方法的定义
+
 - 选择文件中的所有一个词并且替换
 进入命令模式，可以通过按 ESC 键从插入模式（Insert mode）回到命令模式（Normal mode）。
 输入 :%s/old_word/new_word/g 并按回车。这里 % 表示对整个文件进行操作，s 是 substitute 命令，
@@ -27,7 +30,7 @@ df2 删除到2字符之间的所有内容
 
 d5l d删除 5重复5次 l向右
 
-ctrl+o 光标上一次的位置  
+ctrl+o 光标上一次的位置
 ctrl+i 光标下一次的位置
 
 ZZ 相当于:wq
