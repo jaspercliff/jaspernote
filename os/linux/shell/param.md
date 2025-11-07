@@ -1,4 +1,4 @@
-# 参数传递
+# 参数
 
 在执行 Shell 脚本时，向脚本传递参数，脚本内获取参数的格式为 $n，n 代表一个数字，1 为执行脚本的第一个参数，2 为执行脚本的第二个参数。
 例如 $1、$2 等来引用传递给脚本的参数，其中 $1 表示第一个参数，$2 表示第二个参数
@@ -56,3 +56,17 @@ parm: line 14: 56389 Terminated: 15          sleep 100
 
 $* 有双引号时 会将所有的参数合并为一个参数  a b c d
 $@ 有双引号时 会将每个参数都作为一个独立的参数  a "b c"  d
+
+
+## 参数替换 parameter expansion
+
+### 默认值与赋值
+
+```shell
+echo ${name:-default}  # if name is unset or null,use default
+echo ${name:=changeOrigne} # if name is unset or null,set it to changeOrigne and return that value
+echo ${name}
+echo ${var:+altValur} # if var is set and not null, return altValue,else return null
+var='something'
+echo ${var:+altValue}
+```
