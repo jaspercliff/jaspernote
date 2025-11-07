@@ -13,4 +13,4 @@
 ## normal
 
 - [一些代码写错了分支，没有切换分支，可以先暂存起来，然后切换分支](./normal/demo1.md)
-
+- [merge和rebase的区别](./normal/merge和rebase的区别.md)
