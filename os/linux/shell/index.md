@@ -6,6 +6,7 @@
 - [运算符](operator.md)
 - [流程控制](control.md)
 - [函数](function.md)
+- [braceExpansion](braceExpansion.md)
 
 
 ## usage

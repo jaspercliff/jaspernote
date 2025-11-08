@@ -13,7 +13,7 @@
 - [systemctl](utils/systemctl.md)
 - [curl](utils/curl.md)
 
-## file 
+## file
 
 - [index](file/index.md)
 - [压缩解压缩](./file/compress.md)
@@ -24,7 +24,6 @@
 
 ## shell
 - [shell](./shell/index.md)
-- [brace expansion](shell/braceExpansion.md)
 
 ## ubuntu
 
