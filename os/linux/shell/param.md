@@ -70,3 +70,62 @@ echo ${var:+altValur} # if var is set and not null, return altValue,else return 
 var='something'
 echo ${var:+altValue}
 ```
+
+### 获取变量长度
+
+```shell
+name='original'
+echo ${#name} # length of the value of name
+```
+
+### 截取子字符串
+
+```shell
+echo ${var1:6}   # from index 6, get till end
+echo ${var1:1:5}  # from index 1, get 5 characters
+echo ${var1: -5} # from last 5 characters  notice: brace
+```
+
+### 删除子串 / 模式匹配
+
+| 形式                | 含义       | 例子                                          |
+| ----------------- | -------- | ------------------------------------------- |
+| `${VAR#pattern}`  | 删除开头最短匹配 | `file="abc.txt"` → `${file#*.}` → `txt`     |
+| `${VAR##pattern}` | 删除开头最长匹配 | `file="a.b.c.txt"` → `${file##*.}` → `txt`  |
+| `${VAR%pattern}`  | 删除末尾最短匹配 | `file="a.b.c.txt"` → `${file%.*}` → `a.b.c` |
+| `${VAR%%pattern}` | 删除末尾最长匹配 | `file="a.b.c.txt"` → `${file%%.*}` → `a`    |
+
+```shell
+file="archive.tar.gz"
+echo ${file%.*}   # archive.tar
+echo ${file%%.*}  # archive
+echo ${file#*.}   # tar.gz
+echo ${file##*.}  # gz
+```
+
+### 字符串替换
+
+| 形式                     | 含义                      |
+| ---------------------- | ----------------------- |
+| `${VAR/pattern/repl}`  | 替换第一个匹配的 pattern 为 repl |
+| `${VAR//pattern/repl}` | 替换所有匹配的 pattern         |
+| `${VAR/#pattern/repl}` | 如果开头匹配 pattern，替换为 repl |
+| `${VAR/%pattern/repl}` | 如果结尾匹配 pattern，替换为 repl |
+
+
+```shell
+# string replacement
+
+x='hello world'
+echo ${x/world/shell} # replace first match of world with shell
+echo ${x//o/t} # replace all matches of o with t
+
+y=https://www.example.com
+z=file.txt
+echo ${y/#https/http} # if pattern matches beginning,replace it
+echo ${z/%txt/md} # if pattern matches end,replace it
+```
+
+### usage
+
+- [usage](usage.md)
