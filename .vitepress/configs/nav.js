@@ -73,10 +73,6 @@ export const nav = [
     link: "/front/index.md",
   },
   {
-    text: "flutter",
-    link: "/flutter/index.md",
-  },
-  {
     text: "源码解析",
     link: "/sourceCode/index.md",
   },
