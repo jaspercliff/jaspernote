@@ -1,22 +1,25 @@
-# todo 
+# todo
 
 
 
-- Prometheus 
+- Prometheus
 - Grafana
 
 
-- caffeine 
+- caffeine
 - guava cache
-- netty 
+- netty
 - mallChat
-- kotlin gradle dsl 
+- kotlin gradle dsl
+- jasypt
+- hsqldb
+- spring batch
 
 
 - mybatis 实现枚举映射
 - mybatisplus 实现枚举映射
 - sharding-jdbc
-- 模版引擎写一个git提交信息的插件 
+- 模版引擎写一个git提交信息的插件
 
 
 
@@ -26,8 +29,8 @@
 
 todolist   flutter+kotlin+ktor+exposed(mybatis)
 
-- oracle 数据库 
+- oracle 数据库
 - Prometheus
 - Grafana
 - canal
-- datax 数据同步 
+- datax 数据同步
