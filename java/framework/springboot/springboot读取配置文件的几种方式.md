@@ -7,7 +7,7 @@
 
 ---
 
-## 1. 使用 `@Value` 注解（适用于简单配置项）
+## 1. 使用 `@Value` 注解（适用于简单配置项） 
 
 ```java
 @Value("${my.config.enable:true}")
