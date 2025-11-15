@@ -1,7 +1,8 @@
 # springboot
 
 - [CommandLineRunner](./CommandLineRunner.md)
-- [springboot读取配置文件的几种方式](./springboot读取配置文件的几种方式.md)
+- [springboot读取配置文件的几种方式](./springbootReadConfig.md)
+- [springboot读取resource下文件](springbootReadFile.md)
 
 ## core feature
 - [自定义starter](./自定义starter.md)
@@ -12,5 +13,3 @@
 - [springboot集成freemarker](integration/freemarker.md)
 - [springboot日志logback](integration/logback.md)
 - [springboot集成mybatis](integration/mybatis.md)
-
-
