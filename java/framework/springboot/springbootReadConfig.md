@@ -7,7 +7,7 @@
 
 ---
 
-## 1. 使用 `@Value` 注解（适用于简单配置项） 
+## 1. 使用 `@Value` 注解（适用于简单配置项）
 
 ```java
 @Value("${my.config.enable:true}")
@@ -113,7 +113,7 @@ jasper:
 `@EnableConfigurationProperties`（通常用于不加 @Component 的情况）
 
 
-![img.png](img.png)
+![img.png](assets/springbootReadConfig.png)
 springboot的配置会优先获取 没有才会获取系统属性或者环境变量
 
 - [system.getProperty](/java/basic/commonClass/System.md)
