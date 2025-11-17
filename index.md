@@ -11,9 +11,12 @@ hero:
     - theme: brand
       text: 🚀 Java开发
       link: /java
-    - theme: brand
+    - theme: alt
       text: 🐍 Python开发
       link: /python
+    - theme: brand
+      text: 📚 C++开发
+      link: /cpp
     - theme: alt
       text: ⚡ 工具与技巧
       link: /utils
@@ -29,19 +32,19 @@ features:
 <div class="tech-stack">
   <div class="tech-item">
     <span class="tech-icon">⚡</span>
-    <span>VitePress</span>
+    <span>java</span>
   </div>
   <div class="tech-item">
     <span class="tech-icon">🎨</span>
-    <span>Modern CSS</span>
+    <span>cpp</span>
   </div>
   <div class="tech-item">
     <span class="tech-icon">✨</span>
-    <span>Animations</span>
+    <span>python</span>
   </div>
   <div class="tech-item">
     <span class="tech-icon">🚀</span>
-    <span>Performance</span>
+    <span>vue</span>
   </div>
 </div>
 

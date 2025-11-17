@@ -6,8 +6,9 @@
 - Grafana
 
 
-- mysql install 
+- mysql install
 - mysql 分区
+- mysql official dml
 
 - caffeine
 - guava cache
@@ -17,7 +18,8 @@
 - jasypt
 - hsqldb
 - spring batch
-
+- quartz
+- xxl-job
 
 
 - mybatis 实现枚举映射
@@ -29,9 +31,6 @@
 
 
 
-
-
-todolist   flutter+kotlin+ktor+exposed(mybatis)
 
 - oracle 数据库
 - Prometheus

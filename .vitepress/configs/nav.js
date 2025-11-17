@@ -33,6 +33,7 @@ export const nav = [
   {
     text: "数据层",
     items: [
+      { text: "sql", link: "/dataLayer/sql" },
       { text: "mysql", link: "/dataLayer/mysql" },
       { text: "oracle", link: "/dataLayer/oracle" },
       { text: "redis", link: "/dataLayer/redis/index.md" },
