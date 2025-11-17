@@ -2,9 +2,10 @@
 
 
 
-- Prometheus
-- Grafana
 
+
+- java agent
+- trace
 
 - mysql install
 - mysql 分区
@@ -21,6 +22,8 @@
 - quartz
 - xxl-job
 
+- Prometheus
+- Grafana
 
 - mybatis 实现枚举映射
 - mybatisplus 实现枚举映射

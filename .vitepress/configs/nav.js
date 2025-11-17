@@ -33,15 +33,63 @@ export const nav = [
   {
     text: "数据层",
     items: [
-      { text: "sql", link: "/dataLayer/sql" },
-      { text: "mysql", link: "/dataLayer/mysql" },
-      { text: "oracle", link: "/dataLayer/oracle" },
-      { text: "redis", link: "/dataLayer/redis/index.md" },
-      { text: "sqlite", link: "/dataLayer/sqlite/index.md" },
-      { text: "hive", link: "/dataLayer/hive/index.md" },
-      { text: "h2", link: "/dataLayer/h2/index.md" },
-      { text: "tdsql", link: "/dataLayer/tdsql/index.md" },
-      { text: "oceanbase", link: "/dataLayer/oceanbase/index.md" },
+      {
+        text: "关系型数据库（RDBMS）",
+        items: [
+          {
+            text: "PostgreSQL",
+            link: "/dataLayer/relational/postgresql/index.md",
+          },
+          { text: "MySQL", link: "/dataLayer/relational/mysql/index.md" },
+          { text: "Oracle", link: "/dataLayer/relational/oracle/index.md" },
+          { text: "SQLite", link: "/dataLayer/relational/sqlite/index.md" },
+          { text: "H2", link: "/dataLayer/relational/h2/index.md" },
+          { text: "HSQLDB", link: "/dataLayer/relational/hsqldb/index.md" }, // 文字可美化
+        ],
+      },
+      {
+        text: "分布式数据库",
+        items: [
+          { text: "TDSQL", link: "/dataLayer/distributed/tdsql/index.md" }, // 建议路径也分类
+          {
+            text: "OceanBase",
+            link: "/dataLayer/distributed/oceanbase/index.md",
+          },
+        ],
+      },
+      {
+        text: "NoSQL",
+        items: [
+          { text: "Redis", link: "/dataLayer/nosql/redis/index.md" },
+          { text: "Elasticsearch", link: "/dataLayer/nosql/es/index.md" }, // 文字建议写全称
+        ],
+      },
+      {
+        text: "分库分表（Sharding）",
+        items: [
+          { text: "MyCat", link: "/dataLayer/sharding/mycat/index.md" },
+          {
+            text: "ShardingSphere-JDBC",
+            link: "/dataLayer/sharding/shardingjdbc/index.md",
+          }, // 修正链接！
+        ],
+      },
+      {
+        text: "连接池（Connection Pool）",
+        items: [
+          { text: "Druid", link: "/dataLayer/connection-pool/druid/index.md" },
+          {
+            text: "HikariCP",
+            link: "/dataLayer/connection-pool/hikari/index.md",
+          }, // 修复 % 错误！
+        ],
+      },
+      {
+        text: "通用 SQL 与工具",
+        items: [
+          { text: "SQL 规范与最佳实践", link: "/dataLayer/tools/sql/index.md" }, // 建议加 .md 或 index.md
+        ],
+      },
     ],
   },
   { text: "数据结构", link: "/dataStructure/index.md" },
