@@ -6,6 +6,9 @@
 - Grafana
 
 
+- mysql install 
+- mysql 分区
+
 - caffeine
 - guava cache
 - netty
@@ -14,6 +17,7 @@
 - jasypt
 - hsqldb
 - spring batch
+
 
 
 - mybatis 实现枚举映射
