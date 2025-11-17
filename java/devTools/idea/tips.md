@@ -38,3 +38,5 @@ void test(){
 ## 导包设置 
 
 ![img1.png](assets/importSetting.png)
+
+editor -> code style -> java -> import 可以设置超过多少个将一个包下的导包写成*
