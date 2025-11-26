@@ -35,3 +35,18 @@ space +e/E
 
 e root dir 项目根目录
 E cwd current working directory 当前文件所在目录
+
+
+
+checkhealth 查看everything is ok？
+
+wqa  write+quit+all 保存所有并退出
+]b 右边buffer
+[b 左边buffer
+
+space+ctrl+｜  split right window
+space+ctrl+-   split below window
+ctrl + h j k l 切换 split window
+
+
+keymap.lua 配置 option+方向键 切换buffer 大小
