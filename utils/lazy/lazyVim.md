@@ -48,5 +48,24 @@ space+ctrl+｜  split right window
 space+ctrl+-   split below window
 ctrl + h j k l 切换 split window
 
+space+g+g lazygit 
 
 keymap.lua 配置 option+方向键 切换buffer 大小
+
+按ctrl + / 可以打开终端 space+f+t 
+
+普通模式下gcc 注释当前行
+视觉模式下gc 注释选中行
+
+
+
+
+## python开发 
+
+npm i -g pyright（微软开发的一个 Python 静态类型检查器和语言服务器（LSP））
+:LazyExtra 安装python
+安装dap.core 进行debug
+
+
+gd 跳转到定义
+gr 跳转到引用

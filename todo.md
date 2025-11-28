@@ -3,16 +3,17 @@
 
 
 
-
-- java agent
-- trace
+- k8s 
 
 - mysql install
 - mysql 分区
 - mysql official dml
 
+- redis
+
 - caffeine
 - guava cache
+- java agent
 - netty
 - mallChat
 - kotlin gradle dsl

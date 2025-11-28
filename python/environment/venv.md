@@ -92,7 +92,7 @@ python -m venv venv
 source venv/bin/activate  # Linux/macOS
 # 或
 .\venv\Scripts\activate   # Windows
-
+which python3 可以查看是否激活虚拟环境
 # 安装依赖
 pip install flask
 
