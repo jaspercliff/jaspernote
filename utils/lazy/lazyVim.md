@@ -49,6 +49,13 @@ keymap.lua 配置 option+方向键 切换buffer 大小
 普通模式下gcc 注释当前行
 视觉模式下gc 注释选中行
 
+## buffer
+
+- leader+b+r close right 右边buffer
+- leader+b+l close left 右边buffer
+- leader+b+p pin tab
+- leader+b+P close unpinned tab
+
 ## plugins
 
 - img-clip 从系统剪贴板（Clipboard）中提取非文本的原始图片数据  leader+p
