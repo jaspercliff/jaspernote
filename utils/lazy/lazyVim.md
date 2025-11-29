@@ -49,7 +49,6 @@ keymap.lua 配置 option+方向键 切换buffer 大小
 普通模式下gcc 注释当前行
 视觉模式下gc 注释选中行
 
-
 ## plugins
 
 - img-clip 从系统剪贴板（Clipboard）中提取非文本的原始图片数据  leader+p
@@ -88,3 +87,15 @@ from object_oriented.Cat import Cat
 from object_oriented.Dog import Dog
 
 ## markdown
+
+:LazyExtra 安装markdown
+
+- pngpaste 从系统剪贴板（Clipboard）中提取非文本的原始图片数据  img-clip plugin  leader+p
+
+## nvim-tree
+
+- ? 查看快捷键
+- o 在文件管理器打开（finder）
+- 剪切文件 tab 选择文件 然后移动光标到要移动的文件夹 然后m 移动
+- y复制文件 p粘贴文件
+- enter 展开collapse 文件夹
