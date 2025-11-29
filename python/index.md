@@ -5,10 +5,6 @@
 - [data type](dataType.md)
 - [函数](./function/index)
 
-
-
-
-
 ## 虚拟环境
 
 - [venv](./environment/venv.md)
@@ -17,3 +13,4 @@
 ## notebook
 
 - [jupyter notebook](./notebook/index.md)
+
