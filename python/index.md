@@ -1,5 +1,9 @@
 # python
 
+## foundation
+
+- [foundation](./foundation/index.md)
+
 ## tools
 
 - [tools](./utils/index.md)
