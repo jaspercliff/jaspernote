@@ -49,11 +49,16 @@ keymap.lua 配置 option+方向键 切换buffer 大小
 普通模式下gcc 注释当前行
 视觉模式下gc 注释选中行
 
+
+## plugins
+
+- img-clip 从系统剪贴板（Clipboard）中提取非文本的原始图片数据  leader+p
+
 ## util
 
 - pyright python LSP
 - fd  查找工具 比find更好用
-- pngpaste 从系统剪贴板（Clipboard）中提取非文本的原始图片数据
+- pngpaste 从系统剪贴板（Clipboard）中提取非文本的原始图片数据  img-clip plugin  leader+p
 
 ## python开发
 
