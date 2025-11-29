@@ -3,6 +3,7 @@
 ## 数字类型
 
 ### int float complex
+
 ```python
 # 整数
 a = 10
@@ -75,7 +76,9 @@ print(str1[2:5:2])  # se  步长为2
 ```
 
 ### list
+
 列表是一种可变的序列类型，可以存储任意类型的元素
+
 ```python
 lst = [1, 2, 3, 4, 5]
 print(lst, type(lst))  # 输出：[1, 2, 3, 4, 5] <class 'list'>
@@ -105,9 +108,13 @@ print(my_list)
 - [tuple](./dataType/tuple.md)
 
 ## 映射类型
+
 映射类型包括字典（dict），它是一种键值对的集合。
+
 ### 字典（dict）
+
 字典用于存储键值对，键必须是唯一的。
+
 ```python
 d = {'name': 'Alice', 'age': 25, 'city': 'New York'}
 print(d, type(d))  # 输出：{'name': 'Alice', 'age': 25, 'city': 'New York'} <class 'dict'>
@@ -126,9 +133,13 @@ print(d)  # 输出：{'name': 'Alice', 'age': 26, 'city': 'New York', 'country':
 d['sex'] = 'Male'
 print(d)
 ```
+
 ## 集合类型
+
 ### 集合（set）
+
 集合用于存储唯一元素。
+
 ```python
 s = {1,2,3,4,5}
 
@@ -140,21 +151,27 @@ print(s) #{1, 2, 3, 4, 5, 6}
 s.remove(6)
 print(s) #{1, 2, 3, 4, 5}
 ```
+
 ### frozenset
+
 frozenset是不可变集合，即不能添加或删除元素。
+
 ```python
 fs = frozenset([1,2,3,4,5])
 print(fs,type(fs)) # frozenset({1, 2, 3, 4, 5}) <class 'frozenset'>
 ```
+
 ## 其他内建数据类型
 
 ### bool
+
 ```python
 print(True == 1)
 print(False == 0)
 ```
 
 ### None
+
 ```python
 print(None == 0)
 print(None == False)
@@ -162,8 +179,6 @@ print(None == False)
 n = None
 print(n,type(n)) # None <class 'NoneType'>
 ```
-
-
 
 ## 参考
 
