@@ -1,6 +1,8 @@
-# 控制
+# 控制循环
 
-## 条件判断
+## 控制
+
+### 条件判断
 
 ```python
 if condition:
@@ -11,7 +13,7 @@ else:
     # 上面的条件都为假时执行
 ```
 
-## 布尔表达式与比较运算
+### 布尔表达式与比较运算
 
 常见比较运算符：
 
@@ -27,7 +29,7 @@ else:
 print(0.1 + 0.2 == 0.3)
 print(math.isclose(0.1 + 0.2, 0.3))
 
-## 三元表达式、match（Python 3.10+）
+### 三元表达式、match（Python 3.10+）
 
 ```python
 b = "yes" if a >= 10 else "no"
@@ -47,9 +49,9 @@ match c:
         print("no match")
 ```
 
-# 循环
+## 循环
 
-## for and while
+### for and while
 
 ```pythonfruits = ["apple", "banan", "watermelon"]
 # list
@@ -76,7 +78,7 @@ else:
     print("for and while 没有执行break会走到else")
 ```
 
-## 常用模式和内置工具
+### 常用模式和内置工具
 
 ```python
 # 遍历可迭代对象 获取索引和值
@@ -116,7 +118,7 @@ for k, v in d.items():
     print(k, v)
 ```
 
-## list/set/dict 推导式
+### list/set/dict 推导式
 
 ```python
 # list/set/dict 推导式
@@ -140,7 +142,7 @@ print(dict)  # {'apple': 5, 'banan': 5, 'watermelon': 10}
 
 ```
 
-## 生成器表达式与生成器函数
+### 生成器表达式与生成器函数
 
 ```python
 # 生成器表达式 生成器函数
@@ -174,6 +176,6 @@ print(next(g))  # 抛 StopIteration，自动关闭
 # g.close() 手动关闭
 ```
 
-## itertools
+### itertools
 
 itertools 是 Python 内置的高性能迭代器工具库，专门用来处理各种“迭代”“组合”“排列”“无限序列”等场景。它的实现都是用 C 写的，因此比自己写循环更快、更省内存。
