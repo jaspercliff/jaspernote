@@ -105,7 +105,7 @@ print(my_list)
 
 ### tuple
 
-- [tuple](./dataType/tuple.md)
+- [tuple](./tuple.md)
 
 ## 映射类型
 
