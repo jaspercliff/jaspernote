@@ -45,10 +45,12 @@ pip install --upgrade pip
 pip install pynvim
 ```
 
+init.lua
 然后在 LazyVim 配置中指向这个 Python 路径：
 
 ```vim
-let g:python3_host_prog = expand("~/.local/venvs/lazyvim/bin/python")
+-- 指定 LazyVim 使用的 Python
+vim.g.python3_host_prog = "/home/jasper/.config/nvim/venv/bin/python"
 ```
 
 
