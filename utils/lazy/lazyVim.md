@@ -106,3 +106,8 @@ from object_oriented.Dog import Dog
 - 剪切文件 tab 选择文件 然后移动光标到要移动的文件夹 然后m 移动
 - y复制文件 p粘贴文件
 - enter 展开collapse 文件夹
+
+
+## problems
+
+- [ubuntu安装ruff失败](./lazyvim/ruff.md)

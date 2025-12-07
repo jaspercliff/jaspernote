@@ -20,3 +20,8 @@ i 可以将文件添加到.gitIgnore中
 
 - 移除所有已被跟踪的 .DS_Store 文件
   git rm -r --cached .DS_Store
+
+## branch
+
+- 新建分支 3 n <branch_name>
+- 切换分支 space
