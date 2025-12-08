@@ -12,19 +12,22 @@
 - [frp内网穿透](utils/frp.md)
 - [systemctl](utils/systemctl.md)
 - [curl](utils/curl.md)
+- [fd](./utils/fd.md)
 
 ## file
 
-- [index](file/index.md)
+- [index](./file/index.md)
 - [压缩解压缩](./file/compress.md)
 
 ## 进程
 
 - [ps](process/ps.md)
+- [lsof](./process/lsof.md)
 
 ## shell
+
 - [shell](./shell/index.md)
 
 ## ubuntu
 
-- [index](index.md)
+- [index](./ubuntu/index.md)

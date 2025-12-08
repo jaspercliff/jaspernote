@@ -1,4 +1,4 @@
-# pojo 
+# pojo
 
 POJO（Plain 简单的 Old 普遍的 Java Object）是指普通的、简单的Java对象，它不依赖于任何特定的框架或库。POJO通常用于表示数据模型，
 可以包含属性和相应的getter/setter方法。POJO的概念比较广泛，它可以用来表示各种类型的对象。
