@@ -25,3 +25,8 @@ i 可以将文件添加到.gitIgnore中
 
 - 新建分支 3 n <branch_name>
 - 切换分支 space
+
+## cherry-pick
+
+当前分支 4 panel - shift+c
+切换为另外一个分支  4-panel-shift+v
