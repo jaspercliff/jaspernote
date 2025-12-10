@@ -96,6 +96,7 @@ from object_oriented.Dog import Dog
 ## markdown
 
 :LazyExtra 安装markdown
+npm install -g markdownlint-cli
 
 - pngpaste 从系统剪贴板（Clipboard）中提取非文本的原始图片数据  img-clip plugin  leader+p
 
@@ -106,6 +107,7 @@ from object_oriented.Dog import Dog
 - 剪切文件 tab 选择文件 然后移动光标到要移动的文件夹 然后m 移动
 - y复制文件 p粘贴文件
 - enter 展开collapse 文件夹
+- shift+h 显示隐藏文件
 
 ## problems
 
