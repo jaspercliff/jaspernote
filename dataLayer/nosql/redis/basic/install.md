@@ -43,4 +43,51 @@ redis-serve  打开redis 使用默认的配置文件启动 不是守护进程启
 
 ### 设置redis自启动
 
+- [system service](/os/linux/5systemManager/systemService.md)
 
+```bash
+sudo vim /etc/systemd/system/redis.service
+```
+
+```service
+[Unit]
+Description=Redis In-Memory Data Store
+After=network.target
+
+[Service]
+User=redis             ; 🚨 注意：推荐为 Redis 创建一个专用用户，而不是使用 root
+Group=redis            ; 🚨 注意：推荐为 Redis 创建一个专用用户组
+ExecStart=/usr/local/redis/bin/redis-server /usr/local/redis/etc/redis.conf
+ExecStop=/usr/local/redis/bin/redis-cli shutdown
+PIDFile=/var/run/redis_6379.pid
+Restart=always
+RestartSec=5s
+TimeoutStopSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+# 创建 redis 用户和组，不分配 shell
+sudo addgroup --system redis
+sudo adduser --system --shell /bin/nologin --home /var/lib/redis
+--ingroup redis redis
+```
+
+```bash
+sudo systemctl daemon-reload
+```
+
+## redis-cli
+
+redis 安装自带的工具 redis-cli [options] [commands]
+
+- -a password 指定密码 也可以 redis-cli 连接上之后 使用auth [password] 授权
+
+redis 默认有15个库 更像命名空间，每个库不会有单独的用户权限等,连接时默认使用的是0库，
+可以通过select [database]选择数据库 集群模式下：只支持一个数据库0
+
+help 可以查看命令的使用方式 help keys 直接输入help可以查看help的使用方式

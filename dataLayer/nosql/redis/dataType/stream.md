@@ -1,4 +1,4 @@
-# stream 
+# stream
 
 Redis Stream 是 Redis 5.0 引入的一种强大的消息队列数据结构，可以实现类似 Kafka 的“持久化队列”功能，支持：
 
@@ -63,13 +63,11 @@ XREAD COUNT 100 BLOCK 3000 STREAMS race:france $
 |-------------------------------|---|
 | 最早的消息stream的起始｜最新的消息stream的结束 |
 
-
-##  消费者组
+## 消费者组
 
 适合构建高可靠的消息队列、事件驱动架构等。
 
-
-###  📌 一、什么是消费组（Consumer Group）
+### 📌 一、什么是消费组（Consumer Group）
 
 消费组是 Redis Stream 专为**消息可靠消费**设计的：
 
@@ -83,7 +81,7 @@ XREAD COUNT 100 BLOCK 3000 STREAMS race:france $
 
 ---
 
-###  🧠 二、与 XREAD 的区别
+### 🧠 二、与 XREAD 的区别
 
 | 功能          | `XREAD` | `XREADGROUP`                  |
 |-------------|---------|-------------------------------|
@@ -95,38 +93,39 @@ XREAD COUNT 100 BLOCK 3000 STREAMS race:france $
 
 ## ✅ 三、使用流程
 
-
-
-###  创建消费组（只需一次）
+### 创建消费组（只需一次）
 
 ```bash
 XGROUP CREATE mystream mygroup $ MKSTREAM
 ```
 
 说明：
+
 - `mygroup` 是组名
 - `$` 表示从现在之后的新消息开始消费（用 `0` 可以消费旧消息）
 - MKSTREAM 不存在时会自动创建该stream
 
-###  消费者读取消息
+### 消费者读取消息
 
 ```bash
 XREADGROUP GROUP mygroup consumer1 COUNT 2 BLOCK 5000 STREAMS mystream >
 ```
 
 说明：
+
 - `GROUP mygroup consumer1`：表示“我是 `mygroup` 的一个叫 `consumer1` 的消费者”
 - `COUNT`：最多拉 2 条
 - `BLOCK`：最多阻塞 5 秒
 - `>` 表示“读取尚未被任何消费者读取过的新消息”
 
-###  stream 并添加消息
+### stream 并添加消息
 
 ```bash
 XADD mystream * name jasper
 XADD mystream * name alice
 XADD mystream * name bob
 ```
+
 ### 处理完成后确认消息
 
 ```bash
@@ -148,7 +147,6 @@ XACK mystream mygroup <message_id>
 
 ---
 
-
 ```text
 1) (integer) 1                             ← 当前待确认消息总数
 2) "1745487293419-0"                      ← 待确认消息的最小 ID
@@ -169,3 +167,4 @@ XCLAIM mystream mygroup consumer2 0 1745487293419-0
 ## spring中使用
 
 > [文档地址](https://docs.spring.io/spring-data/redis/reference/redis/redis-streams.html)
+
