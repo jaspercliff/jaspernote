@@ -1,15 +1,12 @@
-# junit 
+# junit
 
 > [官网文档](https://junit.org/junit5/)
 
-
-
-## junit5 
+## junit5
 
 JUnit 5 = JUnit Platform + JUnit Jupiter（junit api + junit engine） + JUnit Vintage
 
 基础平台+jupiter(注解，断言等+执行引擎)+支持运行3.4版本的测试案例
-
 
 ```xml
     <dependencyManagement>
@@ -36,3 +33,24 @@ JUnit 5 = JUnit Platform + JUnit Jupiter（junit api + junit engine） + JUnit V
         </dependency>
     </dependencies>
 ```
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>5.10.2</version> <scope>test</scope>
+    </dependency>
+</dependencies>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.2.5</version> 
+        </plugin>
+    </plugins>
+</build>
+```
+

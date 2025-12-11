@@ -9,6 +9,7 @@
 - [string](./dataType/string.md)
 - [hash](./dataType/hash.md)
 - [list](./dataType/list.md)
+- [set](./dataType/set.md)
 - [sortedset](./dataType/sortedSet.md)
 - [stream](dataType/stream.md)
 
