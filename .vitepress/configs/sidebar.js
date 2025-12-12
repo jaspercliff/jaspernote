@@ -1,6 +1,6 @@
 import {sidebarShell} from './sidebar/sidebarShell'
 import {sidebarJvm} from "./sidebar/sidebarJvm";
-import {sidebarRedis} from "./sidebar/sidebarRedis";
+import {sidebarRedis} from "./sidebar/nosql/redis/sidebarRedis";
 import {sidebarJuc} from "./sidebar/sidebarJuc";
 import {sidebarJavaBasic} from "./sidebar/sidebarJavaBasic";
 import {sidebarJavaNewFeature} from "./sidebar/sidebarJavaNewFeature";
@@ -11,6 +11,7 @@ export const sidebar = {
     ...sidebarJuc,
     ...sidebarJavaBasic,
     ...sidebarJavaNewFeature,
+    ...sidebarRedis,
     "/java/designPattern/": [
         {
             text: "创建型",
