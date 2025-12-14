@@ -44,3 +44,13 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.30'  
 }
 ```
+
+io.freefair.lombok 插件。这个插件会自动处理所有 compileOnly, annotationProcessor, testCompileOnly, 和 testAnnotationProcessor 的配置
+
+```kotlin
+plugins {
+    id("java")
+    id("io.freefair.lombok") version "9.1.0"
+}
+```
+
