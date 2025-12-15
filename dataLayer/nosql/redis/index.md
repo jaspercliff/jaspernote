@@ -21,3 +21,7 @@
 
 - [jedis](./java/jedis/index.md)
 - [spring-data-redis](./java/springdataredis/index.md)
+
+## other
+
+- [更新策略](./problem/update.md)
