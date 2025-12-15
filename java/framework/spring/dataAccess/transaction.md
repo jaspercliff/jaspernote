@@ -5,11 +5,11 @@
 
 ---
 
-## ✅ 一、声明式事务（Declarative Transaction）
+## 声明式事务（Declarative Transaction）
 
 **定义：** 使用注解或 XML 配置来声明事务边界，无需手动编写事务控制代码。
 
-### 🔧 使用方式（基于注解）：
+### 🔧 使用方式（基于注解）
 
 spring项目时需要配置 需要显式加上 @EnableTransactionManagement
 
@@ -29,23 +29,23 @@ public class UserService {
 }
 ```
 
-### ✅ 优点：
+### 优点
 
 - 简洁、易维护。
 - 解耦业务逻辑和事务控制。
 - 推荐用于绝大多数业务场景。
 
-### ❌ 缺点：
+### 缺点
 
 - 无法灵活地控制事务（如动态决定是否提交/回滚）。
 
 ---
 
-## ✅ 二、编程式事务（Programmatic Transaction）
+## 编程式事务（Programmatic Transaction）
 
 **定义：** 在代码中显式地获取 `TransactionStatus` 对象并控制事务的提交和回滚。
 
-### 🔧 使用方式（基于 `PlatformTransactionManager`）：
+### 使用方式（基于 `PlatformTransactionManager`）
 
 ```java
 package com.jasper.springDemo.service;
@@ -79,12 +79,12 @@ public class UserService {
 }
 ```
 
-### ✅ 优点：
+### 优点
 
 - 灵活控制事务行为（如根据条件手动回滚）。
 - 适用于复杂事务逻辑（如多个数据源，部分失败重试等）。
 
-### ❌ 缺点：
+### 缺点
 
 - 代码冗长，业务逻辑和事务耦合。
 - 容易出错，不易维护。
@@ -97,9 +97,11 @@ public class UserService {
 4. 只读标志（Read-Only）：false
 
 ### PlatformTransactionManager
+
 PlatformTransactionManager 是 Spring 框架中用于统一管理事务的核心接口。它是所有事务管理器（无论是 JDBC、JPA、Hibernate、MongoDB 等）的标准抽象，隐藏了不同数据访问技术的事务处理差异
 
 ### TransactionStatus
+
 TransactionStatus 是 Spring 事务管理中的一个接口，用于表示当前事务的运行状态，它配合 PlatformTransactionManager 一起工作
 
 - setRollbackOnly 标记事务为只能回滚，后续即使没有出现异常，事务提交时也会回滚      和直接rollback的区别就是。   该方法不会立刻回滚，事务仍然会继续执行
@@ -126,3 +128,4 @@ public void createUserTemplate(User user) {
     });
 }
 ```
+
