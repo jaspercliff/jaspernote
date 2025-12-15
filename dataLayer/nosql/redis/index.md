@@ -25,3 +25,4 @@
 ## other
 
 - [更新策略](./problem/update.md)
+- [缓存穿透](./problem/cachePenetration.md)
