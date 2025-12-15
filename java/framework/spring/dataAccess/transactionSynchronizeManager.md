@@ -8,7 +8,6 @@
 - 事务提交后更新缓存
 - 事务成功后发事件
 
-
 需要实现或使用实现了 TransactionSynchronization 接口的类，并将其实例注册到 TransactionSynchronizationManager 中。这个接口定义了你在事务不同生命周期要执行的回调方法：
 void suspend(),事务挂起时（例如，当前事务被另一个事务挂起）。,挂起事务相关的资源。
 void resume(),事务恢复时。,恢复事务相关的资源。
@@ -19,7 +18,7 @@ void afterCompletion(int status),事务完成时（无论 Commit 或 Rollback）
 
 ```java
     @Override
-    // @Transactional
+    @Transactional
     public Result updateShop(Shop shop) {
         // 写入数据库
         updateById(shop);
