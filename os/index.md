@@ -8,6 +8,7 @@ layout: home
 - [linux](./linux/index.md)
 - [macos](./mac/index.md)
 - [windows](./windows/index.md)
+- [nginx](./nginx/index.md)
 - [docker](./docker/index.md)
 - [k8s](./k8s/index.md)
 - [distributed](./distributed/index.md)

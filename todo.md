@@ -1,5 +1,7 @@
 # todo
 
+nginx user redis user
+
 - k8s
 - mysql install
 - mysql 分区
