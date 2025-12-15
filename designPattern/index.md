@@ -1,15 +1,16 @@
-# designPattern 
+# designPattern
 
 ## SOLID 五大设计原则
 
 - [solid](./SOLID.md)
 
-## 创建型 Creational 
+## 创建型 Creational
+
 - [单例模式](./creational/singleton.md)
+- [建造者模式](./creational/builder.md)
 - [简单工厂(不属于Gof)](./creational/simpleFactory.md)     根据参数决定创建返回的类
 - [工厂方法](./creational/factoryMethod.md)。             将创建类延迟到子类工厂
 - [抽象工厂模式](./creational/abstractFactory.md)。        工厂创建一系列对象 abstract 创建 按钮 文本 创建类还是延迟到子类
-
 
 ## 结构型 Structural
 
@@ -18,20 +19,10 @@
 - [代理模式](./structural/proxy.md)
 
 ## 行为型 Behavioral
+
 - [观察者模式](./behavioral/observer.md)
 - [模版方法模式](./behavioral/templateMethod.md)
 - [策略模式](./behavioral/strategy.md)
-
-
-
-
-
-
-
-
-
-
-
 
 设计模式通常分为三大类。
 
