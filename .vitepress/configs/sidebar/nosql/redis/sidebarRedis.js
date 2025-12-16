@@ -3,6 +3,7 @@ export const sidebarRedis = {
         {
             text: "redis",
             items: [
+                {text: "index",link: '/dataLayer/nosql/redis/index.md'},
                 {text: "insatll",link: '/dataLayer/nosql/redis/basic/install.md'},
                 {
                     text: "dataType",
@@ -32,7 +33,16 @@ export const sidebarRedis = {
                                      {text: "serialization",link: "/dataLayer/nosql/redis/java/springdataredis/serialization.md"},
                                   ]
                         }                   ]
-                }
+                },
+                {
+                    text: "problems",
+                    items: [
+                        {text: "缓存一致性",link: "/dataLayer/nosql/redis/problem/update.md"},
+                        {text: "缓存穿透",link: "/dataLayer/nosql/redis/problem/cachePenetration.md"},
+                        {text: "缓存雪崩",link: "/dataLayer/nosql/redis/problem/cacheAvalanche.md"},
+                        {text: "缓存击穿",link: "/dataLayer/nosql/redis/problem/cacheBreakdown.md"},
+                           ]
+                },
             ],
         },
     ]

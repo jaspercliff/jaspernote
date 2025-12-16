@@ -26,3 +26,5 @@
 
 - [更新策略](./problem/update.md)
 - [缓存穿透](./problem/cachePenetration.md)
+- [缓存雪崩](./problem/cacheAvalanche.md)
+- [缓存击穿](./problem/cacheBreakdown.md)
