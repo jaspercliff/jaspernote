@@ -29,3 +29,4 @@
 - [缓存雪崩](./problem/cacheAvalanche.md)
 - [缓存击穿](./problem/cacheBreakdown.md)
 - [全局唯一id](./problem/globalId.md)
+- [高并发超卖](./problem/oversell.md)

@@ -12,8 +12,9 @@
 ### transactionManagement
 
 - [事务的使用](/java/framework/spring/dataAccess/transaction.md)
-- [事务源码学习](./sourceCode/transaction.md)
+- [事务失效的场景](./dataAccess/transactionInvalid.md)
 - [transactionPropagation](/java/framework/spring/dataAccess/事务传播机制.md)
+- [事务源码学习](./sourceCode/transaction.md)
 - [transactionSynchronizeManager](./dataAccess/transactionSynchronizeManager.md)
 
 ## integration
