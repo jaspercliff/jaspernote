@@ -28,3 +28,4 @@
 - [缓存穿透](./problem/cachePenetration.md)
 - [缓存雪崩](./problem/cacheAvalanche.md)
 - [缓存击穿](./problem/cacheBreakdown.md)
+- [全局唯一id](./problem/globalId.md)
