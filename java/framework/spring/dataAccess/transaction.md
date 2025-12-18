@@ -29,13 +29,13 @@ public class UserService {
 }
 ```
 
-### 优点
+### 1优点
 
 - 简洁、易维护。
 - 解耦业务逻辑和事务控制。
 - 推荐用于绝大多数业务场景。
 
-### 缺点
+### 1缺点
 
 - 无法灵活地控制事务（如动态决定是否提交/回滚）。
 
@@ -77,6 +77,26 @@ public class UserService {
         }
     }
 }
+
+```
+
+更推荐下面这种，让spring去手动管理,上面需要手动管理每一个细节，适合需要高度自定义细节时，手动调用这些底层api
+
+```java
+        public void deleteUserNoTransaction3(){
+            removeById(1);
+            Boolean isSuccess = transactionTemplate.execute(status -> {
+                try {
+                    addUserTransaction();
+                    return true; //这里只是一个返回，不会影响事务的提交和回滚
+                } catch (ArithmeticException e) {
+                    // 当你的代码块（Lambda 表达式）执行完毕返回时，Spring 的事务管理器会检查这个 status。
+                    // 如果发现被标记了 RollbackOnly，它才会真正去调用数据库的回滚指令,推荐使用，让spring去手动管理这个事务
+                    status.setRollbackOnly();
+                    return false;
+                }
+            });
+        }
 ```
 
 ### 优点
@@ -98,11 +118,13 @@ public class UserService {
 
 ### PlatformTransactionManager
 
-PlatformTransactionManager 是 Spring 框架中用于统一管理事务的核心接口。它是所有事务管理器（无论是 JDBC、JPA、Hibernate、MongoDB 等）的标准抽象，隐藏了不同数据访问技术的事务处理差异
+PlatformTransactionManager 是 Spring 框架中用于统一管理事务的核心接口。它是所有事务管理器
+（无论是 JDBC、JPA、Hibernate、MongoDB 等）的标准抽象，隐藏了不同数据访问技术的事务处理差异
 
 ### TransactionStatus
 
-TransactionStatus 是 Spring 事务管理中的一个接口，用于表示当前事务的运行状态，它配合 PlatformTransactionManager 一起工作
+TransactionStatus 是 Spring 事务管理中的一个接口，用于表示当前事务的运行状态，它配合 PlatformTransactionManager
+一起工作
 
 - setRollbackOnly 标记事务为只能回滚，后续即使没有出现异常，事务提交时也会回滚      和直接rollback的区别就是。   该方法不会立刻回滚，事务仍然会继续执行
 
@@ -129,3 +151,4 @@ public void createUserTemplate(User user) {
 }
 ```
 
+transactionTemplate使用了[模板方法设计模式](/designPattern/behavioral/templteMethod)，自动帮你管理事务的生命周期（开启、提交、异常回滚、资源释放），你只需要关注业务逻辑
