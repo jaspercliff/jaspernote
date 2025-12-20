@@ -29,4 +29,10 @@
 - [缓存雪崩](./problem/cacheAvalanche.md)
 - [缓存击穿](./problem/cacheBreakdown.md)
 - [全局唯一id](./problem/globalId.md)
-- [高并发超卖](./problem/oversell.md)
+- [高并发超卖和一人一单](./problem/oversell.md)
+- [分布式锁](./problem/distributedLock.md)
+
+## programmability
+
+- [function](./programmability/function/index.md)
+- [lua scripting](./programmability/luascript/index.md)

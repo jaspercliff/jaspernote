@@ -1,13 +1,13 @@
-# 缓存击穿 cache breakdown
+# distributedlock
 
-热点key，被高并发访问并且缓存重建的过程比较复杂的key突然实效了，大量请求到达数据库（同时去新建缓存）
+分布式系统 多进程可见并且互斥
 
-## solution
+## impl
 
-- 互斥锁 性能不好 cp
-- 逻辑过期 不保证一致性 ap
+- set ex nx: 互斥 确保只有一个线程获取锁, set ex 10 nx (保证原子性,添加值和过期时间在一个原子命令中)
+- del： 释放锁，加超时时间，防止死锁
 
-### mutex
+---
 
 ```java
     /**
@@ -58,7 +58,7 @@
             /*
              * 如果一个线程在业务处理中超时，它的锁被释放，被另一个线程获取。当第一个线程最终到达 releaseLock 时，
              * 它无法判断现在 Redis 中存的锁是不是它自己的。因此，它会错误地执行删除操作，导致误删问题 :缓存值加线程id
-             * 这里线程id 会重复，分布式环境下生成的线程id会碰撞，所以使用uuid+线程id
+             * 这里线程id 会重复，分布式环境下生成的线程id会碰撞，所以使用uuid+线程id 
              */
             releaseLock(lockKey);
         }
@@ -67,44 +67,41 @@
     }
 ```
 
-### logic expire
+---
+
+### 误删问题解决
 
 ```java
-    /**
-     * 缓存击穿 使用逻辑过期 ： 热点数据手动维护
-     * @param id  id
-     * @return result
-     */
-    public Result queryShopByIdWithCacheBreakDownLogicExpire(Long id) {
-        String key = RedisConstants.CACHE_SHOP_KEY + id;
-        String cacheShopStr = redisTemplate.opsForValue().get(key);
-        if (StrUtil.isBlank(cacheShopStr)) {
-            return null; //查询不到缓存直接认为是null
-        }
+@AllArgsConstructor
+public class SimpleRedisLock implements IDistributedLock {
 
-        String lockKey = RedisConstants.LOCK_SHOP_KEY + id;
+    private String name;
+    private final StringRedisTemplate stringRedisTemplate;
+    private static final String KEY_PREFIX = "lock:";
+    public static final String ID_PREFIX = UUID.randomUUID().toString(true) + "-";
 
-        RedisData redisData = JSONUtil.toBean(cacheShopStr, RedisData.class);
-        LocalDateTime expireTime = redisData.getExpireTime();
-        JSONObject data = (JSONObject) redisData.getData();
-        Shop cacheShop = JSONUtil.toBean(data, Shop.class);
-        if (expireTime.isAfter(LocalDateTime.now())) {
-            return Result.ok(cacheShop);//没有过期直接返回
-        }
-
-        Boolean isLock = tryLock(lockKey);
-        if (isLock) {
-        //     缓存重建 使用一个新的线程去重建缓存
-            taskExecutor.submit(()->{
-                try {
-                    this.saveData2Redis(id, 30L);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                } finally {
-                    releaseLock(lockKey);
-                }
-            });
-        }
-        return Result.ok(cacheShop);
+    @Override
+    public boolean tryLock(Duration duration) {
+        String threadId = ID_PREFIX + Thread.currentThread().threadId();
+     Boolean isSuccess=stringRedisTemplate.opsForValue()
+.setIfAbsent(KEY_PREFIX+name,threadId, duration);
+        return Boolean.TRUE.equals(isSuccess);// 自动拆箱，防止空指针
     }
+
+    @Override
+    public void unlock() {
+        /*
+         * 在判断成功到执行删除之间，如果锁刚好过期并被别人抢占，依然会发生误删。因此，必须使用 Lua 脚本 将“检查”和“删除”合二为一
+         * 保证多条命令的原子性
+         */
+        String threadId = ID_PREFIX + Thread.currentThread().threadId();
+        String id = stringRedisTemplate.opsForValue().get(KEY_PREFIX + name);
+        if (threadId.equals(id)) {
+            stringRedisTemplate.delete(KEY_PREFIX + name);
+        }
+    }
+}
+
 ```
+
+---
