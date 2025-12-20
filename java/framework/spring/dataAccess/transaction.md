@@ -151,4 +151,4 @@ public void createUserTemplate(User user) {
 }
 ```
 
-transactionTemplate使用了[模板方法设计模式](/designPattern/behavioral/templteMethod)，自动帮你管理事务的生命周期（开启、提交、异常回滚、资源释放），你只需要关注业务逻辑
+transactionTemplate使用了[模板方法设计模式](/designPattern/behavioral/templateMethod.md)，自动帮你管理事务的生命周期（开启、提交、异常回滚、资源释放），你只需要关注业务逻辑
