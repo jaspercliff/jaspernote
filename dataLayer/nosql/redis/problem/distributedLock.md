@@ -105,3 +105,32 @@ public class SimpleRedisLock implements IDistributedLock {
 ```
 
 ---
+
+### 使用lua脚本保证原子性
+
+```Lua
+-- 线程id 和存进去的alue值一致就删除锁 保证判断和删除的原子性
+if (redis.call('GET', KEYS[1]) == ARGV[1]) then
+    return redis.call('DEL', KEYS[1])
+end
+
+return 0
+```
+
+```java
+    public static final DefaultRedisScript<Long> UNLOCK_SCRIPT;
+
+    static {
+        UNLOCK_SCRIPT =  new DefaultRedisScript<>();
+        UNLOCK_SCRIPT.setLocation(new ClassPathResource("unlock.lua"));
+        UNLOCK_SCRIPT.setResultType(Long.class);
+    }
+    @Override
+    public void unlock() {
+        // lua脚本保证判断和删除的原子性
+        stringRedisTemplate.execute(UNLOCK_SCRIPT,
+                Collections.singletonList(KEY_PREFIX + name),
+                ID_PREFIX + Thread.currentThread().threadId()
+                );
+    }
+```

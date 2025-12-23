@@ -1,3 +1,3 @@
-# spring data 
+# spring data
 
-- [spring data redis](redis/index.md)
+- [spring data redis](/dataLayer/nosql/redis/java/springdataredis/index.md)

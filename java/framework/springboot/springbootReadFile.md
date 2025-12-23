@@ -4,7 +4,7 @@
 
 ---
 
-### 1. 使用 `ClassPathResource`
+## 1. 使用 `ClassPathResource`
 
 Spring 提供的 `ClassPathResource` 可以直接读取类路径下的资源文件。
 
@@ -32,7 +32,7 @@ public class ClassPathResourceDemo {
 
 ---
 
-### 2. 使用 `ResourceLoader`
+## 2. 使用 `ResourceLoader`
 
 `ResourceLoader` 是 Spring 提供的统一资源加载接口，可以通过注入使用。
 
@@ -57,10 +57,10 @@ public class ResourceLoaderDemo {
 ```
 
 * 优点：统一接口，可以加载 classpath、文件系统、URL 等多种资源。
+
 ---
 
-
-### 3. 使用 `ResourceUtils`
+## 3. 使用 `ResourceUtils`
 
 `ResourceUtils` 可以获取文件对象。
 
