@@ -5,7 +5,12 @@
 
 ![completableFuture](../assets/completableFuture.svg)
 
-## advantage
+## CompletionStage
+
+代表异步计算中的一个阶段（Stage）。它解决了传统的 Future.get() 必须阻塞等待的问题，允许你定义“当上一步完成后，下一步该做什么”
+它不是线程、也不是任务，而是计算流程中的一个阶段（stage）
+
+### advantage
 
 - 非阻塞回调 任务完成后自动触发下一步
 - 链式编程

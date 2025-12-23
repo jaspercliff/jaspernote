@@ -61,6 +61,8 @@ export const nav = [
         text: "NoSQL",
         items: [
           { text: "Redis", link: "/dataLayer/nosql/redis/index.md" },
+          { text: "valkey", link: "/dataLayer/nosql/valkey/index.md" },
+          { text: "redisson", link: "/dataLayer/nosql/redisson/index.md" },
           { text: "Elasticsearch", link: "/dataLayer/nosql/es/index.md" }, // 文字建议写全称
         ],
       },

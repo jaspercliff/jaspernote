@@ -69,7 +69,7 @@
 
 ---
 
-### 误删问题解决
+## 误删问题解决
 
 ```java
 @AllArgsConstructor
@@ -106,7 +106,7 @@ public class SimpleRedisLock implements IDistributedLock {
 
 ---
 
-### 使用lua脚本保证原子性
+## 使用lua脚本保证原子性
 
 ```Lua
 -- 线程id 和存进去的alue值一致就删除锁 保证判断和删除的原子性
@@ -133,4 +133,56 @@ return 0
                 ID_PREFIX + Thread.currentThread().threadId()
                 );
     }
+```
+
+## 缺点
+
+- 不可重入 同一个线程无法多次获取同一把锁  使用hash结构 使用lua脚本判断
+- 不可重试
+- 超时释放
+- 主从一致性 redis集群 同步存在延迟
+
+## 可重入锁实现
+
+```lua
+local key = KEYS[1];
+local threadId = ARGV[1];
+local releaseTime = ARGV[2];
+
+-- 1. 如果锁不存在，或者锁存在且是当前线程持有的（可重入）
+if (redis.call('exists', key) == 0) or (redis.call('hexists', key, threadId) == 1) then
+    -- 增加重入次数（如果是第一次，hincrby 会把 0 变成 1）
+    redis.call('hincrby', key, threadId, 1);
+    -- 设置/更新有效期
+    redis.call('expire', key, releaseTime);
+    return 1; -- 返回成功
+end
+
+-- 2. 锁被别人占用了
+return 0; -- 返回失败
+
+
+
+
+local key = KEYS[1];
+local threadId = ARGV[1];
+local releaseTime = ARGV[2];
+
+-- 如果锁不是我的，直接返回空（或者报错）
+if (redis.call('hexists', key, threadId) == 0) then
+    return nil;
+end
+
+-- 是我的锁，计数减 1
+local count = redis.call('hincrby', key, threadId, -1);
+
+-- 如果减完后计数还大于 0，说明还没完全释放，更新有效期
+if (count > 0) then
+    redis.call('expire', key, releaseTime);
+    return 0;
+else
+    -- 计数归零，彻底删除锁
+    redis.call('del', key);
+    return 1;
+end
 ```
