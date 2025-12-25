@@ -12,6 +12,8 @@
 
 - [venv](./environment/venv.md)
 - [uv](./environment/uv.md)
+- [pip](./environment/pip.md)
+- [pipx](./environment/pipx.md)
 
 ## notebook
 
