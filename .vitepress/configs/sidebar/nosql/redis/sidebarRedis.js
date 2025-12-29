@@ -23,7 +23,8 @@ export const sidebarRedis = {
                     ]
                 },
                 {
-                    text: "java",
+                    text: "java",        
+                    collapsed: true,
                     items: [
                         {text: "jedis",link: "/dataLayer/nosql/redis/java/jedis/index.md"},
                         {
@@ -41,6 +42,10 @@ export const sidebarRedis = {
                         {text: "缓存穿透",link: "/dataLayer/nosql/redis/problem/cachePenetration.md"},
                         {text: "缓存雪崩",link: "/dataLayer/nosql/redis/problem/cacheAvalanche.md"},
                         {text: "缓存击穿",link: "/dataLayer/nosql/redis/problem/cacheBreakdown.md"},
+                        {text: "全局唯一id",link: "/dataLayer/nosql/redis/problem/globalId.md"},
+                        {text: "分布式锁",link: "/dataLayer/nosql/redis/problem/distributedLock.md"},
+                        {text: "oversell",link: "/dataLayer/nosql/redis/problem/oversell.md"},
+                        {text: "消息队列",link: "/dataLayer/nosql/redis/problem/mq.md"},
                            ]
                 },
             ],

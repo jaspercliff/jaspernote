@@ -26,3 +26,5 @@ Deletes the list if the last element was popped.
 实现栈  lpush+lpop rpush+rpop 入口出口在一边
 实现队列 lpush+rpop rpush+lpop          入口出口不同
 实现阻塞队列 lpush+brpop rpush+blpop
+
+- [实现消息队列](../problem/mq.md)

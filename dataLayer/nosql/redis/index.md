@@ -31,6 +31,7 @@
 - [全局唯一id](./problem/globalId.md)
 - [高并发超卖和一人一单](./problem/oversell.md)
 - [分布式锁](./problem/distributedLock.md)
+- [消息队列](./problem/mq.md)
 
 ## programmability
 
