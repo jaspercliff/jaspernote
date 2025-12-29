@@ -1,6 +1,5 @@
 # kotlin
 
-
 ## foundation
 
 - [keyword](./foundation/01keyword.md)
@@ -9,5 +8,3 @@
 - [fun](./foundation/04function.md)
 - [collection](./foundation/05collection.md)
 
-
-## gradle-kotlin-dsl

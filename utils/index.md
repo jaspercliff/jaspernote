@@ -7,12 +7,10 @@
 
 ## terminal
 
-### lazy
+### tui
 
 - [lazygit](lazy/lazygit.md)
 - [lazydocker](lazy/lazydocker.md)
 - [lazyVim](lazy/lazyVim.md)
-
-### taskwarrior
-
 - [taskwarrior](./terminal/taskwarrior.md)
+- [fzf](./tui/fzf.md)
