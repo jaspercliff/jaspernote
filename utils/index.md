@@ -7,6 +7,8 @@
 
 ## terminal
 
+- [tmux](./tmux.md)
+
 ### tui
 
 - [lazygit](lazy/lazygit.md)
