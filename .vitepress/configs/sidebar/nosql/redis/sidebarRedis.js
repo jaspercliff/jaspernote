@@ -17,9 +17,9 @@ export const sidebarRedis = {
                     ]
                 },
                 {
-                    text: "interact with data",
+                    text: "pubsub",
                     items: [
-                        {text: "pubsub",link: "/dataLayer/redis/interactWithData/pubsub.md"}
+                        {text: "pubsub",link: "/dataLayer/redis/pubsub/pubsub.md"}
                     ]
                 },
                 {

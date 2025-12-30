@@ -67,7 +67,7 @@ XREAD COUNT 100 BLOCK 3000 STREAMS race:france $
 
 适合构建高可靠的消息队列、事件驱动架构等。
 
-### 📌 一、什么是消费组（Consumer Group）
+### 什么是消费组（Consumer Group）
 
 消费组是 Redis Stream 专为**消息可靠消费**设计的：
 
@@ -81,7 +81,7 @@ XREAD COUNT 100 BLOCK 3000 STREAMS race:france $
 
 ---
 
-### 🧠 二、与 XREAD 的区别
+### 与 XREAD 的区别
 
 | 功能          | `XREAD` | `XREADGROUP`                  |
 |-------------|---------|-------------------------------|
@@ -167,4 +167,3 @@ XCLAIM mystream mygroup consumer2 0 1745487293419-0
 ## spring中使用
 
 > [文档地址](https://docs.spring.io/spring-data/redis/reference/redis/redis-streams.html)
-

@@ -13,9 +13,9 @@
 - [sortedset](./dataType/sortedSet.md)
 - [stream](dataType/stream.md)
 
-## interact with data
+## pubsub
 
-- [pub sub](interactWithData/pubsub.md)
+- [pub sub](./pubsub/pubsub.md)
 
 ## java
 
