@@ -1,4 +1,11 @@
-# grub
+# theme
+
+## sddm
+```zsh
+paru -S sddm-astronaut-theme
+```
+
+##
 
 设置grub主题
 

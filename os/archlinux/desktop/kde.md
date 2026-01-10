@@ -13,7 +13,7 @@
 ### 核心包说明
 
 * **plasma-desktop**: 最核心的桌面包（包含任务栏、桌面、设置）。
-* **sddm**: 登录管理器（显示管理器）。
+* **sddm**: 登录管理器（显示管理器）。 sddm-kcm
 * **konsole**: 终端（虽然是应用，但没有它你进入桌面后很难操作）。
 * **dolphin**: 文件管理器（可选，但通常是必需品）。
 
@@ -21,7 +21,6 @@
 sudo pacman -S plasma-desktop sddm konsole dolphin
 
 ```
-
 ---
 
 ## 3. 配置与启动

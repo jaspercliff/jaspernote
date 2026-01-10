@@ -11,7 +11,7 @@ EDITOR=vim visudo
 systemctl enable gdm 桌面环境自启
 
 sudo pacman -S noto-fonts-cjk noto-fonts-emoji 中文 日文 韩文  表情
-fc-cache -fv 刷新字体缓存
+fc-cache -fv 刷新字体缓存sfasf
 sudo pacman -S fcitx5 fcitx5-chinese-addons  输入法框架本体 拼音（pinyin）/双拼/五笔 等
 
 extension manager
@@ -36,7 +36,7 @@ Swap（交换空间）就是硬盘上的一块“虚拟内存”。
 
   ```bash
   # 1. 格式化 EFI 分区
-  mkfs.fat -F 32 /dev/nvme0n1p1
+  mkfs.fat -F 32 /dev/nvmen1p1
 
   # 2. 格式化 Btrfs 分区 (加上 -L 参数可以给磁盘起个标签，方便识别) -f 强制清除，如果之前有btrfs 会报错已经是该文件系统了
   mkfs.btrfs -f -L ARCH_SYSTEM /dev/nvme0n1p2
