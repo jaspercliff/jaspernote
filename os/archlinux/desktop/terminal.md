@@ -32,6 +32,8 @@ sudo pacman -S ttf-jetbrains-mono-nerd
 mkdir -p ~/.config/alacritty
 vim ~/.config/alacritty/alacritty.toml
 ```
+pacman -S chafa 
+配置专门优化了 Alacritty 下的图片显示质量
 
 ```toml
 [font]
