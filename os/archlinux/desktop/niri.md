@@ -5,9 +5,7 @@
 sudo pacman -S fuzzel
 ```
 
-matugen 了，这是美化的第一步。
-
-    实现效果： 你换一张粉色的壁纸，niri 的窗口边框、dms-shell 的按钮、fuzzel 的背景都会瞬间变成深浅不一的粉色
+- matugen   实现效果： 你换一张粉色的壁纸，niri 的窗口边框、dms-shell 的按钮、fuzzel 的背景都会瞬间变成深浅不一的粉色
 
 ## 快捷键
 
