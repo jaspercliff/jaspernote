@@ -6,7 +6,6 @@
 
 ## 1. 安装软件包
 
-
 ```bash
 sudo pacman -S mariadb
 ```
@@ -20,6 +19,7 @@ sudo pacman -S mariadb
 ```bash
 sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 ```
+
 ---
 
 ## 3. 启动并启用服务
@@ -27,14 +27,17 @@ sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 安装完成后，启动 MariaDB 守护进程，并将其设置为开机自启。
 
 * **启动服务：**
+
 ```bash
 sudo systemctl start mariadb
 ```
 
 * **设置开机自启：**
+
 ```bash
 sudo systemctl enable mariadb
 ```
+
 ---
 
 ## 4. 安全配置（强烈建议）
@@ -68,3 +71,9 @@ mariadb -u root -p
 
 * **配置文件：** 默认路径在 `/etc/my.cnf` 或 `/etc/my.cnf.d/` 目录下。
 * **日志检查：** 如果服务启动失败，可以使用 `journalctl -u mariadb` 查看错误原因。
+
+## 导入数据库
+
+```zsh
+mariadb -u root -p hmdp < hmdp.sql
+```

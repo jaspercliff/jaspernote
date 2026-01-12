@@ -141,3 +141,5 @@ vim file1.txt file2.txt file3.txt
 :b2        " 切换到编号为 2 的缓冲区
 :bd 3      " 删除编号为 3 的缓冲区
 ```
+
+快速打5个#   5i# esc
