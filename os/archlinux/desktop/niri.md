@@ -23,7 +23,8 @@ super+[ consume or exple window left
 super+v  切换窗口为浮动，不在横向滚动卷轴
 super+shift+v 切换float 和tiling的窗口
 
-
+mod+u 切换下边的工作区
+mod+i 切换为上边的工作区
 
 Consume,吞噬 / 合并,把左边的窗口吸进来，叠在自己下面。,两个窗口变成上下平分一个列。
 Expel,排泄 / 拆分,把当前列中的某个窗口踢出去，放到左边。,窗口从上下堆叠变成左右独立排列。
