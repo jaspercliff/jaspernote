@@ -63,7 +63,7 @@ arch 安装默认打开首页是404，当 root 设置为 html 时，Nginx 会相
 
 ## 推荐流程
 
-```
+```zsh
 # 创建站点存放目录
 sudo mkdir -p /var/www/hmdp/public
 
