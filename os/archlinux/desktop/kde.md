@@ -21,6 +21,7 @@
 sudo pacman -S plasma-desktop sddm konsole dolphin
 
 ```
+
 ---
 
 ## 3. 配置与启动

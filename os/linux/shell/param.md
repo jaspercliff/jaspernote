@@ -53,10 +53,8 @@ cp: file1.txt: No such file or directory
 parm: line 14: 56389 Terminated: 15          sleep 100
 复制失败
 
-
 $* 有双引号时 会将所有的参数合并为一个参数  a b c d
 $@ 有双引号时 会将每个参数都作为一个独立的参数  a "b c"  d
-
 
 ## 参数替换 parameter expansion
 
@@ -111,7 +109,6 @@ echo ${file##*.}  # gz
 | `${VAR//pattern/repl}` | 替换所有匹配的 pattern         |
 | `${VAR/#pattern/repl}` | 如果开头匹配 pattern，替换为 repl |
 | `${VAR/%pattern/repl}` | 如果结尾匹配 pattern，替换为 repl |
-
 
 ```shell
 # string replacement

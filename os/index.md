@@ -6,6 +6,7 @@ layout: home
 # system and system design
 
 - [linux](./linux/index.md)
+- [arch](./archlinux/index.md)
 - [macos](./mac/index.md)
 - [windows](./windows/index.md)
 - [nginx](./nginx/index.md)
