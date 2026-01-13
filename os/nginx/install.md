@@ -71,6 +71,10 @@ sudo chown -R ${USER}:http /var/www/hmdp
 # 设置目录权限为 755，文件权限为 644
 find /var/www/hmdp -type d -exec chmod 755 {} +
 find /var/www/hmdp -type f -exec chmod 644 {} +
+
+fd -t d . /var/www/hmdp -x chmod 755
+fd -t f . /var/www/hmdp -x chmod 644
+
 sudo mkdir -p /etc/nginx/sites-available
 sudo mkdir -p /etc/nginx/sites-enabled
 ```
