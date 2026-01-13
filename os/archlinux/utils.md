@@ -4,4 +4,5 @@
 
 ## markdown
 
-- markmap-cli
+- markmap-cli   markdown 思维导图
+- translate-shell  shell 翻译

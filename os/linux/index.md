@@ -5,7 +5,7 @@
 
 ## file
 
-- [index](./file/index.md)
+- [privilege](./file/privilege.md)
 - [压缩解压缩](./file/compress.md)
 
 ## shell
