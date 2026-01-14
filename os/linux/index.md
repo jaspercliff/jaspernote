@@ -1,6 +1,6 @@
 # index
 
-- [utils](/utils/index.md)
+- [utils](./utils/index.md)
 - [ssh](ssh.md)
 - [常用命令](./commonCommand.md)
 
