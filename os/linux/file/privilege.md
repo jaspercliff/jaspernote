@@ -8,3 +8,8 @@ x (Execute),1,执行程序 / 进入目录
 第一位 (7)：Owner（所有者）。通常是你自己。
 第二位 (5)：Group（用户组）。同组内的其他成员（如 nginx 进程）。
 第三位trans :zh "Hello world" (5)：Others（其他人）。系统上除了上面两类之外的所有人。
+
+## chown
+
+chown $USER /opt/jmeter/  将当前目录的拥有者改为 当前登录用户
+chown -R $USER:$USER /opt/jmeter/ -R recursive 递归  同时改变当前目录及子目录的拥有者和所属组

@@ -3,6 +3,7 @@
 ## native
 
 - [scp](./native/scp.md)
+- [find](./native/find.md)
 - [grep](utils/grep.md)
 - [awk](utils/awk.md)
 - [rsync](./rsync.md)
