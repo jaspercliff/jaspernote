@@ -128,3 +128,9 @@ EDITOR=vim visudo   # 取消 %wheel ALL=(ALL:ALL) ALL 前的注释
 中文字体
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
 fc-cache -fv
+
+## blueteeth
+
+```bash
+sudo pacman -S bluez bluez-utils
+```
