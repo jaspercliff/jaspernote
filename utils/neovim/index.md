@@ -4,7 +4,7 @@
 brew install neovim
 ```
 
-- [安装lazy.vim插件](../lazy/lazyVim.md)
+- [安装lazy.vim插件](./lazyvim/index.md)
 
 :help   manual
 

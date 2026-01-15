@@ -1,6 +1,7 @@
 # ubuntu安装ruff失败
 
-**Ubuntu 22.04/24.04 及以上系统自带 Python 3.12+**  **PEP 668** 管理限制。这会影响像 **LazyVim** 这类插件管理工具或者 Python 包管理工具（`pipx`、`pip install --user`）的安装和使用。
+**Ubuntu 22.04/24.04 及以上系统自带 Python 3.12+**  **PEP 668** 管理限制。
+这会影响像 **LazyVim** 这类插件管理工具或者 Python 包管理工具（`pipx`、`pip install --user`）的安装和使用。
 
 ## 1. 什么是 PEP 668
 
@@ -52,9 +53,6 @@ init.lua
 -- 指定 LazyVim 使用的 Python
 vim.g.python3_host_prog = "/home/jasper/.config/nvim/venv/bin/python"
 ```
-
-
-
 
 ### 4. 总结
 
