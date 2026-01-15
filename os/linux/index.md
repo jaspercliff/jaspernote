@@ -12,6 +12,7 @@
 ## shell
 
 - [shell](./shell/index.md)
+- [数据流重定向](./shell/dataStreamRedirection/index.md)
 
 ## 进程
 
