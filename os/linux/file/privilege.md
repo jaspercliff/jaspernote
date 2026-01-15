@@ -11,5 +11,12 @@ x (Execute),1,执行程序 / 进入目录
 
 ## chown
 
+修改文件的所有者和用户组
 chown $USER /opt/jmeter/  将当前目录的拥有者改为 当前登录用户
 chown -R $USER:$USER /opt/jmeter/ -R recursive 递归  同时改变当前目录及子目录的拥有者和所属组
+
+## chmod
+
+修改文件的权限
+
+chmod 777 1.txt
