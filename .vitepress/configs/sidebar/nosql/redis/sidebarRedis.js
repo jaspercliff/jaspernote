@@ -14,6 +14,7 @@ export const sidebarRedis = {
                         {text: "list",link: '/dataLayer/nosql/redis/dataType/list.md'},
                         {text: "set",link: '/dataLayer/nosql/redis/dataType/set.md'},
                         {text: "sortedSet",link: '/dataLayer/nosql/redis/dataType/sortedSet.md'},
+                        {text: "stream",link: '/dataLayer/nosql/redis/dataType/stream.md'},
                     ]
                 },
                 {
