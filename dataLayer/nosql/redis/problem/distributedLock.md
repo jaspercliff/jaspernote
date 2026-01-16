@@ -150,7 +150,8 @@ local threadId = ARGV[1];
 local releaseTime = ARGV[2];
 
 -- 1. 如果锁不存在，或者锁存在且是当前线程持有的（可重入）
-if (redis.call('exists', key) == 0) or (redis.call('hexists', key, threadId) == 1) then
+if (redis.call('exists', key) == 0) or (redis.call('hexists', key, threadId)
+  == 1) then
     -- 增加重入次数（如果是第一次，hincrby 会把 0 变成 1）
     redis.call('hincrby', key, threadId, 1);
     -- 设置/更新有效期

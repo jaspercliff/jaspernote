@@ -10,6 +10,7 @@
 `<` 的作用是：告诉命令不要从键盘读取输入，而是从文件里读取内容
 
 ```zsh
+# 将schema.sql的sql一条一条发给数据库执行
 maridb -u root -p my_database < schema.sql
 ```
 
