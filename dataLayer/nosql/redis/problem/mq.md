@@ -4,8 +4,12 @@
 2. pubsub
 3. stream
 
-| list | pubsub | stream |
-| --- | --- | --- |
+| Component | list | pubsub | stream |
+| --------------- | --------------- | --------------- | --------------- |
+| 消息持久化 | yes | no | yes |
+| ack | no(rpoplpush实现) | no | yes |
+| 消息回溯 | no(rpoplpush实现) | no | yes |
+
 
 ## list
 
