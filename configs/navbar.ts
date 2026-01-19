@@ -23,6 +23,12 @@ export const navbar: ThemeConfig['navbar'] = {
     },
     {
       type: 'docSidebar',
+      sidebarId: 'kotlin',
+      position: 'left',
+      label: 'kotlin',
+    },
+    {
+      type: 'docSidebar',
       sidebarId: 'python',
       position: 'left',
       label: 'python',
