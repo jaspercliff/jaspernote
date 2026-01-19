@@ -33,6 +33,12 @@ export const navbar: ThemeConfig['navbar'] = {
       position: 'left',
       label: 'python',
     },
+    {
+      type: 'docSidebar',
+      sidebarId: 'lua',
+      position: 'left',
+      label: 'lua',
+    },
     { to: '/blog', label: 'Blog', position: 'right' },
     // 设计模式下拉菜单
     {

@@ -1,0 +1,3 @@
+# foundation
+
+- [install](install.md)
