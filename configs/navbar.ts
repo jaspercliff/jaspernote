@@ -21,6 +21,12 @@ export const navbar: ThemeConfig['navbar'] = {
       position: 'left',
       label: '数据结构',
     },
+    {
+      type: 'docSidebar',
+      sidebarId: 'python',
+      position: 'left',
+      label: 'python',
+    },
     { to: '/blog', label: 'Blog', position: 'right' },
     // 设计模式下拉菜单
     {
