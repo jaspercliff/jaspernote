@@ -5,7 +5,7 @@
 ## solution
 
 - 缓存空对象  额外占用内存 可能造成短期不一致(存了个null(ttl=2m)，但是对应id此时正好维护进去了)
-- [布隆过滤(判断一个元素是否可能存在于一个集合中) 实现负责 判断不一定准确](/dataStructure/algo/bloomfilter.md)
+- [布隆过滤(判断一个元素是否可能存在于一个集合中) 实现负责 判断不一定准确](/docs/dataStructure/algo/bloomfilter.md)
 - 热点参数限流
 
 ```java

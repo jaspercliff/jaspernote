@@ -54,6 +54,7 @@ export const navbar: ThemeConfig['navbar'] = {
         { label: 'react', to: '/docs/front/react', sidebarId: 'react' },
       ],
     },
+    //================================================ dataLayer
     {
       type: 'dropdown',
       label: 'dataLayer',
@@ -66,8 +67,18 @@ export const navbar: ThemeConfig['navbar'] = {
         { label: '分库分表', to: '/docs/dataLayer/sharding/', sidebarId: 'sharding' },
       ],
     },
-    { to: '/blog', label: 'Blog', position: 'right' },
-    // 设计模式下拉菜单
+    //================================================ system design
+    {
+      type: 'dropdown',
+      label: 'system design',
+      position: 'left',
+      items: [
+        { label: 'operating system', to: '/docs/infrastructure/os', sidebarId: 'os' },
+        { label: 'system design', to: '/docs/infrastructure/design', sidebarId: 'design' },
+        { label: 'devops', to: '/docs/infrastructure/devops', sidebarId: 'devops' },
+      ],
+    },
+    //================================================ utils
     {
       type: 'dropdown',
       label: 'utils',
@@ -85,6 +96,7 @@ export const navbar: ThemeConfig['navbar'] = {
       label: '标签云',
       position: 'right',
     },
+    { to: '/blog', label: 'Blog', position: 'right' },
     {
       href: 'https://github.com/facebook/docusaurus',
       label: 'GitHub',

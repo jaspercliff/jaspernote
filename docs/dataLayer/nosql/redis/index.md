@@ -5,7 +5,7 @@
 
 ## data type
 
-- [index](dataType/index.md)
+- [index](./dataType/index.md)
 - [string](dataType/string.md)
 - [hash](dataType/hash.md)
 - [list](dataType/list.md)
