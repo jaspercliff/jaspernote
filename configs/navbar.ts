@@ -39,6 +39,21 @@ export const navbar: ThemeConfig['navbar'] = {
       position: 'left',
       label: 'lua',
     },
+    {
+      type: 'dropdown',
+      label: 'front',
+      position: 'left',
+      items: [
+        { label: 'html', to: '/docs/front/html', sidebarId: 'html' },
+        { label: 'css', to: '/docs/front/css', sidebarId: 'css' },
+        { label: 'js', to: '/docs/front/js', sidebarId: 'js' },
+        { label: 'jquery', to: '/docs/front/jquery', sidebarId: 'jquery' },
+        { label: 'vitepress', to: '/docs/front/vitepress', sidebarId: 'vitepress' },
+        { label: 'docusaurus', to: '/docs/front/docusaurus', sidebarId: 'docusaurus' },
+        { label: 'vue', to: '/docs/front/vue', sidebarId: 'vue' },
+        { label: 'react', to: '/docs/front/react', sidebarId: 'react' },
+      ],
+    },
     { to: '/blog', label: 'Blog', position: 'right' },
     // 设计模式下拉菜单
     {
