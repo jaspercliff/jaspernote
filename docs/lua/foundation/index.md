@@ -1,3 +1,3 @@
 # foundation
 
-- [install](install.md)
+- [install](./install.md)

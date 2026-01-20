@@ -54,6 +54,18 @@ export const navbar: ThemeConfig['navbar'] = {
         { label: 'react', to: '/docs/front/react', sidebarId: 'react' },
       ],
     },
+    {
+      type: 'dropdown',
+      label: 'dataLayer',
+      position: 'left',
+      items: [
+        { label: '关系型数据库', to: '/docs/dataLayer/relational/', sidebarId: 'relational' },
+        { label: '分布式数据库', to: '/docs/dataLayer/distributed/', sidebarId: 'distributed' },
+        { label: 'NoSQL', to: '/docs/dataLayer/nosql/', sidebarId: 'nosql' },
+        { label: '连接池', to: '/docs/dataLayer/connectPool/', sidebarId: 'connectPool' },
+        { label: '分库分表', to: '/docs/dataLayer/sharding/', sidebarId: 'sharding' },
+      ],
+    },
     { to: '/blog', label: 'Blog', position: 'right' },
     // 设计模式下拉菜单
     {
