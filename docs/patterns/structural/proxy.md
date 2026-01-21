@@ -42,17 +42,17 @@ public interface InvocationHandler {
         throws Throwable;
 ```
 
-**1.定义发送短信的接口**
+1.定义发送短信的接口
 
-```
+```java
 public interface SmsService {
     String send(String message);
 }
 ```
 
-**2.实现发送短信的接口**
+2.实现发送短信的接口
 
-```
+```java
 public class SmsServiceImpl implements SmsService {
     public String send(String message) {
         System.out.println("send message:" + message);
@@ -61,9 +61,9 @@ public class SmsServiceImpl implements SmsService {
 }
 ```
 
-**3.定义一个 JDK 动态代理类**
+3.定义一个 JDK 动态代理类
 
-```
+```java
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -93,9 +93,9 @@ public class DebugInvocationHandler implements InvocationHandler {
 
 `invoke()`方法: 当我们的动态代理对象调用原生方法的时候，最终实际上调用到的是`invoke()`方法，然后`invoke()`方法代替我们去调用了被代理对象的原生方法。
 
-**4.获取代理对象的工厂类**
+4.获取代理对象的工厂类
 
-```
+```java
 public class JdkProxyFactory {
     public static Object getProxy(Object target) {
         return Proxy.newProxyInstance(
@@ -109,9 +109,9 @@ public class JdkProxyFactory {
 
 `getProxy()`：主要通过`Proxy.newProxyInstance（）`方法获取某个类的代理对象
 
-**5.实际使用**
+5.实际使用
 
-```
+```java
 SmsService smsService = (SmsService) JdkProxyFactory.getProxy(new SmsServiceImpl());
 smsService.send("java");
 ```
@@ -126,7 +126,8 @@ after method send`
 
 JDK动态代理的缺点就是只能代理实现了某个接口的类
 
-[CGLIB](https://github.com/cglib/cglib)(*Code Generation Library*)是一个基于[ASM](http://www.baeldung.com/java-asm)的字节码生成库，它允许我们在运行时对字节码进行修改和动态生成。CGLIB 通过继承方式实现代理。很多知名的开源框架都使用到了[CGLIB](https://github.com/cglib/cglib)， 例如 Spring 中的 AOP 模块中：如果目标对象实现了接口，则默认采用 JDK 动态代理，否则采用 CGLIB 动态代理
+[CGLIB](https://github.com/cglib/cglib)(*Code Generation Library*)是一个基于[ASM](http://www.baeldung.com/java-asm)的字节码生成库，它允许我们在运行时对字节码进行修改和动态生成。
+CGLIB 通过继承方式实现代理。很多知名的开源框架都使用到了[CGLIB](https://github.com/cglib/cglib)， 例如 Spring 中的 AOP 模块中：如果目标对象实现了接口，则默认采用 JDK 动态代理，否则采用 CGLIB 动态代理
 
 ``` java
 /**
@@ -166,7 +167,7 @@ extends Callback
 
 不同于 JDK 动态代理不需要额外的依赖。[CGLIB](https://github.com/cglib/cglib)(*Code Generation Library*) 实际是属于一个开源项目，如果你要使用它的话，需要手动添加相关依赖。
 
-```
+```java
 <dependency>
   <groupId>cglib</groupId>
   <artifactId>cglib</artifactId>
@@ -174,9 +175,9 @@ extends Callback
 </dependency>
 ```
 
-**1.实现一个使用阿里云发送短信的类**
+1.实现一个使用阿里云发送短信的类
 
-```
+```java
 package github.javaguide.dynamicProxy.cglibDynamicProxy;
 
 public class AliSmsService {
@@ -187,9 +188,9 @@ public class AliSmsService {
 }
 ```
 
-**2.自定义 `MethodInterceptor`（方法拦截器）**
+2.自定义 `MethodInterceptor`（方法拦截器）
 
-```
+```java
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
@@ -219,9 +220,9 @@ public class DebugMethodInterceptor implements MethodInterceptor {
 }
 ```
 
-**3.获取代理类**
+3.获取代理类
 
-```
+```java
 import net.sf.cglib.proxy.Enhancer;
 
 public class CglibProxyFactory {
@@ -241,16 +242,16 @@ public class CglibProxyFactory {
 }
 ```
 
-**4.实际使用**
+4.实际使用
 
-```
+```java
 AliSmsService aliSmsService = (AliSmsService) CglibProxyFactory.getProxy(AliSmsService.class);
 aliSmsService.send("java");
 ```
 
 运行上述代码之后，控制台打印出：
 
-```
+```text
 before method send
 send message:java
 after method send
@@ -265,4 +266,3 @@ after method send
 
 1. **灵活性**：动态代理更加灵活，不需要必须实现接口，可以直接代理实现类，并且可以不需要针对每个目标类都创建一个代理类。另外，静态代理中，接口一旦新增加方法，目标对象和代理对象都要进行修改，这是非常麻烦的！
 2. **JVM 层面**：静态代理在编译时就将接口、实现类、代理类这些都变成了一个个实际的 class 文件。而动态代理是在运行时动态生成类字节码，并加载到 JVM 中的。
-

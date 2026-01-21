@@ -3,6 +3,10 @@ sidebar_position: 1
 ---
 # neovim
 
+## java env
+
+- [java](./java.md)
+
 ```bash
 brew install neovim
 ```
