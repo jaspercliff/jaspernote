@@ -1,5 +1,7 @@
 # archlinux
 
+- [desktop-shell](./desktop/desktopShell.md)
+
 efi system 存放启动加载器（GRUB、systemd-boot 等）和内核启动文件
 
 nmcli dev wifi connect wifi password 123456 l=连接wifi
