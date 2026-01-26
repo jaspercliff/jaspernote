@@ -7,7 +7,7 @@ import { navbar } from './configs/navbar';
 
 const config: Config = {
   title: 'jaspernote',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'jasper learn note',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
