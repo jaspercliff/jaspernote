@@ -1,0 +1,31 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="jaspernote logo">
+  <defs>
+    <linearGradient id="bg" x1="36" y1="28" x2="220" y2="228" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="72" y1="56" x2="184" y2="176" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0.92)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#0B1220" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- rounded-square badge (better at small sizes) -->
+  <rect x="36" y="36" width="184" height="184" rx="44" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="36" y="36" width="184" height="184" rx="44" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+
+  <!-- subtle glass shine -->
+  <path d="M70 70c18-18 46-28 74-28h34c16 0 28 12 28 28v18c0 10-3 20-9 28-34-18-74-10-127 18-15 8-28 10-38 8 1-33 12-56 38-72Z" fill="url(#shine)" opacity="0.45"/>
+
+  <!-- monogram: JN -->
+  <path d="M108 86v68c0 20-12 34-34 34-12 0-22-4-29-12-4-4-6-9-7-15a8 8 0 0 1 6-9c4-1 8 2 9 6 1 3 2 6 4 8 4 5 10 7 17 7 12 0 18-7 18-19V86a8 8 0 0 1 16 0Z" fill="white"/>
+  <path d="M136 176V92c0-4 4-8 8-8 3 0 5 1 7 3l40 52V92a8 8 0 0 1 16 0v84c0 4-4 8-8 8-3 0-5-1-7-3l-40-52v47a8 8 0 0 1-16 0Z" fill="white" opacity="0.96"/>
+
+  <!-- tiny notch to hint "note" -->
+  <path d="M190 62h-18c-10 0-18 8-18 18v18c0 10 8 18 18 18h18c10 0 18-8 18-18V80c0-10-8-18-18-18Z" fill="rgba(255,255,255,0.16)"/>
+  <path d="M172 80h18v18h-18V80Z" fill="rgba(255,255,255,0.26)"/>
+</svg>

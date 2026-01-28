@@ -3,10 +3,10 @@ import { ThemeConfig } from '@docusaurus/preset-classic';
 
 // 定义并导出 navbar 对象
 export const navbar: ThemeConfig['navbar'] = {
-  title: 'My Site',
+  title: 'jaspernote',
   logo: {
-    alt: 'My Site Logo',
-    src: 'img/logo.svg',
+    alt: 'jaspernote logo',
+    src: 'img/jaspernote-logo.svg',
   },
   items: [
     {

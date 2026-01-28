@@ -4,20 +4,421 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 6rem 0 4rem;
   text-align: center;
   position: relative;
   overflow: hidden;
+  /* 背景保持简约：亮色静态渐变 + 轻微纹理 */
+  background: linear-gradient(
+    135deg,
+    var(--hero-bg-1) 0%,
+    var(--hero-bg-2) 45%,
+    var(--hero-bg-3) 100%
+  );
+  color: #0b1220;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* 更克制的纹理（小点阵），不动 */
+  background: radial-gradient(rgba(15, 23, 42, 0.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+  opacity: 1;
+}
+
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  /* 轻微柔光与淡彩氛围，让“炫”集中在文字上 */
+  background:
+    radial-gradient(900px 420px at 18% 18%, rgba(99, 102, 241, 0.16), transparent 60%),
+    radial-gradient(900px 420px at 82% 22%, rgba(34, 211, 238, 0.14), transparent 60%),
+    radial-gradient(1100px 520px at 50% 0%, rgba(255, 255, 255, 0.85), transparent 70%),
+    radial-gradient(900px 520px at 50% 120%, rgba(2, 6, 23, 0.08), transparent 60%);
+  opacity: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    135deg,
+    var(--hero-gradient-1) 0%,
+    var(--hero-gradient-2) 25%,
+    var(--hero-gradient-3) 50%,
+    var(--hero-gradient-4) 75%,
+    var(--hero-gradient-5) 100%
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 5s ease infinite, titleFloat 3s ease-in-out infinite;
+  text-shadow: 0 10px 30px rgba(2, 6, 23, 0.12);
+  letter-spacing: 2px;
+  filter: drop-shadow(0 10px 18px rgba(2, 6, 23, 0.14));
+}
+
+.heroTitle::before {
+  content: '📚 技术学习笔记';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    var(--hero-gradient-1) 0%,
+    var(--hero-gradient-2) 25%,
+    var(--hero-gradient-3) 50%,
+    var(--hero-gradient-4) 75%,
+    var(--hero-gradient-5) 100%
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 5s ease infinite;
+  z-index: -1;
+  filter: blur(10px);
+  opacity: 0.7;
+}
+
+.heroTitle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+  z-index: -2;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  color: rgba(15, 23, 42, 0.92);
+  text-shadow:
+    0 8px 22px rgba(2, 6, 23, 0.12);
+  animation: subtitleGlow 2s ease-in-out infinite alternate,
+             subtitleSlide 1s ease-out;
+  letter-spacing: 1px;
+  padding: 0.5rem 1.5rem;
+  background: linear-gradient(
+    90deg,
+    var(--hero-subtitle-bg-1) 0%,
+    var(--hero-subtitle-bg-2) 50%,
+    var(--hero-subtitle-bg-3) 100%
+  );
+  background-size: 200% 100%;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--hero-subtitle-border);
+  animation: subtitleGlow 2s ease-in-out infinite alternate,
+             subtitleSlide 1s ease-out,
+             shimmer 3s linear infinite;
+}
+
+.heroSubtitle::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(
+    45deg,
+    #ff6b6b,
+    #4ecdc4,
+    #45b7d1,
+    #f9ca24,
+    #f0932b,
+    #ff6b6b
+  );
+  background-size: 400% 400%;
+  border-radius: 30px;
+  z-index: -1;
+  opacity: 0.5;
+  animation: borderRotate 3s linear infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes titleFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes subtitleGlow {
+  0% {
+    text-shadow: 
+      0 0 10px rgba(255, 255, 255, 0.5),
+      0 0 20px rgba(255, 255, 255, 0.3),
+      0 0 30px rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    text-shadow: 
+      0 0 20px rgba(255, 255, 255, 0.8),
+      0 0 30px rgba(255, 255, 255, 0.5),
+      0 0 40px rgba(255, 255, 255, 0.3),
+      0 0 50px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@keyframes subtitleSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes borderRotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 400% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroTitle,
+  .heroTitle::before,
+  .heroTitle::after,
+  .heroSubtitle,
+  .heroSubtitle::before {
+    animation: none !important;
+  }
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 4rem 2rem 2rem;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+
+  .heroTitle::after {
+    width: 110%;
+    height: 110%;
+  }
+
+  .heroSubtitle {
+    font-size: 1.25rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .heroDescription {
+    font-size: 1rem;
+  }
+}
+
+.latestPosts {
+  padding: 4rem 0;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.postsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.postCard {
+  background: var(--ifm-card-background-color);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.postCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.postLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.postHeader {
+  position: relative;
+}
+
+.postImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.postMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: var(--ifm-color-emphasis-100);
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.postDate {
+  font-weight: 500;
+}
+
+.readingTime {
+  opacity: 0.7;
+}
+
+.postTitle {
+  padding: 1rem 1rem 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--ifm-heading-color);
+}
+
+.postDescription {
+  padding: 0 1rem 1rem;
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.6;
+}
+
+.postTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0 1rem 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.viewAll {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.emptyState p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 996px) {
+  .postsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
 }
