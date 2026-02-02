@@ -22,3 +22,4 @@
 - [bat](https://github.com/sharkdp/bat/blob/master/doc/README-zh.md)
 - [yazi 终端文件管理器](./open/yazi.md)
 - [fzf is a general-purpose command-line fuzzy finder.](./open/fzf.md)
+- [zellig](./open/zellij.md)
