@@ -4,6 +4,7 @@
 
 - zellij ls 查看所有session
 - zellij -s note 打开一个session 命名为note
+- zellij attach note 打开note会话
 - zellij delete-all-sessions 删除所有session
 - zellij delete-session test 删除test session
 
