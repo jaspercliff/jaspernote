@@ -11,6 +11,7 @@
 ## alt
 
 alt+ h/j/k/l 可以切换所有pane
+alt+i 切换tab位置
 
 ## lock
 

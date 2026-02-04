@@ -5,7 +5,7 @@
 
 ## 特殊参数
 
-| 参数 | 说明                             |
+| 参数 | 说明 |
 |----|--------------------------------|
 | $0 | 脚本的文件名                         |
 | $# | 传递到脚本的参数个数                     |
@@ -125,6 +125,6 @@ echo ${z/%txt/md} # if pattern matches end,replace it
 
 ### usage
 
-- [usage](usage.md)
+- [usage](./usage.md)
 
 ![image](assets/param.png)
