@@ -10,4 +10,5 @@
 
 ## usage
 
-- [usage](usage.md)
+- [usage](./usage.md)
+- [shell widget](./shellWidget.md)
