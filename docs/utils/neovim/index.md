@@ -3,17 +3,17 @@ sidebar_position: 1
 ---
 # neovim
 
-## java env
-
-- [java](./java.md)
-
 ```bash
 brew install neovim
 ```
 
 - [安装lazy.vim插件](./lazyvim/index.md)
 
-:help   manual
+## markdown environment
+
+## java env
+
+- [java](./java.md)
 
 按ctrl + / 可以打开终端
 

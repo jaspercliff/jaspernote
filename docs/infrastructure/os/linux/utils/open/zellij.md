@@ -7,6 +7,8 @@
 - zellij attach note 打开note会话
 - zellij delete-all-sessions 删除所有session
 - zellij delete-session test 删除test session
+- zellij kill-session test 杀死session delete不能删除running的session
+- zellij kill-all-session kill all session
 
 ## alt
 
