@@ -7,6 +7,7 @@ sidebar_position: 1
 brew install neovim
 ```
 
+- [quickfix](./quickfix.md)
 - [lazyvim](./lazyvim/index.md)
 
 
