@@ -24,4 +24,3 @@
 - [fzf is a general-purpose command-line fuzzy finder.](./open/fzf.md)
 - [navi](./open/navi.md)
 - [zellig](./open/zellij.md)
-- [helix](./open/helix.md)
