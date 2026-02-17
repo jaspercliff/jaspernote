@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 # git
 
+- [concept](./concept.md)
 - [basic](./basic.md)
 - [branch](./branch.md)
 - [conflict](./conflict.md)
