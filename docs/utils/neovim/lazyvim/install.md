@@ -9,3 +9,7 @@ LazyVim 和一些插件可能会使用特殊的图标或符号，这些符号需
 - [intall](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-2-homebrew-fonts)
 
 
+
+## config
+
+- option.lua 不需要安装插件就能生效的内置功能。类似VS Code 的 settings.json 文件
