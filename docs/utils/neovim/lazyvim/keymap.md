@@ -68,7 +68,7 @@ npm install -g markdownlint-cli
 
 ## problems
 
-- [ubuntu安装ruff失败](./ruff.md)
+- [ubuntu安装ruff失败](./env/ruff.md)
 
 ## 快捷键
 
@@ -78,3 +78,8 @@ leader+c+d 查看当前行的警告
 
 普通模式下gcc 注释当前行
 视觉模式下gc 注释选中行
+
+
+## window 
+
+c-w h/j/k/l 切换窗口   lazyvim 可以直接ctrl+h/j/k/l 切换窗口
