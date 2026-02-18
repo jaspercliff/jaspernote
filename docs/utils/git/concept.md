@@ -1,5 +1,60 @@
 # concept 
 
+## 工作区
+
+- 工作区 (Working Directory)：正在修改代码的地方
+- 暂存区 (Staging Area / Index)：一个中间区域，用来存放你准备提交的修改。
+- 本地仓库 (Repository)：保存所有版本记录的地方（即隐藏的 .git 文件夹）
+
+
+```mermaid
+stateDiagram-v2
+    %% 定义全局样式
+    classDef area fill:#f5f5f5,stroke:#333,stroke-width:2px,font-weight:bold
+    classDef untracked fill:#ffccd5,stroke:#ff4d6d
+    classDef modified fill:#ffe5b4,stroke:#ffa500
+    classDef staged fill:#d1ffbd,stroke:#32cd32
+    classDef committed fill:#caf0f8,stroke:#0077b6
+    classDef stashed fill:#e2daff,stroke:#6a5acd
+
+    state "工作区 (Working Directory)" as WD {
+        state "未追踪 (Untracked)" as UT
+        state "已修改 (Modified)" as MD
+    }
+    class WD area
+    class UT untracked
+    class MD modified
+
+    state "暂存区 (Staging Area)" as SA {
+        state "已暂存 (Staged)" as ST
+    }
+    class SA area
+    class ST staged
+
+    state "本地仓库 (Local Repository)" as RP {
+        state "已提交 (Committed)" as UM
+    }
+    class RP area
+    class UM committed
+
+    state "储藏区 (Stash Stack)" as SS {
+        state "已储藏 (Stashed)" as SH
+    }
+    class SS area
+    class SH stashed
+
+    %% 核心逻辑流转
+    UT --> ST : git add
+    MD --> ST : git add
+    ST --> UM : git commit
+    UM --> MD : 修改已提交的文件
+
+    %% Stash 逻辑
+    MD --> SH : git stash
+    ST --> SH : git stash
+    SH --> MD : git stash pop / apply
+```
+
 
 ## hunk 
 Hunk = “代码块变更单元” / “补丁块”
