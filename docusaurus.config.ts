@@ -14,7 +14,12 @@ const config: Config = {
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
-
+  themes: ['@docusaurus/theme-mermaid'],
+  // 为了让 Mermaid 代码块在 Markdown 中正常运行，
+  // 你还需要通过这个设置来启用 Remark 插件
+  markdown: {
+    mermaid: true,
+  },
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
