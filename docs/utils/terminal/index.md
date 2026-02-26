@@ -1,5 +1,0 @@
-# terminal
-
-## lazygit
-
-## lazydocker

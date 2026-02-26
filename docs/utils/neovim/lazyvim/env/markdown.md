@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # markdown
 
 - [render-markdown.nvim 编辑器实时渲染markdown](https://github.com/MeanderingProgrammer/render-markdown.nvim)

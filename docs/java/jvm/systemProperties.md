@@ -14,7 +14,7 @@
 | `os.arch`         | 操作系统架构（CPU 架构） | `amd64`、`x86`                  |
 | `java.version`    | Java 运行时版本     | `21`、`17`、`1.8.0_361`          |
 | `java.vendor`     | Java 提供商       | `Oracle Corporation`           |
-| `java.home`       | Java 安装目录      | `/usr/lib/jvm/java-21-openjdk` |
+| `java.home`       | Java 安装目录      | `/usr/lib/jvm/21-openjdk` |
 | `java.class.path` | 当前 classpath   | `/app/classes:/app/lib/*`      |
 | `java.io.tmpdir`  | 默认临时文件路径       | `/tmp`                         |
 | `file.separator`  | 文件路径分隔符        | `/`（Linux） `\`（Windows）        |

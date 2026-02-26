@@ -83,3 +83,5 @@ leader+c+d 查看当前行的警告
 ## window 
 
 c-w h/j/k/l 切换窗口   lazyvim 可以直接ctrl+h/j/k/l 切换窗口
+
+leader+g+r 全局替换 

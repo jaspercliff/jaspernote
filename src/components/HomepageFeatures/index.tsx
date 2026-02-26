@@ -13,6 +13,16 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
+    title: '工具与技巧',
+    emoji: '🛠️',
+    description: (
+      <>
+        Git、Svn、Vim、Neovim、JMeter 等开发工具的使用技巧和最佳实践
+      </>
+    ),
+    link: '/docs/utils/',
+  },
+  {
     title: 'Java',
     emoji: '☕',
     description: (
@@ -82,16 +92,6 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
     link: '/docs/dataLayer',
-  },
-  {
-    title: '工具与技巧',
-    emoji: '🛠️',
-    description: (
-      <>
-        Git、Vim、Neovim、JMeter 等开发工具的使用技巧和最佳实践
-      </>
-    ),
-    link: '/docs/utils',
   },
 ];
 

@@ -13,7 +13,7 @@
 2. 创建一个代理类同样实现这个接口
 3. 将目标对象注入进代理类，然后在代理类的对应方法调用目标类中的对应方法
 
-- [静态代理](https://github.com/iluwatar/java-design-patterns/tree/master/proxy)
+- [静态代理](https://github.com/iluwatar/design-patterns/tree/master/proxy)
 
 ## 动态代理
 
@@ -126,7 +126,7 @@ after method send`
 
 JDK动态代理的缺点就是只能代理实现了某个接口的类
 
-[CGLIB](https://github.com/cglib/cglib)(*Code Generation Library*)是一个基于[ASM](http://www.baeldung.com/java-asm)的字节码生成库，它允许我们在运行时对字节码进行修改和动态生成。
+[CGLIB](https://github.com/cglib/cglib)(*Code Generation Library*)是一个基于[ASM](http://www.baeldung.com/asm)的字节码生成库，它允许我们在运行时对字节码进行修改和动态生成。
 CGLIB 通过继承方式实现代理。很多知名的开源框架都使用到了[CGLIB](https://github.com/cglib/cglib)， 例如 Spring 中的 AOP 模块中：如果目标对象实现了接口，则默认采用 JDK 动态代理，否则采用 CGLIB 动态代理
 
 ``` java

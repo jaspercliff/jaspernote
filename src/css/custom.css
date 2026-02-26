@@ -81,24 +81,27 @@
 }
 
 /* ===============================================================
- * Java Roadmap 页面：可视化路线图
+ * roadmap custom css
  * ============================================================= */
 
-.java-roadmap {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-}
-
-.java-roadmap-row {
+.roadmap-row {
   display: flex;
   align-items: center;
   gap: 1.5rem;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 768px) {
+  .roadmap-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
 
-.java-roadmap-card {
+  .roadmap-arrow {
+    transform: rotate(90deg);
+  }
+}
+
+.roadmap-card {
   flex: 1 1 260px;
   position: relative;
   padding: 1.25rem 1.5rem;
@@ -115,14 +118,14 @@
     background 0.2s ease-out;
 }
 
-.java-roadmap-card:hover {
+.roadmap-card:hover {
   transform: translateY(-4px);
   border-color: var(--ifm-color-primary);
   box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
   text-decoration: none;
 }
 
-.java-roadmap-badge {
+.roadmap-badge {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
@@ -135,25 +138,31 @@
   margin-bottom: 0.35rem;
 }
 
-.java-roadmap-title {
+.roadmap-title {
   font-size: 1.05rem;
   font-weight: 600;
   margin-bottom: 0.4rem;
 }
 
-.java-roadmap-desc {
+.roadmap-desc {
   font-size: 0.85rem;
   color: var(--ifm-color-emphasis-700);
   margin-bottom: 0.55rem;
 }
 
-.java-roadmap-tags {
+.roadmap-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
 }
 
-.java-roadmap-tag {
+.roadmap-arrow {
+  font-size: 1.6rem;
+  color: var(--ifm-color-emphasis-500);
+  min-width: 24px;
+  text-align: center;
+}
+.roadmap-tag {
   font-size: 0.75rem;
   padding: 0.1rem 0.6rem;
   border-radius: 999px;
@@ -161,20 +170,18 @@
   color: var(--ifm-color-emphasis-800);
 }
 
-.java-roadmap-arrow {
-  font-size: 1.6rem;
-  color: var(--ifm-color-emphasis-500);
-  min-width: 24px;
-  text-align: center;
+.roadmap {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
-@media screen and (max-width: 768px) {
-  .java-roadmap-row {
-    flex-direction: column;
-    align-items: stretch;
-  }
 
-  .java-roadmap-arrow {
-    transform: rotate(90deg);
-  }
-}
+
+
+
+
+
+
+
