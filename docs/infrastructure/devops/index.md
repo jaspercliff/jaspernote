@@ -1,66 +1,70 @@
 ---
 sidebar_position: 1
 ---
-# devops
 
-简单来说，**DevOps**（Development 和 Operations 的缩写）不仅是一项技术，更是一种**文化、实践和工具的结合体**。
+import Link from '@docusaurus/Link';
 
-它的核心目标是**打破开发人员（Dev）和运维人员（Ops）之间的壁垒**，让软件的构建、测试、发布到运行变得更加快速、可靠。
 
----
+<div className="roadmap-row">
 
-## 1. 核心定义：从“对立”到“融合”
+  <Link className="roadmap-card" to="/docs/infrastructure/devops/nginx">
+    <div className="roadmap-badge">Nginx</div>
+    <div className="roadmap-title">Nginx</div>
+    <div className="roadmap-desc">
+        高性能 Web 服务器、反向代理及负载均衡器
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Proxy</span>
+      <span className="roadmap-tag">Web Server</span>
+    </div>
+  </Link>
 
-在传统的模式中，开发和运维通常是孤立的：
+  <Link className="roadmap-card" to="/docs/infrastructure/devops/containerd">
+    <div className="roadmap-badge">containerd</div>
+    <div className="roadmap-title">containerd</div>
+    <div className="roadmap-desc">
+        行业标准的底层容器运行时，专注于容器生命周期管理
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Runtime</span>
+      <span className="roadmap-tag">CRI</span>
+    </div>
+  </Link>
 
-* **开发（Dev）：** 负责写代码，追求“快”，不断增加新功能。
-* **运维（Ops）：** 负责系统稳定，追求“稳”，往往对频繁的变更感到压力。
+  <Link className="roadmap-card" to="/docs/infrastructure/devops/docker">
+    <div className="roadmap-badge">Docker</div>
+    <div className="roadmap-title">Docker</div>
+    <div className="roadmap-desc">
+        全栈容器开发平台，提供构建、打包及运行的一站式体验
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Build</span>
+      <span className="roadmap-tag">Ship</span>
+      <span className="roadmap-tag">Run</span>
+    </div>
+  </Link>
 
-**DevOps 的出现**将两者整合，形成一个闭环，让团队对产品的整个生命周期（从构思到上线运行）共同负责。
+  <Link className="roadmap-card" to="/docs/infrastructure/devops/podman">
+    <div className="roadmap-badge">Podman</div>
+    <div className="roadmap-title">Podman</div>
+    <div className="roadmap-desc">
+        无守护进程、支持非 Root 运行的安全容器引擎
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Daemonless</span>
+      <span className="roadmap-tag">Rootless</span>
+    </div>
+  </Link>
 
----
-
-## 2. DevOps 的五大支柱 (CALMS 模型)
-
-业界常用 **CALMS** 来衡量一个团队的 DevOps 成熟度：
-
-| 维度 | 说明 |
-| --- | --- |
-| **C**ulture (文化) | 强调团队协作、分担责任，不再互相“甩锅”。 |
-| **A**utomation (自动化) | 尽可能减少人工干预，通过自动化脚本完成测试和部署。 |
-| **L**ean (精益) | 消除流程中的浪费，进行小步快跑、高频迭代。 |
-| **M**easurement (测量) | 监控所有数据（如部署频率、失败率），用数据驱动决策。 |
-| **S**haring (共享) | 共享工具、知识和成功的经验，透明化沟通。 |
-
----
-
-## 3. 核心实践：CI/CD
-
-这是 DevOps 落地最关键的技术环节：
-
-* **持续集成 (CI - Continuous Integration):** 开发人员频繁地将代码合并到主分支，每次合并都会触发自动化的构建和测试，确保新代码不会破坏原有功能。
-* **持续交付/部署 (CD - Continuous Delivery/Deployment):** 通过自动化的流水线，将测试通过的代码自动发布到生产环境或预发布环境。
-
----
-
-## 4. 常见的 DevOps 工具链
-
-DevOps 并不是指某一个软件，而是一系列工具的组合：
-
-* **项目管理：** Jira, Trello
-* **代码仓库：** Git (GitHub, GitLab)
-* **CI/CD 流水线：** Jenkins, GitLab CI, GitHub Actions
-* **容器化：** Docker, Kubernetes (K8s)
-* **配置管理：** Ansible, Terraform (基础设施即代码)
-* **监控告警：** Prometheus, Grafana, ELK Stack
-
----
-
-## 5. 为什么企业需要 DevOps？
-
-* **响应更快：** 缩短从需求到上线的时间（Time to Market）。
-* **质量更高：** 自动化测试减少了人为失误。
-* **更稳定：** 频繁的小规模更新比一次性大规模发布风险更低，且更易回滚。
-
-**一句话总结：** DevOps 是让软件开发不再像“工厂流水线”那样死板，而是像“有机整体”一样快速进化。
-
+  <Link className="roadmap-card" to="/docs/infrastructure/devops/k8s">
+    <div className="roadmap-badge">Kubernetes</div>
+    <div className="roadmap-title">K8s</div>
+    <div className="roadmap-desc">
+        工业级容器编排系统，实现大规模集群的自动化调度
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Orchestration</span>
+      <span className="roadmap-tag">Cluster</span>
+    </div>
+  </Link>
+</div>

@@ -17,7 +17,7 @@ podman 子命令 --help           # 具体命令帮助，例如 podman run --hel
 | 拉取镜像            | `podman pull nginx`                          | 默认 latest，也可写 `nginx:1.25` |
 | 列出本地镜像        | `podman images`                              | `-a` 包含中间层                   |
 | 查看镜像历史        | `podman history nginx`                       | 看各层大小和创建命令              |
-| 删除镜像            | `podman rmi nginx` <br>`podman rmi -f imageID` | `-f` 强制（即使有容器在使用）   |
+| 删除镜像            | `podman rmi nginx` `podman rmi -f imageID` | `-f` 强制（即使有容器在使用）   |
 | 构建镜像            | `podman build -t myapp:1.0 .`                | 使用当前目录的 Containerfile/Dockerfile |
 | 给镜像改 tag        | `podman tag localhost/myapp:1.0 docker.io/用户名/myapp:1.0` | 准备推送到远程仓库 |
 | 推送镜像            | `podman push docker.io/用户名/myapp:1.0`    | 需要先 podman login               |
@@ -34,7 +34,7 @@ podman 子命令 --help           # 具体命令帮助，例如 podman run --hel
 | 停止容器                 | `podman stop nginx`                              |                                          |
 | 重启容器                 | `podman restart nginx`                           |                                          |
 | 强制杀死容器             | `podman kill nginx`                              |                                          |
-| 删除容器                 | `podman rm nginx` <br>`podman rm -f nginx`      | `-f` 可删除运行中的容器                 |
+| 删除容器                 | `podman rm nginx` `podman rm -f nginx`      | `-f` 可删除运行中的容器                 |
 | 批量清理停止的容器       | `podman rm $(podman ps -aq --filter status=exited)` | 非常实用                              |
 
 ## 4. 进入 & 日志 & 执行命令
