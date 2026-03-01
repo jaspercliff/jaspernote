@@ -23,6 +23,36 @@ const FeatureList: FeatureItem[] = [
     link: '/docs/utils/',
   },
   {
+    title: '基础设施',
+    emoji: '🏗️',
+    description: (
+      <>
+        Nginx、Contianerd、Docker、Podman、K8s、Operating sys、系统设计等 DevOps 和基础设施相关技术
+      </>
+    ),
+    link: '/docs/infrastructure',
+  },
+  {
+    title: '数据结构与算法',
+    emoji: '📊',
+    description: (
+      <>
+        常见数据结构、算法实现、设计模式等计算机科学基础知识
+      </>
+    ),
+    link: '/docs/dataStructure',
+  },
+{
+    title: '数据层',
+    emoji: '💾',
+    description: (
+      <>
+        MySQL、Redis、分库分表、连接池等数据存储和处理技术
+      </>
+    ),
+    link: '/docs/dataLayer',
+  },
+  {
     title: 'Java',
     emoji: '☕',
     description: (
@@ -53,16 +83,7 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/python',
   },
-  {
-    title: '数据结构与算法',
-    emoji: '📊',
-    description: (
-      <>
-        常见数据结构、算法实现、设计模式等计算机科学基础知识
-      </>
-    ),
-    link: '/docs/dataStructure',
-  },
+
   {
     title: '前端技术',
     emoji: '⚛️',
@@ -73,26 +94,7 @@ const FeatureList: FeatureItem[] = [
     ),
     link: '/docs/front',
   },
-  {
-    title: '基础设施',
-    emoji: '🏗️',
-    description: (
-      <>
-        Docker、K8s、Nginx、系统设计等 DevOps 和基础设施相关技术
-      </>
-    ),
-    link: '/docs/infrastructure',
-  },
-  {
-    title: '数据层',
-    emoji: '💾',
-    description: (
-      <>
-        MySQL、Redis、分库分表、连接池等数据存储和处理技术
-      </>
-    ),
-    link: '/docs/dataLayer',
-  },
+  
 ];
 
 function Feature({title, emoji, description, link}: FeatureItem) {
