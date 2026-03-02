@@ -151,6 +151,7 @@ server {
 sudo ln -s /etc/nginx/sites-available/my_site.conf /etc/nginx/sites-enabled/
 sudo nginx -t                # 看到 syntax is ok 即成功
 sudo systemctl reload nginx   # 平滑重载
+sudo nginx -s reload 重新加载 不用重启
 ```
 
 nignx -t 检查nginx配置文件有没有错误，检查完在启动，如果有错误直接启动会导致旧的nginx直接挂掉
