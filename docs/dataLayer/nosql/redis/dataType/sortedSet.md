@@ -8,15 +8,15 @@
 
 ## 常用命令
 
-- zadd
+- zadd : zadd ss 1 m1 2 m2 3 m3
 - zrem
 - zscore: Returns the score of a member in a sorted set.
+- zrange key min max: Returns members in a sorted set within a range of **indexes**.
 - zcard: Returns the number of members in a sorted set.
 - zrank: Returns the index of a member in a sorted set ordered by
 ascending(升序的) scores.
 - zcount key min max: Returns the count of members in a sorted set
 that have scores within a range.
-- zrange key min max: Returns members in a sorted set within a range of **indexes**.
 - zrangebyscore: Returns members in a sorted set within a range of **scores**.
 - zincrby: Increments the score of a member in a sorted set.
 - zinter: Returns the intersect of multiple sorted sets. zinter numberkeys z1 z2
