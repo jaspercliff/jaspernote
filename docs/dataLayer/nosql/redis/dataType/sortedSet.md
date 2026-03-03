@@ -25,6 +25,11 @@ that have scores within a range.
 
 排序默认都是升序，rev倒序  在zrevrange
 
-## 应用场景
+## demo
 
-- 排行榜
+- zrange z 0 -1 withscores
+- zrevrange z 0 -1 withscores
+- zrevrangeByScore z 1000 0 WITHSCORES limit 0 3
+
+- [滚动分页](../problem/scrollPage.md)
+- [feed](../problem/feed.md)
