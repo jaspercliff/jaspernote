@@ -5,14 +5,14 @@
 - 无序
 - 不可重复
 - 查找快
-- 支持交集，并集，差集
+- 支持交集，并集，差集(好友共同关注)
 
 ## 常用命令
 
 - sadd
+- sismember: Determines whether a member belongs to a set.
 - srem
 - scrad: Returns the number of members in a set.
-- sismember: Determines whether a member belongs to a set.
 - smembers: Returns all members of a set.
 - sinter: Returns the intersect(交叉，交集) of multiple sets
 - sdiff:  Returns the difference差集 of multiple sets.
