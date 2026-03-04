@@ -1,6 +1,6 @@
 # redis
 
-- [install](basic/install.md)
+- [install](deploy/install.md)
 - [常见通用命令](basic/commonCommand.md)
 
 ## data type
@@ -37,3 +37,5 @@
 
 - [function](programmability/function/index.md)
 - [lua scripting](programmability/luascript/index.md)
+
+## deploy
