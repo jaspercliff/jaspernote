@@ -9,17 +9,16 @@ sidebar_position: 1
 - [img-clip 粘贴图片](https://github.com/hakonharnes/img-clip.nvim)
 - [bullets 列表自动接下一个](https://github.com/bullets-vim/bullets.vim)
 
-## depend util 
+## depend util
 
 ### mac
+
 ```zsh
 brew install pngpaste
 ```
 
-
 ### arch
-```zsh 
+
+```zsh
 paru -S wl-clipboard
 ```
-
-
