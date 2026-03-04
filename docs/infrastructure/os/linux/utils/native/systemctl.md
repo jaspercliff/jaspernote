@@ -1,4 +1,4 @@
-# systemctl 
+# systemctl
 
 管理系统服务的工具
 
@@ -8,3 +8,4 @@
 - systemctl status  service  查看服务状态
 - systemctl enable  service  设置服务开机自启
 - systemctl disable  service  取消服务开机自启
+- systemctl cat valkey 查看 Valkey 服务的完整配置定义
