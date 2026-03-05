@@ -73,3 +73,4 @@ networks:
 ### princ config
 
 - repl-backlog-size 10mb 积压缓冲区大小
+- repl-diskless-sync yes 主节点不再创建磁盘文件，而是直接启动一个进程，直接把内存里的 RDB 数据流通过网络 Socket 发送给从节点。
