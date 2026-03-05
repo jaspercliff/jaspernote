@@ -47,7 +47,7 @@ import Link from '@docusaurus/Link';
     <div className="roadmap-badge">Podman</div>
     <div className="roadmap-title">Podman</div>
     <div className="roadmap-desc">
-        无守护进程、支持非 Root 运行的安全容器引擎
+        无守护进程、支持非 Root(rootless) 运行的安全容器引擎
     </div>
     <div className="roadmap-tags">
       <span className="roadmap-tag">Daemonless</span>
@@ -66,10 +66,119 @@ import Link from '@docusaurus/Link';
       <span className="roadmap-tag">Cluster</span>
     </div>
   </Link>
+
 </div>
+
 ## operating system
+
+<div className="roadmap-row">
+
+  <Link className="roadmap-card" to="/docs/infrastructure/os/hardware/">
+    <div className="roadmap-badge">Hardware</div>
+    <div className="roadmap-title">硬件基础</div>
+    <div className="roadmap-desc">
+        CPU 等硬件基础知识，为系统调优提供底层视角
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">CPU</span>
+      <span className="roadmap-tag">性能</span>
+    </div>
+  </Link>
+
+
+  <Link className="roadmap-card" to="/docs/infrastructure/os/windows/">
+    <div className="roadmap-badge">Windows</div>
+    <div className="roadmap-title">Windows</div>
+    <div className="roadmap-desc">
+        桌面环境与开发环境的基础配置与日常运维
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Disk</span>
+      <span className="roadmap-tag">Boot</span>
+    </div>
+  </Link>
+
+  <Link className="roadmap-card" to="/docs/infrastructure/os/mac/">
+    <div className="roadmap-badge">macOS</div>
+    <div className="roadmap-title">macOS</div>
+    <div className="roadmap-desc">
+        开发者常用桌面系统，熟悉终端、brew 与快捷操作
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Homebrew</span>
+      <span className="roadmap-tag">Shortcut</span>
+    </div>
+  </Link>
+
+  <Link className="roadmap-card" to="/docs/infrastructure/os/linux/">
+    <div className="roadmap-badge">Linux</div>
+    <div className="roadmap-title">Linux</div>
+    <div className="roadmap-desc">
+        开发与服务器场景下最常见的操作系统，掌握命令行与系统管理
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Shell</span>
+      <span className="roadmap-tag">Process</span>
+      <span className="roadmap-tag">FileSystem</span>
+    </div>
+  </Link>
+
+  <Link className="roadmap-card" to="/docs/infrastructure/os/archlinux/">
+    <div className="roadmap-badge">Arch Linux</div>
+    <div className="roadmap-title">Arch Linux</div>
+    <div className="roadmap-desc">
+        极客友好的滚动发行版，适合深度定制桌面与终端体验
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Pacman</span>
+      <span className="roadmap-tag">Desktop</span>
+    </div>
+  </Link>
+
+
+
+</div>
 
 ## design
 
-- [operating system](./os/index.md)
-- [desgin](./design/index.md)
+<div className="roadmap-row">
+
+  <Link className="roadmap-card" to="/docs/infrastructure/design/systemDesign/">
+    <div className="roadmap-badge">System Design</div>
+    <div className="roadmap-title">系统设计</div>
+    <div className="roadmap-desc">
+        从整体架构、事件驱动、多租户到 SSO 的系统设计实践
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">Architecture</span>
+      <span className="roadmap-tag">Multi-tenant</span>
+      <span className="roadmap-tag">SSO</span>
+    </div>
+  </Link>
+
+  <Link className="roadmap-card" to="/docs/infrastructure/design/distributed/">
+    <div className="roadmap-badge">Distributed</div>
+    <div className="roadmap-title">分布式设计</div>
+    <div className="roadmap-desc">
+        CAP 理论、全局唯一 ID、分布式锁等核心概念与实现
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">CAP</span>
+      <span className="roadmap-tag">Global ID</span>
+      <span className="roadmap-tag">Lock</span>
+    </div>
+  </Link>
+
+  <Link className="roadmap-card" to="/docs/infrastructure/design/systemConcept/zeroCopy">
+    <div className="roadmap-badge">Zero Copy</div>
+    <div className="roadmap-title">零拷贝</div>
+    <div className="roadmap-desc">
+        操作系统与网络中常见的性能优化技术概念
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">IO</span>
+      <span className="roadmap-tag">性能优化</span>
+    </div>
+  </Link>
+
+</div>
