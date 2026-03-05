@@ -1,31 +1,65 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="jaspernote logo">
   <defs>
-    <linearGradient id="bg" x1="36" y1="28" x2="220" y2="228" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6366F1"/>
-      <stop offset="0.5" stop-color="#22D3EE"/>
-      <stop offset="1" stop-color="#A78BFA"/>
+    <!-- 背景渐变，偏 Docusaurus 风 -->
+    <linearGradient id="badge" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="0.5" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#F97316"/>
     </linearGradient>
-    <linearGradient id="shine" x1="72" y1="56" x2="184" y2="176" gradientUnits="userSpaceOnUse">
-      <stop stop-color="rgba(255,255,255,0.92)"/>
+
+    <!-- 玻璃高光 -->
+    <linearGradient id="shine" x1="64" y1="40" x2="192" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgba(255,255,255,0.9)"/>
       <stop offset="1" stop-color="rgba(255,255,255,0)"/>
     </linearGradient>
+
+    <!-- 轻投影，保证小尺寸也清晰 -->
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#0B1220" flood-opacity="0.18"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020617" flood-opacity="0.28"/>
     </filter>
   </defs>
 
-  <!-- rounded-square badge (better at small sizes) -->
-  <rect x="36" y="36" width="184" height="184" rx="44" fill="url(#bg)" filter="url(#shadow)"/>
-  <rect x="36" y="36" width="184" height="184" rx="44" stroke="rgba(255,255,255,0.55)" stroke-width="2"/>
+  <!-- 圆角矩形徽章 -->
+  <rect x="32" y="32" width="192" height="192" rx="56" fill="url(#badge)" filter="url(#shadow)"/>
+  <rect x="32.75" y="32.75" width="190.5" height="190.5" rx="55.25" stroke="rgba(255,255,255,0.55)" stroke-width="1.5"/>
 
-  <!-- subtle glass shine -->
-  <path d="M70 70c18-18 46-28 74-28h34c16 0 28 12 28 28v18c0 10-3 20-9 28-34-18-74-10-127 18-15 8-28 10-38 8 1-33 12-56 38-72Z" fill="url(#shine)" opacity="0.45"/>
+  <!-- 斜切高光 -->
+  <path
+    d="M68 68c19-18 46-30 76-30h32c14 0 26 12 26 26v22c0 10-3 20-9 28-32-18-76-14-122 10-14 8-26 10-37 8 1-32 11-53 34-64Z"
+    fill="url(#shine)"
+    opacity="0.45"
+  />
 
-  <!-- monogram: JN -->
-  <path d="M108 86v68c0 20-12 34-34 34-12 0-22-4-29-12-4-4-6-9-7-15a8 8 0 0 1 6-9c4-1 8 2 9 6 1 3 2 6 4 8 4 5 10 7 17 7 12 0 18-7 18-19V86a8 8 0 0 1 16 0Z" fill="white"/>
-  <path d="M136 176V92c0-4 4-8 8-8 3 0 5 1 7 3l40 52V92a8 8 0 0 1 16 0v84c0 4-4 8-8 8-3 0-5-1-7-3l-40-52v47a8 8 0 0 1-16 0Z" fill="white" opacity="0.96"/>
+  <!-- 记事本主体 -->
+  <path
+    d="M88 82c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16v84c0 13.3-10.7 24-24 24H104c-13.3 0-24-10.7-24-24V82Z"
+    fill="rgba(15,23,42,0.96)"
+  />
 
-  <!-- tiny notch to hint "note" -->
-  <path d="M190 62h-18c-10 0-18 8-18 18v18c0 10 8 18 18 18h18c10 0 18-8 18-18V80c0-10-8-18-18-18Z" fill="rgba(255,255,255,0.16)"/>
-  <path d="M172 80h18v18h-18V80Z" fill="rgba(255,255,255,0.26)"/>
+  <!-- 页面折角 -->
+  <path
+    d="M152 66h16c8.8 0 16 7.2 16 16v18h-18c-7.7 0-14-6.3-14-14V66Z"
+    fill="#F9FAFB"
+    opacity="0.86"
+  />
+
+  <!-- 竖向彩条（书脊，J 的竖画） -->
+  <rect x="104" y="90" width="14" height="80" rx="7" fill="#38BDF8"/>
+
+  <!-- “J” 的下勾 -->
+  <path
+    d="M118 162c0 14 8.5 22 22.5 22 10.4 0 17.5-3.8 21.8-11 2.2-3.7 6.9-5 10.7-2.8 3.7 2.2 5 6.9 2.8 10.7-6.2 10.3-17.6 16.9-35.3 16.9-23 0-38.5-14.7-38.5-36.7a8 8 0 0 1 16 0Z"
+    fill="#38BDF8"
+  />
+
+  <!-- 水平分界线，暗示笔记行 -->
+  <path d="M124 116h52" stroke="rgba(248,250,252,0.65)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M124 132h40" stroke="rgba(148,163,184,0.95)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M124 148h32" stroke="rgba(148,163,184,0.85)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 轻微内阴影顶部，增加立体感 -->
+  <path
+    d="M88 86c0-8.8 7.2-16 16-16h64c8.8 0 16 7.2 16 16v6H88v-6Z"
+    fill="rgba(15,23,42,0.72)"
+  />
 </svg>

@@ -8,7 +8,8 @@ import { navbar } from './configs/navbar';
 const config: Config = {
   title: 'jaspernote',
   tagline: 'jasper learn note',
-  favicon: 'img/favicon.ico',
+  // 使用自定义的技术博客 Logo 作为站点图标
+  favicon: 'img/jaspernote-logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -75,8 +76,8 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // 博客在社交平台展示时使用的预览图
+    image: 'img/jaspernote-logo.svg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
