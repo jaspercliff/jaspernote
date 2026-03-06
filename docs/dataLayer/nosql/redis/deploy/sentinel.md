@@ -5,6 +5,28 @@
 - 自动故障转移 。如果主服务器无法正常工作，Sentinel 可以启动故障转移流程，将一个副本提升为主服务器，重新配置其他副本以使用新的主服务器，并通知使用 Valkey 服务器的应用程序在连接时要使用的新地址
 - 配置提供程序 。Sentinel 作为客户端服务发现的权威来源：客户端连接到 Sentinel 以获取负责特定服务的当前 Valkey 主节点的地址。如果发生故障转移，Sentinel 将报告新的地址
 
+## conf
+
+```conf
+
+sentinel announce-ip 192.168.31.36
+sentinel announce-port 26382
+
+# 监控一个mymaster的集群 名字随便起 主节点ip和端口(有了announce之后，这里不能写容器内的ip或者容器名称了) 以及法定人数
+sentinel monitor mymaster 192.168.31.36 6381 2
+# sentinel 连接主节点
+sentinel auth-pass mymaster passwd
+```
+
+这里一定要写本机ip地址 客户端连接的时候会通过哨兵提供的地址来连接主节点，如果不写，
+客户端就会拿到一个容器内网地址连接不上
+
+```conf
+replica-announce-ip 192.168.31.36
+replica-announce-port 6380
+
+```
+
 ## 监控
 
 - 主观下线 (Subjective Down, SDOWN)： 单个哨兵发现主节点 PING 不通了。它会想：“可能是我自己的网断了，先标记一下。
