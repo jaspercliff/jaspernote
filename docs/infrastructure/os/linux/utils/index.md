@@ -8,6 +8,7 @@
 - [systemctl](./native/systemctl.md)
 - [journalctl](./native/journalctl.md)
 - [awk](awk.md)
+- [envsubset](./native/envsubst.md)
 - [rsync](rsync.md)
 - [frp内网穿透](frp.md)
 
