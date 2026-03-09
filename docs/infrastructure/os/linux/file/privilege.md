@@ -15,6 +15,24 @@ x (Execute),1,执行程序 / 进入目录
 chown $USER /opt/jmeter/  将当前目录的拥有者改为 当前登录用户
 chown -R $USER:$USER /opt/jmeter/ -R recursive 递归  同时改变当前目录及子目录的拥有者和所属组
 
+```txt
+❯ id
+uid=1000(jasper) gid=1000(jasper) groups=1000(jasper),956(ollama),998(wheel)
+```
+
+- 用户
+- 主组
+- 附加组
+
+### gpasswd
+
+- sudo gpasswd -a jasper wheel 添加用户组
+- sudo gpasswd -d jasper wheel 删除用户组
+
+### usermod
+
+- sudo usermod -aG wheel jasper 添加用户组
+
 ## chmod
 
 修改文件的权限
