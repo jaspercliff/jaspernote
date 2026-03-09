@@ -91,3 +91,5 @@ redis-cli bgrewriteaof 会优化aof文件，用最少的命令达到相同的效
 
 RDB（速度快，但不全）和 AOF（数据全，但恢复慢）
 rdb 主要占用cpu和内存 aof主要占用的磁盘io
+
+rdb 默认配置不需要改 aof 只需要改 appendonly yes
