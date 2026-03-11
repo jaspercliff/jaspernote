@@ -1,8 +1,8 @@
-import Link from '@docusaurus/Link';
-
 # data layer
 
-## relational 
+import Link from '@docusaurus/Link';
+
+## relational
 
 <div className="roadmap-row">
 
@@ -19,7 +19,19 @@ import Link from '@docusaurus/Link';
     </div>
   </Link>
 
-  <Link className="roadmap-card" to="/docs/dataLayer/relational/postgresql/">
+  <Link className="roadmap-card" to="/docs/dataLayer/relational/mariadb/">
+    <div className="roadmap-badge">mariadb</div>
+    <div className="roadmap-title">MariaDB</div>
+    <div className="roadmap-desc">
+      MySQL 分支，兼容且增强的开源数据库
+    </div>
+    <div className="roadmap-tags">
+      <span className="roadmap-tag">兼容</span>
+      <span className="roadmap-tag">开源</span>
+    </div>
+  </Link>
+
+<Link className="roadmap-card" to="/docs/dataLayer/relational/postgresql/">
     <div className="roadmap-badge">postgresql</div>
     <div className="roadmap-title">PostgreSQL</div>
     <div className="roadmap-desc">
@@ -40,18 +52,6 @@ import Link from '@docusaurus/Link';
     <div className="roadmap-tags">
       <span className="roadmap-tag">PL/SQL</span>
       <span className="roadmap-tag">权限</span>
-    </div>
-  </Link>
-
-  <Link className="roadmap-card" to="/docs/dataLayer/relational/mariadb/">
-    <div className="roadmap-badge">mariadb</div>
-    <div className="roadmap-title">MariaDB</div>
-    <div className="roadmap-desc">
-      MySQL 分支，兼容且增强的开源数据库
-    </div>
-    <div className="roadmap-tags">
-      <span className="roadmap-tag">兼容</span>
-      <span className="roadmap-tag">开源</span>
     </div>
   </Link>
 
@@ -81,7 +81,7 @@ import Link from '@docusaurus/Link';
 
 </div>
 
-## nosql 
+## nosql
 
 <div className="roadmap-row">
 
@@ -136,7 +136,7 @@ import Link from '@docusaurus/Link';
 
 </div>
 
-## connected pool 
+## connected pool
 
 <div className="roadmap-row">
 
@@ -208,7 +208,7 @@ import Link from '@docusaurus/Link';
 
 </div>
 
-## distributed 
+## distributed
 
 <div className="roadmap-row">
 
@@ -249,4 +249,3 @@ import Link from '@docusaurus/Link';
   </Link>
 
 </div>
-

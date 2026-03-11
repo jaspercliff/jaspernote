@@ -17,6 +17,4 @@
 
 - [gpg加密算法](./encryption/gpg.md)]
 
-## other
-
-LRU（Least Recently Used）：最近最少使用
+## cache

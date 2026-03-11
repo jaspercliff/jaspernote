@@ -54,3 +54,10 @@ plugins {
 }
 ```
 
+```kotlin
+        compileOnly(rootProject.libs.lombok)
+        testCompileOnly(rootProject.libs.lombok)
+        // 引入注解处理器
+        annotationProcessor(rootProject.libs.lombok)
+        testAnnotationProcessor(rootProject.libs.lombok)
+```
