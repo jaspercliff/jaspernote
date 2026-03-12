@@ -10,7 +10,6 @@
 | ack | no(rpoplpush实现) | no | yes |
 | 消息回溯 | no(rpoplpush实现) | no | yes |
 
-
 ## list
 
 - 无法避免消息丢失(消费者brpop之后没有来得及处理宕机消息丢失了
@@ -102,8 +101,6 @@ xread count 1 block 0 streams s1 $
 - 可以被多个消费者读取
 - 可以阻塞读取
 - 可能会消息漏读，$从最新开始读，但是只有count 1 个，假如有5条消息同时进来，这里只能读取到1条，漏读4条
-
----
 
 - XGROUP CREATE s1 g1 0            0/$ 从头/最新
 - XREADGROUP group g1 c1 count 1 block 2000 streams s1 >(下一个未消费的消息)

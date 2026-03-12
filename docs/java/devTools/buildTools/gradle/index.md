@@ -1,6 +1,5 @@
 # gradlekotlin
 
-
 - [gradle kotlin dsl](/java/devTools/buildTools/gradle/kotlin/index.md)
 - [config](config.md)
 
@@ -8,7 +7,7 @@
 
 `implementation` 是 Gradle 中声明依赖的一种方式，它定义了当前模块对某个依赖的引用，同时控制该依赖的可见性和传播性。
 
-### Gradle 中的 `implementation`
+## Gradle 中的 `implementation`
 
 1. **含义：**
     - 使用 `implementation` 声明的依赖，当前模块可以使用它们，但这些依赖不会自动暴露给依赖当前模块的其他模块。
@@ -51,8 +50,8 @@
   }
   ```
 
-    - 在 `library` 模块中可以使用 `commons-lang3` 的类。
-    - 但在 `app` 模块中，`commons-lang3` 不会被传递，必须手动添加依赖。
+  - 在 `library` 模块中可以使用 `commons-lang3` 的类。
+  - 但在 `app` 模块中，`commons-lang3` 不会被传递，必须手动添加依赖。
 
 - 如果 `library` 中用 `api` 声明依赖：
 
@@ -63,8 +62,8 @@
   }
   ```
 
-    - 在 `library` 和 `app` 模块中都可以使用 `commons-lang3` 的类。
-    - `api` 会暴露 `commons-lang3` 给所有依赖 `library` 的模块。
+  - 在 `library` 和 `app` 模块中都可以使用 `commons-lang3` 的类。
+  - `api` 会暴露 `commons-lang3` 给所有依赖 `library` 的模块。
 
 ---
 
