@@ -66,12 +66,16 @@ copy on write
 
 append only file 追加文件：redis 的每一个写的命令都会记录到aof文件，可以看作是命令日志文件
 
+Valkey 执行完写命令后，先将命令放入 aof_buf（内存缓冲区）。
+系统调用 (Write)：根据策略，调用 write() 将数据从缓冲区拷贝到操作系统的 Page Cache。此时数据还在内存中，并未落盘。
+强制落盘 (Fsync)：根据 appendfsync 的配置，调用 fsync() 或 fdatasync()，强制内核将 Page Cache 中的数据写入物理磁盘
+
 ### aof config
 
 - appendonly yes 开启aof
 - appendfilename "appendonly.aof" aof file name
 - appenddirname "appendonlydir" aof dir name
-- appendfsync aways/everysec/no 每执行一次就记录到aof file everysec 先放到aof缓冲区，然后每隔1秒将命令写入aof
+- appendfsync aways/everysec/no 每执行一次就记录到aof file(fsync) everysec 先放到aof缓冲区，然后每隔1秒将命令写入aof
 写完放到缓冲区不管，由操作系统决定什么时候刷盘写入aof
 - no-appendfsync-on-rewrite no 在子进程重写 AOF 或生成 RDB 期间，主进程要不要暂时放下“每秒刷盘”的坚持
 no 主进程可能会因为 fsync 被阻塞，导致 Redis 出现几十毫秒甚至几秒的卡顿
@@ -93,3 +97,7 @@ RDB（速度快，但不全）和 AOF（数据全，但恢复慢）
 rdb 主要占用cpu和内存 aof主要占用的磁盘io
 
 rdb 默认配置不需要改 aof 只需要改 appendonly yes
+
+## optimization
+
+- 要预留足够的内存 for fork or rewrite
