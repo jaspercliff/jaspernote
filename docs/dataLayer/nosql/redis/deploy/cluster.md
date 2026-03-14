@@ -89,7 +89,8 @@ cluster-node-timeout 15000
 cluster-replica-validity-factor 10
 ```
 
-如果节点是副本，则当主节点链路断开时间超过指定时长时(timeout*factor)，副本将不会尝试启动故障转移
+如果节点是副本，则当主节点链路断开时间超过指定时长时，副本将不会尝试启动故障转移
+(node-timeout * cluster-replica-validity-factor) + repl-ping-replica-period
 
 ### manual failover
 
@@ -98,3 +99,29 @@ cluster-replica-validity-factor 10
 故障切换期间，向主服务器发送写入命令的客户端会被阻塞。当主服务器将其复制偏移量发送给副本服务器时，副本服务器会等待自身达到该偏移量。当达到复制偏移量后，故障切换开始，原主服务器会收到配置切换的通知。切换完成后，原主服务器上的客户端将被解除阻塞，并重定向到新的主服务器
 
 要将副本提升为主节点，它必须首先被集群中的大多数主节点识别为副本。否则，它就无法赢得备用选举。如果副本刚刚添加到集群中，您可能需要等待一段时间才能发送 CLUSTER FAILOVER 命令，以确保集群中的主节点知道新的副本
+
+## config
+
+```conf
+# 主节点频率性的给从节点发生ping命令 default 10 
+repl-ping-replica-period 10
+
+cluster-enabled yes
+# 不需要用户维护
+cluster-config-file nodes-6379.conf
+# 节点心跳失败时间 default 15000 15s
+# 节点a给b发送ping,但是超过10s没有受到pong,则认为b节点挂了
+# 只有半数节点认为b节点挂了，才会进行failover
+cluster-node-timeout 10000
+# 有效因子 default 10 用来判断一个节点是否失效的因子，默认值是 10。
+# 从节点断开 10*15s+repl-ping-replica-period 时间后，会被认为是失效的。从节点认为自己的数据太旧，不会进行替换master
+# +repl 防止从节点因为正好错过了一次心跳检查
+# 设置为 0。这意味着无论 Slave 掉线多久，它都会尝试在 Master 挂掉时接管
+cluster-replica-validity-factor 10
+```
+
+## problem
+
+- 集群模式下不支持事务
+
+最好情况是分布到一个hashtag上
