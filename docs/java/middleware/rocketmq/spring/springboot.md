@@ -9,5 +9,8 @@ Add a dependency using maven:
     <version>${RELEASE.VERSION}</version>
 </dependency>
 ```
+
 ## 用户手册
-https://github.com/apache/rocketmq-spring/wiki
+
+<https://github.com/apache/rocketmq-spring/wiki>
+
