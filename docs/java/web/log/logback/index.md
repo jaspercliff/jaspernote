@@ -1,6 +1,5 @@
 # logback
 
-
 根据不同的环境配置不同的日志记录规则
 
 ``` xml
@@ -19,4 +18,3 @@
 </root>
 </springProfile>
 ```
-
