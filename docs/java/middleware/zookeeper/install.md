@@ -1,6 +1,6 @@
 # install
 
-<https://zookeeper.apache.org/doc/r3.8.4/zookeeperStarted.html>
+[install](https://zookeeper.apache.org/doc/r3.8.4/zookeeperStarted.html)
 
 1. 下载解压
 2. 修改配置文件 dataDir
@@ -21,7 +21,7 @@
 - follower 处理读请求 并将写请求转发给leader
 - 不参与投票，但可以接收客户端连接，缓解 Leader/Follower 的压力（只读副本）
 
-<https://zookeeper.apache.org/doc/r3.8.4/zookeeperAdmin.html#sc_zkMulitServerSetup>
+[muliti](https://zookeeper.apache.org/doc/r3.8.4/zookeeperAdmin.html#sc_zkMulitServerSetup)
 
 - server.1=zoo1:2888:3888
 - server.2=zoo2:2888:3888
@@ -63,4 +63,3 @@ ZooKeeper 做了以下处理：
 ⚓️ **本地一台机器模拟集群时，通常不会因为没有创建initialize文件而选不出leader 三台机器待验证**
 
 ![img.png](assets/installStatus.png)
-

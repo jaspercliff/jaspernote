@@ -1,28 +1,4 @@
-# 关键字
-
-以下是Java中的关键字列表，按照功能分类：
-
-| 分类      | 关键字                                                                                            |
-|---------|------------------------------------------------------------------------------------------------|
-| 访问控制    | `private`, `protected`, `public`                                                               |
-| 类、方法和变量 | `class`, `interface`, `enum`, `extends`, `implements`, `new`, `this`, `super`, `instanceof`    |
-| 数据类型    | `byte`, `short`, `int`, `long`, `float`, `double`, `char`, `boolean`, `void`                   |
-| 流程控制    | `if`, `else`, `switch`, `case`, `default`, `while`, `do`, `for`, `break`, `continue`, `return` |
-| 异常处理    | `try`, `catch`, `finally`, `throw`, `throws`                                                   |
-| 修饰符     | `abstract`, `final`, `static`, `synchronized`, `transient`, `volatile`, `native`, `strictfp`   |
-| 包相关     | `package`, `import`                                                                            |
-| 其他      | `assert`, `const` (未使用), `goto` (未使用)                                                          |
-
-### 说明
-
-1. **`const` 和 `goto`** 是Java保留的关键字，但目前并未使用。
-2. **`strictfp`** 用于确保浮点运算的跨平台一致性。
-3. **`transient`** 用于标记不需要序列化的字段。
-4. **`volatile`** 用于标记可能被多个线程同时访问的变量。
-
-这些关键字在Java中具有特殊含义，不能用作标识符（如变量名、类名等）。
-
-## static
+# static
 
 the static keyword in java is mainly used for memory management.The static keyword in java is used to share the same variable or method of a given class.
 
@@ -39,7 +15,7 @@ For
 - methods
 - classes
 
-### member
+## member
 
 when a member is declared static,it can be accessed before any objects of its class are created
 
@@ -58,7 +34,7 @@ class Test
     }
 ```
 
-### static block
+## static block
 
 if you need to do the computation in order to initialize your static variables,you can declare a static block that gets executed(执行 实施） exactly once, when the class is first loaded
 
@@ -77,7 +53,7 @@ class Test{
 }
 ```
 
-### static variable
+## static variable
 
 当将变量声明为静态时，则在类级别的所有对象之间创建并共享该变量的单个副本。 静态变量基本上是\*\*（（（本质的）全局变量。类的所有实例共享相同的静态变量。
 
@@ -124,7 +100,7 @@ public class Test2 {
 }
 ```
 
-### static methods
+## static methods
 
 当用静态关键字声明方法时，它是 konwn 作为静态方法。静态方法的最常见示例是 main（）方法。
 
@@ -132,8 +108,8 @@ public class Test2 {
 
 - 他们只能直接调用其他静态方法
 - 他们只能直接访问静态数据
-  - 静态方法是属于类的，而不是类的某个特定对象实例。因此，在静态方法的执行过程中，没有 this 引用，这意味着它们无法直接访问实例变量或实例方法
-  - 静态成员（包括静态变量和静态方法）在类被加载到 JVM 时就已经存在，而不需要创建类的任何对象实例。这就意味着静态方法可以在没有任何对象实例存在的情况下被调用。如果静态方法被允许访问非静态成员，那么在**没有实例化对象的情况下，这些非静态成员根本就不存在**，从而可能导致运行时错误
+    - 静态方法是属于类的，而不是类的某个特定对象实例。因此，在静态方法的执行过程中，没有 this 引用，这意味着它们无法直接访问实例变量或实例方法
+    - 静态成员（包括静态变量和静态方法）在类被加载到 JVM 时就已经存在，而不需要创建类的任何对象实例。这就意味着静态方法可以在没有任何对象实例存在的情况下被调用。如果静态方法被允许访问非静态成员，那么在**没有实例化对象的情况下，这些非静态成员根本就不存在**，从而可能导致运行时错误
 - They cannot refer to this or super in any way
 
 ```java
@@ -156,7 +132,7 @@ public class Test4 {
 }
 ```
 
-### static classes
+## static classes
 
 只有当它是嵌套类（内类）时，才能使一个类成为静态
 
@@ -186,7 +162,7 @@ public class StaticNestedClass {
 }
 ```
 
-### 初始化顺序
+## 初始化顺序
 
 静态变量和静态语句块优先于实例变量和普通语句块，静态变量和静态语句块的初始化顺序取决于它们在代码中的顺序。
 存在继承的情况下，初始化顺序为:
@@ -241,7 +217,7 @@ public class Student {
 }
 ```
 
-![alt text](assets/07static.png)
+![alt text](../assets/07static.png)
 
 ### Q&A
 

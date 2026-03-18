@@ -1,14 +1,17 @@
+---
+sidebar_position: 1
+---
+
 # java核心基础
 
 ## 目录
 
 ### 基础
 
-- [关键字](./foundation/01keyword.md)
+- [关键字](foundation/keyword.md)
 - [数据类型](./foundation/02dataType.md)
 - [运算符](foundation/03operator.md)
 - [控制和循环](foundation/04control.md)
-- [面向对象](foundation/object-oriented.md)
 - [枚举](foundation/enum.md)
 - [注解](foundation/注解.md)
 - [异常](foundation/异常.md)

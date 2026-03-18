@@ -21,11 +21,15 @@ export const navbar: ThemeConfig['navbar'] = {
             position: 'left',
             label: '数据结构',
         },
+        //================================================ java
         {
-            type: 'docSidebar',
-            sidebarId: 'java',
-            position: 'left',
+            type: 'dropdown',
             label: 'java',
+            position: 'left',
+            items: [
+                { label: '开发工具', to: '/docs/java/devTools', sidebarId: 'devTools' },
+                { label: 'foundation', to: '/docs/java/basic', sidebarId: 'javaBasic' },
+            ],
         },
         {
             type: 'docSidebar',

@@ -1,6 +1,5 @@
 # maven
 
-- [install](./install.md)
 - [基本概念](./basic.md)
 - [依赖冲突](confilct.md)
 
@@ -13,4 +12,4 @@
 | **runtime** | 运行时需要，但编译期不需要。 | - 不用于编译时，但会加入到运行时类路径。 | 数据库驱动（如 JDBC 驱动）等运行时加载的类。 |
 | **test** | 仅用于测试编译和运行，不会影响生产代码。 | - 不会传递到其他模块中。 | 单元测试框架（如 JUnit、Mockito 等）。 |
 | **system** | 类似 `` `provided` ``，但需要显式指定依赖的本地路径。 | - 不会从远程仓库下载，依赖由 `` `systemPath` `` 指定。 不推荐使用。 | 使用本地的 JAR 文件，特别是在远程仓库无此依赖时。 |
-| **import** | 导入依赖集合（通常为 BOM 文件），不会直接加入类路径，仅用于版本管理。 |  仅在 `` `dependencyManagement` `` 中使用。 常用于管理多模块项目中的版本一致性。 | Spring Boot 中 `` `spring-boot-dependencies` `` 的 BOM 管理等。 |
+| **import** | 导入依赖集合（通常为 BOM 文件）仅用于版本管理 | 仅在 `` `dependencyManagement` `` 中使用。 常用于管理多模块项目中的版本一致性 | Spring Boot 中 `` `spring-boot-dependencies` `` 的 BOM 管理等 |

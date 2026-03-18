@@ -12,5 +12,4 @@ Add a dependency using maven:
 
 ## 用户手册
 
-<https://github.com/apache/rocketmq-spring/wiki>
-
+[springboot](https://github.com/apache/rocketmq-spring/wiki)

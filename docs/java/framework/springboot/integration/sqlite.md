@@ -1,4 +1,4 @@
-## sqlite
+# sqlite
 
 要在Spring Boot项目中集成SQLite数据库，你可以按照以下步骤进行操作：
 
@@ -46,3 +46,4 @@
 5. **启动应用程序**：运行你的Spring Boot应用程序，确保它能够成功连接到和操作SQLite数据库。
 
 通过以上步骤，你可以在Spring Boot项目中成功集成和使用SQLite数据库。记得在整个过程中，确保你的数据库文件路径和配置信息正确，以及Spring Boot的依赖正确添加和配置。
+
