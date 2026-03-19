@@ -8,14 +8,14 @@ public final class String
 }
 ```
 
-### String 的不可变
+## String 的不可变
 
 private final char value[];
 
 对字符串的截取、拼接等操作都是重新生成了新的字符串对象
 给一个已有字符串第二次赋值，不是在原内存地址修改数据，而是一个新的对象（新地址）
-![](assets/04String.png)
-![](assets/05String.png)
+![s](../assets/04String.png)
+![s](../assets/05String.png)
 
 - 保存字符串的字符数组是 final 并且私有的 没有提供/暴露修改这个字符串的方法
 - 类被 final 修饰 防止子类破坏 String 不可变
@@ -130,6 +130,7 @@ s3 直接指向池中的 "hello" 对象。
 可以看出，s2 和 s3 实际上指向的是同一个内存位置，即字符串池中的 "hello"。
 
 #### intern() 方法的应用场景
+
 intern() 通常用于以下场景：
 
 内存优化： 当你的应用程序中有大量重复的字符串时，使用 intern() 可以显著减少内存的使用。通过将这些字符串放入池中，所有相同内容的字符串都会共享同一个对象。
@@ -137,12 +138,14 @@ intern() 通常用于以下场景：
 字符串比较优化： 在需要大量进行字符串比较的场景下，使用 intern() 可以使比较操作更快，因为可以直接比较对象引用而不是逐字符比较。
 
 多线程同步： 在多线程环境中，可以使用 intern() 方法确保相同的字符串内容使用同一个锁对象
+
 #### 风险
 
 使用 intern() 后，字符串对象将被放入堆中的字符串池中。尽管堆的大小通常比永久代大得多，但如果大量不同的字符串对象都被放入池中，仍然会占用堆内存，这可能会导致内存消耗增大。
 堆内存耗尽的风险依然存在，特别是在大量使用 intern() 的情况下，因为 JVM 会不断创建新的字符串对象并将它们放入池中
 
 ### stringBuilder and stringBuffer
+
 - 每次对 String 类型进行改变的时候，都会生成一个新的 String 对象
 - `StringBuffer` 每次都会对 `StringBuffer` 对象本身进行操作，而不是生成新的对象并改变对象引用
 - 使用 `StringBuilder` 相比使用 `StringBuffer` 能获得性能提升，但却要冒多线程不安全的风险
@@ -154,9 +157,7 @@ intern() 通常用于以下场景：
 ### 字符串的拼接
 
 字符串通过+的方式拼接，本质是通过 StringBuilder 调用 append 方法实现的，拼接完之后会调用 toString 方法得到一个字符串对象
-![](assets/06String.png)
-
-
+![s](../assets/06String.png)
 
 ### String.format
 
@@ -194,3 +195,13 @@ if("abc".equals(a)){
 ```
 
 写到后面 a变量为null就会报空指针异常
+
+## string common usage
+
+- repeat since 11
+
+```java
+    String a = "s";
+    String repeat = a.repeat(3);
+    System.out.println(repeat);  //333
+```

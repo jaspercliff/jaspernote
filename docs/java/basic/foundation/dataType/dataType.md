@@ -1,6 +1,6 @@
 # 数据类型
 
-![数据类型](assets/01数据类型.png)
+![数据类型](../assets/01数据类型.png)
 
 ## 浮点数
 
@@ -227,6 +227,9 @@ private static class IntegerCache {
 - 无论是基本类型还是引用类型的成员变量，如果它们是对象的非**`static`**成员，那么这些成员变量的数据都存储在堆内存中的。
   - static 变量是存储在方法区的
 
+逃逸分析（Escape Analysis:
+如果你在方法里定义了一个 Integer，但它没有被返回给别的方法使用，JVM 可能会通过优化直接把它分配在栈上（标量替换），以减少堆压力
+
 ## 自动装箱和拆箱
 
 基本数据类型与包装类的转换被称为装箱和拆箱。
@@ -238,7 +241,7 @@ private static class IntegerCache {
 int c2 = c1;//拆箱
 ```
 
-![unboxing](assets/02unboxing.png)
+![unboxing](../assets/02unboxing.png)
 
 从字节码中，我们发现装箱其实就是调用了 包装类的 `valueOf()`方法，拆箱其实就是调用了 `xxxValue()`方法。
 
@@ -313,7 +316,7 @@ System.out.println(k);
 
 因为例子中，flag ? i : j;片段中，第二段的 i 是一个包装类型的对象，而第三段的 j 是一个基本类型，所以会对包装类进行自动拆箱。如果这个时候 i 的值为 null，那么就会发生 NPE。
 
-![npe](assets/03unboxingscene.png)
+![npe](../assets/03unboxingscene.png)
 
 ## 引用类型
 
