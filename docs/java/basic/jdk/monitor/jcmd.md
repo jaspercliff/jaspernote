@@ -5,7 +5,7 @@
 - jcmd 查看当前有哪些java进程
 - `jcmd 121144 Thread.print > test.txt  =  jstack pid  > dump.txt`
 
-- jcmd <PID> VM.native_memory summary
+- `jcmd <PID> VM.native_memory summary`
 
 Total: 进程总共向系统申请了多少内存（Reserved）以及系统实际分配了多少物理内存（Committed）。
 

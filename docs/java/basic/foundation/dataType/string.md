@@ -14,6 +14,7 @@ private final char value[];
 
 对字符串的截取、拼接等操作都是重新生成了新的字符串对象
 给一个已有字符串第二次赋值，不是在原内存地址修改数据，而是一个新的对象（新地址）
+
 ![s](../assets/04String.png)
 ![s](../assets/05String.png)
 
@@ -63,7 +64,7 @@ public class ChangeDemo {
 ```
 
 - String 被广泛用作哈希表的键，因为其不可变性保证了哈希码的稳定性，保证哈希值不会频繁的变更
-  使用 StringBuilder 破坏了 hashSet 的唯一性
+- 使用 StringBuilder 破坏了 hashSet 的唯一性，没有重写equals和hashcode方法
 
 ```java
 package com.jasper.StringDemo;
@@ -134,6 +135,7 @@ s3 直接指向池中的 "hello" 对象。
 intern() 通常用于以下场景：
 
 内存优化： 当你的应用程序中有大量重复的字符串时，使用 intern() 可以显著减少内存的使用。通过将这些字符串放入池中，所有相同内容的字符串都会共享同一个对象。
+如果你在程序里需要处理海量的重复字符串（比如从数据库读出 100 万个“北京市”），如果不做处理，堆内存里会有 100 万个内容相同的 String 对象。
 
 字符串比较优化： 在需要大量进行字符串比较的场景下，使用 intern() 可以使比较操作更快，因为可以直接比较对象引用而不是逐字符比较。
 
