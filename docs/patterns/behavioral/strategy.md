@@ -4,12 +4,14 @@
 通过将算法封装在独立的类中，策略模式使得算法可以独立于使用它的客户端而变化。
 
 策略模式的主要组成部分包括：
+
 1. **Context（上下文）**：持有对策略接口的引用，并可以在运行时切换策略。
 2. **Strategy（策略接口）**：定义了一个算法的接口，所有具体策略都实现这个接口。
 3. **ConcreteStrategy（具体策略）**：实现了策略接口的具体算法。
 4. **Client（客户端）**：使用上下文来调用策略。
 
 ## 策略模式的优点
+
 1. **封装变化**：将算法的实现细节封装在具体策略类中，客户端只需要知道如何使用策略接口。
 2. **提高灵活性**：可以在运行时选择不同的策略，增加了系统的灵活性和可扩展性。
 3. **减少条件语句**：避免了使用大量的条件语句来选择算法，使代码更清晰。
@@ -17,3 +19,74 @@
 5. **符合开闭原则**：系统对扩展开放，对修改关闭。可以通过添加新的策略类来扩展系统的功能，而不需要修改现有代码。
 6. **提高可读性**：每个策略类只关注一个算法的实现，使得代码更易于理解和维护。
 
+## demo
+
+```java
+public enum RegisterType {
+    MOBILE,
+    EMAIL,
+    GITHUB,
+    WECHAT;
+}
+public interface RegisterStrategy {
+     RegisterType getRegisterType();
+     User doRegister(RegisterContext context);
+}
+
+@Data
+public class RegisterContext {
+    private String userId;
+    private String username;
+    private String password;
+    private RegisterType registerType;
+}
+
+@Service
+public class EmailStrategy implements RegisterStrategy {
+    @Override
+    public RegisterType getRegisterType() {
+        return RegisterType.EMAIL;
+    }
+
+    @Override
+    public User doRegister(RegisterContext context) {
+        return null;
+    }
+}
+@Service
+public class GithubStrategy implements RegisterStrategy {
+    @Override
+    public RegisterType getRegisterType() {
+        return RegisterType.GITHUB;
+    }
+
+    @Override
+    public User doRegister(RegisterContext context) {
+        return null;
+    }
+}
+public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
+
+    private final EnumMap<RegisterType, RegisterStrategy> strategyMap;
+
+    public UserServiceImpl(List<RegisterStrategy> strategies) {
+        this.strategyMap = strategies.stream()
+                .collect(Collectors.toMap(
+                        RegisterStrategy::getRegisterType,
+                        s -> s,
+                        (existing, replacement) -> existing, // 冲突处理
+                        () -> new EnumMap<>(RegisterType.class) // 指定返回 EnumMap
+                ));
+    }
+
+    public User register(RegisterType type, RegisterContext context) {
+        RegisterStrategy strategy = strategyMap.get(type);
+        if (strategy == null) {
+            throw new IllegalArgumentException("暂不支持该注册方式: " + type);
+        }
+        // 可以在这里加通用的前置校验，比如：IP频率限制
+        // 可以在这里加通用的后置逻辑，比如：发送欢迎消息、注册埋点
+        return strategy.doRegister(context);
+    }
+}
+```
