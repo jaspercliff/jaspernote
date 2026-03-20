@@ -3,6 +3,7 @@
 是一个特殊的类 一般表示一组常量 比如一年四季
 每一个枚举类型都可以看作是一个Enum的实例
 Red 和 BLACK都有color属性
+
 ```java
  enum Color{
         RED("red"),BLACK("black");
@@ -44,15 +45,16 @@ javap demo$Color.class
   public static se.enum_study.demo$Color valueOf(java.lang.String);
   static {};
 ```
+
 可以看到自动插入了 values方法
 The compiler automatically adds some special methods when it creates an enum
-枚举成员默认都被public static final 修饰
+枚举常量默认都被public static final 修饰
 
 ## methods
 
 values 返回枚举类中所有的值
-ordinal  找到每个枚举常量的值
-vlaueof  返回指定字符串的枚举常量
+ordinal  返回枚举常量的“下标（序号）”
+vlaueof  返回指定字符串的枚举常量 字符串 → 枚举
 **`name()`**方法是`Enum`类的一个内置方法，它返回枚举常量的名称作为一个字符串
 
 ``` java
@@ -65,6 +67,7 @@ vlaueof  返回指定字符串的枚举常量
 ```
 
 枚举类中有抽象方法 则枚举类中的每个对象都对其进行实现
+
 ``` java
 enum Color {
         RED{
@@ -89,22 +92,20 @@ enum Color {
 ```
 
 ## EnumMap
+
 ```java
 public class EnumMap<K extends Enum<K>,V>
 
 extends AbstractMap<K,V>
 
 implements Serializable, Cloneable
-
 ```
 
+- 必须指定类型：创建时必须传入枚举的 Class 对象（如 new EnumMap(Status.class)），因为底层数组需要知道大小。
+- Key 不能为空：EnumMap 不允许使用 null 作为 Key（会抛出 NullPointerException），但 Value 可以为 null。
 
-### class diagram
-
-### constructor
-1. the constructor is used to create an empty EnumMap with specified keyType
-2. the constuctor is used to create an enum map with the same keyType as the specified enum map,with initial mappings being the sanme as the enum map
-3. the constructor is used to create an enum map with initialization from the sprcified map in the parameter
+它拥有数组的极致性能，同时具备 Map 的优雅接口
+enummap 有顺序 查找o(1) 占用内存少（数组）
 
 ### Example
 
@@ -148,7 +149,7 @@ values [color is red, color is black, color is blue]
 [RED=color is red  jasper, BLACK=color is black  jasper, BLUE=color is blue  jasper]
 ```
 
-```
+```java
 replaceAll()
 default void replaceAll(BiFunction<? super K, ? super V, ? extends V> function)
 @FunctionalInterface  函数式编程
@@ -156,6 +157,7 @@ public interface BiFunction<T, U, R>
 ```
 
 ## EnumSet
+
 ```java
 public abstract class EnumSet<E extends Enum<E>>
 
@@ -163,3 +165,5 @@ extends AbstractSet<E>
 
 implements Cloneable, Serializable
 ```
+
+如果枚举类中的元素少于 64 个（绝大多数业务场景），EnumSet 内部仅使用一个 long 类型的变量来存储,相比于 HashSet 需要计算哈希值、处理碰撞、遍历桶，EnumSet 的操作直接由 CPU 指令完成，速度快到极致

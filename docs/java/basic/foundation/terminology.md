@@ -18,6 +18,7 @@
   每个JSR都有一个唯一编号，例如JSR 299是关于上下文和依赖注入的API（即CDI，Contexts and Dependency Injection），而JSR 330是关于依赖注入的标准化工作。
 
   JSR是Java技术发展的重要组成部分，它不仅确定了Java平台的未来方向，而且还提供了一个途径，让社区成员可以参与并对Java生态系统的发展做出贡献。
+
 ## JEP
 
 JEP代表JDK Enhancement Proposal，即JDK增强提案。它是一个用于提出、讨论、审查和确定Java平台的新特性（Java SE平台、JVM、工具等）的正式过程。每个JEP都提供了对其所提议增强的详细说明，包括目标、动机、描述、依赖关系和风险等。
@@ -37,6 +38,5 @@ JEP的流程通常包括以下几个步骤：
 JEP使Java的发展过程更加透明和社区驱动，它为开发者和最终用户提供了参与Java平台发展的机会。
 
 ## JLP java language specification
-
 
 JLP代表Java Language Specification，即Java语言规范。它定义了Java编程语言的语法、语义和运行时行为，是Java平台的核心规范之一。
