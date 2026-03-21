@@ -1,6 +1,11 @@
+---
+sidebar_position: 8
+---
 # 序列化
+
 ## java自带
-###  序列化示例
+
+### 序列化示例
 
 ``` java
 User user = new User();

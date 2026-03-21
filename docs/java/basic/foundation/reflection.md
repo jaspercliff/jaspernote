@@ -1,3 +1,6 @@
+---
+sidebar_position: 11
+---
 # reflection
 
 一般我们在使用某个类之前就确定了是什么类，直接可以new来进行实例化来进行操作
@@ -13,8 +16,8 @@
 在spring springboot mybatis中都使用了
 
 * jdk中的动态代理 [代理模式](/docs/patterns/structural/proxy.md)
-* 注解   [annotation](注解.md)
-* jdbc [jdbc](../../jdbc/index.md)
+* 注解   [annotation](anno.md)
+* jdbc [jdbc](/docs/java/web/jdbc/index.md)
 
 ## 优点
 
@@ -25,7 +28,6 @@
 
 * 破坏了封装，允许访问private method and param
 * 增加了安全问题，无视泛型参数的检查
-  * [泛型擦除](https://www.notion.so/a6c5e2af5b9e41c7b5d7d3be7ab4f1d1?pvs=21)
 * 性能相对差一点
 
 每一个类的实例都会对应一个Class对象，这个对象由jvm生成来获取整个类的结构信息
@@ -35,79 +37,25 @@
 Class：代表一个类或接口，包含了类的结构信息（如名称、构造函数、方法、字段等）。通过 Class 对象，可以获取类的元数据并操作类的实例
 
 ```java
-package com.jasper.reflection;
-
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-
-public class Demo1 {
+public class ReflectDemo {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
-        Class<?> clazz = Class.forName("com.jasper.reflection.Person");
+        Class<?> clazz = Class.forName("com.jasper.Person");
         Constructor<?> constructor = clazz.getConstructor();
         Object o = constructor.newInstance();
         Method setName = clazz.getMethod("setName", String.class);
-        setName.invoke(o,"jasper");
+        setName.invoke(o, "jasper");
         Method getName = clazz.getMethod("getName");
         System.out.println(getName.invoke(o));
+        System.out.println(o);
     }
 }
-```
-
-```java
-package com.jasper.reflection;
-
-public class Person {
-    private String name;
-    private String age;
-
-    public Person() {
-    }
-
-     private Person(String name, String age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAge() {
-        return age;
-    }
-
-    public void setAge(String age) {
-        this.age = age;
-    }
-
-    public void print(){
-        System.out.println("print method");
-    }
-
-    private void print(String name){
-        System.out.println(name);
-    }
-}
+//jasper
+//Person(id=0, name=jasper, age=0)
 ```
 
 ## 获取Class对象
 
 * Class.forName()  @param className the fully qualified name of the desired class.
-
-  ```java
-  @CallerSensitive
-      public static Class<?> forName(String className)
-                  throws ClassNotFoundException {
-          Class<?> caller = Reflection.getCallerClass();
-          return forName0(className, true, ClassLoader.getClassLoader(caller), caller);
-      }
-  ```
-
 * 类名.class  适合在编译前就知道操作的Class
 * 对象.getClass()
 
@@ -127,7 +75,7 @@ Class<?> clazz = Class.forName("com.jasper.reflection.Person");
 Class<?> clazz1 = ClassLoader.getSystemClassLoader().loadClass("com.jasper.reflection.Person");
 ```
 
-## 创建反射类的对象
+## 反射类的对象实例化
 
 * Class对象的newInstance方法
 * Constructor对象的newInstance method
@@ -474,4 +422,3 @@ rocketmq dashboard 源码
         }
     }
 ```
-

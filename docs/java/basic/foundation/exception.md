@@ -1,4 +1,8 @@
+---
+sidebar_position: 12
+---
 # 异常
+
 ```mermaid
 graph TD
 A[Java Exceptions] --> B[Checked Exceptions]
@@ -18,7 +22,7 @@ G --> J[StackOverflowError]
 
 在Java中，异常是程序运行时发生的不正常条件，它打断了正常的指令流。Java提供了强大的异常处理机制，允许程序在遇到异常时优雅地恢复。这里是Java异常处理的全部知识点概览：
 
-### 异常的分类
+## 异常的分类
 
 Java中的异常分为两大类：受检异常（Checked Exceptions）和非受检异常（Unchecked Exceptions）。
 
@@ -128,6 +132,7 @@ try(ResourceType resource = new ResourceType()){
 ``` java
 assert 条件 :"错误信息";
 ```
+
 Java中的断言（Assertion）是一种用于在测试阶段帮助开发者检查假设的机制。它用于在代码执行期间确保表达式为真。如果表达式为假，断言将抛出一个`AssertionError`。它们通常用于调试目的，用于验证代码的某些部分的状态。
 
 要使用断言，需要用到`assert`关键字，后面跟上一个布尔表达式：
@@ -169,11 +174,12 @@ public class Main {
 ```
 
 在这个例子中，如果`calculateValue`方法返回的值不大于0，那么断言会失败，并抛出一个带有消息"计算的值必须大于0"的`AssertionError`。在没有启用断言的情况下，即使值为负数，程序也会正常运行，不会抛出错误。
+
 - Exception 程序本身可以处理的异常，可以通过catch来捕获
-   - checked 必须处理的异常
-   - unchecked 可以不处理
+  - checked 必须处理的异常
+  - unchecked 可以不处理
 - Error
-   - 程序无法处理的错误，一般jVM会选择线程终止
+  - 程序无法处理的错误，一般jVM会选择线程终止
 
 ### Throwable 类常用方法有哪些？
 
@@ -182,7 +188,7 @@ public class Main {
 - `String getLocalizedMessage()`: 返回异常对象的本地化信息。使用 `Throwable` 的子类覆盖这个方法，可以生成本地化信息。如果子类没有覆盖该方法，则该方法返回的信息与 `getMessage()`返回的结果相同
 - `void printStackTrace()`: 在控制台上打印 `Throwable` 对象封装的异常信息
 
-```
+```java
 try {
     System.out.println("Try to do something");
     throw new RuntimeException("RuntimeException");
@@ -195,14 +201,18 @@ try {
 
 输出：
 
-```
+```txt
 Try to do something
 Catch Exception -> RuntimeException
 Finally
 
 ```
 
+## finally
+
 **注意：**不要在 finally 语句块中使用 return**!
 当 try 语句和 finally 语句中都有 return 语句时，try 语句块中的 return 语句会被忽略。
 这是因为 try 语句中的 return 返回值会先被暂存在一个本地变量中，当执行到 finally 语句中的 return 之后，
 这个本地变量的值就变为了 finally 语句中的 return 返回值。
+
+finally 里修改基本类型不影响返回值；修改引用对象的内容会影响返回值
