@@ -13,7 +13,37 @@
 2. 创建一个代理类同样实现这个接口
 3. 将目标对象注入进代理类，然后在代理类的对应方法调用目标类中的对应方法
 
-- [静态代理](https://github.com/iluwatar/design-patterns/tree/master/proxy)
+```java
+public interface SmsService {
+    void send(String phone, String message);
+}
+@Slf4j
+public class AliSmsService implements SmsService{
+    @Override
+    public void send(String phone, String message) {
+        log.info("ali send message");
+    }
+}
+
+@RequiredArgsConstructor
+@Slf4j
+public class SmsServiceProxy {
+    private final SmsService realService;
+
+    /**
+     * 如果某个模块调用时需要代理，则使用该proxy类，不需要则直接使用原对象就好
+     * @param phone phone
+     * @param message message
+     */
+    public void send(String phone,String message) {
+        Stopwatch stopwatch = Stopwatch.createStarted();
+        realService.send(phone,message);
+        stopwatch.stop();
+        log.info("cost time: {}",stopwatch.elapsed());
+    }
+}
+
+```
 
 ## 动态代理
 
@@ -35,28 +65,25 @@
 
 #### InvocationHandler
 
-``` java
-
-public interface InvocationHandler {
-    public Object invoke(Object proxy, Method method, Object[] args)
-        throws Throwable;
-```
-
 1.定义发送短信的接口
 
 ```java
+
 public interface SmsService {
     String send(String message);
 }
+
 ```
 
 2.实现发送短信的接口
 
 ```java
-public class SmsServiceImpl implements SmsService {
-    public String send(String message) {
-        System.out.println("send message:" + message);
-        return message;
+@Slf4j
+public class TxSmsService implements SmsService {
+    @Override
+    public SmsResponse send(String phone, String message) {
+        log.info("tx phone is {} : message is {} ", phone, message);
+        return  new SmsResponse();
     }
 }
 ```
@@ -64,28 +91,23 @@ public class SmsServiceImpl implements SmsService {
 3.定义一个 JDK 动态代理类
 
 ```java
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
+@RequiredArgsConstructor
+@Slf4j
+public class WatchInvocationHandler implements InvocationHandler {
 
-/**
- * @author shuang.kou
- * @createTime 2020年05月11日 11:23:00
- */
-public class DebugInvocationHandler implements InvocationHandler {
-    /**
-     * 代理类中的真实对象
-     */
     private final Object target;
 
-    public DebugInvocationHandler(Object target) {
-        this.target = target;
-    }
+    @Override
+    public Object invoke(Object o, Method method, Object[] args) throws Throwable {
 
-    public Object invoke(Object proxy, Method method, Object[] args) throws InvocationTargetException, IllegalAccessException {
-        System.out.println("before method " + method.getName());
+        String phone = (String)args[0];
+        if ("110".equals(phone)){
+            log.info("phone number is 110, don't");
+        }
+        Stopwatch stopwatch = Stopwatch.createStarted();
         Object result = method.invoke(target, args);
-        System.out.println("after method " + method.getName());
+        stopwatch.stop();
+        log.info("cost time: {} ms",stopwatch.elapsed(TimeUnit.MILLISECONDS));
         return result;
     }
 }
@@ -96,12 +118,12 @@ public class DebugInvocationHandler implements InvocationHandler {
 4.获取代理对象的工厂类
 
 ```java
-public class JdkProxyFactory {
+public class ProxyFactory {
     public static Object getProxy(Object target) {
         return Proxy.newProxyInstance(
-                target.getClass().getClassLoader(), // 目标类的类加载器
-                target.getClass().getInterfaces(),  // 代理需要实现的接口，可指定多个
-                new DebugInvocationHandler(target)   // 代理对象对应的自定义 InvocationHandler
+                target.getClass().getClassLoader(), // 目标类的类加载器  TxSmsService
+                target.getClass().getInterfaces(),  // 代理需要实现的接口，可指定多个 SmsService
+                new WatchInvocationHandler(target)   // 代理对象对应的自定义 InvocationHandler
         );
     }
 }
@@ -112,60 +134,58 @@ public class JdkProxyFactory {
 5.实际使用
 
 ```java
-SmsService smsService = (SmsService) JdkProxyFactory.getProxy(new SmsServiceImpl());
-smsService.send("java");
+public class MainDemo {
+    static void main() {
+        TxSmsService txSmsService = new TxSmsService();
+        SmsService proxyInstance = (SmsService) ProxyFactory.getProxy(txSmsService);
+        proxyInstance.send("110","text message");
+        proxyInstance.send("120","text message");
+    }
+}
 ```
 
 运行上述代码之后，控制台打印出：
 
-`before method send
-send message:java
-after method send`
+```txt
+21:12:52.717 [main] INFO com.jasper.creational.structural.proxy.dynamic.WatchInvocationHandler -- phone number is 110, don't
+21:12:52.720 [main] INFO com.jasper.creational.structural.proxy.dynamic.TxSmsService -- tx phone is 110 : message is text message 
+21:12:52.720 [main] INFO com.jasper.creational.structural.proxy.dynamic.WatchInvocationHandler -- cost time: 1 ms
+21:12:52.720 [main] INFO com.jasper.creational.structural.proxy.dynamic.TxSmsService -- tx phone is 120 : message is text message 
+21:12:52.720 [main] INFO com.jasper.creational.structural.proxy.dynamic.WatchInvocationHandler -- cost time: 0 ms
 
-### cglib动态代理
+```
+### cglib
 
 JDK动态代理的缺点就是只能代理实现了某个接口的类
 
-[CGLIB](https://github.com/cglib/cglib)(*Code Generation Library*)是一个基于[ASM](http://www.baeldung.com/asm)的字节码生成库，它允许我们在运行时对字节码进行修改和动态生成。
+[CGLIB](https://github.com/cglib/cglib)(*Code Generation Library*)是一个基于asm的字节码生成库，它允许我们在运行时对字节码进行修改和动态生成。
 CGLIB 通过继承方式实现代理。很多知名的开源框架都使用到了[CGLIB](https://github.com/cglib/cglib)， 例如 Spring 中的 AOP 模块中：如果目标对象实现了接口，则默认采用 JDK 动态代理，否则采用 CGLIB 动态代理
 
-``` java
-/**
- * General-purpose {@link Enhancer} callback which provides for "around advice".
- * @author Juozas Baliuka <a href="mailto:baliuka@mwm.lt">baliuka@mwm.lt</a>
- * @version $Id: MethodInterceptor.java,v 1.8 2004/06/24 21:15:20 herbyderby Exp $
- */
-public interface MethodInterceptor
-extends Callback
-{
-    /**
-     * All generated proxied methods call this method instead of the original method.
-     * The original method may either be invoked by normal reflection using the Method object,
-     * or by using the MethodProxy (faster).
-     * @param obj "this", the enhanced object
-     * @param method intercepted Method
-     * @param args argument array; primitive types are wrapped
-     * @param proxy used to invoke super (non-intercepted method); may be called
-     * as many times as needed
-     * @throws Throwable any exception may be thrown; if so, super method will not be invoked
-     * @return any value compatible with the signature of the proxied method. Method returning void will ignore this value.
-     * @see MethodProxy
-     */    
-    public Object intercept(Object obj, java.lang.reflect.Method method, Object[] args,
-                               MethodProxy proxy) throws Throwable;
+它在内存中动态构建一个子类，继承自你的目标类。
+它重写（Override）了目标类的方法，在方法调用前后织入逻辑。
+:::info 
+ASM 是一个 Java 字节码操纵框架
+ASM：让你直接去改 .class 文件里的字节码指令。比如把 aload_0 改成 invokestatic。它不处理 Java 对象，它处理的是 指令流
+:::
+:::danger
 
-}
-```
+- 无法代理 final 方法：因为 CGLIB 是靠继承和重写来实现的
+- 默认会调用父类的无参构造函数: 如果目标对象只有一个带参数的构造函数，CGLIB 在创建代理时会直接报错
 
-### 3.2.2. CGLIB 动态代理类使用步骤
+:::
+
+:::warning 
+ * CGLIB 为了生成子类，必须调用 ClassLoader.defineClass。在 Java 8 之前，这是合法的；
+ * 但在 Java 17 中，java.base 模块默认对外部“封闭”了这些底层接口
+ * 添加vm option:  --add-opens java.base/java.lang=ALL-UNNAMED
+ * 可以使用 bytebuddy
+:::
+
 
 1. 定义一个类；
 2. 自定义 `MethodInterceptor` 并重写 `intercept` 方法，`intercept` 用于拦截增强被代理类的方法，和 JDK 动态代理中的 `invoke` 方法类似；
 3. 通过 `Enhancer` 类的 `create()`创建代理类；
 
-### 3.2.3. 代码示例
-
-不同于 JDK 动态代理不需要额外的依赖。[CGLIB](https://github.com/cglib/cglib)(*Code Generation Library*) 实际是属于一个开源项目，如果你要使用它的话，需要手动添加相关依赖。
 
 ```java
 <dependency>
@@ -257,7 +277,7 @@ send message:java
 after method send
 ```
 
-### 3.3. JDK 动态代理和 CGLIB 动态代理对比
+### JDK 动态代理和 CGLIB 动态代理对比
 
 1. **JDK 动态代理只能代理实现了接口的类或者直接代理接口，而 CGLIB 可以代理未实现任何接口的类。** 另外， CGLIB 动态代理是通过生成一个被代理类的子类来拦截被代理类的方法调用，因此不能代理声明为 final 类型的类和方法。
 2. 就二者的效率来说，大部分情况都是 JDK 动态代理更优秀，随着 JDK 版本的升级，这个优势更加明显。
