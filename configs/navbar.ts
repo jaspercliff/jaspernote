@@ -29,6 +29,7 @@ export const navbar: ThemeConfig['navbar'] = {
             items: [
                 { label: '开发工具', to: '/docs/java/devTools', sidebarId: 'devTools' },
                 { label: 'foundation', to: '/docs/java/basic', sidebarId: 'javaBasic' },
+                { label: 'framework', to: '/docs/java/framework', sidebarId: 'framework' },
             ],
         },
         {

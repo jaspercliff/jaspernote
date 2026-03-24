@@ -63,6 +63,12 @@ public class SmsServiceProxy {
 2. 自定义`InvocationHandler`并重写`invoke`方法，在`invoke`方法中我们会调用原生方法（被代理类的方法）并自定义一些处理逻辑；
 3. 通过`Proxy.newProxyInstance(ClassLoader loader,Class<?>[] interfaces,InvocationHandler h)`方法创建代理对象；
 
+:::info
+如果 UserServiceImpl 实现了 UserService 接口，JDK 代理会生成一个名为 $ProxyN 的类。  
+关系： $ProxyN 和 UserServiceImpl 是 兄弟关系。它们都实现了 UserService 接口。  
+结构： 代理类内部持有一个 InvocationHandler，该处理器引用了真正的 target（即你的 UserServiceImpl 实例）  
+:::
+
 #### InvocationHandler
 
 1.定义发送短信的接口
