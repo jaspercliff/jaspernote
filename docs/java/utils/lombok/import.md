@@ -36,24 +36,6 @@
 
 ## gradle
 
-```groovy
-dependencies {
-    // Lombok 编译时依赖
-    compileOnly 'org.projectlombok:lombok:1.18.30'  // 只在编译时使用 Lombok，不需要运行时包含
-    // 使用注解处理器来处理 Lombok 注解
-    annotationProcessor 'org.projectlombok:lombok:1.18.30'  
-}
-```
-
-io.freefair.lombok 插件。这个插件会自动处理所有 compileOnly, annotationProcessor, testCompileOnly, 和 testAnnotationProcessor 的配置
-
-```kotlin
-plugins {
-    id("java")
-    id("io.freefair.lombok") version "9.1.0"
-}
-```
-
 ```kotlin
         compileOnly(rootProject.libs.lombok)
         testCompileOnly(rootProject.libs.lombok)
@@ -61,3 +43,14 @@ plugins {
         annotationProcessor(rootProject.libs.lombok)
         testAnnotationProcessor(rootProject.libs.lombok)
 ```
+
+io.freefair.lombok 插件。这个插件会自动处理所有 compileOnly, annotationProcessor, testCompileOnly, 和 testAnnotationProcessor 的配置
+
+```kotlin
+plugins {
+    id("java")
+    id("io.freefair.lombok") version "9.2.0"
+}
+```
+
+
