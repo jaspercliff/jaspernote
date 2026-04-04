@@ -4,6 +4,9 @@
 每一个枚举类型都可以看作是一个Enum的实例
 Red 和 BLACK都有color属性
 
+ordinal() 枚举常量在声明时的次序（从 0 开始）。
+name() 枚举常量的字面名称
+
 ```java
  enum Color{
         RED("red"),BLACK("black");
