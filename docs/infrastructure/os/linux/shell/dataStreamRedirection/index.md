@@ -79,3 +79,34 @@ cat 1.txt 2.txt 2> all 1>&2
 # cat 命令如果没有指定输入文件，它默认会读取标准输入（stdin）
 cat > catfile >> EOF
 ```
+
+
+## tee 
+
+一边接收输入，一边输出到终端，同时还能写入文件
+名字来源于“T 型分流管”（像水管一样分流）。
+
+
+command | tee file
+
+command 的输出
+同时：
+打印到终端
+写入 file
+
+```shell 
+echo "hello" | tee test.txt
+```
+默认 tee 是覆盖写入
+
+追加
+```shell
+echo "hello" | tee -a test.txt
+```
+
+```shell 
+eval $(lua ./lua/genUser.lua | tee /dev/stderr);
+```
+
+tee 把 lua 的 stdout 复制成两份：
+一份进入 $() 给 eval 执行，另一份通过 stderr 直接显示在终端
