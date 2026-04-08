@@ -26,3 +26,6 @@
 - [zellig](./open/zellij.md)
 - [rsync](./open/rsync.md)
 - [frp内网穿透](./open/frp.md)
+- [just](./open/just.md)
+- [xh](./open/xh.md)
+- [direnv](./open/direnv.md)
