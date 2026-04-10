@@ -27,3 +27,5 @@ public class IntStreamDemo {
 }
 
 ```
+
+虽然 IntStream 避免了装箱，但它毕竟是一套对象抽象逻辑。在极极端的性能测试中，传统的 for(int i...) 依然是最快的，因为它的指令最直接，对编译器的内联优化也最友好
