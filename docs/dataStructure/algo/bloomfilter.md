@@ -16,7 +16,7 @@
 
 典型场景：
 
-<!-- - [防止缓存穿透(请求大量缓存和数据库都不存在的 key)](/dataLayer/nosql/redis/problem/cachePenetration.md) -->
+[防止缓存穿透(请求大量缓存和数据库都不存在的 key)](/docs/dataLayer/nosql/redis/problem/cachePenetration.md)
 - 海量数据去重
 - 黑名单 / 白名单快速判断
 
