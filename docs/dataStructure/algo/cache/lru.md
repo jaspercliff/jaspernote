@@ -8,6 +8,7 @@
 hash：o(1) 查找
 双向链表：o(1) 移动到头部
 
+- [github](https://github.com/jaspercliff/datastructure/tree/0fef25067a547bf5abd0b3180486e499bba57e56/algo/src/main/java/com/jasper/cache/lru)
 
 ## linkedhashmap impl 
 
