@@ -124,3 +124,21 @@ public class Virtual {
     }
 }
 ```
+
+## forkjoinpool
+
+- [forkjoinpool](docs/java/basic/juc/executor/forkJoinPool.md)
+
+JDK 21 虚拟线程底层默认就是用 ForkJoinPool 调度的！
+
+```text 
+虚拟线程创建   → 作为任务提交到 ForkJoinPool 队列
+      ↓
+平台线程认领   → 挂载，开始执行
+      ↓
+遇到阻塞       → 卸载，重新作为任务放回队列
+      ↓
+IO完成         → 再次作为任务放入队列，等待平台线程认领
+      ↓
+执行完毕       → 任务结束，从队列移除
+```
