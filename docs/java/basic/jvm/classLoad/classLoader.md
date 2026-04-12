@@ -23,6 +23,14 @@ JDK 8 之前的架构        JDK 9+ 模块化架构	    加载职责的变化Boo
 Extension ClassLoader	Platform ClassLoader	不再加载 jre/lib/ext，而是加载其他 Java SE 平台模块
 AppClassLoader       	AppClassLoader	        加载模块路径（ModulePath）和类路径（ClassPath）下的应用类
 
+## 双亲委派的意义
+
+收到加载请求时，ClassLoader 先将请求**向上委派给父加载器**，直到 Bootstrap ClassLoader；只有父加载器表示无法处理，才由自身加载。这样保证了核心类（`java.lang.String`）不会被用户代码篡改，避免类的重复加载。
+
+**打破双亲委派的场景：** Tomcat（不同 Web App 需要隔离）、OSGi（模块化热部署）、JDBC SPI（父加载器需要反向委托子加载器）、Java Agent 等。
+
+点击图中任意节点可继续深入探讨某个阶段。
+
 ## 破坏双亲委派模型 
 
 
