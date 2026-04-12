@@ -1,0 +1,49 @@
+# class loader 
+
+核心类库（RT.jar）由 BootstrapClassLoader 加载 → 扩展库由 ExtClassLoader 加载 → 你的代码由 AppClassLoader 加载。
+
+
+## 双亲委派模型
+
+1. 向上检查：当 App ClassLoader 收到加载请求，它先看缓存里有没有，没有就转交给父类 Ext ClassLoader。
+2. 继续向上：Ext ClassLoader 同样不直接加载，而是转交给 Bootstrap ClassLoader。
+3. 顶层查找：Bootstrap ClassLoader 尝试在自己的搜索范围（核心库）里找。如果找到了，加载结束。
+4. 向下派发：如果顶层没找到，它会告诉子类“我没找到，你自己试试”。子类此时才会尝试在自己的路径里搜索加载。
+
+jdk9+:
+
+虽然还是向上委派，但 JDK 9 后的加载逻辑加入了一个模块判断步骤：
+
+1. 检查模块归属：当一个类加载器接到加载请求时，它会先判断这个类是否属于某个已命名的模块。
+2. 直接委派：如果该类属于某个模块，且该模块定义在某个类加载器中，那么 JVM 会直接把请求交给那个特定的加载器，而不再是死板地一层层往上传。
+3. 传统模式：如果找不到模块归属，才会退回到传统的双亲委派流程（App → Platform → Bootstrap)
+
+
+JDK 8 之前的架构        JDK 9+ 模块化架构	    加载职责的变化Bootstrap ClassLoader	Bootstrap ClassLoader	现在只加载极少数核心模块（如 java.base）
+Extension ClassLoader	Platform ClassLoader	不再加载 jre/lib/ext，而是加载其他 Java SE 平台模块
+AppClassLoader       	AppClassLoader	        加载模块路径（ModulePath）和类路径（ClassPath）下的应用类
+
+## 破坏双亲委派模型 
+
+
+按照 Java 的双亲委派模型，类的加载是自下而上的：
+
+    启动类加载器 (Bootstrap ClassLoader) 加载 JDK 核心类（如 java.sql.Driver 接口）。
+
+    应用类加载器 (App ClassLoader) 加载你项目里的三方 Jar（如 mysql-connector.jar 中的实现类）。
+
+矛盾点出现了：
+DriverManager（在核心库里，由启动类加载器加载）需要去调用 MySQL Driver（在三方库里，由应用类加载器加载）。
+根据规则，上层类加载器无法看见下层类加载器加载的类。
+
+解决方案：
+Java 引入了 线程上下文类加载器 (TCCL)。
+通过 Thread.currentThread().getContextClassLoader()，原本处于高层的核心库代码，可以“向下”借用当前线程（通常是应用线程）的类加载器，从而加载到位于 classpath 下的实现类
+
+```java
+    @CallerSensitive
+    public static <S> ServiceLoader<S> load(Class<S> service) {
+        ClassLoader cl = Thread.currentThread().getContextClassLoader();
+        return new ServiceLoader<S>(Reflection.getCallerClass(), service, cl);
+    }
+```
