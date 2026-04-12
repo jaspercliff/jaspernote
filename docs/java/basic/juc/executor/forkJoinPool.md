@@ -14,7 +14,7 @@ Join：等待所有小任务完成后，合并结果
 	•	并行流（parallelStream() 背后就是它）
 
 子类
-1. RecursiveTask<V> → 有返回值
+1. RecursiveTask`<V>` → 有返回值
 2. RecursiveAction → 无返回值
 
 - fork执行方式异步，提交到线程池队列，
