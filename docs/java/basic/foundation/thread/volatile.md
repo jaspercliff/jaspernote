@@ -1,27 +1,30 @@
 # volatile
 
+易挥发的
+
 `volatile`是Java语言提供的一种轻量级的同步机制，主要用于确保变量的可见性和防止指令重排序。
 
-### 可见性
+## 可见性
 
-在多线程环境中，线程可以把变量缓存到自己的工作内存中。如果一个线程修改了这个变量的值，而这个新值没有及时写回主内存中，那么其他线程看到的还是旧值。
-使用`volatile`关键字修饰的变量会强制所有线程都从主内存中读取它的值，而不是从线程的工作内存缓存中读取。这样一来，一个线程修改了`volatile`变量的值，
+在多线程环境中，线程可以把变量缓存到自己的工作内存中。如果一个线程修改了这个变量的值，而这个新值没有及时写回主内存中，
+那么其他线程看到的还是旧值。使用`volatile`关键字修饰的变量会强制所有线程都从主内存中读取它的值，
+而不是从线程的工作内存缓存中读取。这样一来，一个线程修改了`volatile`变量的值，
 其他线程立即可见，保证了变量修改的可见性。
 
 可见性问题是多线程编程中常见的问题之一，主要发生在当一个线程对共享变量的修改对其他线程不可见时。
 这种情况下，即使一个线程已经修改了某个共享变量的值，其他线程读取该变量时可能仍然看到旧值。这种问题通常是由于线程缓存和编译器优化导致的。
 
 
-假设我们有一个简单的标志变量来控制线程是否继续执行：
 
 ```java
 public class VisibilityProblem {
-    private static boolean flag = true;
+//    private static  boolean flag = true;
+    private static  volatile boolean flag = true;
 
     public static void main(String[] args) throws InterruptedException {
         new Thread(() -> {
             while (flag) {
-                // 做一些工作...
+//                System.out.println("running");//println 内部使用了 synchronized，引入了内存屏障，破坏了可见性问题的复现
             }
             System.out.println("Thread exits.");
         }).start();
@@ -32,19 +35,25 @@ public class VisibilityProblem {
     }
 }
 ```
-在这个例子中，主线程修改了`flag`变量的值，并期望另一个线程能够看到这个变化并退出循环。然而，在没有适当的同步措施的情况下，这种修改可能对另一个线程不可见，导致它永远无法退出循环。
+在这个例子中，主线程修改了`flag`变量的值，并期望另一个线程能够看到这个变化并退出循环。然而，
+在没有适当的同步措施的情况下，这种修改可能对另一个线程不可见，导致它永远无法退出循环。
 
-#### 解决方案
+### 解决方案
 
 为了解决可见性问题，Java提供了几种同步机制：
 
-- **`volatile`关键字**：将`flag`声明为`volatile`类型，可以确保任何线程对这个变量的写入都将立即反映到其他线程中。这是因为`volatile`变量的读写都会直接操作主内存，而不是线程的本地内存缓存。
+- **`volatile`关键字**将`flag`声明为`volatile`类型，可以确保任何线程对这个变量的写入都将立即反映到其他线程中。
+这是因为`volatile`变量的读写都会直接操作主内存，而不是线程的本地内存缓存。
 
 ```java
 private static volatile boolean flag = true;
 ```
 
-- **`synchronized`关键字**：使用`synchronized`关键字同步访问共享变量也可以解决可见性问题，因为进入`synchronized`块时，会清空本地内存，从主内存中重新读取共享变量的最新值。退出`synchronized`块时，会将修改刷新回主内存。
+- **`synchronized`关键字**：
+synchronized 能保证可见性，是因为它在“加锁”和“解锁”时分别建立了内存屏障（Memory Barrier），保证：  
+进入同步块之前必须从主内存刷新共享变量  
+退出同步块必须把修改刷新回主内存  
+同时保证同一时刻只有一个线程执行临界区，从而实现 happens-before 关系
 
 ```java
 package com.jasper.volatiled;
