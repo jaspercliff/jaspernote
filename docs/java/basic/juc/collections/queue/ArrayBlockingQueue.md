@@ -15,7 +15,8 @@ sidebar_position: 2
 * ArrayBlockingQueue：单锁（吞吐量较低）
 * LinkedBlockingQueue：双锁（put / take 分离）
 
-ReentrantLock: 无论是读还是写，都使用同一把锁。这意味着生产者和消费者不能同时执行（在多核 CPU 下，相比 LinkedBlockingQueue 的双锁模型，其并发性能稍低）
+ReentrantLock: 无论是读还是写，都使用同一把锁。这意味着生产者和消费者不能同时执行
+（在多核 CPU 下，相比 LinkedBlockingQueue 的双锁模型，其并发性能稍低）
 
 ## add and remove
 
