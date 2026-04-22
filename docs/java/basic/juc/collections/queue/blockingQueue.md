@@ -1,8 +1,13 @@
+---
+sidebar_position: 3
+---
+
 # blockingqueue
 
 # Java 阻塞队列 (BlockingQueue)
 
-Java 阻塞队列是一种线程安全的队列，它支持在必要时进行等待（阻塞）操作。它是`java.util.concurrent`包的一部分，特别适用于生产者-消费者场景。
+Java 阻塞队列是一种线程安全的队列，它支持在必要时进行等待（阻塞）操作。
+它是`java.util.concurrent`包的一部分，特别适用于生产者-消费者场景。
 
 ## 主要特点
 
@@ -24,6 +29,10 @@ Java提供了几种BlockingQueue的实现：
 
 ## 核心方法
 
+- add / remove → “强硬派（异常）”
+- offer / poll → “温和派（返回值null）”  queue.offer(x, 3, TimeUnit.SECONDS); queue.poll(3, TimeUnit.SECONDS);带超时时间
+- put / take → “死等派（阻塞）”
+
 ### 添加元素
 - `put(E e)`：插入元素，必要时等待直到有空间可用  不返回任何值（返回值为 void）
 - `offer(E e)`：尝试插入元素，成功返回true 当队列已满时不会阻塞，而是立即返回 false
@@ -44,75 +53,7 @@ Java提供了几种BlockingQueue的实现：
 - `remainingCapacity()`：返回剩余容量
 - `drainTo(Collection c)`：移除所有元素并添加到另一个集合中
 
-## 使用示例
-
-### offer take
-```java
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
-
-public class BlockingQueueExample {
-    public static void main(String[] args) {
-        // 创建容量为5的阻塞队列
-        BlockingQueue<String> queue = new ArrayBlockingQueue<>(5);
-        
-        // 生产者线程
-        new Thread(() -> {
-            try {
-                for (int i = 0; i < 10; i++) {
-                    String item = "项目-" + i;
-                    System.out.println("生产: " + item);
-                    queue.put(item);  // 如果队列已满，将阻塞
-                    Thread.sleep(100);
-                }
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
-        }).start();
-        
-        // 消费者线程
-        new Thread(() -> {
-            try {
-                for (int i = 0; i < 10; i++) {
-                    String item = queue.take();  // 如果队列为空，将阻塞
-                    System.out.println("消费: " + item);
-                    Thread.sleep(300);
-                }
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
-        }).start();
-    }
-}
-```
-
-### drainTo
-
-`drainTo` 方法用于将 BlockingQueue 中的所有元素移除并添加到另一个集合中。它可以用于批量处理元素。
-```java
-package com.jasper.juc.collections.queue;
-
-
-import java.util.ArrayList;
-import java.util.concurrent.ArrayBlockingQueue;
-
-public class BlockingQueueDrainDemo {
-    public static void main(String[] args) {
-        final ArrayBlockingQueue<String> data = new ArrayBlockingQueue<>(10);
-
-        for (int i = 0; i < 5; i++) {
-            data.offer("data-" + i);
-        }
-
-        final ArrayList<String> strings = new ArrayList<>();
-        data.drainTo(strings,3);
-
-        System.out.println(strings);
-    }
-}
-
-```
 
 ## guava 
 
-- [Queues.drain()](/java/utils/guava/collections/utils/Queues.md)
+- [Queues.drain()](docs/java/utils/guava/collections/utils/Queues.md)
