@@ -1,6 +1,25 @@
 # initialization
 
 
+`<clinit>()` 方法
+* static 变量赋值
+* static 代码块
+
+## 初始化
+
+1. new User  new 对象
+2. User.a  访问静态变量 不是final 
+3. User.method 调用静态方法
+4. class.forName("user")
+
+## 实例化
+
+1. 父类 `static（<clinit>）`
+2. 子类 `static（<clinit>)`
+3. 父类成员变量初始化
+4. 父类构造方法
+5. 子类成员变量初始化
+6. 子类构造方法
 
 
 ## passive reference 

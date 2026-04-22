@@ -14,13 +14,16 @@ jdk9+:
 
 虽然还是向上委派，但 JDK 9 后的加载逻辑加入了一个模块判断步骤：
 
-1. 检查模块归属：当一个类加载器接到加载请求时，它会先判断这个类是否属于某个已命名的模块。
+1. 检查模块归属：当类加载器接到加载请求时，它会先判断这个类是否属于某个已命名的模块。
 2. 直接委派：如果该类属于某个模块，且该模块定义在某个类加载器中，那么 JVM 会直接把请求交给那个特定的加载器，而不再是死板地一层层往上传。
 3. 传统模式：如果找不到模块归属，才会退回到传统的双亲委派流程（App → Platform → Bootstrap)
 
+JVM 会先根据类所属模块确定其对应的 ClassLoader，
+对于 java.base 中的类，会直接选择 Bootstrap ClassLoader，
+而不是先经过应用类加载器再逐级委派。
 
 JDK 8 之前的架构        JDK 9+ 模块化架构	    加载职责的变化Bootstrap ClassLoader	Bootstrap ClassLoader	现在只加载极少数核心模块（如 java.base）
-Extension ClassLoader	Platform ClassLoader	不再加载 jre/lib/ext，而是加载其他 Java SE 平台模块
+Extension ClassLoader	Platform ClassLoader	不再加载 jre/lib/ext，而是加载标准库扩展模块java.sql java.xml
 AppClassLoader       	AppClassLoader	        加载模块路径（ModulePath）和类路径（ClassPath）下的应用类
 
 ## 双亲委派的意义
