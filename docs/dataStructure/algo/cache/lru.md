@@ -63,6 +63,10 @@ public class App {
 
 ## doublelinkedlist impl 
 
+```text 
+head <-> a <-> b <-> c <-> tail
+```
+
 ```java
 public class Node {
     public int key,value;
