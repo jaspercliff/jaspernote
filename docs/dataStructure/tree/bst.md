@@ -20,7 +20,7 @@ binary search tree , BST
 
 
 
-## 🔍 三、基本操作
+## 🔍 基本操作
 
 ### 1. 查找（Search）
 
@@ -93,7 +93,7 @@ binary search tree , BST
 
 ---
 
-## 🔁 四、遍历方式
+## 🔁 遍历方式
 
 ### 1. 中序遍历（最重要）
 
@@ -113,7 +113,7 @@ binary search tree , BST
 
 ---
 
-## ⚠️ 五、问题：退化
+## ⚠️问题：退化
 
 如果插入顺序是：
 
