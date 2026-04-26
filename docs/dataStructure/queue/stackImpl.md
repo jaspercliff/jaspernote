@@ -1,6 +1,6 @@
 # 使用俩个栈来实现队列
 
-## use stack impl queue 
+##  queue via stacks
 
 ```Java
 
