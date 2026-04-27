@@ -137,28 +137,16 @@ public class Singleton {
 
 ### 注意
 
-虽然`volatile`关键字在某些场景下非常有用，但它并不能保证操作的原子性。例如，`volatile`变量的自增操作（`i++`）并不是原子性的，
-如果需要原子性操作，应该考虑使用`java.util.concurrent.atomic`包下的原子类，或者使用`synchronized`关键字或`java.util.concurrent.locks.Lock`实现同步。
+虽然`volatile`关键字在某些场景下非常有用，但它并不能保证操作的原子性。也就不能保证线程安全,
+例如，`volatile`变量的自增操作（`i++`）并不是原子性的，
+如果需要原子性操作，应该考虑使用`java.util.concurrent.atomic`包下的原子类，
+或者使用`synchronized`关键字或`java.util.concurrent.locks.Lock`实现同步。
 
-### Non-Atomic Treatment of double and long  JLS8(java language specification 8th edition)
-> For the purposes of the Java programming language memory model, a single write
-to a non-volatile long or double value is treated as two separate writes: one to each
-32-bit half. This can result in a situation where a thread sees the first 32 bits of a
-64-bit value from one write, and the second 32 bits from another write.
-Writes and reads of volatile long and double values are always atomic.
-Writes to and reads of references are always atomic, regardless of whether they are
-implemented as 32-bit or 64-bit values.
-Some implementations may find it convenient to divide a single write action on a 64-bit
-long or double value into two write actions on adjacent 32-bit values. For efficiency's
-sake, this behavior is implementation-specific; an implementation of the Java Virtual
-Machine is free to perform writes to long and double values atomically or in two parts.
-Implementations of the Java Virtual Machine are encouraged to avoid splitting 64-bit values
-where possible. **Programmers are encouraged to declare shared 64-bit values as volatile**
-or synchronize their programs correctly to avoid possible complications.
-
-[jls](https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf)
 
 ## 内存屏障
+
+- [memory Barrier](/docs/java/basic/jvm/jmm/memoryBarrier.md)
+
 内存屏障（Memory Barrier），也称为内存栅栏，是一种同步机制，用于确保指令执行的顺序性和内存操作的可见性。
 内存屏障是处理器指令集提供的一种低级同步机制，通过防止在屏障之前和之后的特定类型的操作被重排序，来解决多核处理器环境下的内存一致性问题。
 
