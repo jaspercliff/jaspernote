@@ -1,6 +1,9 @@
+
 ---
-title: heap 
+title: heap
+
 --- 
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -23,8 +26,8 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
- * 小顶堆：任意一个字节点的值<=其父节点的值 <br/>
- * 大顶堆：任意一个字节点的值>=其父节点的值
+* 小顶堆（min heap）：任意节点的值`<=`其子节点的值。
+* 大顶堆（max heap）：任意节点的值`>=`其子节点的值。
  *
  */
 public class PriorityQueueDemo {
