@@ -44,9 +44,11 @@ GIT_USER=<Your GitHub username> yarn deploy
 If you are using GitHub pages for hosting, this command is a convenient
 way to build the website and push to the `gh-pages` branch.
 
+```shell
 git checkout --orphan gh-pages   # 创建“空历史”分支
 git rm -rf .                     # 清空所有文件
 echo "init" > index.html         # 放一个占位文件
 git add .
 git commit -m "init gh-pages"
 git push origin gh-pages         # 推到远程
+```
