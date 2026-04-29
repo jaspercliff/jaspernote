@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/problem/cacheAvalanche",
+  "title": "缓存雪崩 cache avalanche",
+  "description": "同一时间大量缓存key失效或者redis宕机，导致大量请求到达数据库",
+  "source": "@site/docs/dataLayer/nosql/redis/problem/cacheAvalanche.md",
+  "sourceDirName": "dataLayer/nosql/redis/problem",
+  "slug": "/dataLayer/nosql/redis/problem/cacheAvalanche",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/cacheAvalanche",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/problem/cacheAvalanche.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "pipeline",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/pipeline"
+  },
+  "next": {
+    "title": "缓存击穿 cache breakdown",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/cacheBreakdown"
+  }
+}

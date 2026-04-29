@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/hardware/cpu",
+  "title": "cpu",
+  "description": "1. 主频（Clock Speed）：主频以GHz为单位，表示CPU每秒钟可以执行的指令数。一般来说，主频越高，CPU处理速度越快。但实际性能还要考虑其他因素，比如核心数和架构。",
+  "source": "@site/docs/infrastructure/os/hardware/cpu.md",
+  "sourceDirName": "infrastructure/os/hardware",
+  "slug": "/infrastructure/os/hardware/cpu",
+  "permalink": "/jaspernote/docs/infrastructure/os/hardware/cpu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/hardware/cpu.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "hardware",
+    "permalink": "/jaspernote/docs/infrastructure/os/hardware/"
+  },
+  "next": {
+    "title": "operating system",
+    "permalink": "/jaspernote/docs/infrastructure/os/"
+  }
+}

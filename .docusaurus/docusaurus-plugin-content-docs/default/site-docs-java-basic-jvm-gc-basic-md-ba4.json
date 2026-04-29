@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/gc/basic",
+  "title": "垃圾回收 基本概念",
+  "description": "管理内存的核心部分",
+  "source": "@site/docs/java/basic/jvm/gc/basic.md",
+  "sourceDirName": "java/basic/jvm/gc",
+  "slug": "/java/basic/jvm/gc/basic",
+  "permalink": "/jaspernote/docs/java/basic/jvm/gc/basic",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/gc/basic.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "initialization",
+    "permalink": "/jaspernote/docs/java/basic/jvm/classload/process/05initialization"
+  },
+  "next": {
+    "title": "G1GC",
+    "permalink": "/jaspernote/docs/java/basic/jvm/gc/g1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/devops/docker/command",
+  "title": "常用命令",
+  "description": "docker search",
+  "source": "@site/docs/infrastructure/devops/docker/command.md",
+  "sourceDirName": "infrastructure/devops/docker",
+  "slug": "/infrastructure/devops/docker/command",
+  "permalink": "/jaspernote/docs/infrastructure/devops/docker/command",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/docker/command.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devops",
+  "previous": {
+    "title": "Internet",
+    "permalink": "/jaspernote/docs/infrastructure/devops/docker/Internet"
+  },
+  "next": {
+    "title": "docker compose",
+    "permalink": "/jaspernote/docs/infrastructure/devops/docker/dockercompose/"
+  }
+}

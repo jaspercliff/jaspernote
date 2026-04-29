@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/atomic/atomic",
+  "title": "Atomic类",
+  "description": "Java并发包（Java Util Concurrent，简称JUC）中的原子类（Atomic）是构建非阻塞算法的基础，提供了一种用法简单、性能高效、线程安全的更新变量的方式。",
+  "source": "@site/docs/java/basic/juc/atomic/atomic.md",
+  "sourceDirName": "java/basic/juc/atomic",
+  "slug": "/java/basic/juc/atomic/",
+  "permalink": "/jaspernote/docs/java/basic/juc/atomic/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/atomic/atomic.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "threadlocal",
+    "permalink": "/jaspernote/docs/java/basic/juc/ThreadLocal"
+  },
+  "next": {
+    "title": "collection",
+    "permalink": "/jaspernote/docs/java/basic/juc/collections/"
+  }
+}

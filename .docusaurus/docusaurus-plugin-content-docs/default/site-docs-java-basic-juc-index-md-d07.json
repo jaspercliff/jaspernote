@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/index",
+  "title": "juc",
+  "description": "Java并发编程包（Java Util Concurrent，简称JUC）是Java提供的一套并发编程工具，位于java.util.concurrent、java.util.concurrent.atomic和java.util.concurrent.locks包中。",
+  "source": "@site/docs/java/basic/juc/index.md",
+  "sourceDirName": "java/basic/juc",
+  "slug": "/java/basic/juc/",
+  "permalink": "/jaspernote/docs/java/basic/juc/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "模块化结构",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/9/module"
+  },
+  "next": {
+    "title": "AQS (AbstractQueuedSynchronizer)",
+    "permalink": "/jaspernote/docs/java/basic/juc/AQS"
+  }
+}

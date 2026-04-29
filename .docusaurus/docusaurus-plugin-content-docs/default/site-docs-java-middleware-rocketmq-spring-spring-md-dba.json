@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/spring/spring",
+  "title": "spring 集成",
+  "description": "",
+  "source": "@site/docs/java/middleware/rocketmq/spring/spring.md",
+  "sourceDirName": "java/middleware/rocketmq/spring",
+  "slug": "/java/middleware/rocketmq/spring/",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/spring/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/spring/spring.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

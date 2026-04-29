@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/dataType/list",
+  "title": "list",
+  "description": "是一个双向列表结构，类似java中的linkedlist",
+  "source": "@site/docs/dataLayer/nosql/redis/dataType/list.md",
+  "sourceDirName": "dataLayer/nosql/redis/dataType",
+  "slug": "/dataLayer/nosql/redis/dataType/list",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/list",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/dataType/list.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "hyperloglog",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/hyperoglog"
+  },
+  "next": {
+    "title": "set",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/set"
+  }
+}

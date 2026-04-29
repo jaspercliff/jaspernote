@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/mq/feature",
+  "title": "特性(features)",
+  "description": "官网",
+  "source": "@site/docs/java/middleware/rocketmq/mq/feature.md",
+  "sourceDirName": "java/middleware/rocketmq/mq",
+  "slug": "/java/middleware/rocketmq/mq/feature",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/mq/feature",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/mq/feature.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

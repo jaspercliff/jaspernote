@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/index",
+  "title": "oracle",
+  "description": "i",
+  "source": "@site/docs/dataLayer/relational/oracle/index.md",
+  "sourceDirName": "dataLayer/relational/oracle",
+  "slug": "/dataLayer/relational/oracle/",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "锁及mvcc",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/锁及mvcc"
+  },
+  "next": {
+    "title": "容器数据库",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/container"
+  }
+}

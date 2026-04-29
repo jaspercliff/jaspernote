@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/deploy/sentinel",
+  "title": "sentinel",
+  "description": "- 监控 。Sentinel 会持续检查您的主实例和副本实例是否按预期运行",
+  "source": "@site/docs/dataLayer/nosql/redis/deploy/sentinel.md",
+  "sourceDirName": "dataLayer/nosql/redis/deploy",
+  "slug": "/dataLayer/nosql/redis/deploy/sentinel",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/deploy/sentinel",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/deploy/sentinel.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "replication",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/deploy/replication"
+  },
+  "next": {
+    "title": "jedis",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/java/jedis/"
+  }
+}

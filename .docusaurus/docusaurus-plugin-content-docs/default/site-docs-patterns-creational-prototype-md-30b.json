@@ -1,0 +1,26 @@
+{
+  "id": "patterns/creational/prototype",
+  "title": "prototype",
+  "description": "通过“复制”一个现有的对象来创建新对象，而不是通过标准的 new 操作符从头开始初始化。",
+  "source": "@site/docs/patterns/creational/prototype.md",
+  "sourceDirName": "patterns/creational",
+  "slug": "/patterns/creational/prototype",
+  "permalink": "/jaspernote/docs/patterns/creational/prototype",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/patterns/creational/prototype.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "prototype"
+  },
+  "sidebar": "patterns",
+  "previous": {
+    "title": "工厂方法模式",
+    "permalink": "/jaspernote/docs/patterns/creational/factoryMethod"
+  },
+  "next": {
+    "title": "简单工厂模式",
+    "permalink": "/jaspernote/docs/patterns/creational/simpleFactory"
+  }
+}

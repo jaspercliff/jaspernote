@@ -1,0 +1,24 @@
+{
+  "id": "utils/neovim/lazyvim/env/ruff",
+  "title": "ubuntu安装ruff失败",
+  "description": "Ubuntu 22.04/24.04 及以上系统自带 Python 3.12+  PEP 668 管理限制。",
+  "source": "@site/docs/utils/neovim/lazyvim/env/ruff.md",
+  "sourceDirName": "utils/neovim/lazyvim/env",
+  "slug": "/utils/neovim/lazyvim/env/ruff",
+  "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/ruff",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/lazyvim/env/ruff.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "python开发",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/python"
+  },
+  "next": {
+    "title": "install",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/install"
+  }
+}

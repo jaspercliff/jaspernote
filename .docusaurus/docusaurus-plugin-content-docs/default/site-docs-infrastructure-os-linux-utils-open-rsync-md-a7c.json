@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/open/rsync",
+  "title": "rsync",
+  "description": "rsync 是另一个常用的文件同步工具，它比 scp 更高效，支持增量传输、压缩等功能，适合传输大文件或大量文件。",
+  "source": "@site/docs/infrastructure/os/linux/utils/open/rsync.md",
+  "sourceDirName": "infrastructure/os/linux/utils/open",
+  "slug": "/infrastructure/os/linux/utils/open/rsync",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/rsync",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/open/rsync.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "ripgrep",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/ripgrep"
+  },
+  "next": {
+    "title": "tree",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/tree"
+  }
+}

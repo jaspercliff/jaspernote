@@ -1,0 +1,15 @@
+{
+  "id": "front/protocols/websocket",
+  "title": "websocket",
+  "description": "服务端主动推送web, 新消息提醒",
+  "source": "@site/docs/front/protocols/websocket.md",
+  "sourceDirName": "front/protocols",
+  "slug": "/front/protocols/websocket",
+  "permalink": "/jaspernote/docs/front/protocols/websocket",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front/protocols/websocket.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "python/environment/conda",
+  "title": "conda",
+  "description": "conda 是一个开源的包管理和环境管理工具，主要用于 Python 及其他编程语言（如 R、Ruby、Lua）的依赖管理和虚拟环境管理。它最初由 Anaconda 发行版开发，旨在解决 Python 生态中的软件包依赖问题，使得软件包的安装、管理和环境隔离更加便捷。",
+  "source": "@site/docs/python/environment/conda.md",
+  "sourceDirName": "python/environment",
+  "slug": "/python/environment/conda",
+  "permalink": "/jaspernote/docs/python/environment/conda",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/environment/conda.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "python",
+    "permalink": "/jaspernote/docs/python/"
+  },
+  "next": {
+    "title": "pip",
+    "permalink": "/jaspernote/docs/python/environment/pip"
+  }
+}

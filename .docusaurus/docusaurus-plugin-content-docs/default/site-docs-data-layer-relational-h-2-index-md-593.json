@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/h2/index",
+  "title": "h2",
+  "description": "H2 最强大的地方在于它既可以跑在内存里（重启即消失），也可以跑在磁盘文件里",
+  "source": "@site/docs/dataLayer/relational/h2/index.md",
+  "sourceDirName": "dataLayer/relational/h2",
+  "slug": "/dataLayer/relational/h2/",
+  "permalink": "/jaspernote/docs/dataLayer/relational/h2/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/h2/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "canal",
+    "permalink": "/jaspernote/docs/dataLayer/relational/canal/"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/dataLayer/relational/hsqldb/"
+  }
+}

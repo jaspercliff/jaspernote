@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/json/fastjson/index",
+  "title": "fastjson",
+  "description": "在 FastJSON 中，你可以使用 JSONObject 类来表示一个 JSON 对象。JSONObject 类是 FastJSON 提供的一个用于处理",
+  "source": "@site/docs/java/utils/json/fastjson/index.md",
+  "sourceDirName": "java/utils/json/fastjson",
+  "slug": "/java/utils/json/fastjson/",
+  "permalink": "/jaspernote/docs/java/utils/json/fastjson/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/json/fastjson/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

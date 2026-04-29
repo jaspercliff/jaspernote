@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springboot/integration/mybatis",
+  "title": "springboot 集成mybatis",
+  "description": "引入依赖",
+  "source": "@site/docs/java/framework/springboot/integration/mybatis.md",
+  "sourceDirName": "java/framework/springboot/integration",
+  "slug": "/java/framework/springboot/integration/mybatis",
+  "permalink": "/jaspernote/docs/java/framework/springboot/integration/mybatis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springboot/integration/mybatis.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "logback",
+    "permalink": "/jaspernote/docs/java/framework/springboot/integration/logback"
+  },
+  "next": {
+    "title": "sqlite",
+    "permalink": "/jaspernote/docs/java/framework/springboot/integration/sqlite"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjaspernote=self.webpackChunkjaspernote||[]).push([["61419"],{21774(e){e.exports=JSON.parse('{"tags":[{"label":"creational","permalink":"/jaspernote/docs/tags/creational","count":1}]}')}}]);

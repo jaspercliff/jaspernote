@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springboot/springbootReadConfig",
+  "title": "读取配置文件",
+  "description": "代码地址",
+  "source": "@site/docs/java/framework/springboot/springbootReadConfig.md",
+  "sourceDirName": "java/framework/springboot",
+  "slug": "/java/framework/springboot/springbootReadConfig",
+  "permalink": "/jaspernote/docs/java/framework/springboot/springbootReadConfig",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springboot/springbootReadConfig.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "other",
+    "permalink": "/jaspernote/docs/java/framework/springboot/other"
+  },
+  "next": {
+    "title": "springboot读取resource下文件",
+    "permalink": "/jaspernote/docs/java/framework/springboot/springbootReadFile"
+  }
+}

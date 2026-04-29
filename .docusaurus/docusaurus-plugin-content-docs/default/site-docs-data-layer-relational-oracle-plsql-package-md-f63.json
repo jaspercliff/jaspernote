@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/plsql/package",
+  "title": "package",
+  "description": "在PL/SQL中，包（Package）是一种将相关联的过程、函数、变量、常量、游标以及异常等组织在一起的方式。",
+  "source": "@site/docs/dataLayer/relational/oracle/plsql/package.md",
+  "sourceDirName": "dataLayer/relational/oracle/plsql",
+  "slug": "/dataLayer/relational/oracle/plsql/package",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/package",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/plsql/package.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "循环",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/loop"
+  },
+  "next": {
+    "title": "PL/sql",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/test"
+  }
+}

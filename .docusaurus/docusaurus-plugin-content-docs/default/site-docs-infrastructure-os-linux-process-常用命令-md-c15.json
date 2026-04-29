@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/process/常用命令",
+  "title": "常用命令",
+  "description": "- ps",
+  "source": "@site/docs/infrastructure/os/linux/process/常用命令.md",
+  "sourceDirName": "infrastructure/os/linux/process",
+  "slug": "/infrastructure/os/linux/process/常用命令",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/process/常用命令",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/process/常用命令.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "ps",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/process/ps"
+  },
+  "next": {
+    "title": "进程状态",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/process/进程状态"
+  }
+}

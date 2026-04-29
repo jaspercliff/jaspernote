@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/tools/Exchanger",
+  "title": "Exchanger",
+  "description": "在 Java 并发编程中，Exchanger 是 java.util.concurrent 包提供的一个同步辅助类。它用于在两个线程之间交换数据。这种机制允许两个线程在一个同步点交换各自的数据对象，这可以用于各种并发应用场景，如遗传算法、流水线设计等，或者任何需要在线程之间直接交换信息的场合。",
+  "source": "@site/docs/java/basic/juc/tools/Exchanger.md",
+  "sourceDirName": "java/basic/juc/tools",
+  "slug": "/java/basic/juc/tools/Exchanger",
+  "permalink": "/jaspernote/docs/java/basic/juc/tools/Exchanger",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/tools/Exchanger.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "CyclicBarrier",
+    "permalink": "/jaspernote/docs/java/basic/juc/tools/CyclicBarrier"
+  },
+  "next": {
+    "title": "Phaser",
+    "permalink": "/jaspernote/docs/java/basic/juc/tools/Phaser"
+  }
+}

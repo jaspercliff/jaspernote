@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/classload/process/01load",
+  "title": "loading",
+  "description": "将.class 字节码文件加载进jvm 并生成一个class 对象放入方法区",
+  "source": "@site/docs/java/basic/jvm/classload/process/01load.md",
+  "sourceDirName": "java/basic/jvm/classload/process",
+  "slug": "/java/basic/jvm/classload/process/01load",
+  "permalink": "/jaspernote/docs/java/basic/jvm/classload/process/01load",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/classload/process/01load.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "class loader",
+    "permalink": "/jaspernote/docs/java/basic/jvm/classload/classLoader"
+  },
+  "next": {
+    "title": "验证",
+    "permalink": "/jaspernote/docs/java/basic/jvm/classload/process/02verfication"
+  }
+}

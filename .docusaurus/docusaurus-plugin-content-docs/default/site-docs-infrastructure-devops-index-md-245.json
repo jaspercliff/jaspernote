@@ -1,0 +1,23 @@
+{
+  "id": "infrastructure/devops/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/infrastructure/devops/index.md",
+  "sourceDirName": "infrastructure/devops",
+  "slug": "/infrastructure/devops/",
+  "permalink": "/jaspernote/docs/infrastructure/devops/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "devops",
+  "next": {
+    "title": "devops",
+    "permalink": "/jaspernote/docs/infrastructure/devops/concept"
+  }
+}

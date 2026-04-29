@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/foundation/thread/volatile",
+  "title": "volatile",
+  "description": "易挥发的",
+  "source": "@site/docs/java/basic/foundation/thread/volatile.md",
+  "sourceDirName": "java/basic/foundation/thread",
+  "slug": "/java/basic/foundation/thread/volatile",
+  "permalink": "/jaspernote/docs/java/basic/foundation/thread/volatile",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/thread/volatile.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "unsafe",
+    "permalink": "/jaspernote/docs/java/basic/foundation/thread/unsafe"
+  },
+  "next": {
+    "title": "thread",
+    "permalink": "/jaspernote/docs/java/basic/foundation/thread/线程基础"
+  }
+}

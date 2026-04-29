@@ -1,0 +1,23 @@
+{
+  "id": "kotlin/index",
+  "title": "kotlin",
+  "description": "foundation",
+  "source": "@site/docs/kotlin/index.md",
+  "sourceDirName": "kotlin",
+  "slug": "/kotlin/",
+  "permalink": "/jaspernote/docs/kotlin/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/kotlin/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "kotlin",
+  "next": {
+    "title": "kotlin keyword",
+    "permalink": "/jaspernote/docs/kotlin/foundation/01keyword"
+  }
+}

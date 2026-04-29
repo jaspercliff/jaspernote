@@ -1,0 +1,24 @@
+{
+  "id": "utils/neovim/lazyvim/plugins/gitsigns.nvim",
+  "title": "gitsigns.nvim",
+  "description": "- git concept",
+  "source": "@site/docs/utils/neovim/lazyvim/plugins/gitsigns.nvim.md",
+  "sourceDirName": "utils/neovim/lazyvim/plugins",
+  "slug": "/utils/neovim/lazyvim/plugins/gitsigns.nvim",
+  "permalink": "/jaspernote/docs/utils/neovim/lazyvim/plugins/gitsigns.nvim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/lazyvim/plugins/gitsigns.nvim.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "flash.nvim",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/plugins/flash.nvim"
+  },
+  "next": {
+    "title": "init",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/plugins/init"
+  }
+}

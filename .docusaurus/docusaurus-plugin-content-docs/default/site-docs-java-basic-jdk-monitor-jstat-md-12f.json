@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jdk/monitor/jstat",
+  "title": "jstat",
+  "description": "监控java 虚拟机jvm的各种运行时统计信息 如垃圾回收、类加载、JIT编译",
+  "source": "@site/docs/java/basic/jdk/monitor/jstat.md",
+  "sourceDirName": "java/basic/jdk/monitor",
+  "slug": "/java/basic/jdk/monitor/jstat",
+  "permalink": "/jaspernote/docs/java/basic/jdk/monitor/jstat",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jdk/monitor/jstat.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "jstack",
+    "permalink": "/jaspernote/docs/java/basic/jdk/monitor/jstack"
+  },
+  "next": {
+    "title": "关键字",
+    "permalink": "/jaspernote/docs/java/basic/foundation/keyword"
+  }
+}

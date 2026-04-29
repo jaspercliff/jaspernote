@@ -1,0 +1,28 @@
+{
+  "id": "java/basic/foundation/keyword",
+  "title": "关键字",
+  "description": "| 分类 | 关键字 | 说明 |",
+  "source": "@site/docs/java/basic/foundation/keyword.md",
+  "sourceDirName": "java/basic/foundation",
+  "slug": "/java/basic/foundation/keyword",
+  "permalink": "/jaspernote/docs/java/basic/foundation/keyword",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/keyword.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "关键字"
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "jstat",
+    "permalink": "/jaspernote/docs/java/basic/jdk/monitor/jstat"
+  },
+  "next": {
+    "title": "数据类型",
+    "permalink": "/jaspernote/docs/java/basic/foundation/dataType/"
+  }
+}

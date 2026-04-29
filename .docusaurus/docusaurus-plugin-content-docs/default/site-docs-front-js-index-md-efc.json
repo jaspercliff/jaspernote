@@ -1,0 +1,16 @@
+{
+  "id": "front/js/index",
+  "title": "js",
+  "description": "",
+  "source": "@site/docs/front/js/index.md",
+  "sourceDirName": "front/js",
+  "slug": "/front/js/",
+  "permalink": "/jaspernote/docs/front/js/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front/js/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "js"
+}

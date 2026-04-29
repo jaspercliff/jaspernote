@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/core/ioc/applicationContext/event",
+  "title": "spring event",
+  "description": "要运行一个 Spring 事件，你需要定义三个角色：",
+  "source": "@site/docs/java/framework/spring/core/ioc/applicationContext/event.md",
+  "sourceDirName": "java/framework/spring/core/ioc/applicationContext",
+  "slug": "/java/framework/spring/core/ioc/applicationContext/event",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/applicationContext/event",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/ioc/applicationContext/event.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "BeanDefInheritance",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/BeanDefInheritance"
+  },
+  "next": {
+    "title": "bean",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/bean"
+  }
+}

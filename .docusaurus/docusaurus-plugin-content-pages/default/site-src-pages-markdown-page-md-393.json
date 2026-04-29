@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/jaspernote/markdown-page",
+  "source": "@site/src/pages/markdown-page.md",
+  "title": "Markdown page example",
+  "description": "Markdown page example",
+  "frontMatter": {
+    "title": "Markdown page example"
+  },
+  "unlisted": false
+}

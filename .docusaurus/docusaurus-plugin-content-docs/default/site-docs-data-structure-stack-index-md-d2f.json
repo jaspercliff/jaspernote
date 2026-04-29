@@ -1,0 +1,26 @@
+{
+  "id": "dataStructure/stack/index",
+  "title": "stack",
+  "description": "栈（stack）是一种遵循先入后出逻辑的线性数据结",
+  "source": "@site/docs/dataStructure/stack/index.md",
+  "sourceDirName": "dataStructure/stack",
+  "slug": "/dataStructure/stack/",
+  "permalink": "/jaspernote/docs/dataStructure/stack/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/stack/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "stack"
+  },
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "前缀计数",
+    "permalink": "/jaspernote/docs/dataStructure/array/prefixCounting"
+  },
+  "next": {
+    "title": "单调栈",
+    "permalink": "/jaspernote/docs/dataStructure/stack/monotonicStack"
+  }
+}

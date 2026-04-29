@@ -1,0 +1,24 @@
+{
+  "id": "python/environment/pip",
+  "title": "pip",
+  "description": "pipx",
+  "source": "@site/docs/python/environment/pip.md",
+  "sourceDirName": "python/environment",
+  "slug": "/python/environment/pip",
+  "permalink": "/jaspernote/docs/python/environment/pip",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/environment/pip.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "conda",
+    "permalink": "/jaspernote/docs/python/environment/conda"
+  },
+  "next": {
+    "title": "pipx",
+    "permalink": "/jaspernote/docs/python/environment/pipx"
+  }
+}

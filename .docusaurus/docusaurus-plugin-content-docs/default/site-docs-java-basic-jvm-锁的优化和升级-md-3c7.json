@@ -1,0 +1,20 @@
+{
+  "id": "java/basic/jvm/锁的优化和升级",
+  "title": "锁的优化和升级",
+  "description": "Java虚拟机（JVM）为了提高锁的效率和性能，采用了多种锁优化技术。这些技术可以在不同的场景下动态地应用，以减少锁操作对并发性能的影响。锁的优化和升级主要包括偏向锁、轻量级锁和重量级锁三种状态，它们各自适用于不同的并发场景。",
+  "source": "@site/docs/java/basic/jvm/锁的优化和升级.md",
+  "sourceDirName": "java/basic/jvm",
+  "slug": "/java/basic/jvm/锁的优化和升级",
+  "permalink": "/jaspernote/docs/java/basic/jvm/锁的优化和升级",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/锁的优化和升级.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "学习路线",
+    "permalink": "/jaspernote/docs/java/basic/jvm/学习路线"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/heap/index",
+  "title": "index",
+  "description": "---",
+  "source": "@site/docs/dataStructure/heap/index.md",
+  "sourceDirName": "dataStructure/heap",
+  "slug": "/dataStructure/heap/",
+  "permalink": "/jaspernote/docs/dataStructure/heap/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/heap/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "hash",
+    "permalink": "/jaspernote/docs/dataStructure/hash/"
+  },
+  "next": {
+    "title": "impl",
+    "permalink": "/jaspernote/docs/dataStructure/heap/impl"
+  }
+}

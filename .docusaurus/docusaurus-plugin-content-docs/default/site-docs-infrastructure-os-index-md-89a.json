@@ -1,0 +1,27 @@
+{
+  "id": "infrastructure/os/index",
+  "title": "operating system",
+  "description": "",
+  "source": "@site/docs/infrastructure/os/index.md",
+  "sourceDirName": "infrastructure/os",
+  "slug": "/infrastructure/os/",
+  "permalink": "/jaspernote/docs/infrastructure/os/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "os",
+  "previous": {
+    "title": "cpu",
+    "permalink": "/jaspernote/docs/infrastructure/os/hardware/cpu"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/"
+  }
+}

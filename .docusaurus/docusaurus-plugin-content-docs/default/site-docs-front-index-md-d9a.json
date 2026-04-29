@@ -1,0 +1,15 @@
+{
+  "id": "front/index",
+  "title": "front",
+  "description": "",
+  "source": "@site/docs/front/index.md",
+  "sourceDirName": "front",
+  "slug": "/front/",
+  "permalink": "/jaspernote/docs/front/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

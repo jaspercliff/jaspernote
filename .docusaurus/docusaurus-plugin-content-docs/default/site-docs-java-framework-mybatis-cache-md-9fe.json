@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/mybatis/cache",
+  "title": "cache",
+  "description": "MyBatis 中的缓存机制分为 一级缓存 和 二级缓存，是提升系统性能的重要手段。下面我会用简洁清晰的方式帮你梳理它们的区别、原理和使用方法。",
+  "source": "@site/docs/java/framework/mybatis/cache.md",
+  "sourceDirName": "java/framework/mybatis",
+  "slug": "/java/framework/mybatis/cache",
+  "permalink": "/jaspernote/docs/java/framework/mybatis/cache",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/mybatis/cache.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "mybatis",
+    "permalink": "/jaspernote/docs/java/framework/mybatis/"
+  },
+  "next": {
+    "title": "mybatis-spring",
+    "permalink": "/jaspernote/docs/java/framework/mybatis/mybatis-spring"
+  }
+}

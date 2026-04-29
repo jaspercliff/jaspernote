@@ -1,0 +1,24 @@
+{
+  "id": "patterns/creational/builder",
+  "title": "builder",
+  "description": "建造者模式(Builder Pattern) 是一种创建型设计模式，用于逐步构建复杂对象，并将对象的构建过程与对象的表示解耦，使同样的构建过程可以创建不同的对象表示",
+  "source": "@site/docs/patterns/creational/builder.md",
+  "sourceDirName": "patterns/creational",
+  "slug": "/patterns/creational/builder",
+  "permalink": "/jaspernote/docs/patterns/creational/builder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/patterns/creational/builder.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "patterns",
+  "previous": {
+    "title": "抽象工厂模式",
+    "permalink": "/jaspernote/docs/patterns/creational/abstractFactory"
+  },
+  "next": {
+    "title": "工厂方法模式",
+    "permalink": "/jaspernote/docs/patterns/creational/factoryMethod"
+  }
+}

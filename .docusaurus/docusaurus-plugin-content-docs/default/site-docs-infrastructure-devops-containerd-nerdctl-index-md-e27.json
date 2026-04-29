@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/devops/containerd/nerdctl/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/infrastructure/devops/containerd/nerdctl/index.md",
+  "sourceDirName": "infrastructure/devops/containerd/nerdctl",
+  "slug": "/infrastructure/devops/containerd/nerdctl/",
+  "permalink": "/jaspernote/docs/infrastructure/devops/containerd/nerdctl/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/containerd/nerdctl/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devops",
+  "previous": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/infrastructure/devops/containerd/"
+  },
+  "next": {
+    "title": "docker",
+    "permalink": "/jaspernote/docs/infrastructure/devops/docker/"
+  }
+}

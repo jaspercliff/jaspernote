@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/9/module",
+  "title": "模块化结构",
+  "description": "在 Java 9 之前，代码的组织单位是 Package（包）。但包系统有一个缺陷：它无法控制包内代码的对外可见性（只要是 public 就能被所有人访问），且项目依赖关系模糊。",
+  "source": "@site/docs/java/basic/newFeature/9/module.md",
+  "sourceDirName": "java/basic/newFeature/9",
+  "slug": "/java/basic/newFeature/9/module",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/9/module",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/9/module.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "jdk9",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/9/"
+  },
+  "next": {
+    "title": "juc",
+    "permalink": "/jaspernote/docs/java/basic/juc/"
+  }
+}

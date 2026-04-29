@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/lock/ReentrantReadWriteLock",
+  "title": "ReentrantReadWriteLock",
+  "description": "ReentrantReadWriteLock 是 Java 中一个实现读写锁的同步工具，允许多个线程同时读取共享资源，但只允许一个线程写入。",
+  "source": "@site/docs/java/basic/juc/lock/ReentrantReadWriteLock.md",
+  "sourceDirName": "java/basic/juc/lock",
+  "slug": "/java/basic/juc/lock/ReentrantReadWriteLock",
+  "permalink": "/jaspernote/docs/java/basic/juc/lock/ReentrantReadWriteLock",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/lock/ReentrantReadWriteLock.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "ReentrantLock",
+    "permalink": "/jaspernote/docs/java/basic/juc/lock/ReentrantLock"
+  },
+  "next": {
+    "title": "CountDownLatch",
+    "permalink": "/jaspernote/docs/java/basic/juc/tools/CountDownLatch"
+  }
+}

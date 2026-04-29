@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/cglib/index",
+  "title": "cglib",
+  "description": "",
+  "source": "@site/docs/java/utils/cglib/index.md",
+  "sourceDirName": "java/utils/cglib",
+  "slug": "/java/utils/cglib/",
+  "permalink": "/jaspernote/docs/java/utils/cglib/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/cglib/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

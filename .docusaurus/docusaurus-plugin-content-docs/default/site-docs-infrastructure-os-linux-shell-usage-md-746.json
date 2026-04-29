@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/shell/usage",
+  "title": "usage",
+  "description": "func",
+  "source": "@site/docs/infrastructure/os/linux/shell/usage.md",
+  "sourceDirName": "infrastructure/os/linux/shell",
+  "slug": "/infrastructure/os/linux/shell/usage",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/usage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/shell/usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "shell widget",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/shellWidget"
+  },
+  "next": {
+    "title": "变量",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/variable"
+  }
+}

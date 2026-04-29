@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/pubsub/pubsub",
+  "title": "pub sub",
+  "description": "Redis 的 Pub/Sub（发布/订阅）是一种消息通信模式，允许消息的发布者（Publisher）将消息发送到频道（channel），",
+  "source": "@site/docs/dataLayer/nosql/redis/pubsub/pubsub.md",
+  "sourceDirName": "dataLayer/nosql/redis/pubsub",
+  "slug": "/dataLayer/nosql/redis/pubsub/",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/pubsub/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/pubsub/pubsub.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "eval",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/eval"
+  },
+  "next": {
+    "title": "spec",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/spec"
+  }
+}

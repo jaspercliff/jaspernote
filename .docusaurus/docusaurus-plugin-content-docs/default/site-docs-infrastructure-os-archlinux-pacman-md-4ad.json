@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/archlinux/pacman",
+  "title": "pacman",
+  "description": "- pacman -S packagename 安装软件包",
+  "source": "@site/docs/infrastructure/os/archlinux/pacman.md",
+  "sourceDirName": "infrastructure/os/archlinux",
+  "slug": "/infrastructure/os/archlinux/pacman",
+  "permalink": "/jaspernote/docs/infrastructure/os/archlinux/pacman",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/archlinux/pacman.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "theme",
+    "permalink": "/jaspernote/docs/infrastructure/os/archlinux/desktop/theme"
+  },
+  "next": {
+    "title": "paru",
+    "permalink": "/jaspernote/docs/infrastructure/os/archlinux/paru"
+  }
+}

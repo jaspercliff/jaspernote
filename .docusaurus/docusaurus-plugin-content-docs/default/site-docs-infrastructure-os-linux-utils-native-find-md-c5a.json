@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/native/find",
+  "title": "find",
+  "description": "文件搜索工具，",
+  "source": "@site/docs/infrastructure/os/linux/utils/native/find.md",
+  "sourceDirName": "infrastructure/os/linux/utils/native",
+  "slug": "/infrastructure/os/linux/utils/native/find",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/find",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/native/find.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "envsubset",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/envsubst"
+  },
+  "next": {
+    "title": "grep",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/grep"
+  }
+}

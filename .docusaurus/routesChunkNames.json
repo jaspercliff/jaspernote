@@ -1,0 +1,2846 @@
+{
+  "/jaspernote/blog-f8b": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "1887698f"
+      },
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "fe64c243"
+  },
+  "/jaspernote/blog/archive-542": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "5f27b9a7"
+  },
+  "/jaspernote/blog/authors-0d9": {
+    "__comp": "621db11d",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "08647e17"
+  },
+  "/jaspernote/blog/authors/all-sebastien-lorber-articles-6f6": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "9d04a310"
+  },
+  "/jaspernote/blog/authors/yangshun-9ff": {
+    "__comp": "33fc5bb8",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "sidebar": "814f3328",
+    "__props": "d392667a"
+  },
+  "/jaspernote/blog/first-blog-post-b01": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "e273c56f"
+  },
+  "/jaspernote/blog/long-blog-post-04b": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "73664a40"
+  },
+  "/jaspernote/blog/mdx-blog-post-57d": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "59362658"
+  },
+  "/jaspernote/blog/nvim-keymap-667": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "c08f3732"
+  },
+  "/jaspernote/blog/tags-b5e": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "6632c9cd"
+  },
+  "/jaspernote/blog/tags/docusaurus-1b6": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "20556057"
+  },
+  "/jaspernote/blog/tags/facebook-e9a": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      }
+    ],
+    "__props": "6ecb308b"
+  },
+  "/jaspernote/blog/tags/hell-7dc": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "__props": "765eac66"
+  },
+  "/jaspernote/blog/tags/hola-9af": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "bef02245"
+  },
+  "/jaspernote/blog/welcome-e7f": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "d9f32620"
+  },
+  "/jaspernote/helloReact-95b": {
+    "__comp": "868ecab6",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/jaspernote/markdown-page-cd1": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/jaspernote/docs-166": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/jaspernote/docs-f3c": {
+    "__comp": "a7bd4aaa",
+    "__props": "bb3a249a"
+  },
+  "/jaspernote/docs/tags-d18": {
+    "__comp": "3720c009",
+    "__props": "e98b61f8"
+  },
+  "/jaspernote/docs/tags/creational-513": {
+    "__comp": "df203c0f",
+    "__props": "af6d6971"
+  },
+  "/jaspernote/docs-7aa": {
+    "__comp": "a94703ab"
+  },
+  "/jaspernote/docs/c/-83f": {
+    "__comp": "17896441",
+    "content": "bb55c693"
+  },
+  "/jaspernote/docs/dataLayer/-6bd": {
+    "__comp": "17896441",
+    "content": "97e04a23"
+  },
+  "/jaspernote/docs/dataLayer/connectPool/-af9": {
+    "__comp": "17896441",
+    "content": "4175b248"
+  },
+  "/jaspernote/docs/dataLayer/connectPool/druid/-de1": {
+    "__comp": "17896441",
+    "content": "3c36c7e9"
+  },
+  "/jaspernote/docs/dataLayer/connectPool/hikari/-c1c": {
+    "__comp": "17896441",
+    "content": "70f14ea9"
+  },
+  "/jaspernote/docs/dataLayer/distributed/-5b1": {
+    "__comp": "17896441",
+    "content": "56ea6529"
+  },
+  "/jaspernote/docs/dataLayer/distributed/oceanbase/-644": {
+    "__comp": "17896441",
+    "content": "69896451"
+  },
+  "/jaspernote/docs/dataLayer/distributed/tdsql/-a7a": {
+    "__comp": "17896441",
+    "content": "f39718a5"
+  },
+  "/jaspernote/docs/dataLayer/nosql/-060": {
+    "__comp": "17896441",
+    "content": "7f6fce02"
+  },
+  "/jaspernote/docs/dataLayer/nosql/es/-b23": {
+    "__comp": "17896441",
+    "content": "9843793e"
+  },
+  "/jaspernote/docs/dataLayer/nosql/es/01 install-43e": {
+    "__comp": "17896441",
+    "content": "57c648db"
+  },
+  "/jaspernote/docs/dataLayer/nosql/es/02 crud-556": {
+    "__comp": "17896441",
+    "content": "c6e22c89"
+  },
+  "/jaspernote/docs/dataLayer/nosql/es/02 query condition-8f2": {
+    "__comp": "17896441",
+    "content": "2a454137"
+  },
+  "/jaspernote/docs/dataLayer/nosql/es/04映射关系-ba5": {
+    "__comp": "17896441",
+    "content": "3e9fd5fc"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/-1dd": {
+    "__comp": "17896441",
+    "content": "ae426845"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/basic/commonCommand-4d9": {
+    "__comp": "17896441",
+    "content": "74f30b7e"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/-b8d": {
+    "__comp": "17896441",
+    "content": "b7422d9c"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/bitmap-c65": {
+    "__comp": "17896441",
+    "content": "05ae780f"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/bloomfilter-d69": {
+    "__comp": "17896441",
+    "content": "9d2c29af"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/geo-7e3": {
+    "__comp": "17896441",
+    "content": "d5761ede"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/hash-793": {
+    "__comp": "17896441",
+    "content": "a1cc9860"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/hyperoglog-151": {
+    "__comp": "17896441",
+    "content": "72f9a4a2"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/list-d24": {
+    "__comp": "17896441",
+    "content": "5041a6d7"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/set-f51": {
+    "__comp": "17896441",
+    "content": "083762f7"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/sortedSet-d33": {
+    "__comp": "17896441",
+    "content": "79a2b283"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/stream-bc0": {
+    "__comp": "17896441",
+    "content": "068b536a"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/dataType/string-fc5": {
+    "__comp": "17896441",
+    "content": "e8aa06a7"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/deploy/cluster-2cd": {
+    "__comp": "17896441",
+    "content": "e096249b"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/deploy/install-240": {
+    "__comp": "17896441",
+    "content": "0b47738d"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/deploy/persistence-86a": {
+    "__comp": "17896441",
+    "content": "8a42d458"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/deploy/replication-ef7": {
+    "__comp": "17896441",
+    "content": "751ea5c4"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/deploy/sentinel-8c1": {
+    "__comp": "17896441",
+    "content": "16c8f15c"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/java/jedis/-bfd": {
+    "__comp": "17896441",
+    "content": "2dde6405"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/java/springdataredis/-1d1": {
+    "__comp": "17896441",
+    "content": "65528b3a"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/java/springdataredis/serialization-bb6": {
+    "__comp": "17896441",
+    "content": "7cf3283e"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/mult-064": {
+    "__comp": "17896441",
+    "content": "9c5e7863"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/optimization-39c": {
+    "__comp": "17896441",
+    "content": "2b6f780c"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/pipeline-ba3": {
+    "__comp": "17896441",
+    "content": "51e07d07"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/cacheAvalanche-e56": {
+    "__comp": "17896441",
+    "content": "f7c70e98"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/cacheBreakdown-e8e": {
+    "__comp": "17896441",
+    "content": "28d58e6e"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/cachePenetration-5f8": {
+    "__comp": "17896441",
+    "content": "53bdb833"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/distributedLock-10c": {
+    "__comp": "17896441",
+    "content": "1bfcbca4"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/feed-5eb": {
+    "__comp": "17896441",
+    "content": "18827c2c"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/globalId-89d": {
+    "__comp": "17896441",
+    "content": "81d94a11"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/like-3fc": {
+    "__comp": "17896441",
+    "content": "c53ee07b"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/mq-470": {
+    "__comp": "17896441",
+    "content": "af017775"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/oversell-aab": {
+    "__comp": "17896441",
+    "content": "1d998203"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/scrollPage-801": {
+    "__comp": "17896441",
+    "content": "0feb26be"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/problem/update-78b": {
+    "__comp": "17896441",
+    "content": "55c5c779"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/programmability/function/-fea": {
+    "__comp": "17896441",
+    "content": "8d655d9b"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/-cfe": {
+    "__comp": "17896441",
+    "content": "635a6e5e"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/debug-b6f": {
+    "__comp": "17896441",
+    "content": "c175967e"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/eval-131": {
+    "__comp": "17896441",
+    "content": "c25ea58f"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/pubsub/-69e": {
+    "__comp": "17896441",
+    "content": "2548f1c0"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/spec-156": {
+    "__comp": "17896441",
+    "content": "63d5f829"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redis/transaction-729": {
+    "__comp": "17896441",
+    "content": "24c9fae7"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redisson/-52a": {
+    "__comp": "17896441",
+    "content": "e5abf3c1"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redisson/intergration-fe2": {
+    "__comp": "17896441",
+    "content": "0fcc609c"
+  },
+  "/jaspernote/docs/dataLayer/nosql/redisson/watchDog-dec": {
+    "__comp": "17896441",
+    "content": "92591119"
+  },
+  "/jaspernote/docs/dataLayer/nosql/valkey/-79d": {
+    "__comp": "17896441",
+    "content": "f2aa386d"
+  },
+  "/jaspernote/docs/dataLayer/relational/-71a": {
+    "__comp": "17896441",
+    "content": "a37f2631"
+  },
+  "/jaspernote/docs/dataLayer/relational/canal/-3b1": {
+    "__comp": "17896441",
+    "content": "d4640d4e"
+  },
+  "/jaspernote/docs/dataLayer/relational/h2/-fe3": {
+    "__comp": "17896441",
+    "content": "593a86b5"
+  },
+  "/jaspernote/docs/dataLayer/relational/hsqldb/-7de": {
+    "__comp": "17896441",
+    "content": "5670b1fa"
+  },
+  "/jaspernote/docs/dataLayer/relational/mariadb/-700": {
+    "__comp": "17896441",
+    "content": "454589bd"
+  },
+  "/jaspernote/docs/dataLayer/relational/mariadb/install-7c2": {
+    "__comp": "17896441",
+    "content": "db0334a6"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/-97d": {
+    "__comp": "17896441",
+    "content": "f315986d"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/01install-f1d": {
+    "__comp": "17896441",
+    "content": "5489f9ac"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/04 explain-519": {
+    "__comp": "17896441",
+    "content": "5a742be3"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/backup-de3": {
+    "__comp": "17896441",
+    "content": "5fd1f59a"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/basic-1c6": {
+    "__comp": "17896441",
+    "content": "f1b96d29"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/function-556": {
+    "__comp": "17896441",
+    "content": "110ebca9"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/functions/count-5fb": {
+    "__comp": "17896441",
+    "content": "54b7ac01"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/jdbc-898": {
+    "__comp": "17896441",
+    "content": "c8c14267"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/log-7d4": {
+    "__comp": "17896441",
+    "content": "9f61844b"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/other-6ba": {
+    "__comp": "17896441",
+    "content": "87e1961e"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/privilege-48b": {
+    "__comp": "17896441",
+    "content": "026b9451"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/problems/countDifference-0d5": {
+    "__comp": "17896441",
+    "content": "9d11d377"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/problems/delete和truncate的区别-1ba": {
+    "__comp": "17896441",
+    "content": "0694049e"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/problems/exist和in的区别-0c5": {
+    "__comp": "17896441",
+    "content": "faa95024"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/replication-dd6": {
+    "__comp": "17896441",
+    "content": "d703fc4e"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/事务隔离级别-f8c": {
+    "__comp": "17896441",
+    "content": "b57f2a03"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/存储引擎-bd4": {
+    "__comp": "17896441",
+    "content": "b854667b"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/数据类型-29d": {
+    "__comp": "17896441",
+    "content": "a7f93029"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/索引-08c": {
+    "__comp": "17896441",
+    "content": "3fb1609b"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/表的备份-97a": {
+    "__comp": "17896441",
+    "content": "b1f48c97"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/表连接-0e5": {
+    "__comp": "17896441",
+    "content": "546ba5d8"
+  },
+  "/jaspernote/docs/dataLayer/relational/mysql/锁及mvcc-0a0": {
+    "__comp": "17896441",
+    "content": "a9024e50"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/-eca": {
+    "__comp": "17896441",
+    "content": "c51ab07d"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/container-940": {
+    "__comp": "17896441",
+    "content": "f14ad2af"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/dataType-a3b": {
+    "__comp": "17896441",
+    "content": "52256afc"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/fun-f92": {
+    "__comp": "17896441",
+    "content": "d5d6ea55"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/function/-fe5": {
+    "__comp": "17896441",
+    "content": "13b60b5a"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/function/subString-612": {
+    "__comp": "17896441",
+    "content": "cb267627"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/install-953": {
+    "__comp": "17896441",
+    "content": "4ef0fecc"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/netManager-b39": {
+    "__comp": "17896441",
+    "content": "6ce8e9b8"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/other-4b7": {
+    "__comp": "17896441",
+    "content": "63e9aa40"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/plsql/-417": {
+    "__comp": "17896441",
+    "content": "3af73d08"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/plsql/basic-d56": {
+    "__comp": "17896441",
+    "content": "1834167c"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/plsql/dataType-aa8": {
+    "__comp": "17896441",
+    "content": "b9e7d580"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/plsql/helloworld-578": {
+    "__comp": "17896441",
+    "content": "a38fe7a5"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/plsql/loop-884": {
+    "__comp": "17896441",
+    "content": "fbc168d9"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/plsql/package-444": {
+    "__comp": "17896441",
+    "content": "f63af4ac"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/plsql/test-69f": {
+    "__comp": "17896441",
+    "content": "79fc918d"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/sequence-5bf": {
+    "__comp": "17896441",
+    "content": "78df89db"
+  },
+  "/jaspernote/docs/dataLayer/relational/oracle/userPrivilege-55b": {
+    "__comp": "17896441",
+    "content": "605998bd"
+  },
+  "/jaspernote/docs/dataLayer/relational/postgresql/-9ec": {
+    "__comp": "17896441",
+    "content": "bf99a44e"
+  },
+  "/jaspernote/docs/dataLayer/relational/sqlite/-1b6": {
+    "__comp": "17896441",
+    "content": "9e21d915"
+  },
+  "/jaspernote/docs/dataLayer/sharding/-c23": {
+    "__comp": "17896441",
+    "content": "22c19ae5"
+  },
+  "/jaspernote/docs/dataLayer/sharding/mycat/-1a2": {
+    "__comp": "17896441",
+    "content": "f487dd20"
+  },
+  "/jaspernote/docs/dataLayer/sharding/shardingjdbc/-97d": {
+    "__comp": "17896441",
+    "content": "5480431a"
+  },
+  "/jaspernote/docs/dataLayer/sharding/分库分表/-4cb": {
+    "__comp": "17896441",
+    "content": "7fe0ece1"
+  },
+  "/jaspernote/docs/dataLayer/sql/-396": {
+    "__comp": "17896441",
+    "content": "1e522fcf"
+  },
+  "/jaspernote/docs/dataLayer/sql/dml/cte-410": {
+    "__comp": "17896441",
+    "content": "91a64713"
+  },
+  "/jaspernote/docs/dataStructure/-04f": {
+    "__comp": "17896441",
+    "content": "d197af36"
+  },
+  "/jaspernote/docs/dataStructure/01iterateAndRecursion-112": {
+    "__comp": "17896441",
+    "content": "b961e411"
+  },
+  "/jaspernote/docs/dataStructure/algo/-0b2": {
+    "__comp": "17896441",
+    "content": "c974a707"
+  },
+  "/jaspernote/docs/dataStructure/algo/bloomfilter-948": {
+    "__comp": "17896441",
+    "content": "c608d96d"
+  },
+  "/jaspernote/docs/dataStructure/algo/cache/lru-543": {
+    "__comp": "17896441",
+    "content": "720c0ea3"
+  },
+  "/jaspernote/docs/dataStructure/algo/cache/tinyLru-828": {
+    "__comp": "17896441",
+    "content": "cc4e94f2"
+  },
+  "/jaspernote/docs/dataStructure/algo/dynamic-040": {
+    "__comp": "17896441",
+    "content": "f500a7f3"
+  },
+  "/jaspernote/docs/dataStructure/algo/encryption/gpg-eb0": {
+    "__comp": "17896441",
+    "content": "59792fa6"
+  },
+  "/jaspernote/docs/dataStructure/algo/hashOrSummarization/md5-a50": {
+    "__comp": "17896441",
+    "content": "8da76a55"
+  },
+  "/jaspernote/docs/dataStructure/algo/hashOrSummarization/sha256-5b8": {
+    "__comp": "17896441",
+    "content": "611b6f0e"
+  },
+  "/jaspernote/docs/dataStructure/algo/slideWindow-f6f": {
+    "__comp": "17896441",
+    "content": "446d27e1"
+  },
+  "/jaspernote/docs/dataStructure/algo/sort/-ee8": {
+    "__comp": "17896441",
+    "content": "4ac5077e"
+  },
+  "/jaspernote/docs/dataStructure/algo/sort/bubble-60b": {
+    "__comp": "17896441",
+    "content": "fa731e56"
+  },
+  "/jaspernote/docs/dataStructure/algo/sort/quick-f1a": {
+    "__comp": "17896441",
+    "content": "ec7d61d4"
+  },
+  "/jaspernote/docs/dataStructure/algo/two-condition-ffb": {
+    "__comp": "17896441",
+    "content": "443d6b5a"
+  },
+  "/jaspernote/docs/dataStructure/array/inPlaceHashing-0cb": {
+    "__comp": "17896441",
+    "content": "f2b84a34"
+  },
+  "/jaspernote/docs/dataStructure/array/prefixCounting-900": {
+    "__comp": "17896441",
+    "content": "e3502c73"
+  },
+  "/jaspernote/docs/dataStructure/hash/-991": {
+    "__comp": "17896441",
+    "content": "51759a42"
+  },
+  "/jaspernote/docs/dataStructure/heap/-89c": {
+    "__comp": "17896441",
+    "content": "f8b4c64e"
+  },
+  "/jaspernote/docs/dataStructure/heap/impl-039": {
+    "__comp": "17896441",
+    "content": "2f65950d"
+  },
+  "/jaspernote/docs/dataStructure/numEncoding-a00": {
+    "__comp": "17896441",
+    "content": "87160a67"
+  },
+  "/jaspernote/docs/dataStructure/queue/-afd": {
+    "__comp": "17896441",
+    "content": "ebb2a4dd"
+  },
+  "/jaspernote/docs/dataStructure/queue/stackImpl-803": {
+    "__comp": "17896441",
+    "content": "4e1bd904"
+  },
+  "/jaspernote/docs/dataStructure/stack/-629": {
+    "__comp": "17896441",
+    "content": "d2f16d05"
+  },
+  "/jaspernote/docs/dataStructure/stack/monotonicStack-fd8": {
+    "__comp": "17896441",
+    "content": "f79d149b"
+  },
+  "/jaspernote/docs/dataStructure/stack/rpn-4bc": {
+    "__comp": "17896441",
+    "content": "bbd14154"
+  },
+  "/jaspernote/docs/dataStructure/tree/ast-623": {
+    "__comp": "17896441",
+    "content": "bfb25b96"
+  },
+  "/jaspernote/docs/dataStructure/tree/bst-0c4": {
+    "__comp": "17896441",
+    "content": "7606b55d"
+  },
+  "/jaspernote/docs/dataStructure/tree/iterate-58c": {
+    "__comp": "17896441",
+    "content": "dd3c5f00"
+  },
+  "/jaspernote/docs/dataStructure/tree/radixTree-cef": {
+    "__comp": "17896441",
+    "content": "6558f37e"
+  },
+  "/jaspernote/docs/dataStructure/tree/rbTree-f8f": {
+    "__comp": "17896441",
+    "content": "c9fb9586"
+  },
+  "/jaspernote/docs/front/-d1f": {
+    "__comp": "17896441",
+    "content": "d9a745f9"
+  },
+  "/jaspernote/docs/front/css/-9c2": {
+    "__comp": "17896441",
+    "content": "fd58d5e3"
+  },
+  "/jaspernote/docs/front/docusaurus/-da8": {
+    "__comp": "17896441",
+    "content": "ef8ef02b"
+  },
+  "/jaspernote/docs/front/html/-391": {
+    "__comp": "17896441",
+    "content": "9178d02b"
+  },
+  "/jaspernote/docs/front/jquery/-9da": {
+    "__comp": "17896441",
+    "content": "fa5e408a"
+  },
+  "/jaspernote/docs/front/js/-6f5": {
+    "__comp": "17896441",
+    "content": "efcdfe7a"
+  },
+  "/jaspernote/docs/front/node/-307": {
+    "__comp": "17896441",
+    "content": "00ccf353"
+  },
+  "/jaspernote/docs/front/node/npm-fba": {
+    "__comp": "17896441",
+    "content": "1b183918"
+  },
+  "/jaspernote/docs/front/protocols/websocket-29a": {
+    "__comp": "17896441",
+    "content": "70f1be28"
+  },
+  "/jaspernote/docs/front/react/-96c": {
+    "__comp": "17896441",
+    "content": "f9a50606"
+  },
+  "/jaspernote/docs/front/react/jsx-20e": {
+    "__comp": "17896441",
+    "content": "01dcdafe"
+  },
+  "/jaspernote/docs/front/vitepress/-970": {
+    "__comp": "17896441",
+    "content": "2db5343c"
+  },
+  "/jaspernote/docs/front/vitepress/problem-b8e": {
+    "__comp": "17896441",
+    "content": "aa874579"
+  },
+  "/jaspernote/docs/front/vitepress/使用自定义组件-ab8": {
+    "__comp": "17896441",
+    "content": "6bef5eab"
+  },
+  "/jaspernote/docs/front/vitepress/引入plantuml-1bf": {
+    "__comp": "17896441",
+    "content": "19efce17"
+  },
+  "/jaspernote/docs/front/vue/-4cf": {
+    "__comp": "17896441",
+    "content": "eaf748b2"
+  },
+  "/jaspernote/docs/front/vue/basic-5eb": {
+    "__comp": "17896441",
+    "content": "1adc6bae"
+  },
+  "/jaspernote/docs/infrastructure/-a99": {
+    "__comp": "17896441",
+    "content": "acba2267"
+  },
+  "/jaspernote/docs/infrastructure/design/-5c2": {
+    "__comp": "17896441",
+    "content": "158041d1"
+  },
+  "/jaspernote/docs/infrastructure/design/distributed/-252": {
+    "__comp": "17896441",
+    "content": "35bbeb21"
+  },
+  "/jaspernote/docs/infrastructure/design/distributed/cap-6c9": {
+    "__comp": "17896441",
+    "content": "8c57a62e"
+  },
+  "/jaspernote/docs/infrastructure/design/distributed/distributedLock-2f6": {
+    "__comp": "17896441",
+    "content": "28c06638"
+  },
+  "/jaspernote/docs/infrastructure/design/distributed/globalUniqueId-5be": {
+    "__comp": "17896441",
+    "content": "a35b87f6"
+  },
+  "/jaspernote/docs/infrastructure/design/systemConcept/zeroCopy-dae": {
+    "__comp": "17896441",
+    "content": "8314f9c6"
+  },
+  "/jaspernote/docs/infrastructure/design/systemDesign/-08e": {
+    "__comp": "17896441",
+    "content": "c722e699"
+  },
+  "/jaspernote/docs/infrastructure/design/systemDesign/arch-071": {
+    "__comp": "17896441",
+    "content": "5c1335db"
+  },
+  "/jaspernote/docs/infrastructure/design/systemDesign/eventDriven-835": {
+    "__comp": "17896441",
+    "content": "6c87a020"
+  },
+  "/jaspernote/docs/infrastructure/design/systemDesign/multiTenant-137": {
+    "__comp": "17896441",
+    "content": "d476e8eb"
+  },
+  "/jaspernote/docs/infrastructure/design/systemDesign/pojo-8f1": {
+    "__comp": "17896441",
+    "content": "d2d0054f"
+  },
+  "/jaspernote/docs/infrastructure/design/systemDesign/privilege/sso-46d": {
+    "__comp": "17896441",
+    "content": "6fc24dcd"
+  },
+  "/jaspernote/docs/infrastructure/devops/-e33": {
+    "__comp": "17896441",
+    "content": "245c5360"
+  },
+  "/jaspernote/docs/infrastructure/devops/concept-171": {
+    "__comp": "17896441",
+    "content": "1e22f856"
+  },
+  "/jaspernote/docs/infrastructure/devops/containerd/-163": {
+    "__comp": "17896441",
+    "content": "2a1a2439"
+  },
+  "/jaspernote/docs/infrastructure/devops/containerd/nerdctl/-123": {
+    "__comp": "17896441",
+    "content": "e27aefcb"
+  },
+  "/jaspernote/docs/infrastructure/devops/docker/-1a1": {
+    "__comp": "17896441",
+    "content": "5ad925b3"
+  },
+  "/jaspernote/docs/infrastructure/devops/docker/command-636": {
+    "__comp": "17896441",
+    "content": "59ca9847"
+  },
+  "/jaspernote/docs/infrastructure/devops/docker/dockercompose/-be2": {
+    "__comp": "17896441",
+    "content": "f6ef00fc"
+  },
+  "/jaspernote/docs/infrastructure/devops/docker/docker和虚拟机的区别-84e": {
+    "__comp": "17896441",
+    "content": "de1c6e4c"
+  },
+  "/jaspernote/docs/infrastructure/devops/docker/Internet-cb3": {
+    "__comp": "17896441",
+    "content": "da667bd2"
+  },
+  "/jaspernote/docs/infrastructure/devops/docker/problem-1f9": {
+    "__comp": "17896441",
+    "content": "60dc111a"
+  },
+  "/jaspernote/docs/infrastructure/devops/docker/将本地docker镜像导出到服务器-42b": {
+    "__comp": "17896441",
+    "content": "75beb5a1"
+  },
+  "/jaspernote/docs/infrastructure/devops/envoy/-2f6": {
+    "__comp": "17896441",
+    "content": "992a4381"
+  },
+  "/jaspernote/docs/infrastructure/devops/k8s/-25e": {
+    "__comp": "17896441",
+    "content": "8504c4eb"
+  },
+  "/jaspernote/docs/infrastructure/devops/nginx/-e9e": {
+    "__comp": "17896441",
+    "content": "51b1aee1"
+  },
+  "/jaspernote/docs/infrastructure/devops/nginx/configure-56f": {
+    "__comp": "17896441",
+    "content": "e7d8ba59"
+  },
+  "/jaspernote/docs/infrastructure/devops/nginx/install-725": {
+    "__comp": "17896441",
+    "content": "0b8406b2"
+  },
+  "/jaspernote/docs/infrastructure/devops/openresty/-186": {
+    "__comp": "17896441",
+    "content": "4f3b590a"
+  },
+  "/jaspernote/docs/infrastructure/devops/pod/-5ee": {
+    "__comp": "17896441",
+    "content": "fd2ddea2"
+  },
+  "/jaspernote/docs/infrastructure/devops/pod/valkey-491": {
+    "__comp": "17896441",
+    "content": "f80a4236"
+  },
+  "/jaspernote/docs/infrastructure/devops/podman/-7eb": {
+    "__comp": "17896441",
+    "content": "83c13e79"
+  },
+  "/jaspernote/docs/infrastructure/devops/podman/command-a3d": {
+    "__comp": "17896441",
+    "content": "f5e7604c"
+  },
+  "/jaspernote/docs/infrastructure/devops/podman/network-d00": {
+    "__comp": "17896441",
+    "content": "9bc7d73d"
+  },
+  "/jaspernote/docs/infrastructure/devops/podman/podmanCompose/log-f5e": {
+    "__comp": "17896441",
+    "content": "baa189ce"
+  },
+  "/jaspernote/docs/infrastructure/devops/podman/problem/privilege-457": {
+    "__comp": "17896441",
+    "content": "7a25a8bf"
+  },
+  "/jaspernote/docs/infrastructure/devops/podman/utils-ca9": {
+    "__comp": "17896441",
+    "content": "3b84cd75"
+  },
+  "/jaspernote/docs/infrastructure/os/-94a": {
+    "__comp": "17896441",
+    "content": "89ad9d7c"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/-7e6": {
+    "__comp": "17896441",
+    "content": "f10e8e41"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/desktop/-3fc": {
+    "__comp": "17896441",
+    "content": "be8d351c"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/desktop/desktopShell-caa": {
+    "__comp": "17896441",
+    "content": "3ca89001"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/desktop/kde-38f": {
+    "__comp": "17896441",
+    "content": "1e781568"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/desktop/niri-45c": {
+    "__comp": "17896441",
+    "content": "438fa71b"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/desktop/software-b90": {
+    "__comp": "17896441",
+    "content": "577fdd4a"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/desktop/terminal-d58": {
+    "__comp": "17896441",
+    "content": "834f4915"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/desktop/theme-60f": {
+    "__comp": "17896441",
+    "content": "5a7c8b42"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/pacman-c34": {
+    "__comp": "17896441",
+    "content": "4adff850"
+  },
+  "/jaspernote/docs/infrastructure/os/archlinux/paru-3fc": {
+    "__comp": "17896441",
+    "content": "4134d4e4"
+  },
+  "/jaspernote/docs/infrastructure/os/hardware/-b43": {
+    "__comp": "17896441",
+    "content": "762ddbb3"
+  },
+  "/jaspernote/docs/infrastructure/os/hardware/cpu-7fe": {
+    "__comp": "17896441",
+    "content": "83ae7f90"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/-dc3": {
+    "__comp": "17896441",
+    "content": "e3fa1f77"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/5systemManager/-014": {
+    "__comp": "17896441",
+    "content": "cee42385"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/5systemManager/systemService-3af": {
+    "__comp": "17896441",
+    "content": "09d43bf4"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/commonCommand-c87": {
+    "__comp": "17896441",
+    "content": "69c58780"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/env-bbf": {
+    "__comp": "17896441",
+    "content": "4bc7eec2"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/file/-59b": {
+    "__comp": "17896441",
+    "content": "0f0e2d0e"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/file/btrfs-59e": {
+    "__comp": "17896441",
+    "content": "f31b6af2"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/file/compress-308": {
+    "__comp": "17896441",
+    "content": "335fcec5"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/file/other-08d": {
+    "__comp": "17896441",
+    "content": "bfc09d7a"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/file/privilege-61d": {
+    "__comp": "17896441",
+    "content": "ac1f07b4"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/file/snapper-930": {
+    "__comp": "17896441",
+    "content": "0f36c180"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/file/文件系统-b5a": {
+    "__comp": "17896441",
+    "content": "54cf5c9f"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/internet/netstat-4f7": {
+    "__comp": "17896441",
+    "content": "383d9373"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/nohup-131": {
+    "__comp": "17896441",
+    "content": "5aec9c34"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/process/lsof-4ce": {
+    "__comp": "17896441",
+    "content": "4ae12b9b"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/process/ps-433": {
+    "__comp": "17896441",
+    "content": "7a31a09c"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/process/常用命令-c00": {
+    "__comp": "17896441",
+    "content": "c157c747"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/process/进程状态-dfd": {
+    "__comp": "17896441",
+    "content": "a05d69e1"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/-3d6": {
+    "__comp": "17896441",
+    "content": "8dba8fe1"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/basic-3c1": {
+    "__comp": "17896441",
+    "content": "1e613f1d"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/braceExpansion-53e": {
+    "__comp": "17896441",
+    "content": "3b587b83"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/control-76a": {
+    "__comp": "17896441",
+    "content": "8f6b355a"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/dataStreamRedirection/-493": {
+    "__comp": "17896441",
+    "content": "f78cd655"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/function-a50": {
+    "__comp": "17896441",
+    "content": "253887ce"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/operator-fd7": {
+    "__comp": "17896441",
+    "content": "c3db1a96"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/other-163": {
+    "__comp": "17896441",
+    "content": "7462a2d1"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/param-d8b": {
+    "__comp": "17896441",
+    "content": "b7a06113"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/shellWidget-010": {
+    "__comp": "17896441",
+    "content": "237750c9"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/usage-c79": {
+    "__comp": "17896441",
+    "content": "74670462"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/shell/variable-37b": {
+    "__comp": "17896441",
+    "content": "168e37aa"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/ssh-31e": {
+    "__comp": "17896441",
+    "content": "81df644c"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/-11b": {
+    "__comp": "17896441",
+    "content": "04eaa4a3"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/native/awk-275": {
+    "__comp": "17896441",
+    "content": "e61837de"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/native/curl-a00": {
+    "__comp": "17896441",
+    "content": "0a52f44d"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/native/envsubst-29d": {
+    "__comp": "17896441",
+    "content": "17fd585c"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/native/find-b06": {
+    "__comp": "17896441",
+    "content": "c5ae03fa"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/native/grep-6a1": {
+    "__comp": "17896441",
+    "content": "c883f63f"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/native/journalctl-971": {
+    "__comp": "17896441",
+    "content": "b3b4ef2b"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/native/scp-2f6": {
+    "__comp": "17896441",
+    "content": "91a322c8"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/native/systemctl-7c9": {
+    "__comp": "17896441",
+    "content": "23dfb061"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/native/watch-ebf": {
+    "__comp": "17896441",
+    "content": "cb5629fb"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/direnv-fb6": {
+    "__comp": "17896441",
+    "content": "f5cd1140"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/fd-bb0": {
+    "__comp": "17896441",
+    "content": "dff745f4"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/frp-0b9": {
+    "__comp": "17896441",
+    "content": "f1052a54"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/fzf-6bf": {
+    "__comp": "17896441",
+    "content": "994208c6"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/jaq-222": {
+    "__comp": "17896441",
+    "content": "c3a15405"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/just-bd5": {
+    "__comp": "17896441",
+    "content": "3472fac3"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/keychain-0e5": {
+    "__comp": "17896441",
+    "content": "180d8028"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/navi-428": {
+    "__comp": "17896441",
+    "content": "411309e4"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/ripgrep-cac": {
+    "__comp": "17896441",
+    "content": "61db05df"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/rsync-3e7": {
+    "__comp": "17896441",
+    "content": "a7cf40c9"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/tree-be1": {
+    "__comp": "17896441",
+    "content": "e245975b"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/xh-048": {
+    "__comp": "17896441",
+    "content": "a9933cd8"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/yazi-47e": {
+    "__comp": "17896441",
+    "content": "6346be07"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/zellij-057": {
+    "__comp": "17896441",
+    "content": "dab30927"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/utils/open/zoxide-a7d": {
+    "__comp": "17896441",
+    "content": "46697393"
+  },
+  "/jaspernote/docs/infrastructure/os/linux/查看日志-97f": {
+    "__comp": "17896441",
+    "content": "0e745d1f"
+  },
+  "/jaspernote/docs/infrastructure/os/mac/-111": {
+    "__comp": "17896441",
+    "content": "49a44b96"
+  },
+  "/jaspernote/docs/infrastructure/os/mac/finder-bb4": {
+    "__comp": "17896441",
+    "content": "069f1f21"
+  },
+  "/jaspernote/docs/infrastructure/os/mac/homebrew-688": {
+    "__comp": "17896441",
+    "content": "a74b9d81"
+  },
+  "/jaspernote/docs/infrastructure/os/mac/keychain-250": {
+    "__comp": "17896441",
+    "content": "111b673e"
+  },
+  "/jaspernote/docs/infrastructure/os/mac/keyShort-604": {
+    "__comp": "17896441",
+    "content": "89bc7a70"
+  },
+  "/jaspernote/docs/infrastructure/os/mac/other-c7e": {
+    "__comp": "17896441",
+    "content": "e2124379"
+  },
+  "/jaspernote/docs/infrastructure/os/mac/pathVariable-de6": {
+    "__comp": "17896441",
+    "content": "8130864d"
+  },
+  "/jaspernote/docs/infrastructure/os/mac/screeShot-8bb": {
+    "__comp": "17896441",
+    "content": "3b4ffe83"
+  },
+  "/jaspernote/docs/infrastructure/os/terminal-c0a": {
+    "__comp": "17896441",
+    "content": "ed1d2dbd"
+  },
+  "/jaspernote/docs/infrastructure/os/windows/-87d": {
+    "__comp": "17896441",
+    "content": "a9432273"
+  },
+  "/jaspernote/docs/infrastructure/os/windows/boot-0b3": {
+    "__comp": "17896441",
+    "content": "567686ac"
+  },
+  "/jaspernote/docs/infrastructure/os/windows/window software-338": {
+    "__comp": "17896441",
+    "content": "6b54abe4"
+  },
+  "/jaspernote/docs/infrastructure/os/windows/磁盘-a25": {
+    "__comp": "17896441",
+    "content": "f478e952"
+  },
+  "/jaspernote/docs/java/-e66": {
+    "__comp": "17896441",
+    "content": "3e1f5654"
+  },
+  "/jaspernote/docs/java/basic/-c91": {
+    "__comp": "17896441",
+    "content": "ec30961c"
+  },
+  "/jaspernote/docs/java/basic/commonClass/-34e": {
+    "__comp": "17896441",
+    "content": "2f1582af"
+  },
+  "/jaspernote/docs/java/basic/commonClass/Arrays-9b1": {
+    "__comp": "17896441",
+    "content": "e699f119"
+  },
+  "/jaspernote/docs/java/basic/commonClass/Collections-591": {
+    "__comp": "17896441",
+    "content": "2c206c20"
+  },
+  "/jaspernote/docs/java/basic/commonClass/dateRelated-ffb": {
+    "__comp": "17896441",
+    "content": "c337c0e6"
+  },
+  "/jaspernote/docs/java/basic/commonClass/MessageDigest-186": {
+    "__comp": "17896441",
+    "content": "77eeaf33"
+  },
+  "/jaspernote/docs/java/basic/commonClass/System-cbe": {
+    "__comp": "17896441",
+    "content": "91e8b41a"
+  },
+  "/jaspernote/docs/java/basic/foundation/03operator-b97": {
+    "__comp": "17896441",
+    "content": "fe37c37c"
+  },
+  "/jaspernote/docs/java/basic/foundation/04control-ae7": {
+    "__comp": "17896441",
+    "content": "bf0b3f94"
+  },
+  "/jaspernote/docs/java/basic/foundation/anno-97c": {
+    "__comp": "17896441",
+    "content": "7fff0419"
+  },
+  "/jaspernote/docs/java/basic/foundation/collection/-a14": {
+    "__comp": "17896441",
+    "content": "63c80c55"
+  },
+  "/jaspernote/docs/java/basic/foundation/collection/enumMap-653": {
+    "__comp": "17896441",
+    "content": "a5ea48e2"
+  },
+  "/jaspernote/docs/java/basic/foundation/collection/LinkedList-e38": {
+    "__comp": "17896441",
+    "content": "85c81e22"
+  },
+  "/jaspernote/docs/java/basic/foundation/collection/list/ArrayList-368": {
+    "__comp": "17896441",
+    "content": "e9d7bf06"
+  },
+  "/jaspernote/docs/java/basic/foundation/collection/list/linkedlist-39a": {
+    "__comp": "17896441",
+    "content": "fba8481f"
+  },
+  "/jaspernote/docs/java/basic/foundation/collection/map/HashMap-947": {
+    "__comp": "17896441",
+    "content": "95e85980"
+  },
+  "/jaspernote/docs/java/basic/foundation/collection/map/hashmapSource-ce5": {
+    "__comp": "17896441",
+    "content": "267ae5cd"
+  },
+  "/jaspernote/docs/java/basic/foundation/collection/queue/deque/ArrayDeque-9c0": {
+    "__comp": "17896441",
+    "content": "fe4dc910"
+  },
+  "/jaspernote/docs/java/basic/foundation/dataType/-556": {
+    "__comp": "17896441",
+    "content": "429dadd6"
+  },
+  "/jaspernote/docs/java/basic/foundation/dataType/enum-c70": {
+    "__comp": "17896441",
+    "content": "4342103f"
+  },
+  "/jaspernote/docs/java/basic/foundation/dataType/string-4ce": {
+    "__comp": "17896441",
+    "content": "b54ffa93"
+  },
+  "/jaspernote/docs/java/basic/foundation/exception-dbf": {
+    "__comp": "17896441",
+    "content": "edce39c3"
+  },
+  "/jaspernote/docs/java/basic/foundation/generic-252": {
+    "__comp": "17896441",
+    "content": "607e14c4"
+  },
+  "/jaspernote/docs/java/basic/foundation/io/-3d8": {
+    "__comp": "17896441",
+    "content": "750a192e"
+  },
+  "/jaspernote/docs/java/basic/foundation/io/BIO-9a9": {
+    "__comp": "17896441",
+    "content": "ddf4098c"
+  },
+  "/jaspernote/docs/java/basic/foundation/io/nio-d08": {
+    "__comp": "17896441",
+    "content": "fa6020b0"
+  },
+  "/jaspernote/docs/java/basic/foundation/io/NIO2/AIO-eab": {
+    "__comp": "17896441",
+    "content": "cb970b10"
+  },
+  "/jaspernote/docs/java/basic/foundation/io/NIO2/API-bab": {
+    "__comp": "17896441",
+    "content": "df5f1bfa"
+  },
+  "/jaspernote/docs/java/basic/foundation/io/网络编程-9ac": {
+    "__comp": "17896441",
+    "content": "9891d5a1"
+  },
+  "/jaspernote/docs/java/basic/foundation/keyword-a5d": {
+    "__comp": "17896441",
+    "content": "b1dacf0e"
+  },
+  "/jaspernote/docs/java/basic/foundation/oop/class-24b": {
+    "__comp": "17896441",
+    "content": "da3eea02"
+  },
+  "/jaspernote/docs/java/basic/foundation/oop/pillars-a67": {
+    "__comp": "17896441",
+    "content": "160166d9"
+  },
+  "/jaspernote/docs/java/basic/foundation/oop/static-70e": {
+    "__comp": "17896441",
+    "content": "63b644f8"
+  },
+  "/jaspernote/docs/java/basic/foundation/reflection-726": {
+    "__comp": "17896441",
+    "content": "92692f78"
+  },
+  "/jaspernote/docs/java/basic/foundation/serial-8c9": {
+    "__comp": "17896441",
+    "content": "d13a5b87"
+  },
+  "/jaspernote/docs/java/basic/foundation/spi-02f": {
+    "__comp": "17896441",
+    "content": "5f371bf1"
+  },
+  "/jaspernote/docs/java/basic/foundation/thread/basic-3ff": {
+    "__comp": "17896441",
+    "content": "13b2f9bc"
+  },
+  "/jaspernote/docs/java/basic/foundation/thread/final-d56": {
+    "__comp": "17896441",
+    "content": "377c0236"
+  },
+  "/jaspernote/docs/java/basic/foundation/thread/lock-556": {
+    "__comp": "17896441",
+    "content": "5646df20"
+  },
+  "/jaspernote/docs/java/basic/foundation/thread/unsafe-988": {
+    "__comp": "17896441",
+    "content": "cb9779cc"
+  },
+  "/jaspernote/docs/java/basic/foundation/thread/volatile-84a": {
+    "__comp": "17896441",
+    "content": "154ea436"
+  },
+  "/jaspernote/docs/java/basic/foundation/thread/线程基础-f3a": {
+    "__comp": "17896441",
+    "content": "2b2bf143"
+  },
+  "/jaspernote/docs/java/basic/jdk/javap-8ad": {
+    "__comp": "17896441",
+    "content": "d89178cd"
+  },
+  "/jaspernote/docs/java/basic/jdk/monitor/jcmd-09b": {
+    "__comp": "17896441",
+    "content": "4219868f"
+  },
+  "/jaspernote/docs/java/basic/jdk/monitor/jps-02f": {
+    "__comp": "17896441",
+    "content": "46083b85"
+  },
+  "/jaspernote/docs/java/basic/jdk/monitor/jstack-92d": {
+    "__comp": "17896441",
+    "content": "bc807e8b"
+  },
+  "/jaspernote/docs/java/basic/jdk/monitor/jstat-aa1": {
+    "__comp": "17896441",
+    "content": "12fe3a18"
+  },
+  "/jaspernote/docs/java/basic/juc/-11a": {
+    "__comp": "17896441",
+    "content": "d0744c7a"
+  },
+  "/jaspernote/docs/java/basic/juc/AQS-9bb": {
+    "__comp": "17896441",
+    "content": "46ae96f8"
+  },
+  "/jaspernote/docs/java/basic/juc/atomic/-dcc": {
+    "__comp": "17896441",
+    "content": "c36def9c"
+  },
+  "/jaspernote/docs/java/basic/juc/collections/-6e7": {
+    "__comp": "17896441",
+    "content": "d7edc873"
+  },
+  "/jaspernote/docs/java/basic/juc/collections/basic-ee4": {
+    "__comp": "17896441",
+    "content": "9acf37bf"
+  },
+  "/jaspernote/docs/java/basic/juc/collections/concurrentHashmap-a80": {
+    "__comp": "17896441",
+    "content": "7b166512"
+  },
+  "/jaspernote/docs/java/basic/juc/collections/queue/ArrayBlockingQueue-1c8": {
+    "__comp": "17896441",
+    "content": "76af0307"
+  },
+  "/jaspernote/docs/java/basic/juc/collections/queue/blockingQueue-34e": {
+    "__comp": "17896441",
+    "content": "e93840a2"
+  },
+  "/jaspernote/docs/java/basic/juc/collections/queue/linkedblockingDeque-c97": {
+    "__comp": "17896441",
+    "content": "c3b515dd"
+  },
+  "/jaspernote/docs/java/basic/juc/collections/queue/linkedblockingqueue-1fa": {
+    "__comp": "17896441",
+    "content": "199dcdf2"
+  },
+  "/jaspernote/docs/java/basic/juc/executor/customThreadPool-744": {
+    "__comp": "17896441",
+    "content": "355ad1f0"
+  },
+  "/jaspernote/docs/java/basic/juc/executor/executors-e0a": {
+    "__comp": "17896441",
+    "content": "0740cd44"
+  },
+  "/jaspernote/docs/java/basic/juc/executor/forkJoinPool-467": {
+    "__comp": "17896441",
+    "content": "5bc0dd62"
+  },
+  "/jaspernote/docs/java/basic/juc/future/-8fb": {
+    "__comp": "17896441",
+    "content": "b20c0901"
+  },
+  "/jaspernote/docs/java/basic/juc/future/completableFuture-f2a": {
+    "__comp": "17896441",
+    "content": "ebad747d"
+  },
+  "/jaspernote/docs/java/basic/juc/lock/AbstractQueuedSynchronizer-e4a": {
+    "__comp": "17896441",
+    "content": "3ee2678e"
+  },
+  "/jaspernote/docs/java/basic/juc/lock/LockSupport-588": {
+    "__comp": "17896441",
+    "content": "5720f18b"
+  },
+  "/jaspernote/docs/java/basic/juc/lock/ReentrantLock-786": {
+    "__comp": "17896441",
+    "content": "63992e3a"
+  },
+  "/jaspernote/docs/java/basic/juc/lock/ReentrantReadWriteLock-1fb": {
+    "__comp": "17896441",
+    "content": "64457881"
+  },
+  "/jaspernote/docs/java/basic/juc/ThreadLocal-e3a": {
+    "__comp": "17896441",
+    "content": "f2c8ec7d"
+  },
+  "/jaspernote/docs/java/basic/juc/tools/CountDownLatch-75a": {
+    "__comp": "17896441",
+    "content": "842b9251"
+  },
+  "/jaspernote/docs/java/basic/juc/tools/CyclicBarrier-1e9": {
+    "__comp": "17896441",
+    "content": "082abbce"
+  },
+  "/jaspernote/docs/java/basic/juc/tools/Exchanger-51b": {
+    "__comp": "17896441",
+    "content": "1c71cce5"
+  },
+  "/jaspernote/docs/java/basic/juc/tools/Phaser-97e": {
+    "__comp": "17896441",
+    "content": "25226719"
+  },
+  "/jaspernote/docs/java/basic/juc/tools/Semaphore-961": {
+    "__comp": "17896441",
+    "content": "9c67e0ab"
+  },
+  "/jaspernote/docs/java/basic/jvm/-b70": {
+    "__comp": "17896441",
+    "content": "23f0918d"
+  },
+  "/jaspernote/docs/java/basic/jvm/classload/-76b": {
+    "__comp": "17896441",
+    "content": "719aa33e"
+  },
+  "/jaspernote/docs/java/basic/jvm/classload/classLoader-276": {
+    "__comp": "17896441",
+    "content": "d6e91e0b"
+  },
+  "/jaspernote/docs/java/basic/jvm/classload/process/01load-eea": {
+    "__comp": "17896441",
+    "content": "42b3361f"
+  },
+  "/jaspernote/docs/java/basic/jvm/classload/process/02verfication-6d3": {
+    "__comp": "17896441",
+    "content": "fc3541d9"
+  },
+  "/jaspernote/docs/java/basic/jvm/classload/process/03preparation-432": {
+    "__comp": "17896441",
+    "content": "1006163b"
+  },
+  "/jaspernote/docs/java/basic/jvm/classload/process/04resolution-570": {
+    "__comp": "17896441",
+    "content": "d59cad02"
+  },
+  "/jaspernote/docs/java/basic/jvm/classload/process/05initialization-512": {
+    "__comp": "17896441",
+    "content": "b946f7b0"
+  },
+  "/jaspernote/docs/java/basic/jvm/gc-d4c": {
+    "__comp": "17896441",
+    "content": "2c75267a"
+  },
+  "/jaspernote/docs/java/basic/jvm/gc/basic-40b": {
+    "__comp": "17896441",
+    "content": "ba4efed0"
+  },
+  "/jaspernote/docs/java/basic/jvm/gc/g1-f4b": {
+    "__comp": "17896441",
+    "content": "a4923b10"
+  },
+  "/jaspernote/docs/java/basic/jvm/gc/parallelScavenge-ef3": {
+    "__comp": "17896441",
+    "content": "7bfcc955"
+  },
+  "/jaspernote/docs/java/basic/jvm/jmm/-712": {
+    "__comp": "17896441",
+    "content": "8f2003b4"
+  },
+  "/jaspernote/docs/java/basic/jvm/jmm/memoryBarrier-94a": {
+    "__comp": "17896441",
+    "content": "8199a15d"
+  },
+  "/jaspernote/docs/java/basic/jvm/lock/biasedLock-7ec": {
+    "__comp": "17896441",
+    "content": "81471311"
+  },
+  "/jaspernote/docs/java/basic/jvm/other/堆栈-e39": {
+    "__comp": "17896441",
+    "content": "eb428081"
+  },
+  "/jaspernote/docs/java/basic/jvm/runtimeDataArea/-83f": {
+    "__comp": "17896441",
+    "content": "26082ba5"
+  },
+  "/jaspernote/docs/java/basic/jvm/runtimeDataArea/directMemory-f5e": {
+    "__comp": "17896441",
+    "content": "6cfb9151"
+  },
+  "/jaspernote/docs/java/basic/jvm/runtimeDataArea/heap-1eb": {
+    "__comp": "17896441",
+    "content": "7110111d"
+  },
+  "/jaspernote/docs/java/basic/jvm/runtimeDataArea/methodArea-a01": {
+    "__comp": "17896441",
+    "content": "c36b22b8"
+  },
+  "/jaspernote/docs/java/basic/jvm/runtimeDataArea/nativeStack-98b": {
+    "__comp": "17896441",
+    "content": "422a2a54"
+  },
+  "/jaspernote/docs/java/basic/jvm/runtimeDataArea/pcRegister-a46": {
+    "__comp": "17896441",
+    "content": "0127926b"
+  },
+  "/jaspernote/docs/java/basic/jvm/runtimeDataArea/vmStack-648": {
+    "__comp": "17896441",
+    "content": "c9c18efe"
+  },
+  "/jaspernote/docs/java/basic/jvm/systemProperties-d2e": {
+    "__comp": "17896441",
+    "content": "ac7cedfc"
+  },
+  "/jaspernote/docs/java/basic/jvm/utils/jmap-d52": {
+    "__comp": "17896441",
+    "content": "232edc38"
+  },
+  "/jaspernote/docs/java/basic/jvm/utils/mat(memory analyzer tool)-bdd": {
+    "__comp": "17896441",
+    "content": "457c9e7a"
+  },
+  "/jaspernote/docs/java/basic/jvm/vm参数-f94": {
+    "__comp": "17896441",
+    "content": "e3ce9d3c"
+  },
+  "/jaspernote/docs/java/basic/jvm/学习路线-b6b": {
+    "__comp": "17896441",
+    "content": "0eb57a33"
+  },
+  "/jaspernote/docs/java/basic/jvm/锁的优化和升级-973": {
+    "__comp": "17896441",
+    "content": "3c725975"
+  },
+  "/jaspernote/docs/java/basic/newFeature/-eff": {
+    "__comp": "17896441",
+    "content": "5b05d1c4"
+  },
+  "/jaspernote/docs/java/basic/newFeature/17/-703": {
+    "__comp": "17896441",
+    "content": "2a780d89"
+  },
+  "/jaspernote/docs/java/basic/newFeature/21/collections/map-a38": {
+    "__comp": "17896441",
+    "content": "0ce998c4"
+  },
+  "/jaspernote/docs/java/basic/newFeature/21/virtualThread-5ec": {
+    "__comp": "17896441",
+    "content": "270b2f47"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/-b76": {
+    "__comp": "17896441",
+    "content": "ee25c702"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/functionInterface/-0b1": {
+    "__comp": "17896441",
+    "content": "d41b2c46"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/functionInterface/BiConsumer-434": {
+    "__comp": "17896441",
+    "content": "32dd4738"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/functionInterface/biFunction-6be": {
+    "__comp": "17896441",
+    "content": "4bd0717e"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/functionInterface/consumer-da0": {
+    "__comp": "17896441",
+    "content": "a62b8061"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/functionInterface/function-e42": {
+    "__comp": "17896441",
+    "content": "f656ff69"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/functionInterface/predicate-27a": {
+    "__comp": "17896441",
+    "content": "aa36986f"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/functionInterface/supplier-c2f": {
+    "__comp": "17896441",
+    "content": "bba6ec2f"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/optional-777": {
+    "__comp": "17896441",
+    "content": "92fda382"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/stream/-059": {
+    "__comp": "17896441",
+    "content": "9647001f"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/flatMap-68d": {
+    "__comp": "17896441",
+    "content": "0b544cfa"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/map-5a4": {
+    "__comp": "17896441",
+    "content": "24897c71"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/skip-a6b": {
+    "__comp": "17896441",
+    "content": "345c6108"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/stream/intStream-ba4": {
+    "__comp": "17896441",
+    "content": "124c5eee"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/stream/terminal/collect-e29": {
+    "__comp": "17896441",
+    "content": "70fe40b2"
+  },
+  "/jaspernote/docs/java/basic/newFeature/8/stream/terminal/reduce-cd5": {
+    "__comp": "17896441",
+    "content": "9601f331"
+  },
+  "/jaspernote/docs/java/basic/newFeature/9/-c38": {
+    "__comp": "17896441",
+    "content": "bb484936"
+  },
+  "/jaspernote/docs/java/basic/newFeature/9/module-8d6": {
+    "__comp": "17896441",
+    "content": "27fa3ad8"
+  },
+  "/jaspernote/docs/java/devTools/-23b": {
+    "__comp": "17896441",
+    "content": "6d8ead59"
+  },
+  "/jaspernote/docs/java/devTools/buildTools/gradle/-388": {
+    "__comp": "17896441",
+    "content": "682fda35"
+  },
+  "/jaspernote/docs/java/devTools/buildTools/gradle/config-b88": {
+    "__comp": "17896441",
+    "content": "def5da85"
+  },
+  "/jaspernote/docs/java/devTools/buildTools/maven/-800": {
+    "__comp": "17896441",
+    "content": "a28d5551"
+  },
+  "/jaspernote/docs/java/devTools/buildTools/maven/basic-4f5": {
+    "__comp": "17896441",
+    "content": "e2b01e4d"
+  },
+  "/jaspernote/docs/java/devTools/buildTools/maven/confilct-b7b": {
+    "__comp": "17896441",
+    "content": "b2789475"
+  },
+  "/jaspernote/docs/java/devTools/idea/-672": {
+    "__comp": "17896441",
+    "content": "e854f6da"
+  },
+  "/jaspernote/docs/java/devTools/idea/debug-9b5": {
+    "__comp": "17896441",
+    "content": "4192a30a"
+  },
+  "/jaspernote/docs/java/devTools/idea/docker-e6c": {
+    "__comp": "17896441",
+    "content": "8cd5478b"
+  },
+  "/jaspernote/docs/java/devTools/idea/httpClient/-948": {
+    "__comp": "17896441",
+    "content": "cea9beab"
+  },
+  "/jaspernote/docs/java/devTools/idea/httpClient/dynamicVariable-113": {
+    "__comp": "17896441",
+    "content": "3706d1f1"
+  },
+  "/jaspernote/docs/java/devTools/idea/liveTemplate-bc9": {
+    "__comp": "17896441",
+    "content": "ba476173"
+  },
+  "/jaspernote/docs/java/devTools/idea/tips-26c": {
+    "__comp": "17896441",
+    "content": "005995fb"
+  },
+  "/jaspernote/docs/java/devTools/jenv/-f32": {
+    "__comp": "17896441",
+    "content": "a9616145"
+  },
+  "/jaspernote/docs/java/devTools/toad/-3cf": {
+    "__comp": "17896441",
+    "content": "f26aad68"
+  },
+  "/jaspernote/docs/java/framework/-7fd": {
+    "__comp": "17896441",
+    "content": "96e91dab"
+  },
+  "/jaspernote/docs/java/framework/dubbo/-345": {
+    "__comp": "17896441",
+    "content": "02e164ec"
+  },
+  "/jaspernote/docs/java/framework/jetCache/-8a4": {
+    "__comp": "17896441",
+    "content": "468f14e0"
+  },
+  "/jaspernote/docs/java/framework/jpa/-e4f": {
+    "__comp": "17896441",
+    "content": "efceb179"
+  },
+  "/jaspernote/docs/java/framework/mybatis/-d12": {
+    "__comp": "17896441",
+    "content": "559b82ff"
+  },
+  "/jaspernote/docs/java/framework/mybatis/cache-fa1": {
+    "__comp": "17896441",
+    "content": "9fe856a6"
+  },
+  "/jaspernote/docs/java/framework/mybatis/mybatis-spring-751": {
+    "__comp": "17896441",
+    "content": "dbca9861"
+  },
+  "/jaspernote/docs/java/framework/mybatis/mybatisPlugin-512": {
+    "__comp": "17896441",
+    "content": "a96337e5"
+  },
+  "/jaspernote/docs/java/framework/mybatis/simpleUsage-0aa": {
+    "__comp": "17896441",
+    "content": "25455731"
+  },
+  "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/-2cb": {
+    "__comp": "17896441",
+    "content": "fac0cd01"
+  },
+  "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/MapperScannerRegistrar-048": {
+    "__comp": "17896441",
+    "content": "72789034"
+  },
+  "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/SqlSessionUtils-284": {
+    "__comp": "17896441",
+    "content": "7c4371f5"
+  },
+  "/jaspernote/docs/java/framework/mybatis/xml配置文件-c87": {
+    "__comp": "17896441",
+    "content": "b55cd8e5"
+  },
+  "/jaspernote/docs/java/framework/redisson/-49c": {
+    "__comp": "17896441",
+    "content": "8c25f56f"
+  },
+  "/jaspernote/docs/java/framework/spring/-de8": {
+    "__comp": "17896441",
+    "content": "05116fcc"
+  },
+  "/jaspernote/docs/java/framework/spring/annotations/-c77": {
+    "__comp": "17896441",
+    "content": "697cb598"
+  },
+  "/jaspernote/docs/java/framework/spring/annotations/AliasFor-ebd": {
+    "__comp": "17896441",
+    "content": "22d5a159"
+  },
+  "/jaspernote/docs/java/framework/spring/annotations/Async-f85": {
+    "__comp": "17896441",
+    "content": "f10e035b"
+  },
+  "/jaspernote/docs/java/framework/spring/annotations/ConditionalOnProperty-627": {
+    "__comp": "17896441",
+    "content": "75dfa723"
+  },
+  "/jaspernote/docs/java/framework/spring/annotations/DependsOn-1a3": {
+    "__comp": "17896441",
+    "content": "9a4bc373"
+  },
+  "/jaspernote/docs/java/framework/spring/annotations/PostConstruct-b30": {
+    "__comp": "17896441",
+    "content": "a3f35a03"
+  },
+  "/jaspernote/docs/java/framework/spring/annotations/requestMapping-c69": {
+    "__comp": "17896441",
+    "content": "34aae22c"
+  },
+  "/jaspernote/docs/java/framework/spring/api/context/ApplicationContext-73f": {
+    "__comp": "17896441",
+    "content": "b6d62d9a"
+  },
+  "/jaspernote/docs/java/framework/spring/api/context/ApplicationContextAware-013": {
+    "__comp": "17896441",
+    "content": "d44b5d4b"
+  },
+  "/jaspernote/docs/java/framework/spring/api/context/FactoryBean-aef": {
+    "__comp": "17896441",
+    "content": "d38f7eab"
+  },
+  "/jaspernote/docs/java/framework/spring/api/interfaces/InitializingBean-616": {
+    "__comp": "17896441",
+    "content": "1dea9745"
+  },
+  "/jaspernote/docs/java/framework/spring/api/utils/AnnotatedElementUtils-52d": {
+    "__comp": "17896441",
+    "content": "ab3439de"
+  },
+  "/jaspernote/docs/java/framework/spring/api/utils/Assert-ee5": {
+    "__comp": "17896441",
+    "content": "4bdd6a8c"
+  },
+  "/jaspernote/docs/java/framework/spring/api/utils/ReflectionUtils-ab6": {
+    "__comp": "17896441",
+    "content": "6d4a655a"
+  },
+  "/jaspernote/docs/java/framework/spring/core/aop/-797": {
+    "__comp": "17896441",
+    "content": "0b353905"
+  },
+  "/jaspernote/docs/java/framework/spring/core/aop/spring-c6a": {
+    "__comp": "17896441",
+    "content": "f2f341aa"
+  },
+  "/jaspernote/docs/java/framework/spring/core/aspect/-cae": {
+    "__comp": "17896441",
+    "content": "81625095"
+  },
+  "/jaspernote/docs/java/framework/spring/core/aspect/pcd-1a4": {
+    "__comp": "17896441",
+    "content": "8123bec5"
+  },
+  "/jaspernote/docs/java/framework/spring/core/aspect/start-49d": {
+    "__comp": "17896441",
+    "content": "35aa7b76"
+  },
+  "/jaspernote/docs/java/framework/spring/core/Event-c8f": {
+    "__comp": "17896441",
+    "content": "a01a317e"
+  },
+  "/jaspernote/docs/java/framework/spring/core/ioc/-b5b": {
+    "__comp": "17896441",
+    "content": "e13fda26"
+  },
+  "/jaspernote/docs/java/framework/spring/core/ioc/applicationContext/event-6cf": {
+    "__comp": "17896441",
+    "content": "18ac819b"
+  },
+  "/jaspernote/docs/java/framework/spring/core/ioc/bean-c5c": {
+    "__comp": "17896441",
+    "content": "ea8cecaf"
+  },
+  "/jaspernote/docs/java/framework/spring/core/ioc/BeanDefInheritance-404": {
+    "__comp": "17896441",
+    "content": "2c405569"
+  },
+  "/jaspernote/docs/java/framework/spring/core/ioc/dependiencies/circular-c13": {
+    "__comp": "17896441",
+    "content": "e0c80be9"
+  },
+  "/jaspernote/docs/java/framework/spring/core/ioc/lifecycle-6f5": {
+    "__comp": "17896441",
+    "content": "c9bf51c1"
+  },
+  "/jaspernote/docs/java/framework/spring/core/spel/-23f": {
+    "__comp": "17896441",
+    "content": "4486a4df"
+  },
+  "/jaspernote/docs/java/framework/spring/dataAccess/transaction-9d2": {
+    "__comp": "17896441",
+    "content": "9533b447"
+  },
+  "/jaspernote/docs/java/framework/spring/dataAccess/transactionInvalid-06e": {
+    "__comp": "17896441",
+    "content": "8b4c9781"
+  },
+  "/jaspernote/docs/java/framework/spring/dataAccess/transactionSynchronizeManager-967": {
+    "__comp": "17896441",
+    "content": "654a4f3e"
+  },
+  "/jaspernote/docs/java/framework/spring/dataAccess/事务传播机制-4b0": {
+    "__comp": "17896441",
+    "content": "867868f3"
+  },
+  "/jaspernote/docs/java/framework/spring/integration/taskExecutionSchedule-ac2": {
+    "__comp": "17896441",
+    "content": "8b1954a2"
+  },
+  "/jaspernote/docs/java/framework/spring/sourceCode/transaction-28e": {
+    "__comp": "17896441",
+    "content": "0d0e059c"
+  },
+  "/jaspernote/docs/java/framework/springBatch/-6d9": {
+    "__comp": "17896441",
+    "content": "cf1b1b8b"
+  },
+  "/jaspernote/docs/java/framework/springboot/-15d": {
+    "__comp": "17896441",
+    "content": "7099b001"
+  },
+  "/jaspernote/docs/java/framework/springboot/CommandLineRunner-b72": {
+    "__comp": "17896441",
+    "content": "b190c33b"
+  },
+  "/jaspernote/docs/java/framework/springboot/corefeature/dockercomposesupport-8dc": {
+    "__comp": "17896441",
+    "content": "ac833455"
+  },
+  "/jaspernote/docs/java/framework/springboot/integration/freemarker-5af": {
+    "__comp": "17896441",
+    "content": "2c81ae9a"
+  },
+  "/jaspernote/docs/java/framework/springboot/integration/logback-852": {
+    "__comp": "17896441",
+    "content": "7892e4d4"
+  },
+  "/jaspernote/docs/java/framework/springboot/integration/mybatis-add": {
+    "__comp": "17896441",
+    "content": "cab4ba50"
+  },
+  "/jaspernote/docs/java/framework/springboot/integration/sqlite-142": {
+    "__comp": "17896441",
+    "content": "54297d36"
+  },
+  "/jaspernote/docs/java/framework/springboot/other-476": {
+    "__comp": "17896441",
+    "content": "8d902103"
+  },
+  "/jaspernote/docs/java/framework/springboot/springbootReadConfig-ef2": {
+    "__comp": "17896441",
+    "content": "1b27c21c"
+  },
+  "/jaspernote/docs/java/framework/springboot/springbootReadFile-3a5": {
+    "__comp": "17896441",
+    "content": "49c7bf89"
+  },
+  "/jaspernote/docs/java/framework/springboot/自定义starter-b4b": {
+    "__comp": "17896441",
+    "content": "73be8b26"
+  },
+  "/jaspernote/docs/java/framework/springboot/配置文件-752": {
+    "__comp": "17896441",
+    "content": "cb0ea43a"
+  },
+  "/jaspernote/docs/java/framework/springcli/-edb": {
+    "__comp": "17896441",
+    "content": "c16ca734"
+  },
+  "/jaspernote/docs/java/framework/springcloud/-0e6": {
+    "__comp": "17896441",
+    "content": "2d9def88"
+  },
+  "/jaspernote/docs/java/framework/springcloud/seata/-e96": {
+    "__comp": "17896441",
+    "content": "1ea3747b"
+  },
+  "/jaspernote/docs/java/framework/springcloud/springCloudStream/-272": {
+    "__comp": "17896441",
+    "content": "cede969d"
+  },
+  "/jaspernote/docs/java/framework/springData/-f89": {
+    "__comp": "17896441",
+    "content": "749cb793"
+  },
+  "/jaspernote/docs/java/framework/springmvc/-b93": {
+    "__comp": "17896441",
+    "content": "ff5d8c76"
+  },
+  "/jaspernote/docs/java/framework/springmvc/cookieAndSession-eca": {
+    "__comp": "17896441",
+    "content": "42715f4d"
+  },
+  "/jaspernote/docs/java/framework/springSecurity/-483": {
+    "__comp": "17896441",
+    "content": "c23c1ebd"
+  },
+  "/jaspernote/docs/java/framework/springSecurity/impl-d1e": {
+    "__comp": "17896441",
+    "content": "391c5d6f"
+  },
+  "/jaspernote/docs/java/middleware/minio/-046": {
+    "__comp": "17896441",
+    "content": "54f12ee8"
+  },
+  "/jaspernote/docs/java/middleware/minio/docker搭建-683": {
+    "__comp": "17896441",
+    "content": "f53e929c"
+  },
+  "/jaspernote/docs/java/middleware/minio/java-184": {
+    "__comp": "17896441",
+    "content": "876e6a21"
+  },
+  "/jaspernote/docs/java/middleware/mq/-9b0": {
+    "__comp": "17896441",
+    "content": "23767250"
+  },
+  "/jaspernote/docs/java/middleware/mq/impl-68d": {
+    "__comp": "17896441",
+    "content": "b60b25ff"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/-27e": {
+    "__comp": "17896441",
+    "content": "a724053c"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/00buildAndInstall-aed": {
+    "__comp": "17896441",
+    "content": "9d84d78c"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/architecture-47f": {
+    "__comp": "17896441",
+    "content": "5e02490f"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/basic-97a": {
+    "__comp": "17896441",
+    "content": "d18f9a0e"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/dashboard/concept-2a8": {
+    "__comp": "17896441",
+    "content": "7e9664e1"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/dockercompose-f82": {
+    "__comp": "17896441",
+    "content": "0484a1f9"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/message/batch-f5e": {
+    "__comp": "17896441",
+    "content": "8a3c6cc1"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/message/delay-4c6": {
+    "__comp": "17896441",
+    "content": "7dcbdd23"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/message/messageFilter-41a": {
+    "__comp": "17896441",
+    "content": "13cedeb9"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/message/order-168": {
+    "__comp": "17896441",
+    "content": "477bba30"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/message/transaction-73d": {
+    "__comp": "17896441",
+    "content": "b0c1600e"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/mq/concept-10c": {
+    "__comp": "17896441",
+    "content": "a6cc4504"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/mq/feature-dc9": {
+    "__comp": "17896441",
+    "content": "d5826219"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/other-1ec": {
+    "__comp": "17896441",
+    "content": "2e85352a"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/problems-da2": {
+    "__comp": "17896441",
+    "content": "68c894c7"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/roundRobin-51a": {
+    "__comp": "17896441",
+    "content": "b846efca"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/spring/-d29": {
+    "__comp": "17896441",
+    "content": "dba9281b"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/spring/springboot-1fa": {
+    "__comp": "17896441",
+    "content": "e8be578b"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/spring/springCloud-840": {
+    "__comp": "17896441",
+    "content": "e10d4bd6"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/tools/mqadmin-806": {
+    "__comp": "17896441",
+    "content": "03d2a291"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/usage-f97": {
+    "__comp": "17896441",
+    "content": "72ec52ac"
+  },
+  "/jaspernote/docs/java/middleware/rocketmq/调试源码-14b": {
+    "__comp": "17896441",
+    "content": "69779b45"
+  },
+  "/jaspernote/docs/java/middleware/workflow/flowable/-b69": {
+    "__comp": "17896441",
+    "content": "4a6e1f4e"
+  },
+  "/jaspernote/docs/java/middleware/zookeeper/-9b5": {
+    "__comp": "17896441",
+    "content": "dcbe93c7"
+  },
+  "/jaspernote/docs/java/middleware/zookeeper/install-f73": {
+    "__comp": "17896441",
+    "content": "2ac5b439"
+  },
+  "/jaspernote/docs/java/middleware/zookeeper/usage-6c6": {
+    "__comp": "17896441",
+    "content": "dad6f45f"
+  },
+  "/jaspernote/docs/java/network/netty/-cfa": {
+    "__comp": "17896441",
+    "content": "f97c6204"
+  },
+  "/jaspernote/docs/java/network/websocket/-98b": {
+    "__comp": "17896441",
+    "content": "f7a12647"
+  },
+  "/jaspernote/docs/java/roadmap-a92": {
+    "__comp": "17896441",
+    "content": "4e595fdd"
+  },
+  "/jaspernote/docs/java/test/-d9f": {
+    "__comp": "17896441",
+    "content": "55d9ec2c"
+  },
+  "/jaspernote/docs/java/test/junit/-e6b": {
+    "__comp": "17896441",
+    "content": "3cabdb97"
+  },
+  "/jaspernote/docs/java/test/mockito/-9ff": {
+    "__comp": "17896441",
+    "content": "248eb831"
+  },
+  "/jaspernote/docs/java/utils/-314": {
+    "__comp": "17896441",
+    "content": "729121ca"
+  },
+  "/jaspernote/docs/java/utils/apache/commons/pool-1ae": {
+    "__comp": "17896441",
+    "content": "cb3b3fa1"
+  },
+  "/jaspernote/docs/java/utils/arthas/-ef6": {
+    "__comp": "17896441",
+    "content": "4d9ec226"
+  },
+  "/jaspernote/docs/java/utils/arthas/dashboard-7b7": {
+    "__comp": "17896441",
+    "content": "eef0ffd7"
+  },
+  "/jaspernote/docs/java/utils/bytebuddy/-b79": {
+    "__comp": "17896441",
+    "content": "ce237c4b"
+  },
+  "/jaspernote/docs/java/utils/caffeine/-d75": {
+    "__comp": "17896441",
+    "content": "a5d8e179"
+  },
+  "/jaspernote/docs/java/utils/caffeine/popultaion-c56": {
+    "__comp": "17896441",
+    "content": "4bd928af"
+  },
+  "/jaspernote/docs/java/utils/cglib/-149": {
+    "__comp": "17896441",
+    "content": "29c29b91"
+  },
+  "/jaspernote/docs/java/utils/guava/-63d": {
+    "__comp": "17896441",
+    "content": "3f00f42d"
+  },
+  "/jaspernote/docs/java/utils/guava/cache-df9": {
+    "__comp": "17896441",
+    "content": "3b452719"
+  },
+  "/jaspernote/docs/java/utils/guava/collections/utils/Queues-d45": {
+    "__comp": "17896441",
+    "content": "6c279b7e"
+  },
+  "/jaspernote/docs/java/utils/guava/EventBus-4d7": {
+    "__comp": "17896441",
+    "content": "a1d6f3e4"
+  },
+  "/jaspernote/docs/java/utils/guava/Strings-3da": {
+    "__comp": "17896441",
+    "content": "83c5d0e1"
+  },
+  "/jaspernote/docs/java/utils/guava/utilities/stopWatch-1a2": {
+    "__comp": "17896441",
+    "content": "57813104"
+  },
+  "/jaspernote/docs/java/utils/hutool/-621": {
+    "__comp": "17896441",
+    "content": "77314f81"
+  },
+  "/jaspernote/docs/java/utils/json/fastjson/-b2c": {
+    "__comp": "17896441",
+    "content": "c27346e8"
+  },
+  "/jaspernote/docs/java/utils/json/jackson/-f93": {
+    "__comp": "17896441",
+    "content": "608e1ace"
+  },
+  "/jaspernote/docs/java/utils/json/jackson/ContainerNode-645": {
+    "__comp": "17896441",
+    "content": "5355a59f"
+  },
+  "/jaspernote/docs/java/utils/json/jackson/SerializationConfig-15c": {
+    "__comp": "17896441",
+    "content": "a860d5f9"
+  },
+  "/jaspernote/docs/java/utils/lombok/-2b0": {
+    "__comp": "17896441",
+    "content": "ece45ff3"
+  },
+  "/jaspernote/docs/java/utils/lombok/annotations/Builder-d12": {
+    "__comp": "17896441",
+    "content": "7e072603"
+  },
+  "/jaspernote/docs/java/utils/lombok/annotations/Generated-8c3": {
+    "__comp": "17896441",
+    "content": "9bcb9c26"
+  },
+  "/jaspernote/docs/java/utils/lombok/annotations/SneakThrows-c9a": {
+    "__comp": "17896441",
+    "content": "9f46e8b1"
+  },
+  "/jaspernote/docs/java/utils/lombok/import-120": {
+    "__comp": "17896441",
+    "content": "9dec0c62"
+  },
+  "/jaspernote/docs/java/utils/objectMapping/mapStruct/-ab3": {
+    "__comp": "17896441",
+    "content": "908923d0"
+  },
+  "/jaspernote/docs/java/utils/objectMapping/mapStruct/complexMapping-234": {
+    "__comp": "17896441",
+    "content": "dff0a3a4"
+  },
+  "/jaspernote/docs/java/utils/objectMapping/mapStruct/qualifiedBy-3c9": {
+    "__comp": "17896441",
+    "content": "bc993c91"
+  },
+  "/jaspernote/docs/java/utils/objectMapping/mapStruct/reuseMappingConfiguration-505": {
+    "__comp": "17896441",
+    "content": "ef0cc70d"
+  },
+  "/jaspernote/docs/java/utils/objectMapping/orika/-9ef": {
+    "__comp": "17896441",
+    "content": "42723ef4"
+  },
+  "/jaspernote/docs/java/utils/serialization/hessian/-cf6": {
+    "__comp": "17896441",
+    "content": "da3e241b"
+  },
+  "/jaspernote/docs/java/utils/serialization/kyro/-bb3": {
+    "__comp": "17896441",
+    "content": "6f699467"
+  },
+  "/jaspernote/docs/java/utils/serialization/protoStuff/-950": {
+    "__comp": "17896441",
+    "content": "035756e2"
+  },
+  "/jaspernote/docs/java/utils/serialization/protoStuff/简单使用-820": {
+    "__comp": "17896441",
+    "content": "c42b635b"
+  },
+  "/jaspernote/docs/java/web/-acb": {
+    "__comp": "17896441",
+    "content": "b2f49e59"
+  },
+  "/jaspernote/docs/java/web/apidoc/springdoc/-063": {
+    "__comp": "17896441",
+    "content": "88a49278"
+  },
+  "/jaspernote/docs/java/web/jdbc/-c48": {
+    "__comp": "17896441",
+    "content": "12a0a9b7"
+  },
+  "/jaspernote/docs/java/web/log/-a9a": {
+    "__comp": "17896441",
+    "content": "bf032e5f"
+  },
+  "/jaspernote/docs/java/web/log/logback/-15f": {
+    "__comp": "17896441",
+    "content": "c44514f3"
+  },
+  "/jaspernote/docs/kotlin/-9b2": {
+    "__comp": "17896441",
+    "content": "3a23d047"
+  },
+  "/jaspernote/docs/kotlin/foundation/01keyword-c6c": {
+    "__comp": "17896441",
+    "content": "65286664"
+  },
+  "/jaspernote/docs/kotlin/foundation/02dataType-47e": {
+    "__comp": "17896441",
+    "content": "c2ba7ae6"
+  },
+  "/jaspernote/docs/kotlin/foundation/03control-d5d": {
+    "__comp": "17896441",
+    "content": "4d965c32"
+  },
+  "/jaspernote/docs/kotlin/foundation/04function-9c5": {
+    "__comp": "17896441",
+    "content": "ce764332"
+  },
+  "/jaspernote/docs/kotlin/foundation/05collection-ae9": {
+    "__comp": "17896441",
+    "content": "813a7d5c"
+  },
+  "/jaspernote/docs/lua/foundation/-0ee": {
+    "__comp": "17896441",
+    "content": "40612a7c"
+  },
+  "/jaspernote/docs/lua/foundation/03control-f3c": {
+    "__comp": "17896441",
+    "content": "e4e54a8c"
+  },
+  "/jaspernote/docs/lua/foundation/04fun-072": {
+    "__comp": "17896441",
+    "content": "573df6cf"
+  },
+  "/jaspernote/docs/lua/foundation/install-e9b": {
+    "__comp": "17896441",
+    "content": "f4aead4f"
+  },
+  "/jaspernote/docs/lua/foundation/module-5a1": {
+    "__comp": "17896441",
+    "content": "25d6e4f9"
+  },
+  "/jaspernote/docs/patterns/-849": {
+    "__comp": "17896441",
+    "content": "90d79764"
+  },
+  "/jaspernote/docs/patterns/behavioral/observer-836": {
+    "__comp": "17896441",
+    "content": "34735957"
+  },
+  "/jaspernote/docs/patterns/behavioral/strategy-54e": {
+    "__comp": "17896441",
+    "content": "5267bd0e"
+  },
+  "/jaspernote/docs/patterns/behavioral/templateMethod-16d": {
+    "__comp": "17896441",
+    "content": "981af6d0"
+  },
+  "/jaspernote/docs/patterns/creational/abstractFactory-963": {
+    "__comp": "17896441",
+    "content": "8abd81ab"
+  },
+  "/jaspernote/docs/patterns/creational/builder-9bd": {
+    "__comp": "17896441",
+    "content": "0a89b9f4"
+  },
+  "/jaspernote/docs/patterns/creational/factoryMethod-bd0": {
+    "__comp": "17896441",
+    "content": "dfa6a1b2"
+  },
+  "/jaspernote/docs/patterns/creational/prototype-054": {
+    "__comp": "17896441",
+    "content": "30bf35b2"
+  },
+  "/jaspernote/docs/patterns/creational/simpleFactory-c4e": {
+    "__comp": "17896441",
+    "content": "946679cc"
+  },
+  "/jaspernote/docs/patterns/creational/singleton-763": {
+    "__comp": "17896441",
+    "content": "a39d5a7b"
+  },
+  "/jaspernote/docs/patterns/SOLID-4d4": {
+    "__comp": "17896441",
+    "content": "9cd9f801"
+  },
+  "/jaspernote/docs/patterns/structural/proxy-9fa": {
+    "__comp": "17896441",
+    "content": "2d29b2c3"
+  },
+  "/jaspernote/docs/python/-3c6": {
+    "__comp": "17896441",
+    "content": "a2a05afc"
+  },
+  "/jaspernote/docs/python/environment/conda-290": {
+    "__comp": "17896441",
+    "content": "f95513d4"
+  },
+  "/jaspernote/docs/python/environment/pip-ce7": {
+    "__comp": "17896441",
+    "content": "aa68e9ea"
+  },
+  "/jaspernote/docs/python/environment/pipx-60c": {
+    "__comp": "17896441",
+    "content": "22494d9a"
+  },
+  "/jaspernote/docs/python/environment/uv-c24": {
+    "__comp": "17896441",
+    "content": "a4897a3b"
+  },
+  "/jaspernote/docs/python/environment/venv-a19": {
+    "__comp": "17896441",
+    "content": "f3725584"
+  },
+  "/jaspernote/docs/python/foundation/-dfc": {
+    "__comp": "17896441",
+    "content": "62aede86"
+  },
+  "/jaspernote/docs/python/foundation/contrlAndloop-a29": {
+    "__comp": "17896441",
+    "content": "e8414248"
+  },
+  "/jaspernote/docs/python/foundation/dataType/-be9": {
+    "__comp": "17896441",
+    "content": "6159c7bc"
+  },
+  "/jaspernote/docs/python/foundation/dataType/tuple-7de": {
+    "__comp": "17896441",
+    "content": "4db25c29"
+  },
+  "/jaspernote/docs/python/foundation/function/-d2a": {
+    "__comp": "17896441",
+    "content": "c98f4a35"
+  },
+  "/jaspernote/docs/python/foundation/function/magicMethod-0f3": {
+    "__comp": "17896441",
+    "content": "ed7f145f"
+  },
+  "/jaspernote/docs/python/notebook/-b5c": {
+    "__comp": "17896441",
+    "content": "70359780"
+  },
+  "/jaspernote/docs/python/utils-ea1": {
+    "__comp": "17896441",
+    "content": "a1a58af7"
+  },
+  "/jaspernote/docs/python/utils/-4b0": {
+    "__comp": "17896441",
+    "content": "489ac25a"
+  },
+  "/jaspernote/docs/python/utils/mPara-d90": {
+    "__comp": "17896441",
+    "content": "65a3381e"
+  },
+  "/jaspernote/docs/todo-d0f": {
+    "__comp": "17896441",
+    "content": "3edc8e6c"
+  },
+  "/jaspernote/docs/utils/-a55": {
+    "__comp": "17896441",
+    "content": "754dfb71"
+  },
+  "/jaspernote/docs/utils/git/-a28": {
+    "__comp": "17896441",
+    "content": "b5df5d2a"
+  },
+  "/jaspernote/docs/utils/git/basic-3cf": {
+    "__comp": "17896441",
+    "content": "d1c73837"
+  },
+  "/jaspernote/docs/utils/git/branch-132": {
+    "__comp": "17896441",
+    "content": "885c4664"
+  },
+  "/jaspernote/docs/utils/git/concept-860": {
+    "__comp": "17896441",
+    "content": "5d2485d3"
+  },
+  "/jaspernote/docs/utils/git/conflict-004": {
+    "__comp": "17896441",
+    "content": "42f41c11"
+  },
+  "/jaspernote/docs/utils/git/gitattributes-176": {
+    "__comp": "17896441",
+    "content": "28f1e66e"
+  },
+  "/jaspernote/docs/utils/git/lazygit-664": {
+    "__comp": "17896441",
+    "content": "46e7255e"
+  },
+  "/jaspernote/docs/utils/git/normal/demo1-8f1": {
+    "__comp": "17896441",
+    "content": "f0d82c37"
+  },
+  "/jaspernote/docs/utils/git/normal/merge和rebase的区别-ab6": {
+    "__comp": "17896441",
+    "content": "8038ea70"
+  },
+  "/jaspernote/docs/utils/git/other-bf1": {
+    "__comp": "17896441",
+    "content": "172376cd"
+  },
+  "/jaspernote/docs/utils/git/problem-240": {
+    "__comp": "17896441",
+    "content": "52108be2"
+  },
+  "/jaspernote/docs/utils/git/proxy-672": {
+    "__comp": "17896441",
+    "content": "26ebebda"
+  },
+  "/jaspernote/docs/utils/jmeter/-80d": {
+    "__comp": "17896441",
+    "content": "10f7a122"
+  },
+  "/jaspernote/docs/utils/jmeter/basic-229": {
+    "__comp": "17896441",
+    "content": "a05236e9"
+  },
+  "/jaspernote/docs/utils/jmeter/configElement-c35": {
+    "__comp": "17896441",
+    "content": "5b85502d"
+  },
+  "/jaspernote/docs/utils/jmeter/database-ff1": {
+    "__comp": "17896441",
+    "content": "b0a3fe49"
+  },
+  "/jaspernote/docs/utils/jmeter/function-525": {
+    "__comp": "17896441",
+    "content": "b330842d"
+  },
+  "/jaspernote/docs/utils/jmeter/groovy/-df1": {
+    "__comp": "17896441",
+    "content": "9b3c31bf"
+  },
+  "/jaspernote/docs/utils/jmeter/java-7a1": {
+    "__comp": "17896441",
+    "content": "88408237"
+  },
+  "/jaspernote/docs/utils/jmeter/postProcessor-fdd": {
+    "__comp": "17896441",
+    "content": "9f20e97e"
+  },
+  "/jaspernote/docs/utils/jmeter/preProcessor-4f9": {
+    "__comp": "17896441",
+    "content": "2d594da9"
+  },
+  "/jaspernote/docs/utils/jmeter/sampler-3a8": {
+    "__comp": "17896441",
+    "content": "4d5e0b24"
+  },
+  "/jaspernote/docs/utils/mermaid/-69d": {
+    "__comp": "17896441",
+    "content": "ec00f742"
+  },
+  "/jaspernote/docs/utils/neovim/-249": {
+    "__comp": "17896441",
+    "content": "14ae07b3"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/-e3e": {
+    "__comp": "17896441",
+    "content": "fb9c0572"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/env/cpp-51a": {
+    "__comp": "17896441",
+    "content": "ca22289e"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/env/java-1c2": {
+    "__comp": "17896441",
+    "content": "81c8fa59"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/env/markdown-12d": {
+    "__comp": "17896441",
+    "content": "26de6ef3"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/env/python-d7e": {
+    "__comp": "17896441",
+    "content": "685d8c7f"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/env/ruff-dfc": {
+    "__comp": "17896441",
+    "content": "ae702c07"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/install-dc8": {
+    "__comp": "17896441",
+    "content": "e02ff2a2"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/keymap-7cb": {
+    "__comp": "17896441",
+    "content": "63fabb6d"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/plugins/flash.nvim-c5e": {
+    "__comp": "17896441",
+    "content": "065c6fab"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/plugins/gitsigns.nvim-54e": {
+    "__comp": "17896441",
+    "content": "0b6d1542"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/plugins/init-6cf": {
+    "__comp": "17896441",
+    "content": "8b992f3f"
+  },
+  "/jaspernote/docs/utils/neovim/lazyvim/plugins/mini.ai-0a8": {
+    "__comp": "17896441",
+    "content": "357710fe"
+  },
+  "/jaspernote/docs/utils/neovim/quickfix-9e5": {
+    "__comp": "17896441",
+    "content": "c5930fac"
+  },
+  "/jaspernote/docs/utils/svn/-b06": {
+    "__comp": "17896441",
+    "content": "1717aece"
+  },
+  "/jaspernote/docs/utils/vim/-58d": {
+    "__comp": "17896441",
+    "content": "2c31d70d"
+  },
+  "/jaspernote/-155": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

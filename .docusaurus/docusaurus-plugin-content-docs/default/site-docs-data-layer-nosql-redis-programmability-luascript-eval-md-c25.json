@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/programmability/luascript/eval",
+  "title": "eval",
+  "description": "EVAL 的标准指令格式",
+  "source": "@site/docs/dataLayer/nosql/redis/programmability/luascript/eval.md",
+  "sourceDirName": "dataLayer/nosql/redis/programmability/luascript",
+  "slug": "/dataLayer/nosql/redis/programmability/luascript/eval",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/eval",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/programmability/luascript/eval.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "debug",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/debug"
+  },
+  "next": {
+    "title": "pub sub",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/pubsub/"
+  }
+}

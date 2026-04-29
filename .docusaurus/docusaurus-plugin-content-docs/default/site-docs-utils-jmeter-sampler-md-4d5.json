@@ -1,0 +1,20 @@
+{
+  "id": "utils/jmeter/sampler",
+  "title": "sampler",
+  "description": "sampler(采样器）指的是JMeter用于向服务器发送请求并等待响应的组件。每个Sampler都模拟了用户的行为，",
+  "source": "@site/docs/utils/jmeter/sampler.md",
+  "sourceDirName": "utils/jmeter",
+  "slug": "/utils/jmeter/sampler",
+  "permalink": "/jaspernote/docs/utils/jmeter/sampler",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/jmeter/sampler.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "jmeter",
+  "previous": {
+    "title": "preProcessor",
+    "permalink": "/jaspernote/docs/utils/jmeter/preProcessor"
+  }
+}

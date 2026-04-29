@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/commonClass/Arrays",
+  "title": "Arrays",
+  "description": "专门用于操作数组（如排序、查找、填充、转换等）。它提供的所有方法都是 静态（static） 的，不需要实例化就能直接使用",
+  "source": "@site/docs/java/basic/commonClass/Arrays.md",
+  "sourceDirName": "java/basic/commonClass",
+  "slug": "/java/basic/commonClass/Arrays",
+  "permalink": "/jaspernote/docs/java/basic/commonClass/Arrays",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/commonClass/Arrays.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "common class",
+    "permalink": "/jaspernote/docs/java/basic/commonClass/"
+  },
+  "next": {
+    "title": "Collections",
+    "permalink": "/jaspernote/docs/java/basic/commonClass/Collections"
+  }
+}

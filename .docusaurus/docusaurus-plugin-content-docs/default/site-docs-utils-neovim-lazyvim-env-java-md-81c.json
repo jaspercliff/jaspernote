@@ -1,0 +1,24 @@
+{
+  "id": "utils/neovim/lazyvim/env/java",
+  "title": "java",
+  "description": "- nvim-java",
+  "source": "@site/docs/utils/neovim/lazyvim/env/java.md",
+  "sourceDirName": "utils/neovim/lazyvim/env",
+  "slug": "/utils/neovim/lazyvim/env/java",
+  "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/java",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/lazyvim/env/java.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "cpp",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/cpp"
+  },
+  "next": {
+    "title": "python开发",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/python"
+  }
+}

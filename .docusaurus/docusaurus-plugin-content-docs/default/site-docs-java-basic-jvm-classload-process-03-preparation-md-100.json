@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/classload/process/03preparation",
+  "title": "准备",
+  "description": "1. 类变量（static）分配内存 + 默认值  static int a = 10, a=0 now",
+  "source": "@site/docs/java/basic/jvm/classload/process/03preparation.md",
+  "sourceDirName": "java/basic/jvm/classload/process",
+  "slug": "/java/basic/jvm/classload/process/03preparation",
+  "permalink": "/jaspernote/docs/java/basic/jvm/classload/process/03preparation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/classload/process/03preparation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "验证",
+    "permalink": "/jaspernote/docs/java/basic/jvm/classload/process/02verfication"
+  },
+  "next": {
+    "title": "解析",
+    "permalink": "/jaspernote/docs/java/basic/jvm/classload/process/04resolution"
+  }
+}

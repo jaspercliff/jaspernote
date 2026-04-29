@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/gc/parallelScavenge",
+  "title": "Parallel Scavenge  PS 收集器（Parallel Scavenge）",
+  "description": "1. PS 收集器（Parallel Scavenge）",
+  "source": "@site/docs/java/basic/jvm/gc/parallelScavenge.md",
+  "sourceDirName": "java/basic/jvm/gc",
+  "slug": "/java/basic/jvm/gc/parallelScavenge",
+  "permalink": "/jaspernote/docs/java/basic/jvm/gc/parallelScavenge",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/gc/parallelScavenge.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "G1GC",
+    "permalink": "/jaspernote/docs/java/basic/jvm/gc/g1"
+  },
+  "next": {
+    "title": "gc",
+    "permalink": "/jaspernote/docs/java/basic/jvm/gc"
+  }
+}

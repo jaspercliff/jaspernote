@@ -1,0 +1,3343 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/jaspernote/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/jaspernote/docs",
+          "mainDocId": "patterns/index",
+          "docs": [
+            {
+              "id": "c/index",
+              "path": "/jaspernote/docs/c/"
+            },
+            {
+              "id": "dataLayer/connectPool/druid/index",
+              "path": "/jaspernote/docs/dataLayer/connectPool/druid/",
+              "sidebar": "connectPool"
+            },
+            {
+              "id": "dataLayer/connectPool/hikari/index",
+              "path": "/jaspernote/docs/dataLayer/connectPool/hikari/",
+              "sidebar": "connectPool"
+            },
+            {
+              "id": "dataLayer/connectPool/index",
+              "path": "/jaspernote/docs/dataLayer/connectPool/",
+              "sidebar": "connectPool"
+            },
+            {
+              "id": "dataLayer/distributed/index",
+              "path": "/jaspernote/docs/dataLayer/distributed/",
+              "sidebar": "distributed"
+            },
+            {
+              "id": "dataLayer/distributed/oceanbase/index",
+              "path": "/jaspernote/docs/dataLayer/distributed/oceanbase/",
+              "sidebar": "distributed"
+            },
+            {
+              "id": "dataLayer/distributed/tdsql/index",
+              "path": "/jaspernote/docs/dataLayer/distributed/tdsql/",
+              "sidebar": "distributed"
+            },
+            {
+              "id": "dataLayer/index",
+              "path": "/jaspernote/docs/dataLayer/"
+            },
+            {
+              "id": "dataLayer/nosql/es/01 install",
+              "path": "/jaspernote/docs/dataLayer/nosql/es/01 install",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/es/02 crud",
+              "path": "/jaspernote/docs/dataLayer/nosql/es/02 crud",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/es/02 query condition",
+              "path": "/jaspernote/docs/dataLayer/nosql/es/02 query condition",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/es/04映射关系",
+              "path": "/jaspernote/docs/dataLayer/nosql/es/04映射关系",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/es/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/es/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/basic/commonCommand",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/basic/commonCommand",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/bitmap",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/bitmap",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/bloomfilter",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/bloomfilter",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/geo",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/geo",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/hash",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/hash",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/hyperoglog",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/hyperoglog",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/list",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/list",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/set",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/set",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/sortedSet",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/sortedSet",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/stream",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/stream",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/dataType/string",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/dataType/string",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/deploy/cluster",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/deploy/cluster",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/deploy/install",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/deploy/install",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/deploy/persistence",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/deploy/persistence",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/deploy/replication",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/deploy/replication",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/deploy/sentinel",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/deploy/sentinel",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/java/jedis/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/java/jedis/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/java/springdataredis/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/java/springdataredis/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/java/springdataredis/serialization",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/java/springdataredis/serialization",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/mult",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/mult",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/optimization",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/optimization",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/pipeline",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/pipeline",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/cacheAvalanche",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/cacheAvalanche",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/cacheBreakdown",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/cacheBreakdown",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/cachePenetration",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/cachePenetration",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/distributedLock",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/distributedLock",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/feed",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/feed",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/globalId",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/globalId",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/like",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/like",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/mq",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/mq",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/oversell",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/oversell",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/scrollPage",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/scrollPage",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/problem/update",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/problem/update",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/programmability/function/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/programmability/function/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/programmability/luascript/debug",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/debug",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/programmability/luascript/eval",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/eval",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/programmability/luascript/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/pubsub/pubsub",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/pubsub/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/spec",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/spec",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redis/transaction",
+              "path": "/jaspernote/docs/dataLayer/nosql/redis/transaction",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redisson/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/redisson/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redisson/intergration",
+              "path": "/jaspernote/docs/dataLayer/nosql/redisson/intergration",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/redisson/watchDog",
+              "path": "/jaspernote/docs/dataLayer/nosql/redisson/watchDog",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/nosql/valkey/index",
+              "path": "/jaspernote/docs/dataLayer/nosql/valkey/",
+              "sidebar": "nosql"
+            },
+            {
+              "id": "dataLayer/relational/canal/index",
+              "path": "/jaspernote/docs/dataLayer/relational/canal/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/h2/index",
+              "path": "/jaspernote/docs/dataLayer/relational/h2/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/hsqldb/index",
+              "path": "/jaspernote/docs/dataLayer/relational/hsqldb/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/index",
+              "path": "/jaspernote/docs/dataLayer/relational/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mariadb/index",
+              "path": "/jaspernote/docs/dataLayer/relational/mariadb/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mariadb/install",
+              "path": "/jaspernote/docs/dataLayer/relational/mariadb/install",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/01install",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/01install",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/04 explain",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/04 explain",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/backup",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/backup",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/basic",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/basic",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/function",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/function",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/functions/count",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/functions/count",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/index",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/jdbc",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/jdbc",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/log",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/log",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/other",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/other",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/privilege",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/privilege",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/problems/countDifference",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/problems/countDifference",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/problems/delete和truncate的区别",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/problems/delete和truncate的区别",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/problems/exist和in的区别",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/problems/exist和in的区别",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/replication",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/replication",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/事务隔离级别",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/事务隔离级别",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/存储引擎",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/存储引擎",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/数据类型",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/数据类型",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/索引",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/索引",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/表的备份",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/表的备份",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/表连接",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/表连接",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/mysql/锁及mvcc",
+              "path": "/jaspernote/docs/dataLayer/relational/mysql/锁及mvcc",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/container",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/container",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/dataType",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/dataType",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/fun",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/fun",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/function/index",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/function/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/function/subString",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/function/subString",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/index",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/install",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/install",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/netManager",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/netManager",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/other",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/other",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/plsql/basic",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/plsql/basic",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/plsql/dataType",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/plsql/dataType",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/plsql/helloworld",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/plsql/helloworld",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/plsql/index",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/plsql/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/plsql/loop",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/plsql/loop",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/plsql/package",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/plsql/package",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/plsql/test",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/plsql/test",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/sequence",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/sequence",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/oracle/userPrivilege",
+              "path": "/jaspernote/docs/dataLayer/relational/oracle/userPrivilege",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/postgresql/index",
+              "path": "/jaspernote/docs/dataLayer/relational/postgresql/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/relational/sqlite/index",
+              "path": "/jaspernote/docs/dataLayer/relational/sqlite/",
+              "sidebar": "relational"
+            },
+            {
+              "id": "dataLayer/sharding/index",
+              "path": "/jaspernote/docs/dataLayer/sharding/",
+              "sidebar": "sharding"
+            },
+            {
+              "id": "dataLayer/sharding/mycat/index",
+              "path": "/jaspernote/docs/dataLayer/sharding/mycat/",
+              "sidebar": "sharding"
+            },
+            {
+              "id": "dataLayer/sharding/shardingjdbc/index",
+              "path": "/jaspernote/docs/dataLayer/sharding/shardingjdbc/",
+              "sidebar": "sharding"
+            },
+            {
+              "id": "dataLayer/sharding/分库分表/index",
+              "path": "/jaspernote/docs/dataLayer/sharding/分库分表/",
+              "sidebar": "sharding"
+            },
+            {
+              "id": "dataLayer/sql/dml/cte",
+              "path": "/jaspernote/docs/dataLayer/sql/dml/cte"
+            },
+            {
+              "id": "dataLayer/sql/index",
+              "path": "/jaspernote/docs/dataLayer/sql/"
+            },
+            {
+              "id": "dataStructure/01iterateAndRecursion",
+              "path": "/jaspernote/docs/dataStructure/01iterateAndRecursion",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/bloomfilter",
+              "path": "/jaspernote/docs/dataStructure/algo/bloomfilter",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/cache/lru",
+              "path": "/jaspernote/docs/dataStructure/algo/cache/lru",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/cache/tinyLru",
+              "path": "/jaspernote/docs/dataStructure/algo/cache/tinyLru",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/dynamic",
+              "path": "/jaspernote/docs/dataStructure/algo/dynamic",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/encryption/gpg",
+              "path": "/jaspernote/docs/dataStructure/algo/encryption/gpg",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/hashOrSummarization/md5",
+              "path": "/jaspernote/docs/dataStructure/algo/hashOrSummarization/md5",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/hashOrSummarization/sha256",
+              "path": "/jaspernote/docs/dataStructure/algo/hashOrSummarization/sha256",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/index",
+              "path": "/jaspernote/docs/dataStructure/algo/",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/slideWindow",
+              "path": "/jaspernote/docs/dataStructure/algo/slideWindow",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/sort/bubble",
+              "path": "/jaspernote/docs/dataStructure/algo/sort/bubble",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/sort/index",
+              "path": "/jaspernote/docs/dataStructure/algo/sort/",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/sort/quick",
+              "path": "/jaspernote/docs/dataStructure/algo/sort/quick",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/algo/two-condition",
+              "path": "/jaspernote/docs/dataStructure/algo/two-condition",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/array/inPlaceHashing",
+              "path": "/jaspernote/docs/dataStructure/array/inPlaceHashing",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/array/prefixCounting",
+              "path": "/jaspernote/docs/dataStructure/array/prefixCounting",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/hash/index",
+              "path": "/jaspernote/docs/dataStructure/hash/",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/heap/impl",
+              "path": "/jaspernote/docs/dataStructure/heap/impl",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/heap/index",
+              "path": "/jaspernote/docs/dataStructure/heap/",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/index",
+              "path": "/jaspernote/docs/dataStructure/",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/numEncoding",
+              "path": "/jaspernote/docs/dataStructure/numEncoding",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/queue/index",
+              "path": "/jaspernote/docs/dataStructure/queue/",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/queue/stackImpl",
+              "path": "/jaspernote/docs/dataStructure/queue/stackImpl",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/stack/index",
+              "path": "/jaspernote/docs/dataStructure/stack/",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/stack/monotonicStack",
+              "path": "/jaspernote/docs/dataStructure/stack/monotonicStack",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/stack/rpn",
+              "path": "/jaspernote/docs/dataStructure/stack/rpn",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/tree/ast",
+              "path": "/jaspernote/docs/dataStructure/tree/ast",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/tree/bst",
+              "path": "/jaspernote/docs/dataStructure/tree/bst",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/tree/iterate",
+              "path": "/jaspernote/docs/dataStructure/tree/iterate",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/tree/radixTree",
+              "path": "/jaspernote/docs/dataStructure/tree/radixTree",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "dataStructure/tree/rbTree",
+              "path": "/jaspernote/docs/dataStructure/tree/rbTree",
+              "sidebar": "dataStructure"
+            },
+            {
+              "id": "front/css/index",
+              "path": "/jaspernote/docs/front/css/",
+              "sidebar": "css"
+            },
+            {
+              "id": "front/docusaurus/index",
+              "path": "/jaspernote/docs/front/docusaurus/",
+              "sidebar": "docusaurus"
+            },
+            {
+              "id": "front/html/index",
+              "path": "/jaspernote/docs/front/html/",
+              "sidebar": "html"
+            },
+            {
+              "id": "front/index",
+              "path": "/jaspernote/docs/front/"
+            },
+            {
+              "id": "front/jquery/jquery",
+              "path": "/jaspernote/docs/front/jquery/",
+              "sidebar": "jquery"
+            },
+            {
+              "id": "front/js/index",
+              "path": "/jaspernote/docs/front/js/",
+              "sidebar": "js"
+            },
+            {
+              "id": "front/node/index",
+              "path": "/jaspernote/docs/front/node/"
+            },
+            {
+              "id": "front/node/npm",
+              "path": "/jaspernote/docs/front/node/npm"
+            },
+            {
+              "id": "front/protocols/websocket",
+              "path": "/jaspernote/docs/front/protocols/websocket"
+            },
+            {
+              "id": "front/react/index",
+              "path": "/jaspernote/docs/front/react/",
+              "sidebar": "react"
+            },
+            {
+              "id": "front/react/jsx",
+              "path": "/jaspernote/docs/front/react/jsx",
+              "sidebar": "react"
+            },
+            {
+              "id": "front/vitepress/index",
+              "path": "/jaspernote/docs/front/vitepress/",
+              "sidebar": "vitepress"
+            },
+            {
+              "id": "front/vitepress/problem",
+              "path": "/jaspernote/docs/front/vitepress/problem",
+              "sidebar": "vitepress"
+            },
+            {
+              "id": "front/vitepress/使用自定义组件",
+              "path": "/jaspernote/docs/front/vitepress/使用自定义组件",
+              "sidebar": "vitepress"
+            },
+            {
+              "id": "front/vitepress/引入plantuml",
+              "path": "/jaspernote/docs/front/vitepress/引入plantuml",
+              "sidebar": "vitepress"
+            },
+            {
+              "id": "front/vue/basic",
+              "path": "/jaspernote/docs/front/vue/basic",
+              "sidebar": "vue"
+            },
+            {
+              "id": "front/vue/index",
+              "path": "/jaspernote/docs/front/vue/",
+              "sidebar": "vue"
+            },
+            {
+              "id": "infrastructure/design/distributed/cap",
+              "path": "/jaspernote/docs/infrastructure/design/distributed/cap",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/distributed/distributedLock",
+              "path": "/jaspernote/docs/infrastructure/design/distributed/distributedLock",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/distributed/globalUniqueId",
+              "path": "/jaspernote/docs/infrastructure/design/distributed/globalUniqueId",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/distributed/index",
+              "path": "/jaspernote/docs/infrastructure/design/distributed/",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/index",
+              "path": "/jaspernote/docs/infrastructure/design/",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/systemConcept/zeroCopy",
+              "path": "/jaspernote/docs/infrastructure/design/systemConcept/zeroCopy",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/systemDesign/arch",
+              "path": "/jaspernote/docs/infrastructure/design/systemDesign/arch",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/systemDesign/eventDriven",
+              "path": "/jaspernote/docs/infrastructure/design/systemDesign/eventDriven",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/systemDesign/index",
+              "path": "/jaspernote/docs/infrastructure/design/systemDesign/",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/systemDesign/multiTenant",
+              "path": "/jaspernote/docs/infrastructure/design/systemDesign/multiTenant",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/systemDesign/pojo",
+              "path": "/jaspernote/docs/infrastructure/design/systemDesign/pojo",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/design/systemDesign/privilege/sso",
+              "path": "/jaspernote/docs/infrastructure/design/systemDesign/privilege/sso",
+              "sidebar": "design"
+            },
+            {
+              "id": "infrastructure/devops/concept",
+              "path": "/jaspernote/docs/infrastructure/devops/concept",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/containerd/index",
+              "path": "/jaspernote/docs/infrastructure/devops/containerd/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/containerd/nerdctl/index",
+              "path": "/jaspernote/docs/infrastructure/devops/containerd/nerdctl/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/docker/command",
+              "path": "/jaspernote/docs/infrastructure/devops/docker/command",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/docker/dockercompose/index",
+              "path": "/jaspernote/docs/infrastructure/devops/docker/dockercompose/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/docker/docker和虚拟机的区别",
+              "path": "/jaspernote/docs/infrastructure/devops/docker/docker和虚拟机的区别",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/docker/index",
+              "path": "/jaspernote/docs/infrastructure/devops/docker/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/docker/Internet",
+              "path": "/jaspernote/docs/infrastructure/devops/docker/Internet",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/docker/problem",
+              "path": "/jaspernote/docs/infrastructure/devops/docker/problem",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/docker/将本地docker镜像导出到服务器",
+              "path": "/jaspernote/docs/infrastructure/devops/docker/将本地docker镜像导出到服务器",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/envoy/index",
+              "path": "/jaspernote/docs/infrastructure/devops/envoy/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/index",
+              "path": "/jaspernote/docs/infrastructure/devops/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/k8s/index",
+              "path": "/jaspernote/docs/infrastructure/devops/k8s/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/nginx/configure",
+              "path": "/jaspernote/docs/infrastructure/devops/nginx/configure",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/nginx/index",
+              "path": "/jaspernote/docs/infrastructure/devops/nginx/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/nginx/install",
+              "path": "/jaspernote/docs/infrastructure/devops/nginx/install",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/openresty/index",
+              "path": "/jaspernote/docs/infrastructure/devops/openresty/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/pod/index",
+              "path": "/jaspernote/docs/infrastructure/devops/pod/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/pod/valkey",
+              "path": "/jaspernote/docs/infrastructure/devops/pod/valkey",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/podman/command",
+              "path": "/jaspernote/docs/infrastructure/devops/podman/command",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/podman/index",
+              "path": "/jaspernote/docs/infrastructure/devops/podman/",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/podman/network",
+              "path": "/jaspernote/docs/infrastructure/devops/podman/network",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/podman/podmanCompose/log",
+              "path": "/jaspernote/docs/infrastructure/devops/podman/podmanCompose/log",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/podman/problem/privilege",
+              "path": "/jaspernote/docs/infrastructure/devops/podman/problem/privilege",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/devops/podman/utils",
+              "path": "/jaspernote/docs/infrastructure/devops/podman/utils",
+              "sidebar": "devops"
+            },
+            {
+              "id": "infrastructure/index",
+              "path": "/jaspernote/docs/infrastructure/"
+            },
+            {
+              "id": "infrastructure/os/archlinux/desktop/desktopShell",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/desktop/desktopShell",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/archlinux/desktop/index",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/desktop/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/archlinux/desktop/kde",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/desktop/kde",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/archlinux/desktop/niri",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/desktop/niri",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/archlinux/desktop/software",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/desktop/software",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/archlinux/desktop/terminal",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/desktop/terminal",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/archlinux/desktop/theme",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/desktop/theme",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/archlinux/index",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/archlinux/pacman",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/pacman",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/archlinux/paru",
+              "path": "/jaspernote/docs/infrastructure/os/archlinux/paru",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/hardware/cpu",
+              "path": "/jaspernote/docs/infrastructure/os/hardware/cpu",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/hardware/index",
+              "path": "/jaspernote/docs/infrastructure/os/hardware/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/index",
+              "path": "/jaspernote/docs/infrastructure/os/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/5systemManager/index",
+              "path": "/jaspernote/docs/infrastructure/os/linux/5systemManager/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/5systemManager/systemService",
+              "path": "/jaspernote/docs/infrastructure/os/linux/5systemManager/systemService",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/commonCommand",
+              "path": "/jaspernote/docs/infrastructure/os/linux/commonCommand",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/env",
+              "path": "/jaspernote/docs/infrastructure/os/linux/env",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/file/btrfs",
+              "path": "/jaspernote/docs/infrastructure/os/linux/file/btrfs",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/file/compress",
+              "path": "/jaspernote/docs/infrastructure/os/linux/file/compress",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/file/index",
+              "path": "/jaspernote/docs/infrastructure/os/linux/file/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/file/other",
+              "path": "/jaspernote/docs/infrastructure/os/linux/file/other",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/file/privilege",
+              "path": "/jaspernote/docs/infrastructure/os/linux/file/privilege",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/file/snapper",
+              "path": "/jaspernote/docs/infrastructure/os/linux/file/snapper",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/file/文件系统",
+              "path": "/jaspernote/docs/infrastructure/os/linux/file/文件系统",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/index",
+              "path": "/jaspernote/docs/infrastructure/os/linux/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/internet/netstat",
+              "path": "/jaspernote/docs/infrastructure/os/linux/internet/netstat",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/nohup",
+              "path": "/jaspernote/docs/infrastructure/os/linux/nohup",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/process/lsof",
+              "path": "/jaspernote/docs/infrastructure/os/linux/process/lsof",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/process/ps",
+              "path": "/jaspernote/docs/infrastructure/os/linux/process/ps",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/process/常用命令",
+              "path": "/jaspernote/docs/infrastructure/os/linux/process/常用命令",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/process/进程状态",
+              "path": "/jaspernote/docs/infrastructure/os/linux/process/进程状态",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/basic",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/basic",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/braceExpansion",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/braceExpansion",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/control",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/control",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/dataStreamRedirection/index",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/dataStreamRedirection/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/function",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/function",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/index",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/operator",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/operator",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/other",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/other",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/param",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/param",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/shellWidget",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/shellWidget",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/usage",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/usage",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/shell/variable",
+              "path": "/jaspernote/docs/infrastructure/os/linux/shell/variable",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/ssh",
+              "path": "/jaspernote/docs/infrastructure/os/linux/ssh",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/index",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/native/awk",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/native/awk",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/native/curl",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/native/curl",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/native/envsubst",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/native/envsubst",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/native/find",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/native/find",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/native/grep",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/native/grep",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/native/journalctl",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/native/journalctl",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/native/scp",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/native/scp",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/native/systemctl",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/native/systemctl",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/native/watch",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/native/watch",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/direnv",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/direnv",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/fd",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/fd",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/frp",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/frp",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/fzf",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/fzf",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/jaq",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/jaq",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/just",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/just",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/keychain",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/keychain",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/navi",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/navi",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/ripgrep",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/ripgrep",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/rsync",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/rsync",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/tree",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/tree",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/xh",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/xh",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/yazi",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/yazi",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/zellij",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/zellij",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/utils/open/zoxide",
+              "path": "/jaspernote/docs/infrastructure/os/linux/utils/open/zoxide",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/linux/查看日志",
+              "path": "/jaspernote/docs/infrastructure/os/linux/查看日志",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/mac/finder",
+              "path": "/jaspernote/docs/infrastructure/os/mac/finder",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/mac/homebrew",
+              "path": "/jaspernote/docs/infrastructure/os/mac/homebrew",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/mac/index",
+              "path": "/jaspernote/docs/infrastructure/os/mac/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/mac/keychain",
+              "path": "/jaspernote/docs/infrastructure/os/mac/keychain",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/mac/keyShort",
+              "path": "/jaspernote/docs/infrastructure/os/mac/keyShort",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/mac/other",
+              "path": "/jaspernote/docs/infrastructure/os/mac/other",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/mac/pathVariable",
+              "path": "/jaspernote/docs/infrastructure/os/mac/pathVariable",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/mac/screeShot",
+              "path": "/jaspernote/docs/infrastructure/os/mac/screeShot",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/terminal",
+              "path": "/jaspernote/docs/infrastructure/os/terminal",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/windows/boot",
+              "path": "/jaspernote/docs/infrastructure/os/windows/boot",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/windows/index",
+              "path": "/jaspernote/docs/infrastructure/os/windows/",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/windows/window software",
+              "path": "/jaspernote/docs/infrastructure/os/windows/window software",
+              "sidebar": "os"
+            },
+            {
+              "id": "infrastructure/os/windows/磁盘",
+              "path": "/jaspernote/docs/infrastructure/os/windows/磁盘",
+              "sidebar": "os"
+            },
+            {
+              "id": "java/basic/commonClass/Arrays",
+              "path": "/jaspernote/docs/java/basic/commonClass/Arrays",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/commonClass/Collections",
+              "path": "/jaspernote/docs/java/basic/commonClass/Collections",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/commonClass/dateRelated",
+              "path": "/jaspernote/docs/java/basic/commonClass/dateRelated",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/commonClass/index",
+              "path": "/jaspernote/docs/java/basic/commonClass/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/commonClass/MessageDigest",
+              "path": "/jaspernote/docs/java/basic/commonClass/MessageDigest",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/commonClass/System",
+              "path": "/jaspernote/docs/java/basic/commonClass/System",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/03operator",
+              "path": "/jaspernote/docs/java/basic/foundation/03operator",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/04control",
+              "path": "/jaspernote/docs/java/basic/foundation/04control",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/anno",
+              "path": "/jaspernote/docs/java/basic/foundation/anno",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/collection/enumMap",
+              "path": "/jaspernote/docs/java/basic/foundation/collection/enumMap",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/collection/index",
+              "path": "/jaspernote/docs/java/basic/foundation/collection/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/collection/LinkedList",
+              "path": "/jaspernote/docs/java/basic/foundation/collection/LinkedList",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/collection/list/ArrayList",
+              "path": "/jaspernote/docs/java/basic/foundation/collection/list/ArrayList",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/collection/list/linkedlist",
+              "path": "/jaspernote/docs/java/basic/foundation/collection/list/linkedlist",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/collection/map/HashMap",
+              "path": "/jaspernote/docs/java/basic/foundation/collection/map/HashMap",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/collection/map/hashmapSource",
+              "path": "/jaspernote/docs/java/basic/foundation/collection/map/hashmapSource",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/collection/queue/deque/ArrayDeque",
+              "path": "/jaspernote/docs/java/basic/foundation/collection/queue/deque/ArrayDeque",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/dataType/dataType",
+              "path": "/jaspernote/docs/java/basic/foundation/dataType/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/dataType/enum",
+              "path": "/jaspernote/docs/java/basic/foundation/dataType/enum",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/dataType/string",
+              "path": "/jaspernote/docs/java/basic/foundation/dataType/string",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/exception",
+              "path": "/jaspernote/docs/java/basic/foundation/exception",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/generic",
+              "path": "/jaspernote/docs/java/basic/foundation/generic",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/io/BIO",
+              "path": "/jaspernote/docs/java/basic/foundation/io/BIO",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/io/index",
+              "path": "/jaspernote/docs/java/basic/foundation/io/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/io/nio",
+              "path": "/jaspernote/docs/java/basic/foundation/io/nio",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/io/NIO2/AIO",
+              "path": "/jaspernote/docs/java/basic/foundation/io/NIO2/AIO",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/io/NIO2/API",
+              "path": "/jaspernote/docs/java/basic/foundation/io/NIO2/API",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/io/网络编程",
+              "path": "/jaspernote/docs/java/basic/foundation/io/网络编程",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/keyword",
+              "path": "/jaspernote/docs/java/basic/foundation/keyword",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/oop/class",
+              "path": "/jaspernote/docs/java/basic/foundation/oop/class",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/oop/pillars",
+              "path": "/jaspernote/docs/java/basic/foundation/oop/pillars",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/oop/static",
+              "path": "/jaspernote/docs/java/basic/foundation/oop/static",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/reflection",
+              "path": "/jaspernote/docs/java/basic/foundation/reflection",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/serial",
+              "path": "/jaspernote/docs/java/basic/foundation/serial",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/spi",
+              "path": "/jaspernote/docs/java/basic/foundation/spi",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/thread/basic",
+              "path": "/jaspernote/docs/java/basic/foundation/thread/basic",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/thread/final",
+              "path": "/jaspernote/docs/java/basic/foundation/thread/final",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/thread/lock",
+              "path": "/jaspernote/docs/java/basic/foundation/thread/lock",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/thread/unsafe",
+              "path": "/jaspernote/docs/java/basic/foundation/thread/unsafe",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/thread/volatile",
+              "path": "/jaspernote/docs/java/basic/foundation/thread/volatile",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/foundation/thread/线程基础",
+              "path": "/jaspernote/docs/java/basic/foundation/thread/线程基础",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/index",
+              "path": "/jaspernote/docs/java/basic/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jdk/javap",
+              "path": "/jaspernote/docs/java/basic/jdk/javap",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jdk/monitor/jcmd",
+              "path": "/jaspernote/docs/java/basic/jdk/monitor/jcmd",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jdk/monitor/jps",
+              "path": "/jaspernote/docs/java/basic/jdk/monitor/jps",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jdk/monitor/jstack",
+              "path": "/jaspernote/docs/java/basic/jdk/monitor/jstack",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jdk/monitor/jstat",
+              "path": "/jaspernote/docs/java/basic/jdk/monitor/jstat",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/AQS",
+              "path": "/jaspernote/docs/java/basic/juc/AQS",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/atomic/atomic",
+              "path": "/jaspernote/docs/java/basic/juc/atomic/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/collections/basic",
+              "path": "/jaspernote/docs/java/basic/juc/collections/basic",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/collections/concurrentHashmap",
+              "path": "/jaspernote/docs/java/basic/juc/collections/concurrentHashmap",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/collections/index",
+              "path": "/jaspernote/docs/java/basic/juc/collections/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/collections/queue/ArrayBlockingQueue",
+              "path": "/jaspernote/docs/java/basic/juc/collections/queue/ArrayBlockingQueue",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/collections/queue/blockingQueue",
+              "path": "/jaspernote/docs/java/basic/juc/collections/queue/blockingQueue",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/collections/queue/linkedblockingDeque",
+              "path": "/jaspernote/docs/java/basic/juc/collections/queue/linkedblockingDeque",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/collections/queue/linkedblockingqueue",
+              "path": "/jaspernote/docs/java/basic/juc/collections/queue/linkedblockingqueue",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/executor/customThreadPool",
+              "path": "/jaspernote/docs/java/basic/juc/executor/customThreadPool",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/executor/executors",
+              "path": "/jaspernote/docs/java/basic/juc/executor/executors",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/executor/forkJoinPool",
+              "path": "/jaspernote/docs/java/basic/juc/executor/forkJoinPool",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/future/completableFuture",
+              "path": "/jaspernote/docs/java/basic/juc/future/completableFuture",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/future/Future",
+              "path": "/jaspernote/docs/java/basic/juc/future/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/index",
+              "path": "/jaspernote/docs/java/basic/juc/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/lock/AbstractQueuedSynchronizer",
+              "path": "/jaspernote/docs/java/basic/juc/lock/AbstractQueuedSynchronizer",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/lock/LockSupport",
+              "path": "/jaspernote/docs/java/basic/juc/lock/LockSupport",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/lock/ReentrantLock",
+              "path": "/jaspernote/docs/java/basic/juc/lock/ReentrantLock",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/lock/ReentrantReadWriteLock",
+              "path": "/jaspernote/docs/java/basic/juc/lock/ReentrantReadWriteLock",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/ThreadLocal",
+              "path": "/jaspernote/docs/java/basic/juc/ThreadLocal",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/tools/CountDownLatch",
+              "path": "/jaspernote/docs/java/basic/juc/tools/CountDownLatch",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/tools/CyclicBarrier",
+              "path": "/jaspernote/docs/java/basic/juc/tools/CyclicBarrier",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/tools/Exchanger",
+              "path": "/jaspernote/docs/java/basic/juc/tools/Exchanger",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/tools/Phaser",
+              "path": "/jaspernote/docs/java/basic/juc/tools/Phaser",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/juc/tools/Semaphore",
+              "path": "/jaspernote/docs/java/basic/juc/tools/Semaphore",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/classload/classLoader",
+              "path": "/jaspernote/docs/java/basic/jvm/classload/classLoader",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/classload/index",
+              "path": "/jaspernote/docs/java/basic/jvm/classload/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/classload/process/01load",
+              "path": "/jaspernote/docs/java/basic/jvm/classload/process/01load",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/classload/process/02verfication",
+              "path": "/jaspernote/docs/java/basic/jvm/classload/process/02verfication",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/classload/process/03preparation",
+              "path": "/jaspernote/docs/java/basic/jvm/classload/process/03preparation",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/classload/process/04resolution",
+              "path": "/jaspernote/docs/java/basic/jvm/classload/process/04resolution",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/classload/process/05initialization",
+              "path": "/jaspernote/docs/java/basic/jvm/classload/process/05initialization",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/gc",
+              "path": "/jaspernote/docs/java/basic/jvm/gc",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/gc/basic",
+              "path": "/jaspernote/docs/java/basic/jvm/gc/basic",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/gc/g1",
+              "path": "/jaspernote/docs/java/basic/jvm/gc/g1",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/gc/parallelScavenge",
+              "path": "/jaspernote/docs/java/basic/jvm/gc/parallelScavenge",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/index",
+              "path": "/jaspernote/docs/java/basic/jvm/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/jmm/index",
+              "path": "/jaspernote/docs/java/basic/jvm/jmm/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/jmm/memoryBarrier",
+              "path": "/jaspernote/docs/java/basic/jvm/jmm/memoryBarrier",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/lock/biasedLock",
+              "path": "/jaspernote/docs/java/basic/jvm/lock/biasedLock",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/other/堆栈",
+              "path": "/jaspernote/docs/java/basic/jvm/other/堆栈",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/runtimeDataArea/directMemory",
+              "path": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/directMemory",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/runtimeDataArea/heap",
+              "path": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/heap",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/runtimeDataArea/index",
+              "path": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/runtimeDataArea/methodArea",
+              "path": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/methodArea",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/runtimeDataArea/nativeStack",
+              "path": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/nativeStack",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/runtimeDataArea/pcRegister",
+              "path": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/pcRegister",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/runtimeDataArea/vmStack",
+              "path": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/vmStack",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/systemProperties",
+              "path": "/jaspernote/docs/java/basic/jvm/systemProperties",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/utils/jmap",
+              "path": "/jaspernote/docs/java/basic/jvm/utils/jmap",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/utils/mat(memory analyzer tool)",
+              "path": "/jaspernote/docs/java/basic/jvm/utils/mat(memory analyzer tool)",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/vm参数",
+              "path": "/jaspernote/docs/java/basic/jvm/vm参数",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/学习路线",
+              "path": "/jaspernote/docs/java/basic/jvm/学习路线",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/jvm/锁的优化和升级",
+              "path": "/jaspernote/docs/java/basic/jvm/锁的优化和升级",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/17/index",
+              "path": "/jaspernote/docs/java/basic/newFeature/17/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/21/collections/map",
+              "path": "/jaspernote/docs/java/basic/newFeature/21/collections/map",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/21/virtualThread",
+              "path": "/jaspernote/docs/java/basic/newFeature/21/virtualThread",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/functionInterface/BiConsumer",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/BiConsumer",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/functionInterface/biFunction",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/biFunction",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/functionInterface/consumer",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/consumer",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/functionInterface/function",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/function",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/functionInterface/index",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/functionInterface/predicate",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/predicate",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/functionInterface/supplier",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/supplier",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/index",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/optional",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/optional",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/stream/index",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/stream/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/stream/intermediate/flatMap",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/flatMap",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/stream/intermediate/map",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/map",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/stream/intermediate/skip",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/skip",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/stream/intStream",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/stream/intStream",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/stream/terminal/collect",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/stream/terminal/collect",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/8/stream/terminal/reduce",
+              "path": "/jaspernote/docs/java/basic/newFeature/8/stream/terminal/reduce",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/9/index",
+              "path": "/jaspernote/docs/java/basic/newFeature/9/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/9/module",
+              "path": "/jaspernote/docs/java/basic/newFeature/9/module",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/basic/newFeature/index",
+              "path": "/jaspernote/docs/java/basic/newFeature/",
+              "sidebar": "javaBasic"
+            },
+            {
+              "id": "java/devTools/buildTools/gradle/config",
+              "path": "/jaspernote/docs/java/devTools/buildTools/gradle/config",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/buildTools/gradle/index",
+              "path": "/jaspernote/docs/java/devTools/buildTools/gradle/",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/buildTools/maven/basic",
+              "path": "/jaspernote/docs/java/devTools/buildTools/maven/basic",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/buildTools/maven/confilct",
+              "path": "/jaspernote/docs/java/devTools/buildTools/maven/confilct",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/buildTools/maven/index",
+              "path": "/jaspernote/docs/java/devTools/buildTools/maven/",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/idea/debug",
+              "path": "/jaspernote/docs/java/devTools/idea/debug",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/idea/docker",
+              "path": "/jaspernote/docs/java/devTools/idea/docker",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/idea/httpClient/dynamicVariable",
+              "path": "/jaspernote/docs/java/devTools/idea/httpClient/dynamicVariable",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/idea/httpClient/index",
+              "path": "/jaspernote/docs/java/devTools/idea/httpClient/",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/idea/index",
+              "path": "/jaspernote/docs/java/devTools/idea/",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/idea/liveTemplate",
+              "path": "/jaspernote/docs/java/devTools/idea/liveTemplate",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/idea/tips",
+              "path": "/jaspernote/docs/java/devTools/idea/tips",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/index",
+              "path": "/jaspernote/docs/java/devTools/",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/jenv/index",
+              "path": "/jaspernote/docs/java/devTools/jenv/",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/devTools/toad/index",
+              "path": "/jaspernote/docs/java/devTools/toad/",
+              "sidebar": "devTools"
+            },
+            {
+              "id": "java/framework/dubbo/index",
+              "path": "/jaspernote/docs/java/framework/dubbo/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/index",
+              "path": "/jaspernote/docs/java/framework/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/jetCache/index",
+              "path": "/jaspernote/docs/java/framework/jetCache/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/jpa/index",
+              "path": "/jaspernote/docs/java/framework/jpa/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/mybatis/cache",
+              "path": "/jaspernote/docs/java/framework/mybatis/cache",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/mybatis/index",
+              "path": "/jaspernote/docs/java/framework/mybatis/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/mybatis/mybatis-spring",
+              "path": "/jaspernote/docs/java/framework/mybatis/mybatis-spring",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/mybatis/mybatisPlugin",
+              "path": "/jaspernote/docs/java/framework/mybatis/mybatisPlugin",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/mybatis/simpleUsage",
+              "path": "/jaspernote/docs/java/framework/mybatis/simpleUsage",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/mybatis/sourceCode/mybatis-spring/index",
+              "path": "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/mybatis/sourceCode/mybatis-spring/MapperScannerRegistrar",
+              "path": "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/MapperScannerRegistrar",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/mybatis/sourceCode/mybatis-spring/SqlSessionUtils",
+              "path": "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/SqlSessionUtils",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/mybatis/xml配置文件",
+              "path": "/jaspernote/docs/java/framework/mybatis/xml配置文件",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/redisson/index",
+              "path": "/jaspernote/docs/java/framework/redisson/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/annotations/AliasFor",
+              "path": "/jaspernote/docs/java/framework/spring/annotations/AliasFor",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/annotations/Async",
+              "path": "/jaspernote/docs/java/framework/spring/annotations/Async",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/annotations/ConditionalOnProperty",
+              "path": "/jaspernote/docs/java/framework/spring/annotations/ConditionalOnProperty",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/annotations/DependsOn",
+              "path": "/jaspernote/docs/java/framework/spring/annotations/DependsOn",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/annotations/index",
+              "path": "/jaspernote/docs/java/framework/spring/annotations/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/annotations/PostConstruct",
+              "path": "/jaspernote/docs/java/framework/spring/annotations/PostConstruct",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/annotations/requestMapping",
+              "path": "/jaspernote/docs/java/framework/spring/annotations/requestMapping",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/api/context/ApplicationContext",
+              "path": "/jaspernote/docs/java/framework/spring/api/context/ApplicationContext",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/api/context/ApplicationContextAware",
+              "path": "/jaspernote/docs/java/framework/spring/api/context/ApplicationContextAware",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/api/context/FactoryBean",
+              "path": "/jaspernote/docs/java/framework/spring/api/context/FactoryBean",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/api/interfaces/InitializingBean",
+              "path": "/jaspernote/docs/java/framework/spring/api/interfaces/InitializingBean",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/api/utils/AnnotatedElementUtils",
+              "path": "/jaspernote/docs/java/framework/spring/api/utils/AnnotatedElementUtils",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/api/utils/Assert",
+              "path": "/jaspernote/docs/java/framework/spring/api/utils/Assert",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/api/utils/ReflectionUtils",
+              "path": "/jaspernote/docs/java/framework/spring/api/utils/ReflectionUtils",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/aop/index",
+              "path": "/jaspernote/docs/java/framework/spring/core/aop/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/aop/spring",
+              "path": "/jaspernote/docs/java/framework/spring/core/aop/spring",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/aspect/index",
+              "path": "/jaspernote/docs/java/framework/spring/core/aspect/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/aspect/pcd",
+              "path": "/jaspernote/docs/java/framework/spring/core/aspect/pcd",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/aspect/start",
+              "path": "/jaspernote/docs/java/framework/spring/core/aspect/start",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/Event",
+              "path": "/jaspernote/docs/java/framework/spring/core/Event",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/ioc/applicationContext/event",
+              "path": "/jaspernote/docs/java/framework/spring/core/ioc/applicationContext/event",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/ioc/bean",
+              "path": "/jaspernote/docs/java/framework/spring/core/ioc/bean",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/ioc/BeanDefInheritance",
+              "path": "/jaspernote/docs/java/framework/spring/core/ioc/BeanDefInheritance",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/ioc/dependiencies/circular",
+              "path": "/jaspernote/docs/java/framework/spring/core/ioc/dependiencies/circular",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/ioc/index",
+              "path": "/jaspernote/docs/java/framework/spring/core/ioc/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/ioc/lifecycle",
+              "path": "/jaspernote/docs/java/framework/spring/core/ioc/lifecycle",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/core/spel/spel",
+              "path": "/jaspernote/docs/java/framework/spring/core/spel/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/dataAccess/transaction",
+              "path": "/jaspernote/docs/java/framework/spring/dataAccess/transaction",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/dataAccess/transactionInvalid",
+              "path": "/jaspernote/docs/java/framework/spring/dataAccess/transactionInvalid",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/dataAccess/transactionSynchronizeManager",
+              "path": "/jaspernote/docs/java/framework/spring/dataAccess/transactionSynchronizeManager",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/dataAccess/事务传播机制",
+              "path": "/jaspernote/docs/java/framework/spring/dataAccess/事务传播机制",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/index",
+              "path": "/jaspernote/docs/java/framework/spring/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/integration/taskExecutionSchedule",
+              "path": "/jaspernote/docs/java/framework/spring/integration/taskExecutionSchedule",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/spring/sourceCode/transaction",
+              "path": "/jaspernote/docs/java/framework/spring/sourceCode/transaction",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springBatch/index",
+              "path": "/jaspernote/docs/java/framework/springBatch/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/CommandLineRunner",
+              "path": "/jaspernote/docs/java/framework/springboot/CommandLineRunner",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/corefeature/dockercomposesupport",
+              "path": "/jaspernote/docs/java/framework/springboot/corefeature/dockercomposesupport",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/index",
+              "path": "/jaspernote/docs/java/framework/springboot/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/integration/freemarker",
+              "path": "/jaspernote/docs/java/framework/springboot/integration/freemarker",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/integration/logback",
+              "path": "/jaspernote/docs/java/framework/springboot/integration/logback",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/integration/mybatis",
+              "path": "/jaspernote/docs/java/framework/springboot/integration/mybatis",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/integration/sqlite",
+              "path": "/jaspernote/docs/java/framework/springboot/integration/sqlite",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/other",
+              "path": "/jaspernote/docs/java/framework/springboot/other",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/springbootReadConfig",
+              "path": "/jaspernote/docs/java/framework/springboot/springbootReadConfig",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/springbootReadFile",
+              "path": "/jaspernote/docs/java/framework/springboot/springbootReadFile",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/自定义starter",
+              "path": "/jaspernote/docs/java/framework/springboot/自定义starter",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springboot/配置文件",
+              "path": "/jaspernote/docs/java/framework/springboot/配置文件",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springcli/index",
+              "path": "/jaspernote/docs/java/framework/springcli/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springcloud/index",
+              "path": "/jaspernote/docs/java/framework/springcloud/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springcloud/seata/index",
+              "path": "/jaspernote/docs/java/framework/springcloud/seata/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springcloud/springCloudStream/index",
+              "path": "/jaspernote/docs/java/framework/springcloud/springCloudStream/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springData/index",
+              "path": "/jaspernote/docs/java/framework/springData/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springmvc/cookieAndSession",
+              "path": "/jaspernote/docs/java/framework/springmvc/cookieAndSession",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springmvc/index",
+              "path": "/jaspernote/docs/java/framework/springmvc/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springSecurity/impl",
+              "path": "/jaspernote/docs/java/framework/springSecurity/impl",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/framework/springSecurity/index",
+              "path": "/jaspernote/docs/java/framework/springSecurity/",
+              "sidebar": "framework"
+            },
+            {
+              "id": "java/index",
+              "path": "/jaspernote/docs/java/"
+            },
+            {
+              "id": "java/middleware/minio/docker搭建",
+              "path": "/jaspernote/docs/java/middleware/minio/docker搭建"
+            },
+            {
+              "id": "java/middleware/minio/index",
+              "path": "/jaspernote/docs/java/middleware/minio/"
+            },
+            {
+              "id": "java/middleware/minio/java",
+              "path": "/jaspernote/docs/java/middleware/minio/java"
+            },
+            {
+              "id": "java/middleware/mq/impl",
+              "path": "/jaspernote/docs/java/middleware/mq/impl"
+            },
+            {
+              "id": "java/middleware/mq/index",
+              "path": "/jaspernote/docs/java/middleware/mq/"
+            },
+            {
+              "id": "java/middleware/rocketmq/00buildAndInstall",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/00buildAndInstall"
+            },
+            {
+              "id": "java/middleware/rocketmq/architecture",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/architecture"
+            },
+            {
+              "id": "java/middleware/rocketmq/basic",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/basic"
+            },
+            {
+              "id": "java/middleware/rocketmq/dashboard/concept",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/dashboard/concept"
+            },
+            {
+              "id": "java/middleware/rocketmq/dockercompose",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/dockercompose"
+            },
+            {
+              "id": "java/middleware/rocketmq/index",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/"
+            },
+            {
+              "id": "java/middleware/rocketmq/message/batch",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/message/batch"
+            },
+            {
+              "id": "java/middleware/rocketmq/message/delay",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/message/delay"
+            },
+            {
+              "id": "java/middleware/rocketmq/message/messageFilter",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/message/messageFilter"
+            },
+            {
+              "id": "java/middleware/rocketmq/message/order",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/message/order"
+            },
+            {
+              "id": "java/middleware/rocketmq/message/transaction",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/message/transaction"
+            },
+            {
+              "id": "java/middleware/rocketmq/mq/concept",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/mq/concept"
+            },
+            {
+              "id": "java/middleware/rocketmq/mq/feature",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/mq/feature"
+            },
+            {
+              "id": "java/middleware/rocketmq/other",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/other"
+            },
+            {
+              "id": "java/middleware/rocketmq/problems",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/problems"
+            },
+            {
+              "id": "java/middleware/rocketmq/roundRobin",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/roundRobin"
+            },
+            {
+              "id": "java/middleware/rocketmq/spring/spring",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/spring/"
+            },
+            {
+              "id": "java/middleware/rocketmq/spring/springboot",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/spring/springboot"
+            },
+            {
+              "id": "java/middleware/rocketmq/spring/springCloud",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/spring/springCloud"
+            },
+            {
+              "id": "java/middleware/rocketmq/tools/mqadmin",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/tools/mqadmin"
+            },
+            {
+              "id": "java/middleware/rocketmq/usage",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/usage"
+            },
+            {
+              "id": "java/middleware/rocketmq/调试源码",
+              "path": "/jaspernote/docs/java/middleware/rocketmq/调试源码"
+            },
+            {
+              "id": "java/middleware/workflow/flowable/index",
+              "path": "/jaspernote/docs/java/middleware/workflow/flowable/"
+            },
+            {
+              "id": "java/middleware/zookeeper/index",
+              "path": "/jaspernote/docs/java/middleware/zookeeper/"
+            },
+            {
+              "id": "java/middleware/zookeeper/install",
+              "path": "/jaspernote/docs/java/middleware/zookeeper/install"
+            },
+            {
+              "id": "java/middleware/zookeeper/usage",
+              "path": "/jaspernote/docs/java/middleware/zookeeper/usage"
+            },
+            {
+              "id": "java/network/netty/index",
+              "path": "/jaspernote/docs/java/network/netty/"
+            },
+            {
+              "id": "java/network/websocket/index",
+              "path": "/jaspernote/docs/java/network/websocket/"
+            },
+            {
+              "id": "java/roadmap",
+              "path": "/jaspernote/docs/java/roadmap"
+            },
+            {
+              "id": "java/test/index",
+              "path": "/jaspernote/docs/java/test/"
+            },
+            {
+              "id": "java/test/junit/index",
+              "path": "/jaspernote/docs/java/test/junit/"
+            },
+            {
+              "id": "java/test/mockito/index",
+              "path": "/jaspernote/docs/java/test/mockito/"
+            },
+            {
+              "id": "java/utils/apache/commons/pool",
+              "path": "/jaspernote/docs/java/utils/apache/commons/pool"
+            },
+            {
+              "id": "java/utils/arthas/dashboard",
+              "path": "/jaspernote/docs/java/utils/arthas/dashboard"
+            },
+            {
+              "id": "java/utils/arthas/index",
+              "path": "/jaspernote/docs/java/utils/arthas/"
+            },
+            {
+              "id": "java/utils/bytebuddy/index",
+              "path": "/jaspernote/docs/java/utils/bytebuddy/"
+            },
+            {
+              "id": "java/utils/caffeine/index",
+              "path": "/jaspernote/docs/java/utils/caffeine/"
+            },
+            {
+              "id": "java/utils/caffeine/popultaion",
+              "path": "/jaspernote/docs/java/utils/caffeine/popultaion"
+            },
+            {
+              "id": "java/utils/cglib/index",
+              "path": "/jaspernote/docs/java/utils/cglib/"
+            },
+            {
+              "id": "java/utils/guava/cache",
+              "path": "/jaspernote/docs/java/utils/guava/cache"
+            },
+            {
+              "id": "java/utils/guava/collections/utils/Queues",
+              "path": "/jaspernote/docs/java/utils/guava/collections/utils/Queues"
+            },
+            {
+              "id": "java/utils/guava/EventBus",
+              "path": "/jaspernote/docs/java/utils/guava/EventBus"
+            },
+            {
+              "id": "java/utils/guava/index",
+              "path": "/jaspernote/docs/java/utils/guava/"
+            },
+            {
+              "id": "java/utils/guava/Strings",
+              "path": "/jaspernote/docs/java/utils/guava/Strings"
+            },
+            {
+              "id": "java/utils/guava/utilities/stopWatch",
+              "path": "/jaspernote/docs/java/utils/guava/utilities/stopWatch"
+            },
+            {
+              "id": "java/utils/hutool/index",
+              "path": "/jaspernote/docs/java/utils/hutool/"
+            },
+            {
+              "id": "java/utils/index",
+              "path": "/jaspernote/docs/java/utils/"
+            },
+            {
+              "id": "java/utils/json/fastjson/index",
+              "path": "/jaspernote/docs/java/utils/json/fastjson/"
+            },
+            {
+              "id": "java/utils/json/jackson/ContainerNode",
+              "path": "/jaspernote/docs/java/utils/json/jackson/ContainerNode"
+            },
+            {
+              "id": "java/utils/json/jackson/index",
+              "path": "/jaspernote/docs/java/utils/json/jackson/"
+            },
+            {
+              "id": "java/utils/json/jackson/SerializationConfig",
+              "path": "/jaspernote/docs/java/utils/json/jackson/SerializationConfig"
+            },
+            {
+              "id": "java/utils/lombok/annotations/Builder",
+              "path": "/jaspernote/docs/java/utils/lombok/annotations/Builder"
+            },
+            {
+              "id": "java/utils/lombok/annotations/Generated",
+              "path": "/jaspernote/docs/java/utils/lombok/annotations/Generated"
+            },
+            {
+              "id": "java/utils/lombok/annotations/SneakThrows",
+              "path": "/jaspernote/docs/java/utils/lombok/annotations/SneakThrows"
+            },
+            {
+              "id": "java/utils/lombok/import",
+              "path": "/jaspernote/docs/java/utils/lombok/import"
+            },
+            {
+              "id": "java/utils/lombok/index",
+              "path": "/jaspernote/docs/java/utils/lombok/"
+            },
+            {
+              "id": "java/utils/objectMapping/mapStruct/complexMapping",
+              "path": "/jaspernote/docs/java/utils/objectMapping/mapStruct/complexMapping"
+            },
+            {
+              "id": "java/utils/objectMapping/mapStruct/index",
+              "path": "/jaspernote/docs/java/utils/objectMapping/mapStruct/"
+            },
+            {
+              "id": "java/utils/objectMapping/mapStruct/qualifiedBy",
+              "path": "/jaspernote/docs/java/utils/objectMapping/mapStruct/qualifiedBy"
+            },
+            {
+              "id": "java/utils/objectMapping/mapStruct/reuseMappingConfiguration",
+              "path": "/jaspernote/docs/java/utils/objectMapping/mapStruct/reuseMappingConfiguration"
+            },
+            {
+              "id": "java/utils/objectMapping/orika/index",
+              "path": "/jaspernote/docs/java/utils/objectMapping/orika/"
+            },
+            {
+              "id": "java/utils/serialization/hessian/index",
+              "path": "/jaspernote/docs/java/utils/serialization/hessian/"
+            },
+            {
+              "id": "java/utils/serialization/kyro/index",
+              "path": "/jaspernote/docs/java/utils/serialization/kyro/"
+            },
+            {
+              "id": "java/utils/serialization/protoStuff/index",
+              "path": "/jaspernote/docs/java/utils/serialization/protoStuff/"
+            },
+            {
+              "id": "java/utils/serialization/protoStuff/简单使用",
+              "path": "/jaspernote/docs/java/utils/serialization/protoStuff/简单使用"
+            },
+            {
+              "id": "java/web/apidoc/springdoc/index",
+              "path": "/jaspernote/docs/java/web/apidoc/springdoc/"
+            },
+            {
+              "id": "java/web/index",
+              "path": "/jaspernote/docs/java/web/"
+            },
+            {
+              "id": "java/web/jdbc/index",
+              "path": "/jaspernote/docs/java/web/jdbc/"
+            },
+            {
+              "id": "java/web/log/index",
+              "path": "/jaspernote/docs/java/web/log/"
+            },
+            {
+              "id": "java/web/log/logback/index",
+              "path": "/jaspernote/docs/java/web/log/logback/"
+            },
+            {
+              "id": "kotlin/foundation/01keyword",
+              "path": "/jaspernote/docs/kotlin/foundation/01keyword",
+              "sidebar": "kotlin"
+            },
+            {
+              "id": "kotlin/foundation/02dataType",
+              "path": "/jaspernote/docs/kotlin/foundation/02dataType",
+              "sidebar": "kotlin"
+            },
+            {
+              "id": "kotlin/foundation/03control",
+              "path": "/jaspernote/docs/kotlin/foundation/03control",
+              "sidebar": "kotlin"
+            },
+            {
+              "id": "kotlin/foundation/04function",
+              "path": "/jaspernote/docs/kotlin/foundation/04function",
+              "sidebar": "kotlin"
+            },
+            {
+              "id": "kotlin/foundation/05collection",
+              "path": "/jaspernote/docs/kotlin/foundation/05collection",
+              "sidebar": "kotlin"
+            },
+            {
+              "id": "kotlin/index",
+              "path": "/jaspernote/docs/kotlin/",
+              "sidebar": "kotlin"
+            },
+            {
+              "id": "lua/foundation/03control",
+              "path": "/jaspernote/docs/lua/foundation/03control",
+              "sidebar": "lua"
+            },
+            {
+              "id": "lua/foundation/04fun",
+              "path": "/jaspernote/docs/lua/foundation/04fun",
+              "sidebar": "lua"
+            },
+            {
+              "id": "lua/foundation/index",
+              "path": "/jaspernote/docs/lua/foundation/",
+              "sidebar": "lua"
+            },
+            {
+              "id": "lua/foundation/install",
+              "path": "/jaspernote/docs/lua/foundation/install",
+              "sidebar": "lua"
+            },
+            {
+              "id": "lua/foundation/module",
+              "path": "/jaspernote/docs/lua/foundation/module",
+              "sidebar": "lua"
+            },
+            {
+              "id": "patterns/behavioral/observer",
+              "path": "/jaspernote/docs/patterns/behavioral/observer",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/behavioral/strategy",
+              "path": "/jaspernote/docs/patterns/behavioral/strategy",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/behavioral/templateMethod",
+              "path": "/jaspernote/docs/patterns/behavioral/templateMethod",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/creational/abstractFactory",
+              "path": "/jaspernote/docs/patterns/creational/abstractFactory",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/creational/builder",
+              "path": "/jaspernote/docs/patterns/creational/builder",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/creational/factoryMethod",
+              "path": "/jaspernote/docs/patterns/creational/factoryMethod",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/creational/prototype",
+              "path": "/jaspernote/docs/patterns/creational/prototype",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/creational/simpleFactory",
+              "path": "/jaspernote/docs/patterns/creational/simpleFactory",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/creational/singleton",
+              "path": "/jaspernote/docs/patterns/creational/singleton",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/index",
+              "path": "/jaspernote/docs/patterns/",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/SOLID",
+              "path": "/jaspernote/docs/patterns/SOLID",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "patterns/structural/proxy",
+              "path": "/jaspernote/docs/patterns/structural/proxy",
+              "sidebar": "patterns"
+            },
+            {
+              "id": "python/environment/conda",
+              "path": "/jaspernote/docs/python/environment/conda",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/environment/pip",
+              "path": "/jaspernote/docs/python/environment/pip",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/environment/pipx",
+              "path": "/jaspernote/docs/python/environment/pipx",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/environment/uv",
+              "path": "/jaspernote/docs/python/environment/uv",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/environment/venv",
+              "path": "/jaspernote/docs/python/environment/venv",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/foundation/contrlAndloop",
+              "path": "/jaspernote/docs/python/foundation/contrlAndloop",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/foundation/dataType/index",
+              "path": "/jaspernote/docs/python/foundation/dataType/",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/foundation/dataType/tuple",
+              "path": "/jaspernote/docs/python/foundation/dataType/tuple",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/foundation/function/index",
+              "path": "/jaspernote/docs/python/foundation/function/",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/foundation/function/magicMethod",
+              "path": "/jaspernote/docs/python/foundation/function/magicMethod",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/foundation/index",
+              "path": "/jaspernote/docs/python/foundation/",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/index",
+              "path": "/jaspernote/docs/python/",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/notebook/index",
+              "path": "/jaspernote/docs/python/notebook/",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/utils",
+              "path": "/jaspernote/docs/python/utils",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/utils/index",
+              "path": "/jaspernote/docs/python/utils/",
+              "sidebar": "python"
+            },
+            {
+              "id": "python/utils/mPara",
+              "path": "/jaspernote/docs/python/utils/mPara",
+              "sidebar": "python"
+            },
+            {
+              "id": "todo",
+              "path": "/jaspernote/docs/todo"
+            },
+            {
+              "id": "utils/git/basic",
+              "path": "/jaspernote/docs/utils/git/basic",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/branch",
+              "path": "/jaspernote/docs/utils/git/branch",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/concept",
+              "path": "/jaspernote/docs/utils/git/concept",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/conflict",
+              "path": "/jaspernote/docs/utils/git/conflict",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/gitattributes",
+              "path": "/jaspernote/docs/utils/git/gitattributes",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/index",
+              "path": "/jaspernote/docs/utils/git/",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/lazygit",
+              "path": "/jaspernote/docs/utils/git/lazygit",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/normal/demo1",
+              "path": "/jaspernote/docs/utils/git/normal/demo1",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/normal/merge和rebase的区别",
+              "path": "/jaspernote/docs/utils/git/normal/merge和rebase的区别",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/other",
+              "path": "/jaspernote/docs/utils/git/other",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/problem",
+              "path": "/jaspernote/docs/utils/git/problem",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/git/proxy",
+              "path": "/jaspernote/docs/utils/git/proxy",
+              "sidebar": "git"
+            },
+            {
+              "id": "utils/index",
+              "path": "/jaspernote/docs/utils/"
+            },
+            {
+              "id": "utils/jmeter/basic",
+              "path": "/jaspernote/docs/utils/jmeter/basic",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/jmeter/configElement",
+              "path": "/jaspernote/docs/utils/jmeter/configElement",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/jmeter/database",
+              "path": "/jaspernote/docs/utils/jmeter/database",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/jmeter/function",
+              "path": "/jaspernote/docs/utils/jmeter/function",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/jmeter/groovy/index",
+              "path": "/jaspernote/docs/utils/jmeter/groovy/",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/jmeter/index",
+              "path": "/jaspernote/docs/utils/jmeter/",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/jmeter/java",
+              "path": "/jaspernote/docs/utils/jmeter/java",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/jmeter/postProcessor",
+              "path": "/jaspernote/docs/utils/jmeter/postProcessor",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/jmeter/preProcessor",
+              "path": "/jaspernote/docs/utils/jmeter/preProcessor",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/jmeter/sampler",
+              "path": "/jaspernote/docs/utils/jmeter/sampler",
+              "sidebar": "jmeter"
+            },
+            {
+              "id": "utils/mermaid/index",
+              "path": "/jaspernote/docs/utils/mermaid/"
+            },
+            {
+              "id": "utils/neovim/index",
+              "path": "/jaspernote/docs/utils/neovim/",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/env/cpp",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/env/cpp",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/env/java",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/env/java",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/env/markdown",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/env/markdown",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/env/python",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/env/python",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/env/ruff",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/env/ruff",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/index",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/install",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/install",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/keymap",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/keymap",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/plugins/flash.nvim",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/plugins/flash.nvim",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/plugins/gitsigns.nvim",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/plugins/gitsigns.nvim",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/plugins/init",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/plugins/init",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/lazyvim/plugins/mini.ai",
+              "path": "/jaspernote/docs/utils/neovim/lazyvim/plugins/mini.ai",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/neovim/quickfix",
+              "path": "/jaspernote/docs/utils/neovim/quickfix",
+              "sidebar": "neovim"
+            },
+            {
+              "id": "utils/svn/index",
+              "path": "/jaspernote/docs/utils/svn/",
+              "sidebar": "svn"
+            },
+            {
+              "id": "utils/vim/index",
+              "path": "/jaspernote/docs/utils/vim/",
+              "sidebar": "vim"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "patterns": {
+              "link": {
+                "path": "/jaspernote/docs/patterns/",
+                "label": "patterns/index"
+              }
+            },
+            "dataStructure": {
+              "link": {
+                "path": "/jaspernote/docs/dataStructure/",
+                "label": "dataStructure/index"
+              }
+            },
+            "kotlin": {
+              "link": {
+                "path": "/jaspernote/docs/kotlin/",
+                "label": "kotlin/index"
+              }
+            },
+            "python": {
+              "link": {
+                "path": "/jaspernote/docs/python/",
+                "label": "python/index"
+              }
+            },
+            "lua": {
+              "link": {
+                "path": "/jaspernote/docs/lua/foundation/",
+                "label": "foundation"
+              }
+            },
+            "html": {
+              "link": {
+                "path": "/jaspernote/docs/front/html/",
+                "label": "front/html/index"
+              }
+            },
+            "css": {
+              "link": {
+                "path": "/jaspernote/docs/front/css/",
+                "label": "front/css/index"
+              }
+            },
+            "js": {
+              "link": {
+                "path": "/jaspernote/docs/front/js/",
+                "label": "front/js/index"
+              }
+            },
+            "jquery": {
+              "link": {
+                "path": "/jaspernote/docs/front/jquery/",
+                "label": "front/jquery/jquery"
+              }
+            },
+            "vitepress": {
+              "link": {
+                "path": "/jaspernote/docs/front/vitepress/",
+                "label": "front/vitepress/index"
+              }
+            },
+            "docusaurus": {
+              "link": {
+                "path": "/jaspernote/docs/front/docusaurus/",
+                "label": "front/docusaurus/index"
+              }
+            },
+            "vue": {
+              "link": {
+                "path": "/jaspernote/docs/front/vue/basic",
+                "label": "front/vue/basic"
+              }
+            },
+            "react": {
+              "link": {
+                "path": "/jaspernote/docs/front/react/",
+                "label": "front/react/index"
+              }
+            },
+            "relational": {
+              "link": {
+                "path": "/jaspernote/docs/dataLayer/relational/",
+                "label": "dataLayer/relational/index"
+              }
+            },
+            "distributed": {
+              "link": {
+                "path": "/jaspernote/docs/dataLayer/distributed/",
+                "label": "dataLayer/distributed/index"
+              }
+            },
+            "nosql": {
+              "link": {
+                "path": "/jaspernote/docs/dataLayer/nosql/",
+                "label": "dataLayer/nosql/index"
+              }
+            },
+            "connectPool": {
+              "link": {
+                "path": "/jaspernote/docs/dataLayer/connectPool/",
+                "label": "dataLayer/connectPool/index"
+              }
+            },
+            "sharding": {
+              "link": {
+                "path": "/jaspernote/docs/dataLayer/sharding/",
+                "label": "dataLayer/sharding/index"
+              }
+            },
+            "git": {
+              "link": {
+                "path": "/jaspernote/docs/utils/git/",
+                "label": "utils/git/index"
+              }
+            },
+            "svn": {
+              "link": {
+                "path": "/jaspernote/docs/utils/svn/",
+                "label": "utils/svn/index"
+              }
+            },
+            "vim": {
+              "link": {
+                "path": "/jaspernote/docs/utils/vim/",
+                "label": "utils/vim/index"
+              }
+            },
+            "neovim": {
+              "link": {
+                "path": "/jaspernote/docs/utils/neovim/",
+                "label": "utils/neovim/index"
+              }
+            },
+            "jmeter": {
+              "link": {
+                "path": "/jaspernote/docs/utils/jmeter/",
+                "label": "utils/jmeter/index"
+              }
+            },
+            "os": {
+              "link": {
+                "path": "/jaspernote/docs/infrastructure/os/hardware/",
+                "label": "hardware"
+              }
+            },
+            "design": {
+              "link": {
+                "path": "/jaspernote/docs/infrastructure/design/",
+                "label": "infrastructure/design/index"
+              }
+            },
+            "devops": {
+              "link": {
+                "path": "/jaspernote/docs/infrastructure/devops/",
+                "label": "infrastructure/devops/index"
+              }
+            },
+            "devTools": {
+              "link": {
+                "path": "/jaspernote/docs/java/devTools/",
+                "label": "java/devTools/index"
+              }
+            },
+            "javaBasic": {
+              "link": {
+                "path": "/jaspernote/docs/java/basic/",
+                "label": "java/basic/index"
+              }
+            },
+            "framework": {
+              "link": {
+                "path": "/jaspernote/docs/java/framework/",
+                "label": "java/framework/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

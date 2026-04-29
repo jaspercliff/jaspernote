@@ -1,0 +1,24 @@
+{
+  "id": "java/devTools/idea/index",
+  "title": "idea",
+  "description": "- tips",
+  "source": "@site/docs/java/devTools/idea/index.md",
+  "sourceDirName": "java/devTools/idea",
+  "slug": "/java/devTools/idea/",
+  "permalink": "/jaspernote/docs/java/devTools/idea/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/devTools/idea/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devTools",
+  "previous": {
+    "title": "conflict",
+    "permalink": "/jaspernote/docs/java/devTools/buildTools/maven/confilct"
+  },
+  "next": {
+    "title": "debug",
+    "permalink": "/jaspernote/docs/java/devTools/idea/debug"
+  }
+}

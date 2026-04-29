@@ -1,0 +1,23 @@
+{
+  "id": "java/framework/index",
+  "title": "framework",
+  "description": "- mybatis",
+  "source": "@site/docs/java/framework/index.md",
+  "sourceDirName": "java/framework",
+  "slug": "/java/framework/",
+  "permalink": "/jaspernote/docs/java/framework/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "framework",
+  "next": {
+    "title": "spring",
+    "permalink": "/jaspernote/docs/java/framework/spring/"
+  }
+}

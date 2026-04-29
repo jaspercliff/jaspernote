@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/core/ioc/BeanDefInheritance",
+  "title": "BeanDefInheritance",
+  "description": "",
+  "source": "@site/docs/java/framework/spring/core/ioc/BeanDefInheritance.md",
+  "sourceDirName": "java/framework/spring/core/ioc",
+  "slug": "/java/framework/spring/core/ioc/BeanDefInheritance",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/BeanDefInheritance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/ioc/BeanDefInheritance.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "ioc",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/"
+  },
+  "next": {
+    "title": "spring event",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/applicationContext/event"
+  }
+}

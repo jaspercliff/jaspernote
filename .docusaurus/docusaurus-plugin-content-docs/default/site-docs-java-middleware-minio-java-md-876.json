@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/minio/java",
+  "title": "minio in java",
+  "description": "",
+  "source": "@site/docs/java/middleware/minio/java.md",
+  "sourceDirName": "java/middleware/minio",
+  "slug": "/java/middleware/minio/java",
+  "permalink": "/jaspernote/docs/java/middleware/minio/java",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/minio/java.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "patterns/creational/simpleFactory",
+  "title": "简单工厂模式",
+  "description": "又叫静态工厂方法模式，不属于 GoF 的23种设计模式之一，但常作为工厂模式的入门。通过一个工厂类，根据提供的参数决定创建哪一个具体类的实例。",
+  "source": "@site/docs/patterns/creational/simpleFactory.md",
+  "sourceDirName": "patterns/creational",
+  "slug": "/patterns/creational/simpleFactory",
+  "permalink": "/jaspernote/docs/patterns/creational/simpleFactory",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/patterns/creational/simpleFactory.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "patterns",
+  "previous": {
+    "title": "prototype",
+    "permalink": "/jaspernote/docs/patterns/creational/prototype"
+  },
+  "next": {
+    "title": "singleton",
+    "permalink": "/jaspernote/docs/patterns/creational/singleton"
+  }
+}

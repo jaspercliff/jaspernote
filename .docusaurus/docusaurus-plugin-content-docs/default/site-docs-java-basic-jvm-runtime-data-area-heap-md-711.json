@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/jvm/runtimeDataArea/heap",
+  "title": "heap",
+  "description": "jvm管理内存最大的一块 ，所有线程共享的内存区域，jvm启动时创建,主要用于存储对象实例和数组。堆是垃圾回收器管理的主要区域，",
+  "source": "@site/docs/java/basic/jvm/runtimeDataArea/heap.md",
+  "sourceDirName": "java/basic/jvm/runtimeDataArea",
+  "slug": "/java/basic/jvm/runtimeDataArea/heap",
+  "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/heap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/runtimeDataArea/heap.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "本地方法栈",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/nativeStack"
+  },
+  "next": {
+    "title": "方法区",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/methodArea"
+  }
+}

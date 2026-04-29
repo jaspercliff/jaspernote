@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/tools/Phaser",
+  "title": "Phaser",
+  "description": "Phaser（阶段同步器）是 Java 并发包 java.util.concurrent 中提供的一个同步辅助类，它用于协调多个线程间的复杂多阶段任务的执行。Phaser 是在 Java 7 中引入的，其功能类似于 CyclicBarrier 和 CountDownLatch，但提供了更灵活的控制和动态的线程参与管理。",
+  "source": "@site/docs/java/basic/juc/tools/Phaser.md",
+  "sourceDirName": "java/basic/juc/tools",
+  "slug": "/java/basic/juc/tools/Phaser",
+  "permalink": "/jaspernote/docs/java/basic/juc/tools/Phaser",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/tools/Phaser.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "Exchanger",
+    "permalink": "/jaspernote/docs/java/basic/juc/tools/Exchanger"
+  },
+  "next": {
+    "title": "Semaphore",
+    "permalink": "/jaspernote/docs/java/basic/juc/tools/Semaphore"
+  }
+}

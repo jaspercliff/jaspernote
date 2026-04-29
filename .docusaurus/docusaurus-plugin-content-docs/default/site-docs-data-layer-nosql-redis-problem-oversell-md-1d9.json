@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/problem/oversell",
+  "title": "超卖和一人一单",
+  "description": "高并发场景下超卖,库存=1时，多个线程同时判断 stock =1 >0  同时去调用数据库的扣减库存,导致超卖",
+  "source": "@site/docs/dataLayer/nosql/redis/problem/oversell.md",
+  "sourceDirName": "dataLayer/nosql/redis/problem",
+  "slug": "/dataLayer/nosql/redis/problem/oversell",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/oversell",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/problem/oversell.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "message queue",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/mq"
+  },
+  "next": {
+    "title": "滚动分页",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/scrollPage"
+  }
+}

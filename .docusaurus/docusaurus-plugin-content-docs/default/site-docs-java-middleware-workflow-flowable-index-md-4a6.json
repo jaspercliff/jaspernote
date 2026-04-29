@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/workflow/flowable/index",
+  "title": "flowable",
+  "description": "",
+  "source": "@site/docs/java/middleware/workflow/flowable/index.md",
+  "sourceDirName": "java/middleware/workflow/flowable",
+  "slug": "/java/middleware/workflow/flowable/",
+  "permalink": "/jaspernote/docs/java/middleware/workflow/flowable/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/workflow/flowable/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

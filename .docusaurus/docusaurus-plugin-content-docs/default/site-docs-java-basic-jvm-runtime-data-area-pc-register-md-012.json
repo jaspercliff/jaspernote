@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/jvm/runtimeDataArea/pcRegister",
+  "title": "程序计数器",
+  "description": "program counter register",
+  "source": "@site/docs/java/basic/jvm/runtimeDataArea/pcRegister.md",
+  "sourceDirName": "java/basic/jvm/runtimeDataArea",
+  "slug": "/java/basic/jvm/runtimeDataArea/pcRegister",
+  "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/pcRegister",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/runtimeDataArea/pcRegister.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "jvm 内存结构",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/"
+  },
+  "next": {
+    "title": "虚拟机栈",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/vmStack"
+  }
+}

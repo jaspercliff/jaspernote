@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/core/aop/spring",
+  "title": "spring",
+  "description": "Using the AspectJ compiler and weaver enables use of the full AspectJ language and is discussed in Using AspectJ",
+  "source": "@site/docs/java/framework/spring/core/aop/spring.md",
+  "sourceDirName": "java/framework/spring/core/aop",
+  "slug": "/java/framework/spring/core/aop/spring",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/aop/spring",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/aop/spring.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "aop",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/aop/"
+  },
+  "next": {
+    "title": "aspect",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/aspect/"
+  }
+}

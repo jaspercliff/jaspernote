@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/tree/bst",
+  "title": "二叉搜索树",
+  "description": "binary search tree , BST",
+  "source": "@site/docs/dataStructure/tree/bst.md",
+  "sourceDirName": "dataStructure/tree",
+  "slug": "/dataStructure/tree/bst",
+  "permalink": "/jaspernote/docs/dataStructure/tree/bst",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/tree/bst.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "abstract syntax tree",
+    "permalink": "/jaspernote/docs/dataStructure/tree/ast"
+  },
+  "next": {
+    "title": "radix tree",
+    "permalink": "/jaspernote/docs/dataStructure/tree/radixTree"
+  }
+}

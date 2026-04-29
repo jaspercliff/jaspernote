@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mariadb/install",
+  "title": "install",
+  "description": "由于 Arch 的设计哲学，你需要手动完成初始化和启动。",
+  "source": "@site/docs/dataLayer/relational/mariadb/install.md",
+  "sourceDirName": "dataLayer/relational/mariadb",
+  "slug": "/dataLayer/relational/mariadb/install",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mariadb/install",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mariadb/install.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "mariadb",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mariadb/"
+  },
+  "next": {
+    "title": "mysql",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/"
+  }
+}

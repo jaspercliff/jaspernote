@@ -1,0 +1,15 @@
+{
+  "id": "front/node/npm",
+  "title": "npm",
+  "description": "- 设置代理",
+  "source": "@site/docs/front/node/npm.md",
+  "sourceDirName": "front/node",
+  "slug": "/front/node/npm",
+  "permalink": "/jaspernote/docs/front/node/npm",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front/node/npm.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

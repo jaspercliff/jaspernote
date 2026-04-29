@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/jmm/memoryBarrier",
+  "title": "memory barrier 内存屏障",
+  "description": "内存屏障是 CPU / 编译器层面的一个指令：",
+  "source": "@site/docs/java/basic/jvm/jmm/memoryBarrier.md",
+  "sourceDirName": "java/basic/jvm/jmm",
+  "slug": "/java/basic/jvm/jmm/memoryBarrier",
+  "permalink": "/jaspernote/docs/java/basic/jvm/jmm/memoryBarrier",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/jmm/memoryBarrier.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "java memory model",
+    "permalink": "/jaspernote/docs/java/basic/jvm/jmm/"
+  },
+  "next": {
+    "title": "偏向锁",
+    "permalink": "/jaspernote/docs/java/basic/jvm/lock/biasedLock"
+  }
+}

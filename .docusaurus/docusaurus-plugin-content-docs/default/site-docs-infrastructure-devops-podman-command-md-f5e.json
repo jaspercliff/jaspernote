@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/devops/podman/command",
+  "title": "common command",
+  "description": "1. 基本信息与帮助",
+  "source": "@site/docs/infrastructure/devops/podman/command.md",
+  "sourceDirName": "infrastructure/devops/podman",
+  "slug": "/infrastructure/devops/podman/command",
+  "permalink": "/jaspernote/docs/infrastructure/devops/podman/command",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/podman/command.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devops",
+  "previous": {
+    "title": "podman",
+    "permalink": "/jaspernote/docs/infrastructure/devops/podman/"
+  },
+  "next": {
+    "title": "network",
+    "permalink": "/jaspernote/docs/infrastructure/devops/podman/network"
+  }
+}

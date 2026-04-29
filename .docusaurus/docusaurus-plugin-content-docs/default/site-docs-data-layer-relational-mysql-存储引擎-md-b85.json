@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/存储引擎",
+  "title": "存储引擎",
+  "description": "存储引擎",
+  "source": "@site/docs/dataLayer/relational/mysql/存储引擎.md",
+  "sourceDirName": "dataLayer/relational/mysql",
+  "slug": "/dataLayer/relational/mysql/存储引擎",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/存储引擎",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/存储引擎.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "事务隔离级别",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/事务隔离级别"
+  },
+  "next": {
+    "title": "数据类型",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/数据类型"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/shell/shellWidget",
+  "title": "shell widget",
+  "description": "Widget（插件/小部件） 是连接“用户按键”与“外壳功能”的桥梁",
+  "source": "@site/docs/infrastructure/os/linux/shell/shellWidget.md",
+  "sourceDirName": "infrastructure/os/linux/shell",
+  "slug": "/infrastructure/os/linux/shell/shellWidget",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/shellWidget",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/shell/shellWidget.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "参数",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/param"
+  },
+  "next": {
+    "title": "usage",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/usage"
+  }
+}

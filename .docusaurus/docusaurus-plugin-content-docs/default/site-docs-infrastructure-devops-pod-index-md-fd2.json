@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/devops/pod/index",
+  "title": "index",
+  "description": "- valkey",
+  "source": "@site/docs/infrastructure/devops/pod/index.md",
+  "sourceDirName": "infrastructure/devops/pod",
+  "slug": "/infrastructure/devops/pod/",
+  "permalink": "/jaspernote/docs/infrastructure/devops/pod/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/pod/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devops",
+  "previous": {
+    "title": "openresty",
+    "permalink": "/jaspernote/docs/infrastructure/devops/openresty/"
+  },
+  "next": {
+    "title": "valkey",
+    "permalink": "/jaspernote/docs/infrastructure/devops/pod/valkey"
+  }
+}

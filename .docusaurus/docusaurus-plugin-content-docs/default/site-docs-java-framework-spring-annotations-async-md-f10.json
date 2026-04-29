@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/annotations/Async",
+  "title": "Async",
+  "description": "@Async 是 Spring 框架提供的一种简单的方式来支持异步方法调用。当你在一个类的方法前面加上 @Async 注解时，",
+  "source": "@site/docs/java/framework/spring/annotations/Async.md",
+  "sourceDirName": "java/framework/spring/annotations",
+  "slug": "/java/framework/spring/annotations/Async",
+  "permalink": "/jaspernote/docs/java/framework/spring/annotations/Async",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/annotations/Async.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "AliasFor",
+    "permalink": "/jaspernote/docs/java/framework/spring/annotations/AliasFor"
+  },
+  "next": {
+    "title": "@ConditionalOnProperty",
+    "permalink": "/jaspernote/docs/java/framework/spring/annotations/ConditionalOnProperty"
+  }
+}

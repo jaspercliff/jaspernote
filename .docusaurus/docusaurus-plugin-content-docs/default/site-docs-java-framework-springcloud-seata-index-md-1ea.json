@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springcloud/seata/index",
+  "title": "seata",
+  "description": "主要是为了解决微服务架构下的分布式事务问题。Seata 提供了 AT、TCC、Saga 和 XA 四种模式，其中 AT 模式由于对业务代码零侵入，是应用最广泛的模式",
+  "source": "@site/docs/java/framework/springcloud/seata/index.md",
+  "sourceDirName": "java/framework/springcloud/seata",
+  "slug": "/java/framework/springcloud/seata/",
+  "permalink": "/jaspernote/docs/java/framework/springcloud/seata/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springcloud/seata/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "spring cloud",
+    "permalink": "/jaspernote/docs/java/framework/springcloud/"
+  },
+  "next": {
+    "title": "Spring cloud stream",
+    "permalink": "/jaspernote/docs/java/framework/springcloud/springCloudStream/"
+  }
+}

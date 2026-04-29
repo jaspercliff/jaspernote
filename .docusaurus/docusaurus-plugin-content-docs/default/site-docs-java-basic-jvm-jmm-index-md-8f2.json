@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/jmm/index",
+  "title": "java memory model",
+  "description": "多线程环境下，线程如何通过内存进行通信，以及哪些操作对其他线程“可见”",
+  "source": "@site/docs/java/basic/jvm/jmm/index.md",
+  "sourceDirName": "java/basic/jvm/jmm",
+  "slug": "/java/basic/jvm/jmm/",
+  "permalink": "/jaspernote/docs/java/basic/jvm/jmm/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/jmm/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "gc",
+    "permalink": "/jaspernote/docs/java/basic/jvm/gc"
+  },
+  "next": {
+    "title": "memory barrier 内存屏障",
+    "permalink": "/jaspernote/docs/java/basic/jvm/jmm/memoryBarrier"
+  }
+}

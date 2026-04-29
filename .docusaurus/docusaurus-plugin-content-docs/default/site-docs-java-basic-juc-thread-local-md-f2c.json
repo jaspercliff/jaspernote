@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/ThreadLocal",
+  "title": "threadlocal",
+  "description": "ThreadLocal 是 Java 中一个用于创建线程局部变量的类。它提供了一种线程封闭机制，使得每个使用该变量的线程都有自己独立初始化的变量副本，互不干扰。这种机制特别适用于那些希望避免同步操作的情境，因为每个线程都只访问自己内部的变量副本。",
+  "source": "@site/docs/java/basic/juc/ThreadLocal.md",
+  "sourceDirName": "java/basic/juc",
+  "slug": "/java/basic/juc/ThreadLocal",
+  "permalink": "/jaspernote/docs/java/basic/juc/ThreadLocal",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/ThreadLocal.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "AQS (AbstractQueuedSynchronizer)",
+    "permalink": "/jaspernote/docs/java/basic/juc/AQS"
+  },
+  "next": {
+    "title": "Atomic类",
+    "permalink": "/jaspernote/docs/java/basic/juc/atomic/"
+  }
+}

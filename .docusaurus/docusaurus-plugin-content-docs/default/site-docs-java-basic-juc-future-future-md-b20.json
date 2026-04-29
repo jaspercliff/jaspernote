@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/future/Future",
+  "title": "future and futureTask",
+  "description": "Future",
+  "source": "@site/docs/java/basic/juc/future/Future.md",
+  "sourceDirName": "java/basic/juc/future",
+  "slug": "/java/basic/juc/future/",
+  "permalink": "/jaspernote/docs/java/basic/juc/future/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/future/Future.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "forkJoinPool",
+    "permalink": "/jaspernote/docs/java/basic/juc/executor/forkJoinPool"
+  },
+  "next": {
+    "title": "completableFuture",
+    "permalink": "/jaspernote/docs/java/basic/juc/future/completableFuture"
+  }
+}

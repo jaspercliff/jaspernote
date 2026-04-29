@@ -1,0 +1,20 @@
+{
+  "id": "front/react/index",
+  "title": "react",
+  "description": "",
+  "source": "@site/docs/front/react/index.md",
+  "sourceDirName": "front/react",
+  "slug": "/front/react/",
+  "permalink": "/jaspernote/docs/front/react/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front/react/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "react",
+  "next": {
+    "title": "jsx",
+    "permalink": "/jaspernote/docs/front/react/jsx"
+  }
+}

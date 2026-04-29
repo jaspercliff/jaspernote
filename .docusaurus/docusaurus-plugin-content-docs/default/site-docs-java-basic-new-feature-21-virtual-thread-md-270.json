@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/21/virtualThread",
+  "title": "虚拟线程",
+  "description": "在 JDK 21 之前，Java 的线程（java.lang.Thread）是平台线程，它与操作系统的内核线程是 1:1 映射的。",
+  "source": "@site/docs/java/basic/newFeature/21/virtualThread.md",
+  "sourceDirName": "java/basic/newFeature/21",
+  "slug": "/java/basic/newFeature/21/virtualThread",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/21/virtualThread",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/21/virtualThread.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "map",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/21/collections/map"
+  },
+  "next": {
+    "title": "java8",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/"
+  }
+}

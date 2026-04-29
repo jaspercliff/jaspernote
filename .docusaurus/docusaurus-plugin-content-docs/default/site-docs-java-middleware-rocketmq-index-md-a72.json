@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/index",
+  "title": "rocketmq",
+  "description": "示例代码 github地址",
+  "source": "@site/docs/java/middleware/rocketmq/index.md",
+  "sourceDirName": "java/middleware/rocketmq",
+  "slug": "/java/middleware/rocketmq/",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

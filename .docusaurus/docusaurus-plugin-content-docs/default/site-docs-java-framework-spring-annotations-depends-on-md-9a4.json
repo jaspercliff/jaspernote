@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/annotations/DependsOn",
+  "title": "DependsOn",
+  "description": "@DependsOn 是 Spring 框架中的一个注解，用于控制 Bean 的初始化顺序。当一个 Bean 的初始化依赖于另一个或多个 Bean 的初始化完成时，",
+  "source": "@site/docs/java/framework/spring/annotations/DependsOn.md",
+  "sourceDirName": "java/framework/spring/annotations",
+  "slug": "/java/framework/spring/annotations/DependsOn",
+  "permalink": "/jaspernote/docs/java/framework/spring/annotations/DependsOn",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/annotations/DependsOn.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "@ConditionalOnProperty",
+    "permalink": "/jaspernote/docs/java/framework/spring/annotations/ConditionalOnProperty"
+  },
+  "next": {
+    "title": "PostConstruct",
+    "permalink": "/jaspernote/docs/java/framework/spring/annotations/PostConstruct"
+  }
+}

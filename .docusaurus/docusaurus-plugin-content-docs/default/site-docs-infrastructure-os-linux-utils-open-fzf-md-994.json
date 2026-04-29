@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/open/fzf",
+  "title": "fzf",
+  "description": "- github",
+  "source": "@site/docs/infrastructure/os/linux/utils/open/fzf.md",
+  "sourceDirName": "infrastructure/os/linux/utils/open",
+  "slug": "/infrastructure/os/linux/utils/open/fzf",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/fzf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/open/fzf.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "frp",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/frp"
+  },
+  "next": {
+    "title": "jaq",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/jaq"
+  }
+}

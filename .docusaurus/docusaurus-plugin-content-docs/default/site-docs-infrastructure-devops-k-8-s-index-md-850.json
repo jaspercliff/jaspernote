@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/devops/k8s/index",
+  "title": "k8s",
+  "description": "",
+  "source": "@site/docs/infrastructure/devops/k8s/index.md",
+  "sourceDirName": "infrastructure/devops/k8s",
+  "slug": "/infrastructure/devops/k8s/",
+  "permalink": "/jaspernote/docs/infrastructure/devops/k8s/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/k8s/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devops",
+  "previous": {
+    "title": "envoy",
+    "permalink": "/jaspernote/docs/infrastructure/devops/envoy/"
+  },
+  "next": {
+    "title": "nginx",
+    "permalink": "/jaspernote/docs/infrastructure/devops/nginx/"
+  }
+}

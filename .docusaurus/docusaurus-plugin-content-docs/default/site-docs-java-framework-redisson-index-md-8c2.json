@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/redisson/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/java/framework/redisson/index.md",
+  "sourceDirName": "java/framework/redisson",
+  "slug": "/java/framework/redisson/",
+  "permalink": "/jaspernote/docs/java/framework/redisson/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/redisson/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "xml 配置文件",
+    "permalink": "/jaspernote/docs/java/framework/mybatis/xml配置文件"
+  },
+  "next": {
+    "title": "spring batch",
+    "permalink": "/jaspernote/docs/java/framework/springBatch/"
+  }
+}

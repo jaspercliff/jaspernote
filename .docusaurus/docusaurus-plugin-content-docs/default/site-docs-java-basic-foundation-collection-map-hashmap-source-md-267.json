@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/foundation/collection/map/hashmapSource",
+  "title": "hashmap 源码",
+  "description": "是jdk21的源码 但是整体逻辑没怎么变",
+  "source": "@site/docs/java/basic/foundation/collection/map/hashmapSource.md",
+  "sourceDirName": "java/basic/foundation/collection/map",
+  "slug": "/java/basic/foundation/collection/map/hashmapSource",
+  "permalink": "/jaspernote/docs/java/basic/foundation/collection/map/hashmapSource",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/collection/map/hashmapSource.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "HashMap",
+    "permalink": "/jaspernote/docs/java/basic/foundation/collection/map/HashMap"
+  },
+  "next": {
+    "title": "arrayDeque",
+    "permalink": "/jaspernote/docs/java/basic/foundation/collection/queue/deque/ArrayDeque"
+  }
+}

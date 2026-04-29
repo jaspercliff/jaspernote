@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/algo/sort/index",
+  "title": "排序算法",
+  "description": "|-|-|-|-|-|-|",
+  "source": "@site/docs/dataStructure/algo/sort/index.md",
+  "sourceDirName": "dataStructure/algo/sort",
+  "slug": "/dataStructure/algo/sort/",
+  "permalink": "/jaspernote/docs/dataStructure/algo/sort/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/algo/sort/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "slide the window",
+    "permalink": "/jaspernote/docs/dataStructure/algo/slideWindow"
+  },
+  "next": {
+    "title": "bubble",
+    "permalink": "/jaspernote/docs/dataStructure/algo/sort/bubble"
+  }
+}

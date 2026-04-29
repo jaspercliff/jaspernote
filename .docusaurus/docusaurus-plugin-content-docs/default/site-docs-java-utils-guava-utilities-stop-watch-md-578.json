@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/guava/utilities/stopWatch",
+  "title": "stopWatch",
+  "description": "Stopwatch 是 Guava 库中提供的一种用于测量代码执行时间的工具类。它可以帮助开发者轻松地记录和计算代码片段的执行时间。",
+  "source": "@site/docs/java/utils/guava/utilities/stopWatch.md",
+  "sourceDirName": "java/utils/guava/utilities",
+  "slug": "/java/utils/guava/utilities/stopWatch",
+  "permalink": "/jaspernote/docs/java/utils/guava/utilities/stopWatch",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/guava/utilities/stopWatch.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

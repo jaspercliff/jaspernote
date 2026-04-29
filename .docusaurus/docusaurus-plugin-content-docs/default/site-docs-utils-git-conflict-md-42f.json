@@ -1,0 +1,24 @@
+{
+  "id": "utils/git/conflict",
+  "title": "conflict",
+  "description": "git 冲突标记",
+  "source": "@site/docs/utils/git/conflict.md",
+  "sourceDirName": "utils/git",
+  "slug": "/utils/git/conflict",
+  "permalink": "/jaspernote/docs/utils/git/conflict",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/git/conflict.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "git",
+  "previous": {
+    "title": "concept",
+    "permalink": "/jaspernote/docs/utils/git/concept"
+  },
+  "next": {
+    "title": ".gitattributes",
+    "permalink": "/jaspernote/docs/utils/git/gitattributes"
+  }
+}

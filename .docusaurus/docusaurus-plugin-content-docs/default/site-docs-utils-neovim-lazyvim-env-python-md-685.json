@@ -1,0 +1,24 @@
+{
+  "id": "utils/neovim/lazyvim/env/python",
+  "title": "python开发",
+  "description": "npm i -g pyright（微软开发的一个 Python 静态类型检查器和语言服务器（LSP））",
+  "source": "@site/docs/utils/neovim/lazyvim/env/python.md",
+  "sourceDirName": "utils/neovim/lazyvim/env",
+  "slug": "/utils/neovim/lazyvim/env/python",
+  "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/python",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/lazyvim/env/python.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "java",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/java"
+  },
+  "next": {
+    "title": "ubuntu安装ruff失败",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/ruff"
+  }
+}

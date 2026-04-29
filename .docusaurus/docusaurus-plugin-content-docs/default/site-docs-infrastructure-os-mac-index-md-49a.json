@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/mac/index",
+  "title": "mac",
+  "description": "- 常用快捷键",
+  "source": "@site/docs/infrastructure/os/mac/index.md",
+  "sourceDirName": "infrastructure/os/mac",
+  "slug": "/infrastructure/os/mac/",
+  "permalink": "/jaspernote/docs/infrastructure/os/mac/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/mac/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "paru",
+    "permalink": "/jaspernote/docs/infrastructure/os/archlinux/paru"
+  },
+  "next": {
+    "title": "finder",
+    "permalink": "/jaspernote/docs/infrastructure/os/mac/finder"
+  }
+}

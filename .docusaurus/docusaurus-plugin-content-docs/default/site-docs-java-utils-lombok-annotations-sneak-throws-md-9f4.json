@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/lombok/annotations/SneakThrows",
+  "title": "SneakThrows",
+  "description": "@SneakyThrows 注解主要用于简化 Java 代码中的异常处理，特别是在那些需要处理检查型异常（checked",
+  "source": "@site/docs/java/utils/lombok/annotations/SneakThrows.md",
+  "sourceDirName": "java/utils/lombok/annotations",
+  "slug": "/java/utils/lombok/annotations/SneakThrows",
+  "permalink": "/jaspernote/docs/java/utils/lombok/annotations/SneakThrows",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/lombok/annotations/SneakThrows.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

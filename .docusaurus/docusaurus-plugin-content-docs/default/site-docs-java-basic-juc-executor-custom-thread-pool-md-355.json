@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/executor/customThreadPool",
+  "title": "自定义线程池",
+  "description": "线程池的关键参数",
+  "source": "@site/docs/java/basic/juc/executor/customThreadPool.md",
+  "sourceDirName": "java/basic/juc/executor",
+  "slug": "/java/basic/juc/executor/customThreadPool",
+  "permalink": "/jaspernote/docs/java/basic/juc/executor/customThreadPool",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/executor/customThreadPool.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "linkedblockingqueue",
+    "permalink": "/jaspernote/docs/java/basic/juc/collections/queue/linkedblockingqueue"
+  },
+  "next": {
+    "title": "Executor",
+    "permalink": "/jaspernote/docs/java/basic/juc/executor/executors"
+  }
+}

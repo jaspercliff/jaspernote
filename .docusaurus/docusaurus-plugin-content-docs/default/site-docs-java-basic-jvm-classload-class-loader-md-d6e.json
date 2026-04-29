@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/classload/classLoader",
+  "title": "class loader",
+  "description": "核心类库（RT.jar）由 BootstrapClassLoader 加载 → 扩展库由 ExtClassLoader 加载 → 你的代码由 AppClassLoader 加载。",
+  "source": "@site/docs/java/basic/jvm/classload/classLoader.md",
+  "sourceDirName": "java/basic/jvm/classload",
+  "slug": "/java/basic/jvm/classload/classLoader",
+  "permalink": "/jaspernote/docs/java/basic/jvm/classload/classLoader",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/classload/classLoader.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "虚拟机类加载机制",
+    "permalink": "/jaspernote/docs/java/basic/jvm/classload/"
+  },
+  "next": {
+    "title": "loading",
+    "permalink": "/jaspernote/docs/java/basic/jvm/classload/process/01load"
+  }
+}

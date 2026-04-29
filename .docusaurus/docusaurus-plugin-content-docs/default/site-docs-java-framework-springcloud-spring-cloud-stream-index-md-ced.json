@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springcloud/springCloudStream/index",
+  "title": "Spring cloud stream",
+  "description": "Spring Cloud Stream 简介",
+  "source": "@site/docs/java/framework/springcloud/springCloudStream/index.md",
+  "sourceDirName": "java/framework/springcloud/springCloudStream",
+  "slug": "/java/framework/springcloud/springCloudStream/",
+  "permalink": "/jaspernote/docs/java/framework/springcloud/springCloudStream/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springcloud/springCloudStream/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "seata",
+    "permalink": "/jaspernote/docs/java/framework/springcloud/seata/"
+  },
+  "next": {
+    "title": "springMvc",
+    "permalink": "/jaspernote/docs/java/framework/springmvc/"
+  }
+}

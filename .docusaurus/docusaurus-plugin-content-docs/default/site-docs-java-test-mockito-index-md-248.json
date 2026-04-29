@@ -1,0 +1,15 @@
+{
+  "id": "java/test/mockito/index",
+  "title": "mockito",
+  "description": "mockito是java中一个流行的单元测试框架(模拟框架），主要用于创建和管理模拟对象。它允许开发者在测试中创建虚拟对象，以便隔离被测试的代码，并验证其行为",
+  "source": "@site/docs/java/test/mockito/index.md",
+  "sourceDirName": "java/test/mockito",
+  "slug": "/java/test/mockito/",
+  "permalink": "/jaspernote/docs/java/test/mockito/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/test/mockito/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

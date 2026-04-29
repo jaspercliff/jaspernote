@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/lock/biasedLock",
+  "title": "偏向锁",
+  "description": "UseBiasedLocking 是 Java 虚拟机（JVM）中的一个选项，用于启用或禁用偏向锁（Biased Locking）机制，偏向锁是一种优化机制，旨在提高 单线程程序的性能。",
+  "source": "@site/docs/java/basic/jvm/lock/biasedLock.md",
+  "sourceDirName": "java/basic/jvm/lock",
+  "slug": "/java/basic/jvm/lock/biasedLock",
+  "permalink": "/jaspernote/docs/java/basic/jvm/lock/biasedLock",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/lock/biasedLock.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "memory barrier 内存屏障",
+    "permalink": "/jaspernote/docs/java/basic/jvm/jmm/memoryBarrier"
+  },
+  "next": {
+    "title": "堆栈",
+    "permalink": "/jaspernote/docs/java/basic/jvm/other/堆栈"
+  }
+}

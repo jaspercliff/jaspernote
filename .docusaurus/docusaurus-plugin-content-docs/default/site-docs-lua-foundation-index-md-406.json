@@ -1,0 +1,20 @@
+{
+  "id": "lua/foundation/index",
+  "title": "foundation",
+  "description": "- install",
+  "source": "@site/docs/lua/foundation/index.md",
+  "sourceDirName": "lua/foundation",
+  "slug": "/lua/foundation/",
+  "permalink": "/jaspernote/docs/lua/foundation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/lua/foundation/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "lua",
+  "next": {
+    "title": "control",
+    "permalink": "/jaspernote/docs/lua/foundation/03control"
+  }
+}

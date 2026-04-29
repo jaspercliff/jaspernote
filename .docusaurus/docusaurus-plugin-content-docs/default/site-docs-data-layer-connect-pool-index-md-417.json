@@ -1,0 +1,23 @@
+{
+  "id": "dataLayer/connectPool/index",
+  "title": "connection pool",
+  "description": "",
+  "source": "@site/docs/dataLayer/connectPool/index.md",
+  "sourceDirName": "dataLayer/connectPool",
+  "slug": "/dataLayer/connectPool/",
+  "permalink": "/jaspernote/docs/dataLayer/connectPool/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/connectPool/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "connectPool",
+  "next": {
+    "title": "druid",
+    "permalink": "/jaspernote/docs/dataLayer/connectPool/druid/"
+  }
+}

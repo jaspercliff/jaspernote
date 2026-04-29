@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjaspernote=self.webpackChunkjaspernote||[]).push([["81709"],{63356(e,s,a){a.d(s,{createInfoServices:()=>r.v});var r=a(2963);a(90047)}}]);

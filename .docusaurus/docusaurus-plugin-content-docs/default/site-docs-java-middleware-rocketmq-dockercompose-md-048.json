@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/dockercompose",
+  "title": "docker compose",
+  "description": "",
+  "source": "@site/docs/java/middleware/rocketmq/dockercompose.md",
+  "sourceDirName": "java/middleware/rocketmq",
+  "slug": "/java/middleware/rocketmq/dockercompose",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/dockercompose",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/dockercompose.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

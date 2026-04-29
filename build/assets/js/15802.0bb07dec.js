@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjaspernote=self.webpackChunkjaspernote||[]).push([["15802"],{225(e,r,s){s.d(r,{createArchitectureServices:()=>c.S});var c=s(77713);s(90047)}}]);

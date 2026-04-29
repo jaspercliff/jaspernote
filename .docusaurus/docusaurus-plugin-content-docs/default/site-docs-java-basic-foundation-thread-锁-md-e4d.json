@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/foundation/thread/锁",
+  "title": "锁",
+  "description": "happens-before",
+  "source": "@site/docs/java/basic/foundation/thread/锁.md",
+  "sourceDirName": "java/basic/foundation/thread",
+  "slug": "/java/basic/foundation/thread/锁",
+  "permalink": "/docs/java/basic/foundation/thread/锁",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/thread/锁.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "thread",
+    "permalink": "/docs/java/basic/foundation/thread/线程基础"
+  },
+  "next": {
+    "title": "java 新特性",
+    "permalink": "/docs/java/basic/newFeature/"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/lombok/annotations/Generated",
+  "title": "@Generated",
+  "description": "@Generated 注解用于标记由 Lombok 自动生成的代码。这个注解通常被 Lombok 的其他注解（如 @Getter, @Setter, @ToString",
+  "source": "@site/docs/java/utils/lombok/annotations/Generated.md",
+  "sourceDirName": "java/utils/lombok/annotations",
+  "slug": "/java/utils/lombok/annotations/Generated",
+  "permalink": "/jaspernote/docs/java/utils/lombok/annotations/Generated",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/lombok/annotations/Generated.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

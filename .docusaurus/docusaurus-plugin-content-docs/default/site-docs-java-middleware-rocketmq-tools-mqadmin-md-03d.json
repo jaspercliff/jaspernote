@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/tools/mqadmin",
+  "title": "mqadmin",
+  "description": "mqadmin 是 Apache RocketMQ 提供的一个命令行管理工具，主要用于管理和监控 RocketMQ 消息队列的运行状态。",
+  "source": "@site/docs/java/middleware/rocketmq/tools/mqadmin.md",
+  "sourceDirName": "java/middleware/rocketmq/tools",
+  "slug": "/java/middleware/rocketmq/tools/mqadmin",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/tools/mqadmin",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/tools/mqadmin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

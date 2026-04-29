@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/problem/cachePenetration",
+  "title": "缓存穿透 cache penetration",
+  "description": "客户端请求的数据在redis和数据库中都不存在，缓存永远不会生效，请求最终都会到达数据库,缓存不能拦截这些无效的查询",
+  "source": "@site/docs/dataLayer/nosql/redis/problem/cachePenetration.md",
+  "sourceDirName": "dataLayer/nosql/redis/problem",
+  "slug": "/dataLayer/nosql/redis/problem/cachePenetration",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/cachePenetration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/problem/cachePenetration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "缓存击穿 cache breakdown",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/cacheBreakdown"
+  },
+  "next": {
+    "title": "distributedlock",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/distributedLock"
+  }
+}

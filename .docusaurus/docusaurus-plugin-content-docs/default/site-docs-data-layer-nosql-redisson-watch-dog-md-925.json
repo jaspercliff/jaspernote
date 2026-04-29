@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redisson/watchDog",
+  "title": "watch dog",
+  "description": "如果锁设置的过期时间太短，业务没执行完锁就过期了，会导致并发安全问题；如果设置太长，万一服务器宕机了，锁迟迟不释放，会造成死锁",
+  "source": "@site/docs/dataLayer/nosql/redisson/watchDog.md",
+  "sourceDirName": "dataLayer/nosql/redisson",
+  "slug": "/dataLayer/nosql/redisson/watchDog",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redisson/watchDog",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redisson/watchDog.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "intergration",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redisson/intergration"
+  },
+  "next": {
+    "title": "valkey",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/valkey/"
+  }
+}

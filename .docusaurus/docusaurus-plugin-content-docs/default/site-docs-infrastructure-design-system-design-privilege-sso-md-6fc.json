@@ -1,0 +1,20 @@
+{
+  "id": "infrastructure/design/systemDesign/privilege/sso",
+  "title": "sso 单点登录",
+  "description": "1. 什么是单点登录",
+  "source": "@site/docs/infrastructure/design/systemDesign/privilege/sso.md",
+  "sourceDirName": "infrastructure/design/systemDesign/privilege",
+  "slug": "/infrastructure/design/systemDesign/privilege/sso",
+  "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/privilege/sso",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/design/systemDesign/privilege/sso.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "design",
+  "previous": {
+    "title": "pojo",
+    "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/pojo"
+  }
+}

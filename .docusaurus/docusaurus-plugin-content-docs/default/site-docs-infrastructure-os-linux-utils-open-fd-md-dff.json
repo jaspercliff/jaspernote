@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/open/fd",
+  "title": "fd",
+  "description": "fd 是一个比系统自带的 find 命令更快、更用户友好的搜索工具，许多 Neovim 插件（尤其是 Telescope，LazyVim 默认的文件查找器）都依赖它来实现高性能的文件查找",
+  "source": "@site/docs/infrastructure/os/linux/utils/open/fd.md",
+  "sourceDirName": "infrastructure/os/linux/utils/open",
+  "slug": "/infrastructure/os/linux/utils/open/fd",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/fd",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/open/fd.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "direnv",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/direnv"
+  },
+  "next": {
+    "title": "frp",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/frp"
+  }
+}

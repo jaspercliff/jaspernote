@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/5systemManager/index",
+  "title": "系统管理员",
+  "description": "",
+  "source": "@site/docs/infrastructure/os/linux/5systemManager/index.md",
+  "sourceDirName": "infrastructure/os/linux/5systemManager",
+  "slug": "/infrastructure/os/linux/5systemManager/",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/5systemManager/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/5systemManager/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/"
+  },
+  "next": {
+    "title": "system service",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/5systemManager/systemService"
+  }
+}

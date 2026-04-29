@@ -1,0 +1,24 @@
+{
+  "id": "python/foundation/dataType/index",
+  "title": "data type",
+  "description": "数字类型",
+  "source": "@site/docs/python/foundation/dataType/index.md",
+  "sourceDirName": "python/foundation/dataType",
+  "slug": "/python/foundation/dataType/",
+  "permalink": "/jaspernote/docs/python/foundation/dataType/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/foundation/dataType/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "控制循环",
+    "permalink": "/jaspernote/docs/python/foundation/contrlAndloop"
+  },
+  "next": {
+    "title": "tuple",
+    "permalink": "/jaspernote/docs/python/foundation/dataType/tuple"
+  }
+}

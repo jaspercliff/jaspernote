@@ -1,0 +1,20 @@
+{
+  "id": "front/vue/index",
+  "title": "vue",
+  "description": "- [基本概念]",
+  "source": "@site/docs/front/vue/index.md",
+  "sourceDirName": "front/vue",
+  "slug": "/front/vue/",
+  "permalink": "/jaspernote/docs/front/vue/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front/vue/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "vue",
+  "previous": {
+    "title": "基本概念",
+    "permalink": "/jaspernote/docs/front/vue/basic"
+  }
+}

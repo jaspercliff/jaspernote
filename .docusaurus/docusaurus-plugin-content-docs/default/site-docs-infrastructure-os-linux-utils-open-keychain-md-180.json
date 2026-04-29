@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/open/keychain",
+  "title": "keychain",
+  "description": "第一次打开终端时，它会提示你输入一次密码，之后所有的终端窗口和重启后的会话（配合配置）都能共享这个解锁状态",
+  "source": "@site/docs/infrastructure/os/linux/utils/open/keychain.md",
+  "sourceDirName": "infrastructure/os/linux/utils/open",
+  "slug": "/infrastructure/os/linux/utils/open/keychain",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/keychain",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/open/keychain.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "just",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/just"
+  },
+  "next": {
+    "title": "navi",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/navi"
+  }
+}

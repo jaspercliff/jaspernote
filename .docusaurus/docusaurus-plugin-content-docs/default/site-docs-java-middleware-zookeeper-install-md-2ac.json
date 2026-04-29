@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/zookeeper/install",
+  "title": "install",
+  "description": "install",
+  "source": "@site/docs/java/middleware/zookeeper/install.md",
+  "sourceDirName": "java/middleware/zookeeper",
+  "slug": "/java/middleware/zookeeper/install",
+  "permalink": "/jaspernote/docs/java/middleware/zookeeper/install",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/zookeeper/install.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

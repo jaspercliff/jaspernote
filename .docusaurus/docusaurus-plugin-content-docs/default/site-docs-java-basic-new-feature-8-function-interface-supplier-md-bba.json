@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/functionInterface/supplier",
+  "title": "Supplier",
+  "description": "Supplier 是一个函数式接口，它位于 java.util.function 包中。它代表一个不接受参数但返回一个结果的函数。",
+  "source": "@site/docs/java/basic/newFeature/8/functionInterface/supplier.md",
+  "sourceDirName": "java/basic/newFeature/8/functionInterface",
+  "slug": "/java/basic/newFeature/8/functionInterface/supplier",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/supplier",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/functionInterface/supplier.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "predicate",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/predicate"
+  },
+  "next": {
+    "title": "optional",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/optional"
+  }
+}

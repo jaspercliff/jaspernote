@@ -1,0 +1,24 @@
+{
+  "id": "java/devTools/buildTools/maven/confilct",
+  "title": "conflict",
+  "description": "spring-boot-starter-jdbc 导入了 spring-boot-autoconfigure，其他地方也可能会导入 同一个 jar 包。",
+  "source": "@site/docs/java/devTools/buildTools/maven/confilct.md",
+  "sourceDirName": "java/devTools/buildTools/maven",
+  "slug": "/java/devTools/buildTools/maven/confilct",
+  "permalink": "/jaspernote/docs/java/devTools/buildTools/maven/confilct",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/devTools/buildTools/maven/confilct.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devTools",
+  "previous": {
+    "title": "basic",
+    "permalink": "/jaspernote/docs/java/devTools/buildTools/maven/basic"
+  },
+  "next": {
+    "title": "idea",
+    "permalink": "/jaspernote/docs/java/devTools/idea/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/file/btrfs",
+  "title": "btrfs",
+  "description": "@ (根目录)：快照的主体。",
+  "source": "@site/docs/infrastructure/os/linux/file/btrfs.md",
+  "sourceDirName": "infrastructure/os/linux/file",
+  "slug": "/infrastructure/os/linux/file/btrfs",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/file/btrfs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/file/btrfs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "file",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/file/"
+  },
+  "next": {
+    "title": "compress",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/file/compress"
+  }
+}

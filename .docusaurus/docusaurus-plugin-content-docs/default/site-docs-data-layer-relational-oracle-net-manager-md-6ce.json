@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/netManager",
+  "title": "net manager",
+  "description": "Oracle Net Manager 是 Oracle 提供的一个图形用户界面工具，用于配置和管理 Oracle 网络服务。它简化了监听器配置、命名方法配置、概要文件设置等网络相关任务。通过使用 Oracle Net Manager，你可以无需直接编辑文本配置文件（如 listener.ora 和 tnsnames.ora），即可实现对Oracle网络环境的管理和调整。",
+  "source": "@site/docs/dataLayer/relational/oracle/netManager.md",
+  "sourceDirName": "dataLayer/relational/oracle",
+  "slug": "/dataLayer/relational/oracle/netManager",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/netManager",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/netManager.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "install",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/install"
+  },
+  "next": {
+    "title": "杂七杂八",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/other"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/java/springdataredis/index",
+  "title": "springDataRedis",
+  "description": "- official website",
+  "source": "@site/docs/dataLayer/nosql/redis/java/springdataredis/index.md",
+  "sourceDirName": "dataLayer/nosql/redis/java/springdataredis",
+  "slug": "/dataLayer/nosql/redis/java/springdataredis/",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/java/springdataredis/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/java/springdataredis/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "jedis",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/java/jedis/"
+  },
+  "next": {
+    "title": "serialization",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/java/springdataredis/serialization"
+  }
+}

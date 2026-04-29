@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/mac/homebrew",
+  "title": "homebrew",
+  "description": "Homebrew is a package manager for macOS that simplifies the installation and management of software packages.",
+  "source": "@site/docs/infrastructure/os/mac/homebrew.md",
+  "sourceDirName": "infrastructure/os/mac",
+  "slug": "/infrastructure/os/mac/homebrew",
+  "permalink": "/jaspernote/docs/infrastructure/os/mac/homebrew",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/mac/homebrew.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "finder",
+    "permalink": "/jaspernote/docs/infrastructure/os/mac/finder"
+  },
+  "next": {
+    "title": "keyShort",
+    "permalink": "/jaspernote/docs/infrastructure/os/mac/keyShort"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/programmability/luascript/index",
+  "title": "lua script",
+  "description": "- eval",
+  "source": "@site/docs/dataLayer/nosql/redis/programmability/luascript/index.md",
+  "sourceDirName": "dataLayer/nosql/redis/programmability/luascript",
+  "slug": "/dataLayer/nosql/redis/programmability/luascript/",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/programmability/luascript/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "function",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/function/"
+  },
+  "next": {
+    "title": "debug",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/debug"
+  }
+}

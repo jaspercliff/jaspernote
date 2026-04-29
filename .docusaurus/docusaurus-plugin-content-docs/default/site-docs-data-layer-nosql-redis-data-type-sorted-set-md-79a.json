@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/dataType/sortedSet",
+  "title": "sortedset",
+  "description": "类似java中的treeset，sortedset中的元素有score属性,根据score排序，底层使用跳表+hash表实现",
+  "source": "@site/docs/dataLayer/nosql/redis/dataType/sortedSet.md",
+  "sourceDirName": "dataLayer/nosql/redis/dataType",
+  "slug": "/dataLayer/nosql/redis/dataType/sortedSet",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/sortedSet",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/dataType/sortedSet.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "set",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/set"
+  },
+  "next": {
+    "title": "stream",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/stream"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/plsql/helloworld",
+  "title": "hello world",
+  "description": "在sqlplus/sqldeveloper这样的工具打开控制台输出，打开之后才能看到DBMSOUTPUT.PUTLINE 语句输出的信息",
+  "source": "@site/docs/dataLayer/relational/oracle/plsql/helloworld.md",
+  "sourceDirName": "dataLayer/relational/oracle/plsql",
+  "slug": "/dataLayer/relational/oracle/plsql/helloworld",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/helloworld",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/plsql/helloworld.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "data type",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/dataType"
+  },
+  "next": {
+    "title": "循环",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/loop"
+  }
+}

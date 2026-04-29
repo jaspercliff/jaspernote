@@ -1,0 +1,15 @@
+{
+  "id": "java/web/log/logback/index",
+  "title": "logback",
+  "description": "根据不同的环境配置不同的日志记录规则",
+  "source": "@site/docs/java/web/log/logback/index.md",
+  "sourceDirName": "java/web/log/logback",
+  "slug": "/java/web/log/logback/",
+  "permalink": "/jaspernote/docs/java/web/log/logback/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/web/log/logback/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

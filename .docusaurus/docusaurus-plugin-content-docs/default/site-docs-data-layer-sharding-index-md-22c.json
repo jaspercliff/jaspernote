@@ -1,0 +1,20 @@
+{
+  "id": "dataLayer/sharding/index",
+  "title": "分库分表",
+  "description": "",
+  "source": "@site/docs/dataLayer/sharding/index.md",
+  "sourceDirName": "dataLayer/sharding",
+  "slug": "/dataLayer/sharding/",
+  "permalink": "/jaspernote/docs/dataLayer/sharding/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/sharding/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sharding",
+  "next": {
+    "title": "mycat",
+    "permalink": "/jaspernote/docs/dataLayer/sharding/mycat/"
+  }
+}

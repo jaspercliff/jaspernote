@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/jvm/runtimeDataArea/methodArea",
+  "title": "方法区",
+  "description": "所有 Java 虚拟机线程共享该方法区。它存储每个类的结构，",
+  "source": "@site/docs/java/basic/jvm/runtimeDataArea/methodArea.md",
+  "sourceDirName": "java/basic/jvm/runtimeDataArea",
+  "slug": "/java/basic/jvm/runtimeDataArea/methodArea",
+  "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/methodArea",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/runtimeDataArea/methodArea.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "heap",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/heap"
+  },
+  "next": {
+    "title": "直接内存",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/directMemory"
+  }
+}

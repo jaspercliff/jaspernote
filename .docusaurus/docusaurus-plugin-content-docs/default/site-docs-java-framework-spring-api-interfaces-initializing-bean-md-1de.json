@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/api/interfaces/InitializingBean",
+  "title": "InitializingBean",
+  "description": "InitializingBean 是 Spring 提供的一个接口，定义如下：",
+  "source": "@site/docs/java/framework/spring/api/interfaces/InitializingBean.md",
+  "sourceDirName": "java/framework/spring/api/interfaces",
+  "slug": "/java/framework/spring/api/interfaces/InitializingBean",
+  "permalink": "/jaspernote/docs/java/framework/spring/api/interfaces/InitializingBean",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/api/interfaces/InitializingBean.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "FactoryBean",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/context/FactoryBean"
+  },
+  "next": {
+    "title": "AnnotatedElementUtils",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/utils/AnnotatedElementUtils"
+  }
+}

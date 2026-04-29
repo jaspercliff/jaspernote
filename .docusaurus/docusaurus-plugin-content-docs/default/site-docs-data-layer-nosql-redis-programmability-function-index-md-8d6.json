@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/programmability/function/index",
+  "title": "function",
+  "description": "redis 7.0 since",
+  "source": "@site/docs/dataLayer/nosql/redis/programmability/function/index.md",
+  "sourceDirName": "dataLayer/nosql/redis/programmability/function",
+  "slug": "/dataLayer/nosql/redis/programmability/function/",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/function/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/programmability/function/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "缓存同步策略",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/update"
+  },
+  "next": {
+    "title": "lua script",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/"
+  }
+}

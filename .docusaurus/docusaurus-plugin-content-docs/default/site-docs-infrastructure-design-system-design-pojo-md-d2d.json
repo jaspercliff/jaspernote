@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/design/systemDesign/pojo",
+  "title": "pojo",
+  "description": "POJO（Plain 简单的 Old 普遍的 Java Object）是指普通的、简单的Java对象，它不依赖于任何特定的框架或库。POJO通常用于表示数据模型，",
+  "source": "@site/docs/infrastructure/design/systemDesign/pojo.md",
+  "sourceDirName": "infrastructure/design/systemDesign",
+  "slug": "/infrastructure/design/systemDesign/pojo",
+  "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/pojo",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/design/systemDesign/pojo.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "design",
+  "previous": {
+    "title": "多租户",
+    "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/multiTenant"
+  },
+  "next": {
+    "title": "sso 单点登录",
+    "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/privilege/sso"
+  }
+}

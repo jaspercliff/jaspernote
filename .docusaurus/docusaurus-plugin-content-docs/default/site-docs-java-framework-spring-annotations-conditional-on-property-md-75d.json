@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/annotations/ConditionalOnProperty",
+  "title": "@ConditionalOnProperty",
+  "description": "@ConditionalOnProperty 是 Spring Boot 中的一个注解，它用于基于配置文件中的属性值来决定是否应该创建某个 Bean",
+  "source": "@site/docs/java/framework/spring/annotations/ConditionalOnProperty.md",
+  "sourceDirName": "java/framework/spring/annotations",
+  "slug": "/java/framework/spring/annotations/ConditionalOnProperty",
+  "permalink": "/jaspernote/docs/java/framework/spring/annotations/ConditionalOnProperty",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/annotations/ConditionalOnProperty.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "Async",
+    "permalink": "/jaspernote/docs/java/framework/spring/annotations/Async"
+  },
+  "next": {
+    "title": "DependsOn",
+    "permalink": "/jaspernote/docs/java/framework/spring/annotations/DependsOn"
+  }
+}

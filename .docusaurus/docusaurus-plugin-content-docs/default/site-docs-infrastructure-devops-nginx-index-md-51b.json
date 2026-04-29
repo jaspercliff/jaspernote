@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/devops/nginx/index",
+  "title": "nginx",
+  "description": "- install",
+  "source": "@site/docs/infrastructure/devops/nginx/index.md",
+  "sourceDirName": "infrastructure/devops/nginx",
+  "slug": "/infrastructure/devops/nginx/",
+  "permalink": "/jaspernote/docs/infrastructure/devops/nginx/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/nginx/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devops",
+  "previous": {
+    "title": "k8s",
+    "permalink": "/jaspernote/docs/infrastructure/devops/k8s/"
+  },
+  "next": {
+    "title": "configure",
+    "permalink": "/jaspernote/docs/infrastructure/devops/nginx/configure"
+  }
+}

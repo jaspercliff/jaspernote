@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/runtimeDataArea/index",
+  "title": "jvm 内存结构",
+  "description": "img.png",
+  "source": "@site/docs/java/basic/jvm/runtimeDataArea/index.md",
+  "sourceDirName": "java/basic/jvm/runtimeDataArea",
+  "slug": "/java/basic/jvm/runtimeDataArea/",
+  "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/runtimeDataArea/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "堆栈",
+    "permalink": "/jaspernote/docs/java/basic/jvm/other/堆栈"
+  },
+  "next": {
+    "title": "程序计数器",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/pcRegister"
+  }
+}

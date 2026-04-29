@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/algo/cache/lru",
+  "title": "lru",
+  "description": "核心思想：如果数据最近被访问过，那么未来被访问的概率也更高。如果数据最久没有被访问过，那么应该最先淘汰掉",
+  "source": "@site/docs/dataStructure/algo/cache/lru.md",
+  "sourceDirName": "dataStructure/algo/cache",
+  "slug": "/dataStructure/algo/cache/lru",
+  "permalink": "/jaspernote/docs/dataStructure/algo/cache/lru",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/algo/cache/lru.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "bloomfilter",
+    "permalink": "/jaspernote/docs/dataStructure/algo/bloomfilter"
+  },
+  "next": {
+    "title": "tinyLru",
+    "permalink": "/jaspernote/docs/dataStructure/algo/cache/tinyLru"
+  }
+}

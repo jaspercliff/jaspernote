@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/mac/keyShort",
+  "title": "keyShort",
+  "description": "- command+,   显示偏好",
+  "source": "@site/docs/infrastructure/os/mac/keyShort.md",
+  "sourceDirName": "infrastructure/os/mac",
+  "slug": "/infrastructure/os/mac/keyShort",
+  "permalink": "/jaspernote/docs/infrastructure/os/mac/keyShort",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/mac/keyShort.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "homebrew",
+    "permalink": "/jaspernote/docs/infrastructure/os/mac/homebrew"
+  },
+  "next": {
+    "title": "keychain",
+    "permalink": "/jaspernote/docs/infrastructure/os/mac/keychain"
+  }
+}

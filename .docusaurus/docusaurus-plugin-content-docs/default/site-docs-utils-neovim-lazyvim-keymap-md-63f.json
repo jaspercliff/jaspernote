@@ -1,0 +1,24 @@
+{
+  "id": "utils/neovim/lazyvim/keymap",
+  "title": "keymap",
+  "description": "空格 [   b 打开多个文件切换",
+  "source": "@site/docs/utils/neovim/lazyvim/keymap.md",
+  "sourceDirName": "utils/neovim/lazyvim",
+  "slug": "/utils/neovim/lazyvim/keymap",
+  "permalink": "/jaspernote/docs/utils/neovim/lazyvim/keymap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/lazyvim/keymap.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "install",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/install"
+  },
+  "next": {
+    "title": "flash.nvim",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/plugins/flash.nvim"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "utils/jmeter/function",
+  "title": "function",
+  "description": "",
+  "source": "@site/docs/utils/jmeter/function.md",
+  "sourceDirName": "utils/jmeter",
+  "slug": "/utils/jmeter/function",
+  "permalink": "/jaspernote/docs/utils/jmeter/function",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/jmeter/function.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "jmeter",
+  "previous": {
+    "title": "jmeter 连接数据库",
+    "permalink": "/jaspernote/docs/utils/jmeter/database"
+  },
+  "next": {
+    "title": "编写groovy脚本",
+    "permalink": "/jaspernote/docs/utils/jmeter/groovy/"
+  }
+}

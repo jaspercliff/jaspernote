@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/problems/exist和in的区别",
+  "title": "exist 和 in的区别",
+  "description": "在SQL查询中，EXISTS 和 IN 是两种常用的子查询操作符，它们都可以用来检查某些值是否存在",
+  "source": "@site/docs/dataLayer/relational/mysql/problems/exist和in的区别.md",
+  "sourceDirName": "dataLayer/relational/mysql/problems",
+  "slug": "/dataLayer/relational/mysql/problems/exist和in的区别",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/problems/exist和in的区别",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/problems/exist和in的区别.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "delete和truncate的区别.md",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/problems/delete和truncate的区别"
+  },
+  "next": {
+    "title": "replication",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/replication"
+  }
+}

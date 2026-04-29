@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/mac/pathVariable",
+  "title": "环境变量",
+  "description": "在 macOS 上设置环境变量可以通过修改 shell 的配置文件实现。以下是详细的步骤，具体操作取决于您使用的 shell 类型（例如 zsh 或 bash）。",
+  "source": "@site/docs/infrastructure/os/mac/pathVariable.md",
+  "sourceDirName": "infrastructure/os/mac",
+  "slug": "/infrastructure/os/mac/pathVariable",
+  "permalink": "/jaspernote/docs/infrastructure/os/mac/pathVariable",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/mac/pathVariable.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "other",
+    "permalink": "/jaspernote/docs/infrastructure/os/mac/other"
+  },
+  "next": {
+    "title": "paste",
+    "permalink": "/jaspernote/docs/infrastructure/os/mac/screeShot"
+  }
+}

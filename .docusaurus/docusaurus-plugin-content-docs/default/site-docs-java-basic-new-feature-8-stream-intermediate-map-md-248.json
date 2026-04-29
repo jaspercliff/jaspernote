@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/stream/intermediate/map",
+  "title": "map",
+  "description": "map 方法用于将一个流中的元素转换为另一种形式。它接受一个函数作为参数，这个函数被应用到流的每个元素上，将其映像成一个新的形式。结果是一个包含新形式元素的新流",
+  "source": "@site/docs/java/basic/newFeature/8/stream/intermediate/map.md",
+  "sourceDirName": "java/basic/newFeature/8/stream/intermediate",
+  "slug": "/java/basic/newFeature/8/stream/intermediate/map",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/map",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/stream/intermediate/map.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "flatMap",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/flatMap"
+  },
+  "next": {
+    "title": "skip",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/skip"
+  }
+}

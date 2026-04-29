@@ -1,0 +1,26 @@
+{
+  "id": "patterns/creational/singleton",
+  "title": "singleton",
+  "description": "单例模式是一种常用的设计模式，它确保一个类只有一个实例，并提供一个全局访问点来获取这个实例。单例模式在很多场景下都非常有用，比如配置管理、线程池、缓存等，因为这些场景下通常只需要一个实例就足够了，无需创建多个实例。",
+  "source": "@site/docs/patterns/creational/singleton.md",
+  "sourceDirName": "patterns/creational",
+  "slug": "/patterns/creational/singleton",
+  "permalink": "/jaspernote/docs/patterns/creational/singleton",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/patterns/creational/singleton.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "singleton"
+  },
+  "sidebar": "patterns",
+  "previous": {
+    "title": "简单工厂模式",
+    "permalink": "/jaspernote/docs/patterns/creational/simpleFactory"
+  },
+  "next": {
+    "title": "observer",
+    "permalink": "/jaspernote/docs/patterns/behavioral/observer"
+  }
+}

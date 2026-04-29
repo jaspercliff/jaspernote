@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/caffeine/index",
+  "title": "caffeine",
+  "description": "官网链接",
+  "source": "@site/docs/java/utils/caffeine/index.md",
+  "sourceDirName": "java/utils/caffeine",
+  "slug": "/java/utils/caffeine/",
+  "permalink": "/jaspernote/docs/java/utils/caffeine/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/caffeine/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springboot/自定义starter",
+  "title": "自定义一个springboot starter",
+  "description": "官方文档",
+  "source": "@site/docs/java/framework/springboot/自定义starter.md",
+  "sourceDirName": "java/framework/springboot",
+  "slug": "/java/framework/springboot/自定义starter",
+  "permalink": "/jaspernote/docs/java/framework/springboot/自定义starter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springboot/自定义starter.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "springboot读取resource下文件",
+    "permalink": "/jaspernote/docs/java/framework/springboot/springbootReadFile"
+  },
+  "next": {
+    "title": "配置文件",
+    "permalink": "/jaspernote/docs/java/framework/springboot/配置文件"
+  }
+}

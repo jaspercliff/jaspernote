@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springboot/index",
+  "title": "springboot",
+  "description": "- CommandLineRunner",
+  "source": "@site/docs/java/framework/springboot/index.md",
+  "sourceDirName": "java/framework/springboot",
+  "slug": "/java/framework/springboot/",
+  "permalink": "/jaspernote/docs/java/framework/springboot/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springboot/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "springSecurity",
+    "permalink": "/jaspernote/docs/java/framework/springSecurity/impl"
+  },
+  "next": {
+    "title": "CommandLineRunner",
+    "permalink": "/jaspernote/docs/java/framework/springboot/CommandLineRunner"
+  }
+}

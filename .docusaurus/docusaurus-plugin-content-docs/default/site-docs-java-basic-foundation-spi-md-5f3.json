@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/foundation/spi",
+  "title": "SPI",
+  "description": "Java SPI (Service Provider Interface) 是 Java 提供的一种服务发现机制。",
+  "source": "@site/docs/java/basic/foundation/spi.md",
+  "sourceDirName": "java/basic/foundation",
+  "slug": "/java/basic/foundation/spi",
+  "permalink": "/jaspernote/docs/java/basic/foundation/spi",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/spi.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "异常",
+    "permalink": "/jaspernote/docs/java/basic/foundation/exception"
+  },
+  "next": {
+    "title": "线程",
+    "permalink": "/jaspernote/docs/java/basic/foundation/thread/basic"
+  }
+}

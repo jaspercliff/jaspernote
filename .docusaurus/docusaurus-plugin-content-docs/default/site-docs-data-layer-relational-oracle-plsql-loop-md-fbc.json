@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/plsql/loop",
+  "title": "循环",
+  "description": "在 PL/SQL（Procedural Language for SQL）中，循环结构用于重复执行一段代码块。PL/SQL 提供了多种类型的循环，以满足不同的需求。以下是常见的三种循环类型及其用法：",
+  "source": "@site/docs/dataLayer/relational/oracle/plsql/loop.md",
+  "sourceDirName": "dataLayer/relational/oracle/plsql",
+  "slug": "/dataLayer/relational/oracle/plsql/loop",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/loop",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/plsql/loop.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "hello world",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/helloworld"
+  },
+  "next": {
+    "title": "package",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/package"
+  }
+}

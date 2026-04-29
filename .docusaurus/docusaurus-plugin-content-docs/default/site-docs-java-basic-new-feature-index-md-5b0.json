@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/index",
+  "title": "java 新特性",
+  "description": "- jdk8",
+  "source": "@site/docs/java/basic/newFeature/index.md",
+  "sourceDirName": "java/basic/newFeature",
+  "slug": "/java/basic/newFeature/",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "thread",
+    "permalink": "/jaspernote/docs/java/basic/foundation/thread/线程基础"
+  },
+  "next": {
+    "title": "jdk17",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/17/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/事务隔离级别",
+  "title": "事务隔离级别",
+  "description": "在MySQL中，事务隔离级别定义了不同事务之间的可见性和互相影响的程度。每个级别都在数据正确性与性能之间做出不同的平衡。以下是MySQL支持的四种事务隔离级别的详细比较：",
+  "source": "@site/docs/dataLayer/relational/mysql/事务隔离级别.md",
+  "sourceDirName": "dataLayer/relational/mysql",
+  "slug": "/dataLayer/relational/mysql/事务隔离级别",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/事务隔离级别",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/事务隔离级别.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "replication",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/replication"
+  },
+  "next": {
+    "title": "存储引擎",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/存储引擎"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/native/awk",
+  "title": "awk",
+  "description": "awk 是一个强大的文本分析工具，在Unix/Linux系统中广泛使用。",
+  "source": "@site/docs/infrastructure/os/linux/utils/native/awk.md",
+  "sourceDirName": "infrastructure/os/linux/utils/native",
+  "slug": "/infrastructure/os/linux/utils/native/awk",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/awk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/native/awk.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/"
+  },
+  "next": {
+    "title": "curl",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/curl"
+  }
+}

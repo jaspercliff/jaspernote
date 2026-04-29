@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/functionInterface/function",
+  "title": "function",
+  "description": "Java 8 引入了 Function 接口作为其函数式编程特性的一部分。Function 接口是 Java 8 中新增的重要功能之一，它允许你编写简洁且易于理解的代码。下面是对 Function 接口的详细介绍：",
+  "source": "@site/docs/java/basic/newFeature/8/functionInterface/function.md",
+  "sourceDirName": "java/basic/newFeature/8/functionInterface",
+  "slug": "/java/basic/newFeature/8/functionInterface/function",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/function",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/functionInterface/function.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "consumer",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/consumer"
+  },
+  "next": {
+    "title": "predicate",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/predicate"
+  }
+}

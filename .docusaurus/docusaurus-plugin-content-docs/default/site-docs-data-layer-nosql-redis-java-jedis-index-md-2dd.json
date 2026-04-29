@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/java/jedis/index",
+  "title": "jedis",
+  "description": "jedis 连接池",
+  "source": "@site/docs/dataLayer/nosql/redis/java/jedis/index.md",
+  "sourceDirName": "dataLayer/nosql/redis/java/jedis",
+  "slug": "/dataLayer/nosql/redis/java/jedis/",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/java/jedis/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/java/jedis/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "sentinel",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/deploy/sentinel"
+  },
+  "next": {
+    "title": "springDataRedis",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/java/springdataredis/"
+  }
+}

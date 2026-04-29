@@ -1,0 +1,20 @@
+{
+  "id": "utils/git/proxy",
+  "title": "proxy",
+  "description": "在使用 Git 时，如果需要通过代理服务器访问远程仓库，可以通过以下命令配置 HTTP 或 HTTPS 代理。",
+  "source": "@site/docs/utils/git/proxy.md",
+  "sourceDirName": "utils/git",
+  "slug": "/utils/git/proxy",
+  "permalink": "/jaspernote/docs/utils/git/proxy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/git/proxy.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "git",
+  "previous": {
+    "title": "problem",
+    "permalink": "/jaspernote/docs/utils/git/problem"
+  }
+}

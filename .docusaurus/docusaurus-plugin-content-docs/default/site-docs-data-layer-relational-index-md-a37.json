@@ -1,0 +1,23 @@
+{
+  "id": "dataLayer/relational/index",
+  "title": "relational",
+  "description": "- h2",
+  "source": "@site/docs/dataLayer/relational/index.md",
+  "sourceDirName": "dataLayer/relational",
+  "slug": "/dataLayer/relational/",
+  "permalink": "/jaspernote/docs/dataLayer/relational/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "relational",
+  "next": {
+    "title": "canal",
+    "permalink": "/jaspernote/docs/dataLayer/relational/canal/"
+  }
+}

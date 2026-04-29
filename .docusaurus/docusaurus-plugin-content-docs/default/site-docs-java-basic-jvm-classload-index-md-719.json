@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/classload/index",
+  "title": "虚拟机类加载机制",
+  "description": "五个阶段详解",
+  "source": "@site/docs/java/basic/jvm/classload/index.md",
+  "sourceDirName": "java/basic/jvm/classload",
+  "slug": "/java/basic/jvm/classload/",
+  "permalink": "/jaspernote/docs/java/basic/jvm/classload/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/classload/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "jvm",
+    "permalink": "/jaspernote/docs/java/basic/jvm/"
+  },
+  "next": {
+    "title": "class loader",
+    "permalink": "/jaspernote/docs/java/basic/jvm/classload/classLoader"
+  }
+}

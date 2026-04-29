@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/json/jackson/ContainerNode",
+  "title": "ContainerNode",
+  "description": "ContainerNode 是 Jackson 提供的一个抽象类，它是用来构建 JSON 树的一部分。",
+  "source": "@site/docs/java/utils/json/jackson/ContainerNode.md",
+  "sourceDirName": "java/utils/json/jackson",
+  "slug": "/java/utils/json/jackson/ContainerNode",
+  "permalink": "/jaspernote/docs/java/utils/json/jackson/ContainerNode",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/json/jackson/ContainerNode.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/problem/cacheBreakdown",
+  "title": "缓存击穿 cache breakdown",
+  "description": "热点key，被高并发访问并且缓存重建的过程比较复杂的key突然实效了，大量请求到达数据库（同时去新建缓存）",
+  "source": "@site/docs/dataLayer/nosql/redis/problem/cacheBreakdown.md",
+  "sourceDirName": "dataLayer/nosql/redis/problem",
+  "slug": "/dataLayer/nosql/redis/problem/cacheBreakdown",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/cacheBreakdown",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/problem/cacheBreakdown.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "缓存雪崩 cache avalanche",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/cacheAvalanche"
+  },
+  "next": {
+    "title": "缓存穿透 cache penetration",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/cachePenetration"
+  }
+}

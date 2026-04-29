@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/algo/hashOrSummarization/md5",
+  "title": "md5",
+  "description": "MD5（Message Digest Algorithm 5）是一种广泛使用的哈希算法，通常用于生成文件或数据的 哈希值。",
+  "source": "@site/docs/dataStructure/algo/hashOrSummarization/md5.md",
+  "sourceDirName": "dataStructure/algo/hashOrSummarization",
+  "slug": "/dataStructure/algo/hashOrSummarization/md5",
+  "permalink": "/jaspernote/docs/dataStructure/algo/hashOrSummarization/md5",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/algo/hashOrSummarization/md5.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "gpg",
+    "permalink": "/jaspernote/docs/dataStructure/algo/encryption/gpg"
+  },
+  "next": {
+    "title": "sha256",
+    "permalink": "/jaspernote/docs/dataStructure/algo/hashOrSummarization/sha256"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/process/lsof",
+  "title": "lsof",
+  "description": "lsof（List Open Files）是一个强大的工具，可以列出系统当前打开的所有文件，包括网络连接（它将网络连接视为一种文件）。",
+  "source": "@site/docs/infrastructure/os/linux/process/lsof.md",
+  "sourceDirName": "infrastructure/os/linux/process",
+  "slug": "/infrastructure/os/linux/process/lsof",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/process/lsof",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/process/lsof.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "nohup",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/nohup"
+  },
+  "next": {
+    "title": "ps",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/process/ps"
+  }
+}

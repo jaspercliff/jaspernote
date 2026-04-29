@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/bytebuddy/index",
+  "title": "bytebuddy",
+  "description": "CGLIB：在 Java 17+ 环境下，由于它强行访问 ClassLoader 的私有方法，会直接抛出你之前遇到的 InaccessibleObjectException。你必须手动配置复杂的 JVM 参数（--add-opens）才能续命。",
+  "source": "@site/docs/java/utils/bytebuddy/index.md",
+  "sourceDirName": "java/utils/bytebuddy",
+  "slug": "/java/utils/bytebuddy/",
+  "permalink": "/jaspernote/docs/java/utils/bytebuddy/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/bytebuddy/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

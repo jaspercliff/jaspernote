@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/problem/feed",
+  "title": "feed",
+  "description": "向几万人推送博客，在架构上已经脱离了“简单的数据库读写”，进入了“异步分发”和“流量削峰”的范畴。",
+  "source": "@site/docs/dataLayer/nosql/redis/problem/feed.md",
+  "sourceDirName": "dataLayer/nosql/redis/problem",
+  "slug": "/dataLayer/nosql/redis/problem/feed",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/feed",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/problem/feed.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "distributedlock",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/distributedLock"
+  },
+  "next": {
+    "title": "全局唯一id",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/globalId"
+  }
+}

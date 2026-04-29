@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/tools/Semaphore",
+  "title": "Semaphore",
+  "description": "Semaphore（信号量）是 Java 中 java.util.concurrent 包提供的一个同步辅助类，它用于控制对共享资源的访问。",
+  "source": "@site/docs/java/basic/juc/tools/Semaphore.md",
+  "sourceDirName": "java/basic/juc/tools",
+  "slug": "/java/basic/juc/tools/Semaphore",
+  "permalink": "/jaspernote/docs/java/basic/juc/tools/Semaphore",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/tools/Semaphore.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "Phaser",
+    "permalink": "/jaspernote/docs/java/basic/juc/tools/Phaser"
+  },
+  "next": {
+    "title": "jvm",
+    "permalink": "/jaspernote/docs/java/basic/jvm/"
+  }
+}

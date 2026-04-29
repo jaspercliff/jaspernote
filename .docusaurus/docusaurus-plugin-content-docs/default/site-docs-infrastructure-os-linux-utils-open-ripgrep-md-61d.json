@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/open/ripgrep",
+  "title": "ripgrep",
+  "description": "面向行的搜索工具，功能上类似于传统的 grep，但速度极快，是目前开发者社区中最受欢迎的现代命令行工具之一",
+  "source": "@site/docs/infrastructure/os/linux/utils/open/ripgrep.md",
+  "sourceDirName": "infrastructure/os/linux/utils/open",
+  "slug": "/infrastructure/os/linux/utils/open/ripgrep",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/ripgrep",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/open/ripgrep.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "navi",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/navi"
+  },
+  "next": {
+    "title": "rsync",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/open/rsync"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/problem/update",
+  "title": "缓存同步策略",
+  "description": "- cache aside:旁路缓存 调用者更新数据时更新缓存(读： 先读缓存，缓存没有则读数据库，然后回写缓存,先更新数据库，然后删除缓存)",
+  "source": "@site/docs/dataLayer/nosql/redis/problem/update.md",
+  "sourceDirName": "dataLayer/nosql/redis/problem",
+  "slug": "/dataLayer/nosql/redis/problem/update",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/update",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/problem/update.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "滚动分页",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/scrollPage"
+  },
+  "next": {
+    "title": "function",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/function/"
+  }
+}

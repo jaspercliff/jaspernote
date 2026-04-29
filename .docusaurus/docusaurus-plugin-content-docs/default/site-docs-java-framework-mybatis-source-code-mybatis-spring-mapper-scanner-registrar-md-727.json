@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/mybatis/sourceCode/mybatis-spring/MapperScannerRegistrar",
+  "title": "MapperScannerRegistrar",
+  "description": "",
+  "source": "@site/docs/java/framework/mybatis/sourceCode/mybatis-spring/MapperScannerRegistrar.md",
+  "sourceDirName": "java/framework/mybatis/sourceCode/mybatis-spring",
+  "slug": "/java/framework/mybatis/sourceCode/mybatis-spring/MapperScannerRegistrar",
+  "permalink": "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/MapperScannerRegistrar",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/mybatis/sourceCode/mybatis-spring/MapperScannerRegistrar.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "mybatis-spring 源码学习",
+    "permalink": "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/"
+  },
+  "next": {
+    "title": "SqlSessionUtils",
+    "permalink": "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/SqlSessionUtils"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjaspernote=self.webpackChunkjaspernote||[]).push([["10557"],{54732(e,s,a){a.d(s,{createTreemapServices:()=>r.d});var r=a(68562);a(90047)}}]);

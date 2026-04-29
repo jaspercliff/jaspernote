@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jdk/monitor/jcmd",
+  "title": "jcmd",
+  "description": "代替jps jmap jstack",
+  "source": "@site/docs/java/basic/jdk/monitor/jcmd.md",
+  "sourceDirName": "java/basic/jdk/monitor",
+  "slug": "/java/basic/jdk/monitor/jcmd",
+  "permalink": "/jaspernote/docs/java/basic/jdk/monitor/jcmd",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jdk/monitor/jcmd.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "javap",
+    "permalink": "/jaspernote/docs/java/basic/jdk/javap"
+  },
+  "next": {
+    "title": "jps",
+    "permalink": "/jaspernote/docs/java/basic/jdk/monitor/jps"
+  }
+}

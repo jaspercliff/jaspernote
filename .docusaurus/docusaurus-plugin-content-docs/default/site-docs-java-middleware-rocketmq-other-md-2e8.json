@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/other",
+  "title": "乱七八糟",
+  "description": "producer和namesrv建立长连接",
+  "source": "@site/docs/java/middleware/rocketmq/other.md",
+  "sourceDirName": "java/middleware/rocketmq",
+  "slug": "/java/middleware/rocketmq/other",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/other",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/other.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

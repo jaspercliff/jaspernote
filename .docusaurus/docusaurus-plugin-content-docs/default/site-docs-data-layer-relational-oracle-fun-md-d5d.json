@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/fun",
+  "title": "function",
+  "description": "to_char",
+  "source": "@site/docs/dataLayer/relational/oracle/fun.md",
+  "sourceDirName": "dataLayer/relational/oracle",
+  "slug": "/dataLayer/relational/oracle/fun",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/fun",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/fun.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "date type",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/dataType"
+  },
+  "next": {
+    "title": "常用函数",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/function/"
+  }
+}

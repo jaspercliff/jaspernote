@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/dataAccess/transactionSynchronizeManager",
+  "title": "TransactionSynchronizationManager",
+  "description": "用于管理和协调线程级别的事务同步操作。",
+  "source": "@site/docs/java/framework/spring/dataAccess/transactionSynchronizeManager.md",
+  "sourceDirName": "java/framework/spring/dataAccess",
+  "slug": "/java/framework/spring/dataAccess/transactionSynchronizeManager",
+  "permalink": "/jaspernote/docs/java/framework/spring/dataAccess/transactionSynchronizeManager",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/dataAccess/transactionSynchronizeManager.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "事务失效的场景",
+    "permalink": "/jaspernote/docs/java/framework/spring/dataAccess/transactionInvalid"
+  },
+  "next": {
+    "title": "事务传播机制",
+    "permalink": "/jaspernote/docs/java/framework/spring/dataAccess/事务传播机制"
+  }
+}

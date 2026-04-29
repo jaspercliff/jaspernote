@@ -1,0 +1,19 @@
+{
+  "id": "utils/svn/index",
+  "title": "svn",
+  "description": "SVN（Subversion）是一个版本控制工具，常用于代码管理和协作开发。以下是一些常用的SVN命令：",
+  "source": "@site/docs/utils/svn/index.md",
+  "sourceDirName": "utils/svn",
+  "slug": "/utils/svn/",
+  "permalink": "/jaspernote/docs/utils/svn/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/svn/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "svn"
+}

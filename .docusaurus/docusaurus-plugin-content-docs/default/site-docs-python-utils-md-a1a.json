@@ -1,0 +1,20 @@
+{
+  "id": "python/utils",
+  "title": "utils",
+  "description": "venv",
+  "source": "@site/docs/python/utils.md",
+  "sourceDirName": "python",
+  "slug": "/python/utils",
+  "permalink": "/jaspernote/docs/python/utils",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/utils.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "python -m 的用法",
+    "permalink": "/jaspernote/docs/python/utils/mPara"
+  }
+}

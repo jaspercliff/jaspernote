@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/foundation/generic",
+  "title": "泛型",
+  "description": "传统方法的问题",
+  "source": "@site/docs/java/basic/foundation/generic.md",
+  "sourceDirName": "java/basic/foundation",
+  "slug": "/java/basic/foundation/generic",
+  "permalink": "/jaspernote/docs/java/basic/foundation/generic",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/generic.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "序列化",
+    "permalink": "/jaspernote/docs/java/basic/foundation/serial"
+  },
+  "next": {
+    "title": "注解",
+    "permalink": "/jaspernote/docs/java/basic/foundation/anno"
+  }
+}

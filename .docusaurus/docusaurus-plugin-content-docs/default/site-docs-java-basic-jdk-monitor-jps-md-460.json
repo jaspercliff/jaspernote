@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jdk/monitor/jps",
+  "title": "jps",
+  "description": "显示当前所有java进程pid的命令，通过该命令可以查看当前的java进程只能查看当前用户的",
+  "source": "@site/docs/java/basic/jdk/monitor/jps.md",
+  "sourceDirName": "java/basic/jdk/monitor",
+  "slug": "/java/basic/jdk/monitor/jps",
+  "permalink": "/jaspernote/docs/java/basic/jdk/monitor/jps",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jdk/monitor/jps.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "jcmd",
+    "permalink": "/jaspernote/docs/java/basic/jdk/monitor/jcmd"
+  },
+  "next": {
+    "title": "jstack",
+    "permalink": "/jaspernote/docs/java/basic/jdk/monitor/jstack"
+  }
+}

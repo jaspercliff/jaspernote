@@ -1,0 +1,24 @@
+{
+  "id": "python/foundation/contrlAndloop",
+  "title": "控制循环",
+  "description": "控制",
+  "source": "@site/docs/python/foundation/contrlAndloop.md",
+  "sourceDirName": "python/foundation",
+  "slug": "/python/foundation/contrlAndloop",
+  "permalink": "/jaspernote/docs/python/foundation/contrlAndloop",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/foundation/contrlAndloop.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "foundation",
+    "permalink": "/jaspernote/docs/python/foundation/"
+  },
+  "next": {
+    "title": "data type",
+    "permalink": "/jaspernote/docs/python/foundation/dataType/"
+  }
+}

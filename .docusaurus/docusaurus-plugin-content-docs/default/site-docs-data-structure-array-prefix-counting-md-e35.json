@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/array/prefixCounting",
+  "title": "前缀计数",
+  "description": "for: 统计比当前元素小的个数",
+  "source": "@site/docs/dataStructure/array/prefixCounting.md",
+  "sourceDirName": "dataStructure/array",
+  "slug": "/dataStructure/array/prefixCounting",
+  "permalink": "/jaspernote/docs/dataStructure/array/prefixCounting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/array/prefixCounting.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "in-place hashing",
+    "permalink": "/jaspernote/docs/dataStructure/array/inPlaceHashing"
+  },
+  "next": {
+    "title": "stack",
+    "permalink": "/jaspernote/docs/dataStructure/stack/"
+  }
+}

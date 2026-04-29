@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/commonCommand",
+  "title": "common command",
+  "description": "- nohup",
+  "source": "@site/docs/infrastructure/os/linux/commonCommand.md",
+  "sourceDirName": "infrastructure/os/linux",
+  "slug": "/infrastructure/os/linux/commonCommand",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/commonCommand",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/commonCommand.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "system service",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/5systemManager/systemService"
+  },
+  "next": {
+    "title": "env",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/env"
+  }
+}

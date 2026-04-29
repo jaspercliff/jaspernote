@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/numEncoding",
+  "title": "numerber encoding",
+  "description": "原码 反码 补码",
+  "source": "@site/docs/dataStructure/numEncoding.md",
+  "sourceDirName": "dataStructure",
+  "slug": "/dataStructure/numEncoding",
+  "permalink": "/jaspernote/docs/dataStructure/numEncoding",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/numEncoding.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "impl",
+    "permalink": "/jaspernote/docs/dataStructure/heap/impl"
+  },
+  "next": {
+    "title": "queue",
+    "permalink": "/jaspernote/docs/dataStructure/queue/"
+  }
+}

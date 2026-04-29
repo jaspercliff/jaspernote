@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/native/grep",
+  "title": "grep",
+  "description": "grep 是一个非常强大且常用的命令行工具，用于在文件中搜索指定的字符串模式（正则表达式）。它在Linux及其他Unix-like系统中广泛使用。",
+  "source": "@site/docs/infrastructure/os/linux/utils/native/grep.md",
+  "sourceDirName": "infrastructure/os/linux/utils/native",
+  "slug": "/infrastructure/os/linux/utils/native/grep",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/grep",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/native/grep.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "find",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/find"
+  },
+  "next": {
+    "title": "journalctl",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/journalctl"
+  }
+}

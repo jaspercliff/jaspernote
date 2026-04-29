@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/file/文件系统",
+  "title": "windows",
+  "description": "Windows 操作系统使用的文件系统有多种，其中最常见的是 NTFS（New Technology File System）",
+  "source": "@site/docs/infrastructure/os/linux/file/文件系统.md",
+  "sourceDirName": "infrastructure/os/linux/file",
+  "slug": "/infrastructure/os/linux/file/文件系统",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/file/文件系统",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/file/文件系统.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "snapper",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/file/snapper"
+  },
+  "next": {
+    "title": "netstat",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/internet/netstat"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/stream/intermediate/skip",
+  "title": "skip",
+  "description": "skip 方法在 Java Stream API 中主要用于跳过流中的前 n 个元素，返回一个新的流，这个新的流包含了原始流中剩下的元素。",
+  "source": "@site/docs/java/basic/newFeature/8/stream/intermediate/skip.md",
+  "sourceDirName": "java/basic/newFeature/8/stream/intermediate",
+  "slug": "/java/basic/newFeature/8/stream/intermediate/skip",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/skip",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/stream/intermediate/skip.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "map",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/map"
+  },
+  "next": {
+    "title": "collect",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/terminal/collect"
+  }
+}

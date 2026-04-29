@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/roundRobin",
+  "title": "round robin",
+  "description": "轮循方式",
+  "source": "@site/docs/java/middleware/rocketmq/roundRobin.md",
+  "sourceDirName": "java/middleware/rocketmq",
+  "slug": "/java/middleware/rocketmq/roundRobin",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/roundRobin",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/roundRobin.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

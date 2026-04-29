@@ -1,0 +1,15 @@
+{
+  "id": "infrastructure/index",
+  "title": "infrastructure",
+  "description": "devops",
+  "source": "@site/docs/infrastructure/index.md",
+  "sourceDirName": "infrastructure",
+  "slug": "/infrastructure/",
+  "permalink": "/jaspernote/docs/infrastructure/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

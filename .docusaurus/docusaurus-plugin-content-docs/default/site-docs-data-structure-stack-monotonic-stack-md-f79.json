@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/stack/monotonicStack",
+  "title": "单调栈",
+  "description": "monotonic stack： 它在普通栈（先进后出）的基础上，额外保持一个单调性：",
+  "source": "@site/docs/dataStructure/stack/monotonicStack.md",
+  "sourceDirName": "dataStructure/stack",
+  "slug": "/dataStructure/stack/monotonicStack",
+  "permalink": "/jaspernote/docs/dataStructure/stack/monotonicStack",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/stack/monotonicStack.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "stack",
+    "permalink": "/jaspernote/docs/dataStructure/stack/"
+  },
+  "next": {
+    "title": "reverse polish notation",
+    "permalink": "/jaspernote/docs/dataStructure/stack/rpn"
+  }
+}

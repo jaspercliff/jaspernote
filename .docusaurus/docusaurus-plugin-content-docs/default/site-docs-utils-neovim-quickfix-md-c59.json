@@ -1,0 +1,20 @@
+{
+  "id": "utils/neovim/quickfix",
+  "title": "quickfix",
+  "description": "quickfix 就是一个“位置列表” + “结果展示窗口”，用来收集各种命令的输出结果（主要是带有文件路径 + 行号 + 列号 + 描述的信息），然后让你在 Neovim 里快速跳转、查看、修改这些位置。",
+  "source": "@site/docs/utils/neovim/quickfix.md",
+  "sourceDirName": "utils/neovim",
+  "slug": "/utils/neovim/quickfix",
+  "permalink": "/jaspernote/docs/utils/neovim/quickfix",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/quickfix.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "mini.ai",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/plugins/mini.ai"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/spring/springboot",
+  "title": "springboot",
+  "description": "Add a dependency using maven:",
+  "source": "@site/docs/java/middleware/rocketmq/spring/springboot.md",
+  "sourceDirName": "java/middleware/rocketmq/spring",
+  "slug": "/java/middleware/rocketmq/spring/springboot",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/spring/springboot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/spring/springboot.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

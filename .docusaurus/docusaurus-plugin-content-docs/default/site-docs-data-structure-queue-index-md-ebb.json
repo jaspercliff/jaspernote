@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/queue/index",
+  "title": "queue",
+  "description": "队列（queue）是一种遵循先入先出规则的线性数据结构",
+  "source": "@site/docs/dataStructure/queue/index.md",
+  "sourceDirName": "dataStructure/queue",
+  "slug": "/dataStructure/queue/",
+  "permalink": "/jaspernote/docs/dataStructure/queue/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/queue/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "numerber encoding",
+    "permalink": "/jaspernote/docs/dataStructure/numEncoding"
+  },
+  "next": {
+    "title": "使用俩个栈来实现队列",
+    "permalink": "/jaspernote/docs/dataStructure/queue/stackImpl"
+  }
+}

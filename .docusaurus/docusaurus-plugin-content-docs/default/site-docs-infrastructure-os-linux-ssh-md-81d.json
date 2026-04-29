@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/ssh",
+  "title": "ssh",
+  "description": "SSH（Secure Shell）是一种用于远程登录和安全数据传输的网络协议，主要用于在不安全的网络环境中提供安全的管理访问",
+  "source": "@site/docs/infrastructure/os/linux/ssh.md",
+  "sourceDirName": "infrastructure/os/linux",
+  "slug": "/infrastructure/os/linux/ssh",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/ssh",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/ssh.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "变量",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/variable"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/"
+  }
+}

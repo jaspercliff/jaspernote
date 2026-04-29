@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/core/aop/index",
+  "title": "aop",
+  "description": "AOP",
+  "source": "@site/docs/java/framework/spring/core/aop/index.md",
+  "sourceDirName": "java/framework/spring/core/aop",
+  "slug": "/java/framework/spring/core/aop/",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/aop/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/aop/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "ApplicationListener",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/Event"
+  },
+  "next": {
+    "title": "spring",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/aop/spring"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dataLayer/sql/index",
+  "title": "index",
+  "description": "data definition statment ddl",
+  "source": "@site/docs/dataLayer/sql/index.md",
+  "sourceDirName": "dataLayer/sql",
+  "slug": "/dataLayer/sql/",
+  "permalink": "/jaspernote/docs/dataLayer/sql/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/sql/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

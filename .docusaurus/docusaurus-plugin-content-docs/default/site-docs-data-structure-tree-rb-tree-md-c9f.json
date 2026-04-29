@@ -1,0 +1,20 @@
+{
+  "id": "dataStructure/tree/rbTree",
+  "title": "红黑树",
+  "description": "自平衡的二叉搜索树，解决bst最坏情况下变成O(n)的情况",
+  "source": "@site/docs/dataStructure/tree/rbTree.md",
+  "sourceDirName": "dataStructure/tree",
+  "slug": "/dataStructure/tree/rbTree",
+  "permalink": "/jaspernote/docs/dataStructure/tree/rbTree",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/tree/rbTree.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "radix tree",
+    "permalink": "/jaspernote/docs/dataStructure/tree/radixTree"
+  }
+}

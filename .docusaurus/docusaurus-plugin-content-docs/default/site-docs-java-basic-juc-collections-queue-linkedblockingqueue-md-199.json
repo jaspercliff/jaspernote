@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/collections/queue/linkedblockingqueue",
+  "title": "linkedblockingqueue",
+  "description": "一个基于链表的、线程安全的、可阻塞的队列 插入删除更加灵活",
+  "source": "@site/docs/java/basic/juc/collections/queue/linkedblockingqueue.md",
+  "sourceDirName": "java/basic/juc/collections/queue",
+  "slug": "/java/basic/juc/collections/queue/linkedblockingqueue",
+  "permalink": "/jaspernote/docs/java/basic/juc/collections/queue/linkedblockingqueue",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/collections/queue/linkedblockingqueue.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "LinkedBlockingDeque",
+    "permalink": "/jaspernote/docs/java/basic/juc/collections/queue/linkedblockingDeque"
+  },
+  "next": {
+    "title": "自定义线程池",
+    "permalink": "/jaspernote/docs/java/basic/juc/executor/customThreadPool"
+  }
+}

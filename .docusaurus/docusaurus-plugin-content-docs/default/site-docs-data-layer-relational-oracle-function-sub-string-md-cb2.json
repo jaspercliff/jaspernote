@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/function/subString",
+  "title": "SUBSTR",
+  "description": "在 Oracle 中，SUBSTR 函数用于从字符串中提取子字符串。它的语法和用法相对简单，但功能强大。",
+  "source": "@site/docs/dataLayer/relational/oracle/function/subString.md",
+  "sourceDirName": "dataLayer/relational/oracle/function",
+  "slug": "/dataLayer/relational/oracle/function/subString",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/function/subString",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/function/subString.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "常用函数",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/function/"
+  },
+  "next": {
+    "title": "install",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/install"
+  }
+}

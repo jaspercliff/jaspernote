@@ -1,0 +1,27 @@
+{
+  "id": "patterns/SOLID",
+  "title": "五大设计原则",
+  "description": "SOLID 是面向对象编程中最重要的五大设计原则之一，由 Robert C. Martin（又称 Uncle Bob）提出，用于编写健壮、可维护、可扩展的程序结构。",
+  "source": "@site/docs/patterns/SOLID.md",
+  "sourceDirName": "patterns",
+  "slug": "/patterns/SOLID",
+  "permalink": "/jaspernote/docs/patterns/SOLID",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/patterns/SOLID.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "patterns",
+  "previous": {
+    "title": "designPattern",
+    "permalink": "/jaspernote/docs/patterns/"
+  },
+  "next": {
+    "title": "抽象工厂模式",
+    "permalink": "/jaspernote/docs/patterns/creational/abstractFactory"
+  }
+}

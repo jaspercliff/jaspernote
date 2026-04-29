@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/problems/delete和truncate的区别",
+  "title": "delete和truncate的区别.md",
+  "description": "truncate 一次清理完表 比delete快的多",
+  "source": "@site/docs/dataLayer/relational/mysql/problems/delete和truncate的区别.md",
+  "sourceDirName": "dataLayer/relational/mysql/problems",
+  "slug": "/dataLayer/relational/mysql/problems/delete和truncate的区别",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/problems/delete和truncate的区别",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/problems/delete和truncate的区别.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "count(*)、count(1)、count(column) 的区别",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/problems/countDifference"
+  },
+  "next": {
+    "title": "exist 和 in的区别",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/problems/exist和in的区别"
+  }
+}

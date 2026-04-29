@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/log",
+  "title": "log",
+  "description": "在MySQL中，日志是数据库操作和管理的重要组成部分，涉及到数据的恢复、复制、监控和性能调优。MySQL主要使用以下几种类型的日志：",
+  "source": "@site/docs/dataLayer/relational/mysql/log.md",
+  "sourceDirName": "dataLayer/relational/mysql",
+  "slug": "/dataLayer/relational/mysql/log",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/log",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/log.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "jdbc",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/jdbc"
+  },
+  "next": {
+    "title": "other",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/other"
+  }
+}

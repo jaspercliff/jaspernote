@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/native/systemctl",
+  "title": "systemctl",
+  "description": "管理系统服务的工具",
+  "source": "@site/docs/infrastructure/os/linux/utils/native/systemctl.md",
+  "sourceDirName": "infrastructure/os/linux/utils/native",
+  "slug": "/infrastructure/os/linux/utils/native/systemctl",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/systemctl",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/native/systemctl.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "scp",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/scp"
+  },
+  "next": {
+    "title": "watch",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/watch"
+  }
+}

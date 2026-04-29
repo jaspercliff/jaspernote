@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/env",
+  "title": "env",
+  "description": "env 命令是一个在 Unix 和类 Unix 系统（如 Linux 和 macOS）上常用的命令，它主要用于运行一个程序或脚本，",
+  "source": "@site/docs/infrastructure/os/linux/env.md",
+  "sourceDirName": "infrastructure/os/linux",
+  "slug": "/infrastructure/os/linux/env",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/env",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/env.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "common command",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/commonCommand"
+  },
+  "next": {
+    "title": "file",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/file/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/juc/collections/queue/blockingQueue",
+  "title": "blockingqueue",
+  "description": "Java 阻塞队列是一种线程安全的队列，它支持在必要时进行等待（阻塞）操作。",
+  "source": "@site/docs/java/basic/juc/collections/queue/blockingQueue.md",
+  "sourceDirName": "java/basic/juc/collections/queue",
+  "slug": "/java/basic/juc/collections/queue/blockingQueue",
+  "permalink": "/jaspernote/docs/java/basic/juc/collections/queue/blockingQueue",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/collections/queue/blockingQueue.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "ArrayBlockingQueue",
+    "permalink": "/jaspernote/docs/java/basic/juc/collections/queue/ArrayBlockingQueue"
+  },
+  "next": {
+    "title": "LinkedBlockingDeque",
+    "permalink": "/jaspernote/docs/java/basic/juc/collections/queue/linkedblockingDeque"
+  }
+}

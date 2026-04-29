@@ -1,0 +1,20 @@
+{
+  "id": "dataLayer/distributed/index",
+  "title": "分布式数据库",
+  "description": "",
+  "source": "@site/docs/dataLayer/distributed/index.md",
+  "sourceDirName": "dataLayer/distributed",
+  "slug": "/dataLayer/distributed/",
+  "permalink": "/jaspernote/docs/dataLayer/distributed/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/distributed/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "distributed",
+  "next": {
+    "title": "oceanbase",
+    "permalink": "/jaspernote/docs/dataLayer/distributed/oceanbase/"
+  }
+}

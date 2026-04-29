@@ -1,0 +1,24 @@
+{
+  "id": "utils/neovim/lazyvim/env/cpp",
+  "title": "cpp",
+  "description": "- clangd cpp lsp",
+  "source": "@site/docs/utils/neovim/lazyvim/env/cpp.md",
+  "sourceDirName": "utils/neovim/lazyvim/env",
+  "slug": "/utils/neovim/lazyvim/env/cpp",
+  "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/cpp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/lazyvim/env/cpp.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "markdown",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/markdown"
+  },
+  "next": {
+    "title": "java",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/java"
+  }
+}

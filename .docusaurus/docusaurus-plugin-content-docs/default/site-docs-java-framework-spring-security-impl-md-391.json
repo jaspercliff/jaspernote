@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springSecurity/impl",
+  "title": "springSecurity",
+  "description": "1. user implements UserDetails",
+  "source": "@site/docs/java/framework/springSecurity/impl.md",
+  "sourceDirName": "java/framework/springSecurity",
+  "slug": "/java/framework/springSecurity/impl",
+  "permalink": "/jaspernote/docs/java/framework/springSecurity/impl",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springSecurity/impl.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "springSecurity",
+    "permalink": "/jaspernote/docs/java/framework/springSecurity/"
+  },
+  "next": {
+    "title": "springboot",
+    "permalink": "/jaspernote/docs/java/framework/springboot/"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/hash/index",
+  "title": "hash",
+  "description": "哈希表（Hash Table）的核心挑战在于如何处理哈希冲突（即两个不同的键经过哈希函数计算后得到了同一个索引）",
+  "source": "@site/docs/dataStructure/hash/index.md",
+  "sourceDirName": "dataStructure/hash",
+  "slug": "/dataStructure/hash/",
+  "permalink": "/jaspernote/docs/dataStructure/hash/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/hash/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "two-condition",
+    "permalink": "/jaspernote/docs/dataStructure/algo/two-condition"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/dataStructure/heap/"
+  }
+}

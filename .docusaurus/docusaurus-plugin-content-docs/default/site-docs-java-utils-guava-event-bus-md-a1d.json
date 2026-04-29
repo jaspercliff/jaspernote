@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/guava/EventBus",
+  "title": "EventBus",
+  "description": "Guava的EventBus是一种发布/订阅的消息传递框架，它简化了应用程序中不同组件之间的通信。它允许解耦的应用程序组件通过发送事件来与其他组件通信，而不需要知道谁或者是否有人会处理这些事件。这有助于提高代码的可维护性和可测试性。",
+  "source": "@site/docs/java/utils/guava/EventBus.md",
+  "sourceDirName": "java/utils/guava",
+  "slug": "/java/utils/guava/EventBus",
+  "permalink": "/jaspernote/docs/java/utils/guava/EventBus",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/guava/EventBus.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/core/ioc/lifecycle",
+  "title": "bean lifecycle",
+  "description": "1. 实例化 constructor",
+  "source": "@site/docs/java/framework/spring/core/ioc/lifecycle.md",
+  "sourceDirName": "java/framework/spring/core/ioc",
+  "slug": "/java/framework/spring/core/ioc/lifecycle",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/lifecycle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/ioc/lifecycle.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "循环依赖",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/dependiencies/circular"
+  },
+  "next": {
+    "title": "ApplicationListener",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/Event"
+  }
+}

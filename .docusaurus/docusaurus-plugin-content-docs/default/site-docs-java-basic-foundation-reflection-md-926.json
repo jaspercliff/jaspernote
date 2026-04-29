@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/foundation/reflection",
+  "title": "reflection",
+  "description": "一般我们在使用某个类之前就确定了是什么类，直接可以new来进行实例化来进行操作",
+  "source": "@site/docs/java/basic/foundation/reflection.md",
+  "sourceDirName": "java/basic/foundation",
+  "slug": "/java/basic/foundation/reflection",
+  "permalink": "/jaspernote/docs/java/basic/foundation/reflection",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/reflection.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "注解",
+    "permalink": "/jaspernote/docs/java/basic/foundation/anno"
+  },
+  "next": {
+    "title": "异常",
+    "permalink": "/jaspernote/docs/java/basic/foundation/exception"
+  }
+}

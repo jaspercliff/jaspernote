@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/juc/lock/LockSupport",
+  "title": "LockSupport",
+  "description": "LockSupport 是 Java 并发包 java.util.concurrent.locks 中的一个工具类，它提供了基本的线程同步机制，允许创建锁和其他同步类的简化。",
+  "source": "@site/docs/java/basic/juc/lock/LockSupport.md",
+  "sourceDirName": "java/basic/juc/lock",
+  "slug": "/java/basic/juc/lock/LockSupport",
+  "permalink": "/jaspernote/docs/java/basic/juc/lock/LockSupport",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/lock/LockSupport.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "AbstractQueuedSynchronizer",
+    "permalink": "/jaspernote/docs/java/basic/juc/lock/AbstractQueuedSynchronizer"
+  },
+  "next": {
+    "title": "ReentrantLock",
+    "permalink": "/jaspernote/docs/java/basic/juc/lock/ReentrantLock"
+  }
+}

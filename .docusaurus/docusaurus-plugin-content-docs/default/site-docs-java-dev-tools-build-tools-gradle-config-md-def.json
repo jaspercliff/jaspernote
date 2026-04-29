@@ -1,0 +1,24 @@
+{
+  "id": "java/devTools/buildTools/gradle/config",
+  "title": "config",
+  "description": "gradle.properties",
+  "source": "@site/docs/java/devTools/buildTools/gradle/config.md",
+  "sourceDirName": "java/devTools/buildTools/gradle",
+  "slug": "/java/devTools/buildTools/gradle/config",
+  "permalink": "/jaspernote/docs/java/devTools/buildTools/gradle/config",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/devTools/buildTools/gradle/config.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devTools",
+  "previous": {
+    "title": "gradle",
+    "permalink": "/jaspernote/docs/java/devTools/buildTools/gradle/"
+  },
+  "next": {
+    "title": "maven",
+    "permalink": "/jaspernote/docs/java/devTools/buildTools/maven/"
+  }
+}

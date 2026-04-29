@@ -1,0 +1,20 @@
+{
+  "id": "java/devTools/toad/index",
+  "title": "toad",
+  "description": "select rowid,e.* from employees e;",
+  "source": "@site/docs/java/devTools/toad/index.md",
+  "sourceDirName": "java/devTools/toad",
+  "slug": "/java/devTools/toad/",
+  "permalink": "/jaspernote/docs/java/devTools/toad/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/devTools/toad/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devTools",
+  "previous": {
+    "title": "jenv",
+    "permalink": "/jaspernote/docs/java/devTools/jenv/"
+  }
+}

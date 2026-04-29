@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/backup",
+  "title": "backup",
+  "description": "- 备份",
+  "source": "@site/docs/dataLayer/relational/mysql/backup.md",
+  "sourceDirName": "dataLayer/relational/mysql",
+  "slug": "/dataLayer/relational/mysql/backup",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/backup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/backup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "04 explain",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/04 explain"
+  },
+  "next": {
+    "title": "mysql",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/basic"
+  }
+}

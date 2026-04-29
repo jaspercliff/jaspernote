@@ -1,0 +1,27 @@
+{
+  "id": "dataStructure/tree/iterate",
+  "title": "遍历",
+  "description": "广度优先搜索",
+  "source": "@site/docs/dataStructure/tree/iterate.md",
+  "sourceDirName": "dataStructure/tree",
+  "slug": "/dataStructure/tree/iterate",
+  "permalink": "/jaspernote/docs/dataStructure/tree/iterate",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/tree/iterate.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "使用俩个栈来实现队列",
+    "permalink": "/jaspernote/docs/dataStructure/queue/stackImpl"
+  },
+  "next": {
+    "title": "abstract syntax tree",
+    "permalink": "/jaspernote/docs/dataStructure/tree/ast"
+  }
+}

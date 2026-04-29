@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjaspernote=self.webpackChunkjaspernote||[]).push([["93220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/jaspernote/blog","blogTitle":"Blog","authorsListPath":"/jaspernote/blog/authors"}')}}]);

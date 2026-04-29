@@ -1,0 +1,17 @@
+{
+  "id": "java/middleware/rocketmq/architecture",
+  "title": "RocketMQ 架构图",
+  "description": "架构",
+  "source": "@site/docs/java/middleware/rocketmq/architecture.md",
+  "sourceDirName": "java/middleware/rocketmq",
+  "slug": "/java/middleware/rocketmq/architecture",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/architecture.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "layout": "home"
+  }
+}

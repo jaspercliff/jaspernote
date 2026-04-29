@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/core/ioc/dependiencies/circular",
+  "title": "循环依赖",
+  "description": "通过 setter 方法而非构造函数进行配置。或者，避免使用构造函数注入，而只使用 setter 方法注入。换句话说，虽然不推荐，但可以使用 setter 方法注入来配置循环依赖",
+  "source": "@site/docs/java/framework/spring/core/ioc/dependiencies/circular.md",
+  "sourceDirName": "java/framework/spring/core/ioc/dependiencies",
+  "slug": "/java/framework/spring/core/ioc/dependiencies/circular",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/dependiencies/circular",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/ioc/dependiencies/circular.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "bean",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/bean"
+  },
+  "next": {
+    "title": "bean lifecycle",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/lifecycle"
+  }
+}

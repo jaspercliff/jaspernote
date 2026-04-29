@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/foundation/serial",
+  "title": "序列化",
+  "description": "java自带",
+  "source": "@site/docs/java/basic/foundation/serial.md",
+  "sourceDirName": "java/basic/foundation",
+  "slug": "/java/basic/foundation/serial",
+  "permalink": "/jaspernote/docs/java/basic/foundation/serial",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/serial.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "static",
+    "permalink": "/jaspernote/docs/java/basic/foundation/oop/static"
+  },
+  "next": {
+    "title": "泛型",
+    "permalink": "/jaspernote/docs/java/basic/foundation/generic"
+  }
+}

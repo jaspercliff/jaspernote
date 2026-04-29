@@ -1,0 +1,19 @@
+{
+  "id": "utils/vim/index",
+  "title": "常用命令",
+  "description": "gd go to definition 查找该方法的定义",
+  "source": "@site/docs/utils/vim/index.md",
+  "sourceDirName": "utils/vim",
+  "slug": "/utils/vim/",
+  "permalink": "/jaspernote/docs/utils/vim/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/vim/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "vim"
+}

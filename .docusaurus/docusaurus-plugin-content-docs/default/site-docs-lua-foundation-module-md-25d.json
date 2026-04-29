@@ -1,0 +1,20 @@
+{
+  "id": "lua/foundation/module",
+  "title": "module",
+  "description": "Lua提供了一个名为require的函数用来加载模块",
+  "source": "@site/docs/lua/foundation/module.md",
+  "sourceDirName": "lua/foundation",
+  "slug": "/lua/foundation/module",
+  "permalink": "/jaspernote/docs/lua/foundation/module",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/lua/foundation/module.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "lua",
+  "previous": {
+    "title": "install",
+    "permalink": "/jaspernote/docs/lua/foundation/install"
+  }
+}

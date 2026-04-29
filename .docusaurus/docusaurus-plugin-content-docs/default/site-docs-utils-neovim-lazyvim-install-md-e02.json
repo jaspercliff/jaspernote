@@ -1,0 +1,24 @@
+{
+  "id": "utils/neovim/lazyvim/install",
+  "title": "install",
+  "description": "- lazyvim install",
+  "source": "@site/docs/utils/neovim/lazyvim/install.md",
+  "sourceDirName": "utils/neovim/lazyvim",
+  "slug": "/utils/neovim/lazyvim/install",
+  "permalink": "/jaspernote/docs/utils/neovim/lazyvim/install",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/lazyvim/install.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "ubuntu安装ruff失败",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/ruff"
+  },
+  "next": {
+    "title": "keymap",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/keymap"
+  }
+}

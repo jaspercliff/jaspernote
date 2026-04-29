@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springboot/integration/sqlite",
+  "title": "sqlite",
+  "description": "要在Spring Boot项目中集成SQLite数据库，你可以按照以下步骤进行操作：",
+  "source": "@site/docs/java/framework/springboot/integration/sqlite.md",
+  "sourceDirName": "java/framework/springboot/integration",
+  "slug": "/java/framework/springboot/integration/sqlite",
+  "permalink": "/jaspernote/docs/java/framework/springboot/integration/sqlite",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springboot/integration/sqlite.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "springboot 集成mybatis",
+    "permalink": "/jaspernote/docs/java/framework/springboot/integration/mybatis"
+  },
+  "next": {
+    "title": "other",
+    "permalink": "/jaspernote/docs/java/framework/springboot/other"
+  }
+}

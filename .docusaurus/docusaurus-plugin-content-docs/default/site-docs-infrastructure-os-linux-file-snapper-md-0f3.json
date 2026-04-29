@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/file/snapper",
+  "title": "snapper",
+  "description": "sudo snapper -c root create-config /",
+  "source": "@site/docs/infrastructure/os/linux/file/snapper.md",
+  "sourceDirName": "infrastructure/os/linux/file",
+  "slug": "/infrastructure/os/linux/file/snapper",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/file/snapper",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/file/snapper.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "privilege",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/file/privilege"
+  },
+  "next": {
+    "title": "windows",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/file/文件系统"
+  }
+}

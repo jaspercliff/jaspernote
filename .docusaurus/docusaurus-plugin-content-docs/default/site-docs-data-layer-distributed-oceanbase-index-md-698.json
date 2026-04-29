@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/distributed/oceanbase/index",
+  "title": "oceanbase",
+  "description": "",
+  "source": "@site/docs/dataLayer/distributed/oceanbase/index.md",
+  "sourceDirName": "dataLayer/distributed/oceanbase",
+  "slug": "/dataLayer/distributed/oceanbase/",
+  "permalink": "/jaspernote/docs/dataLayer/distributed/oceanbase/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/distributed/oceanbase/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "distributed",
+  "previous": {
+    "title": "分布式数据库",
+    "permalink": "/jaspernote/docs/dataLayer/distributed/"
+  },
+  "next": {
+    "title": "tdsql",
+    "permalink": "/jaspernote/docs/dataLayer/distributed/tdsql/"
+  }
+}

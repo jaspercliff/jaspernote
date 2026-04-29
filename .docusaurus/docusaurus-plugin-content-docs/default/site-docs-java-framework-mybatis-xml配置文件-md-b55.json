@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/mybatis/xml配置文件",
+  "title": "xml 配置文件",
+  "description": "sql 可重用代码",
+  "source": "@site/docs/java/framework/mybatis/xml配置文件.md",
+  "sourceDirName": "java/framework/mybatis",
+  "slug": "/java/framework/mybatis/xml配置文件",
+  "permalink": "/jaspernote/docs/java/framework/mybatis/xml配置文件",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/mybatis/xml配置文件.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "SqlSessionUtils",
+    "permalink": "/jaspernote/docs/java/framework/mybatis/sourceCode/mybatis-spring/SqlSessionUtils"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/java/framework/redisson/"
+  }
+}

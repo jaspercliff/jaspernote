@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/foundation/03operator",
+  "title": "操作符",
+  "description": "java 中的位运算",
+  "source": "@site/docs/java/basic/foundation/03operator.md",
+  "sourceDirName": "java/basic/foundation",
+  "slug": "/java/basic/foundation/03operator",
+  "permalink": "/jaspernote/docs/java/basic/foundation/03operator",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/03operator.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "String",
+    "permalink": "/jaspernote/docs/java/basic/foundation/dataType/string"
+  },
+  "next": {
+    "title": "判断和循环",
+    "permalink": "/jaspernote/docs/java/basic/foundation/04control"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/objectMapping/orika/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/java/utils/objectMapping/orika/index.md",
+  "sourceDirName": "java/utils/objectMapping/orika",
+  "slug": "/java/utils/objectMapping/orika/",
+  "permalink": "/jaspernote/docs/java/utils/objectMapping/orika/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/objectMapping/orika/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

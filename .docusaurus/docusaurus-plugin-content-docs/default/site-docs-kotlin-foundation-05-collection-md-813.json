@@ -1,0 +1,20 @@
+{
+  "id": "kotlin/foundation/05collection",
+  "title": "collection",
+  "description": "list",
+  "source": "@site/docs/kotlin/foundation/05collection.md",
+  "sourceDirName": "kotlin/foundation",
+  "slug": "/kotlin/foundation/05collection",
+  "permalink": "/jaspernote/docs/kotlin/foundation/05collection",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/kotlin/foundation/05collection.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "kotlin",
+  "previous": {
+    "title": "function",
+    "permalink": "/jaspernote/docs/kotlin/foundation/04function"
+  }
+}

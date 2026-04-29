@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/foundation/io/index",
+  "title": "IO",
+  "description": "java中的IO模型",
+  "source": "@site/docs/java/basic/foundation/io/index.md",
+  "sourceDirName": "java/basic/foundation/io",
+  "slug": "/java/basic/foundation/io/",
+  "permalink": "/jaspernote/docs/java/basic/foundation/io/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/io/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "arrayDeque",
+    "permalink": "/jaspernote/docs/java/basic/foundation/collection/queue/deque/ArrayDeque"
+  },
+  "next": {
+    "title": "IO",
+    "permalink": "/jaspernote/docs/java/basic/foundation/io/BIO"
+  }
+}

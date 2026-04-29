@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/deploy/replication",
+  "title": "replication",
+  "description": "config",
+  "source": "@site/docs/dataLayer/nosql/redis/deploy/replication.md",
+  "sourceDirName": "dataLayer/nosql/redis/deploy",
+  "slug": "/dataLayer/nosql/redis/deploy/replication",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/deploy/replication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/deploy/replication.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "persistence",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/deploy/persistence"
+  },
+  "next": {
+    "title": "sentinel",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/deploy/sentinel"
+  }
+}

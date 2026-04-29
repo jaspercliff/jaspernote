@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/serialization/hessian/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/java/utils/serialization/hessian/index.md",
+  "sourceDirName": "java/utils/serialization/hessian",
+  "slug": "/java/utils/serialization/hessian/",
+  "permalink": "/jaspernote/docs/java/utils/serialization/hessian/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/serialization/hessian/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

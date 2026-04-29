@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/message/order",
+  "title": "顺序消息",
+  "description": "RocketMQ 的顺序消息（Ordered Message）是一种保证消息严格按照发送顺序进行消费的消息类型，适用于对消息顺序有严格要求的场景，如订单处理、交易流水等。",
+  "source": "@site/docs/java/middleware/rocketmq/message/order.md",
+  "sourceDirName": "java/middleware/rocketmq/message",
+  "slug": "/java/middleware/rocketmq/message/order",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/message/order",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/message/order.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

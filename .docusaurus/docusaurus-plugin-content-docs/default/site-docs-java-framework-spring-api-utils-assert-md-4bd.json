@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/api/utils/Assert",
+  "title": "Assert",
+  "description": "Assert",
+  "source": "@site/docs/java/framework/spring/api/utils/Assert.md",
+  "sourceDirName": "java/framework/spring/api/utils",
+  "slug": "/java/framework/spring/api/utils/Assert",
+  "permalink": "/jaspernote/docs/java/framework/spring/api/utils/Assert",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/api/utils/Assert.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "AnnotatedElementUtils",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/utils/AnnotatedElementUtils"
+  },
+  "next": {
+    "title": "ReflectionUtils",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/utils/ReflectionUtils"
+  }
+}

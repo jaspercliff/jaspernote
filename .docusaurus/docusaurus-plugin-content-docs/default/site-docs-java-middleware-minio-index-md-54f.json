@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/minio/index",
+  "title": "minio",
+  "description": "- docker 搭建",
+  "source": "@site/docs/java/middleware/minio/index.md",
+  "sourceDirName": "java/middleware/minio",
+  "slug": "/java/middleware/minio/",
+  "permalink": "/jaspernote/docs/java/middleware/minio/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/minio/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

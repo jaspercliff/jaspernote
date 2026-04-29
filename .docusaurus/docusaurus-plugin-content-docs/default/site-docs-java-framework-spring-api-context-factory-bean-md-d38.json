@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/api/context/FactoryBean",
+  "title": "FactoryBean",
+  "description": "FactoryBean 是 Spring 框架中的一个 特殊 Bean 接口，它不是用来表示一个普通的 Bean，",
+  "source": "@site/docs/java/framework/spring/api/context/FactoryBean.md",
+  "sourceDirName": "java/framework/spring/api/context",
+  "slug": "/java/framework/spring/api/context/FactoryBean",
+  "permalink": "/jaspernote/docs/java/framework/spring/api/context/FactoryBean",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/api/context/FactoryBean.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "applicationContextAware",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/context/ApplicationContextAware"
+  },
+  "next": {
+    "title": "InitializingBean",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/interfaces/InitializingBean"
+  }
+}

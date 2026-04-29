@@ -1,0 +1,20 @@
+{
+  "id": "front/vitepress/引入plantuml",
+  "title": "plantuml",
+  "description": "",
+  "source": "@site/docs/front/vitepress/引入plantuml.md",
+  "sourceDirName": "front/vitepress",
+  "slug": "/front/vitepress/引入plantuml",
+  "permalink": "/jaspernote/docs/front/vitepress/引入plantuml",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front/vitepress/引入plantuml.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "vitepress",
+  "previous": {
+    "title": "vitepress 自定义组件",
+    "permalink": "/jaspernote/docs/front/vitepress/使用自定义组件"
+  }
+}

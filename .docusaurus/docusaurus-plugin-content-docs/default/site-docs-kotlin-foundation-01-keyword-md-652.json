@@ -1,0 +1,24 @@
+{
+  "id": "kotlin/foundation/01keyword",
+  "title": "kotlin keyword",
+  "description": "一、 关键字分类 (Key Concepts)",
+  "source": "@site/docs/kotlin/foundation/01keyword.md",
+  "sourceDirName": "kotlin/foundation",
+  "slug": "/kotlin/foundation/01keyword",
+  "permalink": "/jaspernote/docs/kotlin/foundation/01keyword",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/kotlin/foundation/01keyword.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "kotlin",
+  "previous": {
+    "title": "kotlin",
+    "permalink": "/jaspernote/docs/kotlin/"
+  },
+  "next": {
+    "title": "data type",
+    "permalink": "/jaspernote/docs/kotlin/foundation/02dataType"
+  }
+}

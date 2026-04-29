@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/guava/cache",
+  "title": "cache",
+  "description": "",
+  "source": "@site/docs/java/utils/guava/cache.md",
+  "sourceDirName": "java/utils/guava",
+  "slug": "/java/utils/guava/cache",
+  "permalink": "/jaspernote/docs/java/utils/guava/cache",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/guava/cache.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

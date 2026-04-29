@@ -1,0 +1,15 @@
+{
+  "id": "java/web/log/index",
+  "title": "log",
+  "description": "slf4j",
+  "source": "@site/docs/java/web/log/index.md",
+  "sourceDirName": "java/web/log",
+  "slug": "/java/web/log/",
+  "permalink": "/jaspernote/docs/java/web/log/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/web/log/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

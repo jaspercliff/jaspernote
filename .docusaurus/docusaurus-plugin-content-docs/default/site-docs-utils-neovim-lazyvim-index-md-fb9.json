@@ -1,0 +1,24 @@
+{
+  "id": "utils/neovim/lazyvim/index",
+  "title": "lazyVim",
+  "description": "neovim的各种常用插件的集合，相当于一键安装了许多常用插件",
+  "source": "@site/docs/utils/neovim/lazyvim/index.md",
+  "sourceDirName": "utils/neovim/lazyvim",
+  "slug": "/utils/neovim/lazyvim/",
+  "permalink": "/jaspernote/docs/utils/neovim/lazyvim/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/lazyvim/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "neovim",
+    "permalink": "/jaspernote/docs/utils/neovim/"
+  },
+  "next": {
+    "title": "markdown",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/env/markdown"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "java/devTools/idea/httpClient/index",
+  "title": "http client",
+  "description": "- dynamic variable",
+  "source": "@site/docs/java/devTools/idea/httpClient/index.md",
+  "sourceDirName": "java/devTools/idea/httpClient",
+  "slug": "/java/devTools/idea/httpClient/",
+  "permalink": "/jaspernote/docs/java/devTools/idea/httpClient/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/devTools/idea/httpClient/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devTools",
+  "previous": {
+    "title": "docker",
+    "permalink": "/jaspernote/docs/java/devTools/idea/docker"
+  },
+  "next": {
+    "title": "动态变量",
+    "permalink": "/jaspernote/docs/java/devTools/idea/httpClient/dynamicVariable"
+  }
+}

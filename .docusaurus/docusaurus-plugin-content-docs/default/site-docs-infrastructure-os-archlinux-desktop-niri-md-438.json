@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/archlinux/desktop/niri",
+  "title": "niri",
+  "description": "- matugen   实现效果： 你换一张粉色的壁纸，niri 的窗口边框、dms-shell 的按钮、fuzzel 的背景都会瞬间变成深浅不一的粉色",
+  "source": "@site/docs/infrastructure/os/archlinux/desktop/niri.md",
+  "sourceDirName": "infrastructure/os/archlinux/desktop",
+  "slug": "/infrastructure/os/archlinux/desktop/niri",
+  "permalink": "/jaspernote/docs/infrastructure/os/archlinux/desktop/niri",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/archlinux/desktop/niri.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "kde",
+    "permalink": "/jaspernote/docs/infrastructure/os/archlinux/desktop/kde"
+  },
+  "next": {
+    "title": "software",
+    "permalink": "/jaspernote/docs/infrastructure/os/archlinux/desktop/software"
+  }
+}

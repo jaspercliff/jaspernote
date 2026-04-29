@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/mac/finder",
+  "title": "finder",
+  "description": "command+shift+.   显示隐藏文件和文件夹",
+  "source": "@site/docs/infrastructure/os/mac/finder.md",
+  "sourceDirName": "infrastructure/os/mac",
+  "slug": "/infrastructure/os/mac/finder",
+  "permalink": "/jaspernote/docs/infrastructure/os/mac/finder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/mac/finder.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "mac",
+    "permalink": "/jaspernote/docs/infrastructure/os/mac/"
+  },
+  "next": {
+    "title": "homebrew",
+    "permalink": "/jaspernote/docs/infrastructure/os/mac/homebrew"
+  }
+}

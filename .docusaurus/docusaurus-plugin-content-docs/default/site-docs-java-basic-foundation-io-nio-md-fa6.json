@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/foundation/io/nio",
+  "title": "NIO",
+  "description": "Channel 通道",
+  "source": "@site/docs/java/basic/foundation/io/nio.md",
+  "sourceDirName": "java/basic/foundation/io",
+  "slug": "/java/basic/foundation/io/nio",
+  "permalink": "/jaspernote/docs/java/basic/foundation/io/nio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/io/nio.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "API",
+    "permalink": "/jaspernote/docs/java/basic/foundation/io/NIO2/API"
+  },
+  "next": {
+    "title": "网络编程",
+    "permalink": "/jaspernote/docs/java/basic/foundation/io/网络编程"
+  }
+}

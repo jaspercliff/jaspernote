@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/lombok/index",
+  "title": "lombok",
+  "description": "- lombok的引入",
+  "source": "@site/docs/java/utils/lombok/index.md",
+  "sourceDirName": "java/utils/lombok",
+  "slug": "/java/utils/lombok/",
+  "permalink": "/jaspernote/docs/java/utils/lombok/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/lombok/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/表的备份",
+  "title": "备份  一张表到另外一张表",
+  "description": "INSERT INTO sysrolebak(rolename,roledesc) SELECT ROLENAME,ROLEDESC FROM sys_role;",
+  "source": "@site/docs/dataLayer/relational/mysql/表的备份.md",
+  "sourceDirName": "dataLayer/relational/mysql",
+  "slug": "/dataLayer/relational/mysql/表的备份",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/表的备份",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/表的备份.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/索引"
+  },
+  "next": {
+    "title": "表连接",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/表连接"
+  }
+}

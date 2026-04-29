@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/design/distributed/distributedLock",
+  "title": "distributedlock",
+  "description": "redis 实现",
+  "source": "@site/docs/infrastructure/design/distributed/distributedLock.md",
+  "sourceDirName": "infrastructure/design/distributed",
+  "slug": "/infrastructure/design/distributed/distributedLock",
+  "permalink": "/jaspernote/docs/infrastructure/design/distributed/distributedLock",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/design/distributed/distributedLock.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "design",
+  "previous": {
+    "title": "CAP",
+    "permalink": "/jaspernote/docs/infrastructure/design/distributed/cap"
+  },
+  "next": {
+    "title": "全局唯一id",
+    "permalink": "/jaspernote/docs/infrastructure/design/distributed/globalUniqueId"
+  }
+}

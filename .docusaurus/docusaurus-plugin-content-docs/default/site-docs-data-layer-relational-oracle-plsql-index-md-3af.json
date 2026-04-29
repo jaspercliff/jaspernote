@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/plsql/index",
+  "title": "index",
+  "description": "PL/SQL（Procedural Language extensions to SQL）是Oracle数据库对结构化查询语言（SQL）的扩展，它结合了过程化编程和数据操作功能。",
+  "source": "@site/docs/dataLayer/relational/oracle/plsql/index.md",
+  "sourceDirName": "dataLayer/relational/oracle/plsql",
+  "slug": "/dataLayer/relational/oracle/plsql/",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/plsql/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "杂七杂八",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/other"
+  },
+  "next": {
+    "title": "基本组件",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/basic"
+  }
+}

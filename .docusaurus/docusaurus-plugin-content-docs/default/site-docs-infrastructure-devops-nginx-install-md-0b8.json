@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/devops/nginx/install",
+  "title": "install",
+  "description": "- apt install",
+  "source": "@site/docs/infrastructure/devops/nginx/install.md",
+  "sourceDirName": "infrastructure/devops/nginx",
+  "slug": "/infrastructure/devops/nginx/install",
+  "permalink": "/jaspernote/docs/infrastructure/devops/nginx/install",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/nginx/install.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devops",
+  "previous": {
+    "title": "configure",
+    "permalink": "/jaspernote/docs/infrastructure/devops/nginx/configure"
+  },
+  "next": {
+    "title": "openresty",
+    "permalink": "/jaspernote/docs/infrastructure/devops/openresty/"
+  }
+}

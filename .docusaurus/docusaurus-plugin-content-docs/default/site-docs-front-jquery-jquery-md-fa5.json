@@ -1,0 +1,16 @@
+{
+  "id": "front/jquery/jquery",
+  "title": "jquery",
+  "description": "选择器",
+  "source": "@site/docs/front/jquery/jquery.md",
+  "sourceDirName": "front/jquery",
+  "slug": "/front/jquery/",
+  "permalink": "/jaspernote/docs/front/jquery/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front/jquery/jquery.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "jquery"
+}

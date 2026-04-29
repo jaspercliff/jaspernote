@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/dataType/hash",
+  "title": "hash",
+  "description": "hash类型，散列，alue是一个无序字典,类似java中的hashmap  map``",
+  "source": "@site/docs/dataLayer/nosql/redis/dataType/hash.md",
+  "sourceDirName": "dataLayer/nosql/redis/dataType",
+  "slug": "/dataLayer/nosql/redis/dataType/hash",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/hash",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/dataType/hash.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "Geospatial indexes",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/geo"
+  },
+  "next": {
+    "title": "hyperloglog",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/hyperoglog"
+  }
+}

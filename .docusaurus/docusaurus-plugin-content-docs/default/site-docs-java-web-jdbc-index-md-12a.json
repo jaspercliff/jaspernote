@@ -1,0 +1,15 @@
+{
+  "id": "java/web/jdbc/index",
+  "title": "jdbc",
+  "description": "JDBC提供了以下几种接口和类来访问数据库：",
+  "source": "@site/docs/java/web/jdbc/index.md",
+  "sourceDirName": "java/web/jdbc",
+  "slug": "/java/web/jdbc/",
+  "permalink": "/jaspernote/docs/java/web/jdbc/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/web/jdbc/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

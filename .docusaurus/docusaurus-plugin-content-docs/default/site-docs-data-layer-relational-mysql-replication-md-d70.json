@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/replication",
+  "title": "replication",
+  "description": "https://dev.mysql.com/doc/refman/8.0/en/replication.html",
+  "source": "@site/docs/dataLayer/relational/mysql/replication.md",
+  "sourceDirName": "dataLayer/relational/mysql",
+  "slug": "/dataLayer/relational/mysql/replication",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/replication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/replication.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "exist 和 in的区别",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/problems/exist和in的区别"
+  },
+  "next": {
+    "title": "事务隔离级别",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/事务隔离级别"
+  }
+}

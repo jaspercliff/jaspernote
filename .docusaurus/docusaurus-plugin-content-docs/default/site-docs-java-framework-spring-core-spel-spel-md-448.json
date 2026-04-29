@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/core/spel/spel",
+  "title": "spel",
+  "description": "",
+  "source": "@site/docs/java/framework/spring/core/spel/spel.md",
+  "sourceDirName": "java/framework/spring/core/spel",
+  "slug": "/java/framework/spring/core/spel/",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/spel/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/spel/spel.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "pointcut designators",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/aspect/pcd"
+  },
+  "next": {
+    "title": "annotations",
+    "permalink": "/jaspernote/docs/java/framework/spring/annotations/"
+  }
+}

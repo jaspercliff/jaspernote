@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/devops/docker/docker和虚拟机的区别",
+  "title": "docker 和虚拟机的区别",
+  "description": "Docker与传统虚拟机的区别：",
+  "source": "@site/docs/infrastructure/devops/docker/docker和虚拟机的区别.md",
+  "sourceDirName": "infrastructure/devops/docker",
+  "slug": "/infrastructure/devops/docker/docker和虚拟机的区别",
+  "permalink": "/jaspernote/docs/infrastructure/devops/docker/docker和虚拟机的区别",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/docker/docker和虚拟机的区别.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devops",
+  "previous": {
+    "title": "docker compose",
+    "permalink": "/jaspernote/docs/infrastructure/devops/docker/dockercompose/"
+  },
+  "next": {
+    "title": "problem",
+    "permalink": "/jaspernote/docs/infrastructure/devops/docker/problem"
+  }
+}

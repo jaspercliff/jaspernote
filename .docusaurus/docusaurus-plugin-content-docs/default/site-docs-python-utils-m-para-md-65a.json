@@ -1,0 +1,24 @@
+{
+  "id": "python/utils/mPara",
+  "title": "python -m 的用法",
+  "description": "python -h 查看帮助信息，可以看到 -m 的用法",
+  "source": "@site/docs/python/utils/mPara.md",
+  "sourceDirName": "python/utils",
+  "slug": "/python/utils/mPara",
+  "permalink": "/jaspernote/docs/python/utils/mPara",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/utils/mPara.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "tools",
+    "permalink": "/jaspernote/docs/python/utils/"
+  },
+  "next": {
+    "title": "utils",
+    "permalink": "/jaspernote/docs/python/utils"
+  }
+}

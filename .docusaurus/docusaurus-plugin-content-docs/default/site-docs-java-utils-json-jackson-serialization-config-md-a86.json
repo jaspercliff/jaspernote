@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/json/jackson/SerializationConfig",
+  "title": "serializationConfig",
+  "description": "include",
+  "source": "@site/docs/java/utils/json/jackson/SerializationConfig.md",
+  "sourceDirName": "java/utils/json/jackson",
+  "slug": "/java/utils/json/jackson/SerializationConfig",
+  "permalink": "/jaspernote/docs/java/utils/json/jackson/SerializationConfig",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/json/jackson/SerializationConfig.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

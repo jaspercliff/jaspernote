@@ -1,0 +1,20 @@
+{
+  "id": "front/react/jsx",
+  "title": "jsx",
+  "description": "JSX 的全称是 JavaScript XML。它是 React 定义的一种类似 XML 的语法扩展，",
+  "source": "@site/docs/front/react/jsx.md",
+  "sourceDirName": "front/react",
+  "slug": "/front/react/jsx",
+  "permalink": "/jaspernote/docs/front/react/jsx",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/front/react/jsx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "react",
+  "previous": {
+    "title": "react",
+    "permalink": "/jaspernote/docs/front/react/"
+  }
+}

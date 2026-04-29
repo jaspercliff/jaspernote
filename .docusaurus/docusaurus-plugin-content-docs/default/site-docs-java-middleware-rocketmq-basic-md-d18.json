@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/basic",
+  "title": "基本概念",
+  "description": "1. 消息 数据",
+  "source": "@site/docs/java/middleware/rocketmq/basic.md",
+  "sourceDirName": "java/middleware/rocketmq",
+  "slug": "/java/middleware/rocketmq/basic",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/basic",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/basic.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

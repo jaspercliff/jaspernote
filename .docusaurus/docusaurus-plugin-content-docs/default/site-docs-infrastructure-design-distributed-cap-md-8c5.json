@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/design/distributed/cap",
+  "title": "CAP",
+  "description": "CAP 定理 是分布式系统设计中的一个基础性理论，它指出一个分布式系统在以下三个核心特性中，最多只能同时满足其中两个：",
+  "source": "@site/docs/infrastructure/design/distributed/cap.md",
+  "sourceDirName": "infrastructure/design/distributed",
+  "slug": "/infrastructure/design/distributed/cap",
+  "permalink": "/jaspernote/docs/infrastructure/design/distributed/cap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/design/distributed/cap.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "design",
+  "previous": {
+    "title": "分布式系统",
+    "permalink": "/jaspernote/docs/infrastructure/design/distributed/"
+  },
+  "next": {
+    "title": "distributedlock",
+    "permalink": "/jaspernote/docs/infrastructure/design/distributed/distributedLock"
+  }
+}

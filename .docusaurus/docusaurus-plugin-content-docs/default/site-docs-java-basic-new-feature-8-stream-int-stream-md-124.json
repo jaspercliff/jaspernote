@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/stream/intStream",
+  "title": "intStream",
+  "description": "1. 避免装箱拆箱（Performance）：",
+  "source": "@site/docs/java/basic/newFeature/8/stream/intStream.md",
+  "sourceDirName": "java/basic/newFeature/8/stream",
+  "slug": "/java/basic/newFeature/8/stream/intStream",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intStream",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/stream/intStream.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "stream",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/"
+  },
+  "next": {
+    "title": "flatMap",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/flatMap"
+  }
+}

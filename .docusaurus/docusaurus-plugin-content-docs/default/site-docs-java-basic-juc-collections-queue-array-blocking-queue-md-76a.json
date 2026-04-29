@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/juc/collections/queue/ArrayBlockingQueue",
+  "title": "ArrayBlockingQueue",
+  "description": "- 有界性 (Bounded): 在创建时必须指定容量大小（Capacity），一旦确定，不可更改。",
+  "source": "@site/docs/java/basic/juc/collections/queue/ArrayBlockingQueue.md",
+  "sourceDirName": "java/basic/juc/collections/queue",
+  "slug": "/java/basic/juc/collections/queue/ArrayBlockingQueue",
+  "permalink": "/jaspernote/docs/java/basic/juc/collections/queue/ArrayBlockingQueue",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/juc/collections/queue/ArrayBlockingQueue.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "concurrentHashmap",
+    "permalink": "/jaspernote/docs/java/basic/juc/collections/concurrentHashmap"
+  },
+  "next": {
+    "title": "blockingqueue",
+    "permalink": "/jaspernote/docs/java/basic/juc/collections/queue/blockingQueue"
+  }
+}

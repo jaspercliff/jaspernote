@@ -1,0 +1,24 @@
+{
+  "id": "utils/git/gitattributes",
+  "title": ".gitattributes",
+  "description": "用来控制 Git 如何处理不同类型的文件",
+  "source": "@site/docs/utils/git/gitattributes.md",
+  "sourceDirName": "utils/git",
+  "slug": "/utils/git/gitattributes",
+  "permalink": "/jaspernote/docs/utils/git/gitattributes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/git/gitattributes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "git",
+  "previous": {
+    "title": "conflict",
+    "permalink": "/jaspernote/docs/utils/git/conflict"
+  },
+  "next": {
+    "title": "lazygit",
+    "permalink": "/jaspernote/docs/utils/git/lazygit"
+  }
+}

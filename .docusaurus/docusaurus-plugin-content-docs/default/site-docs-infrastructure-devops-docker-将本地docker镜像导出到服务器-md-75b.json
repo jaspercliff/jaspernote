@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/devops/docker/将本地docker镜像导出到服务器",
+  "title": "将本地docker镜像导出到服务器",
+  "description": "docker save -o novanc.tar theasp/novnc:latest",
+  "source": "@site/docs/infrastructure/devops/docker/将本地docker镜像导出到服务器.md",
+  "sourceDirName": "infrastructure/devops/docker",
+  "slug": "/infrastructure/devops/docker/将本地docker镜像导出到服务器",
+  "permalink": "/jaspernote/docs/infrastructure/devops/docker/将本地docker镜像导出到服务器",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/devops/docker/将本地docker镜像导出到服务器.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devops",
+  "previous": {
+    "title": "problem",
+    "permalink": "/jaspernote/docs/infrastructure/devops/docker/problem"
+  },
+  "next": {
+    "title": "envoy",
+    "permalink": "/jaspernote/docs/infrastructure/devops/envoy/"
+  }
+}

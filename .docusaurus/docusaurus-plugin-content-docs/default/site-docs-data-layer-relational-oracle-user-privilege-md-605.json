@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/userPrivilege",
+  "title": "user and privilege",
+  "description": "privilege",
+  "source": "@site/docs/dataLayer/relational/oracle/userPrivilege.md",
+  "sourceDirName": "dataLayer/relational/oracle",
+  "slug": "/dataLayer/relational/oracle/userPrivilege",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/userPrivilege",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/userPrivilege.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "sequence",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/sequence"
+  },
+  "next": {
+    "title": "postgresql",
+    "permalink": "/jaspernote/docs/dataLayer/relational/postgresql/"
+  }
+}

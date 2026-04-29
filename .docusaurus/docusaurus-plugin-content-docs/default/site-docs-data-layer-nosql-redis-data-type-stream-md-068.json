@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/dataType/stream",
+  "title": "stream",
+  "description": "类似于append-only log ，O(1)的随机访问，复杂的消费策略",
+  "source": "@site/docs/dataLayer/nosql/redis/dataType/stream.md",
+  "sourceDirName": "dataLayer/nosql/redis/dataType",
+  "slug": "/dataLayer/nosql/redis/dataType/stream",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/stream",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/dataType/stream.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "sortedset",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/sortedSet"
+  },
+  "next": {
+    "title": "string",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/string"
+  }
+}

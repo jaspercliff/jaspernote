@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/basic/commonCommand",
+  "title": "常见通用命令",
+  "description": "- official website",
+  "source": "@site/docs/dataLayer/nosql/redis/basic/commonCommand.md",
+  "sourceDirName": "dataLayer/nosql/redis/basic",
+  "slug": "/dataLayer/nosql/redis/basic/commonCommand",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/basic/commonCommand",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/basic/commonCommand.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "redis",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/"
+  },
+  "next": {
+    "title": "dataType",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/dataType/"
+  }
+}

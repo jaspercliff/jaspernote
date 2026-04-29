@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/mybatis/index",
+  "title": "mybatis",
+  "description": "- 简单使用",
+  "source": "@site/docs/java/framework/mybatis/index.md",
+  "sourceDirName": "java/framework/mybatis",
+  "slug": "/java/framework/mybatis/",
+  "permalink": "/jaspernote/docs/java/framework/mybatis/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/mybatis/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/java/framework/jpa/"
+  },
+  "next": {
+    "title": "cache",
+    "permalink": "/jaspernote/docs/java/framework/mybatis/cache"
+  }
+}

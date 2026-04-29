@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/algo/hashOrSummarization/sha256",
+  "title": "sha256",
+  "description": "SHA256 是一种 安全哈希算法（Secure Hash Algorithm），属于 SHA-2 家族，由美国国家安全局（NSA）设计，",
+  "source": "@site/docs/dataStructure/algo/hashOrSummarization/sha256.md",
+  "sourceDirName": "dataStructure/algo/hashOrSummarization",
+  "slug": "/dataStructure/algo/hashOrSummarization/sha256",
+  "permalink": "/jaspernote/docs/dataStructure/algo/hashOrSummarization/sha256",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/algo/hashOrSummarization/sha256.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "md5",
+    "permalink": "/jaspernote/docs/dataStructure/algo/hashOrSummarization/md5"
+  },
+  "next": {
+    "title": "slide the window",
+    "permalink": "/jaspernote/docs/dataStructure/algo/slideWindow"
+  }
+}

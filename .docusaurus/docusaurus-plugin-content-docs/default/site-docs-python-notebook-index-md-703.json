@@ -1,0 +1,24 @@
+{
+  "id": "python/notebook/index",
+  "title": "jupyter notebook",
+  "description": "Jupyter Notebook 是一个交互式计算环境，主要用于数据分析、机器学习、科学计算和教学。它的特点是既能运行代码，又能展示文本、图表、公式，非常适合做实验、",
+  "source": "@site/docs/python/notebook/index.md",
+  "sourceDirName": "python/notebook",
+  "slug": "/python/notebook/",
+  "permalink": "/jaspernote/docs/python/notebook/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/notebook/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "magic method",
+    "permalink": "/jaspernote/docs/python/foundation/function/magicMethod"
+  },
+  "next": {
+    "title": "tools",
+    "permalink": "/jaspernote/docs/python/utils/"
+  }
+}

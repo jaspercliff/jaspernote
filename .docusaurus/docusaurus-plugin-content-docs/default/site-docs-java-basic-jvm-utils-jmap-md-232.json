@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/utils/jmap",
+  "title": "jmap",
+  "description": "",
+  "source": "@site/docs/java/basic/jvm/utils/jmap.md",
+  "sourceDirName": "java/basic/jvm/utils",
+  "slug": "/java/basic/jvm/utils/jmap",
+  "permalink": "/jaspernote/docs/java/basic/jvm/utils/jmap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/utils/jmap.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "system properties",
+    "permalink": "/jaspernote/docs/java/basic/jvm/systemProperties"
+  },
+  "next": {
+    "title": "mat(memory analyzer tool)",
+    "permalink": "/jaspernote/docs/java/basic/jvm/utils/mat(memory analyzer tool)"
+  }
+}

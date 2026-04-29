@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/stream/intermediate/flatMap",
+  "title": "flatMap",
+  "description": "",
+  "source": "@site/docs/java/basic/newFeature/8/stream/intermediate/flatMap.md",
+  "sourceDirName": "java/basic/newFeature/8/stream/intermediate",
+  "slug": "/java/basic/newFeature/8/stream/intermediate/flatMap",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/flatMap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/stream/intermediate/flatMap.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "intStream",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intStream"
+  },
+  "next": {
+    "title": "map",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intermediate/map"
+  }
+}

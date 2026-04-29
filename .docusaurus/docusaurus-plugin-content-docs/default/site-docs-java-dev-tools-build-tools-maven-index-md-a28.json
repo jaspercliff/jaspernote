@@ -1,0 +1,24 @@
+{
+  "id": "java/devTools/buildTools/maven/index",
+  "title": "maven",
+  "description": "- 基本概念",
+  "source": "@site/docs/java/devTools/buildTools/maven/index.md",
+  "sourceDirName": "java/devTools/buildTools/maven",
+  "slug": "/java/devTools/buildTools/maven/",
+  "permalink": "/jaspernote/docs/java/devTools/buildTools/maven/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/devTools/buildTools/maven/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devTools",
+  "previous": {
+    "title": "config",
+    "permalink": "/jaspernote/docs/java/devTools/buildTools/gradle/config"
+  },
+  "next": {
+    "title": "basic",
+    "permalink": "/jaspernote/docs/java/devTools/buildTools/maven/basic"
+  }
+}

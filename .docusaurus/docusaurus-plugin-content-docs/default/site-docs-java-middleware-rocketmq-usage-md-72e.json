@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/usage",
+  "title": "usage",
+  "description": "mq",
+  "source": "@site/docs/java/middleware/rocketmq/usage.md",
+  "sourceDirName": "java/middleware/rocketmq",
+  "slug": "/java/middleware/rocketmq/usage",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/usage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

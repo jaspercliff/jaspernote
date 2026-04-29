@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/file/other",
+  "title": "other",
+  "description": "目录结构",
+  "source": "@site/docs/infrastructure/os/linux/file/other.md",
+  "sourceDirName": "infrastructure/os/linux/file",
+  "slug": "/infrastructure/os/linux/file/other",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/file/other",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/file/other.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "compress",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/file/compress"
+  },
+  "next": {
+    "title": "privilege",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/file/privilege"
+  }
+}

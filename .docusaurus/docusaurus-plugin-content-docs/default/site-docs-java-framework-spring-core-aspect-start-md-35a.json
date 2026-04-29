@@ -1,0 +1,27 @@
+{
+  "id": "java/framework/spring/core/aspect/start",
+  "title": "start",
+  "description": "引入 org.aspectj 主要作用概括为 “解析” 与 “织入” 两大核心能力",
+  "source": "@site/docs/java/framework/spring/core/aspect/start.md",
+  "sourceDirName": "java/framework/spring/core/aspect",
+  "slug": "/java/framework/spring/core/aspect/start",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/aspect/start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/aspect/start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "framework",
+  "previous": {
+    "title": "aspect",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/aspect/"
+  },
+  "next": {
+    "title": "pointcut designators",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/aspect/pcd"
+  }
+}

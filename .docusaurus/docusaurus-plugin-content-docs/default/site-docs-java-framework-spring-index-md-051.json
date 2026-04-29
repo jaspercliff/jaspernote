@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/index",
+  "title": "spring",
+  "description": "core",
+  "source": "@site/docs/java/framework/spring/index.md",
+  "sourceDirName": "java/framework/spring",
+  "slug": "/java/framework/spring/",
+  "permalink": "/jaspernote/docs/java/framework/spring/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "framework",
+    "permalink": "/jaspernote/docs/java/framework/"
+  },
+  "next": {
+    "title": "ioc",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/"
+  }
+}

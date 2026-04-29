@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springData/index",
+  "title": "spring data",
+  "description": "- spring data redis",
+  "source": "@site/docs/java/framework/springData/index.md",
+  "sourceDirName": "java/framework/springData",
+  "slug": "/java/framework/springData/",
+  "permalink": "/jaspernote/docs/java/framework/springData/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springData/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "spring batch",
+    "permalink": "/jaspernote/docs/java/framework/springBatch/"
+  },
+  "next": {
+    "title": "springSecurity",
+    "permalink": "/jaspernote/docs/java/framework/springSecurity/"
+  }
+}

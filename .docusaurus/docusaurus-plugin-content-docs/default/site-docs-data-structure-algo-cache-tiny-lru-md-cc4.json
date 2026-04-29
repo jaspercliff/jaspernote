@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/algo/cache/tinyLru",
+  "title": "tinyLru",
+  "description": "",
+  "source": "@site/docs/dataStructure/algo/cache/tinyLru.md",
+  "sourceDirName": "dataStructure/algo/cache",
+  "slug": "/dataStructure/algo/cache/tinyLru",
+  "permalink": "/jaspernote/docs/dataStructure/algo/cache/tinyLru",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/algo/cache/tinyLru.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "lru",
+    "permalink": "/jaspernote/docs/dataStructure/algo/cache/lru"
+  },
+  "next": {
+    "title": "动态规划",
+    "permalink": "/jaspernote/docs/dataStructure/algo/dynamic"
+  }
+}

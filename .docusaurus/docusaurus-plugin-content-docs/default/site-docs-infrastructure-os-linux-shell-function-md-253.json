@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/shell/function",
+  "title": "function",
+  "description": "函数",
+  "source": "@site/docs/infrastructure/os/linux/shell/function.md",
+  "sourceDirName": "infrastructure/os/linux/shell",
+  "slug": "/infrastructure/os/linux/shell/function",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/function",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/shell/function.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "数据流重定向",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/dataStreamRedirection/"
+  },
+  "next": {
+    "title": "operator",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/operator"
+  }
+}

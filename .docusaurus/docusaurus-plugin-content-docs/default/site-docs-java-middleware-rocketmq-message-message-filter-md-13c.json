@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/message/messageFilter",
+  "title": "消息过滤",
+  "description": "在大多数情况下，TAG是一个简单而有用的设计，其可以来选择您想要的消息。例如：",
+  "source": "@site/docs/java/middleware/rocketmq/message/messageFilter.md",
+  "sourceDirName": "java/middleware/rocketmq/message",
+  "slug": "/java/middleware/rocketmq/message/messageFilter",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/message/messageFilter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/message/messageFilter.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

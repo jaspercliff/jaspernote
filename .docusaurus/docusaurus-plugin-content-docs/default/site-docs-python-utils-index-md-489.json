@@ -1,0 +1,24 @@
+{
+  "id": "python/utils/index",
+  "title": "tools",
+  "description": "- python -m的用法",
+  "source": "@site/docs/python/utils/index.md",
+  "sourceDirName": "python/utils",
+  "slug": "/python/utils/",
+  "permalink": "/jaspernote/docs/python/utils/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/utils/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "jupyter notebook",
+    "permalink": "/jaspernote/docs/python/notebook/"
+  },
+  "next": {
+    "title": "python -m 的用法",
+    "permalink": "/jaspernote/docs/python/utils/mPara"
+  }
+}

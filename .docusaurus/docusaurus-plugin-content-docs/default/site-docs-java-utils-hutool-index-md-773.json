@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/hutool/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/java/utils/hutool/index.md",
+  "sourceDirName": "java/utils/hutool",
+  "slug": "/java/utils/hutool/",
+  "permalink": "/jaspernote/docs/java/utils/hutool/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/hutool/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/01install",
+  "title": "install",
+  "description": "docker",
+  "source": "@site/docs/dataLayer/relational/mysql/01install.md",
+  "sourceDirName": "dataLayer/relational/mysql",
+  "slug": "/dataLayer/relational/mysql/01install",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/01install",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/01install.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "mysql",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/"
+  },
+  "next": {
+    "title": "04 explain",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/04 explain"
+  }
+}

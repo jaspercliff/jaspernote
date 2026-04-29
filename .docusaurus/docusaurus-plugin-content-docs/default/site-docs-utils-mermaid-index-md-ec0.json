@@ -1,0 +1,15 @@
+{
+  "id": "utils/mermaid/index",
+  "title": "mermaid",
+  "description": "",
+  "source": "@site/docs/utils/mermaid/index.md",
+  "sourceDirName": "utils/mermaid",
+  "slug": "/utils/mermaid/",
+  "permalink": "/jaspernote/docs/utils/mermaid/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/mermaid/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

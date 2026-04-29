@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/dubbo/index",
+  "title": "dubbo",
+  "description": "",
+  "source": "@site/docs/java/framework/dubbo/index.md",
+  "sourceDirName": "java/framework/dubbo",
+  "slug": "/java/framework/dubbo/",
+  "permalink": "/jaspernote/docs/java/framework/dubbo/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/dubbo/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "事务源码解读",
+    "permalink": "/jaspernote/docs/java/framework/spring/sourceCode/transaction"
+  },
+  "next": {
+    "title": "jetcache",
+    "permalink": "/jaspernote/docs/java/framework/jetCache/"
+  }
+}

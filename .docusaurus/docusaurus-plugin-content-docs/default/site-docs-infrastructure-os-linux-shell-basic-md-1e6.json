@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/shell/basic",
+  "title": "basic",
+  "description": "Shell脚本是一种计算机程序，它是由一系列命令组成的文件，这些命令会被Unix、Linux或类似的操作系统中的shell解释执行。",
+  "source": "@site/docs/infrastructure/os/linux/shell/basic.md",
+  "sourceDirName": "infrastructure/os/linux/shell",
+  "slug": "/infrastructure/os/linux/shell/basic",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/basic",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/shell/basic.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "shell",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/"
+  },
+  "next": {
+    "title": "brace expansion",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/braceExpansion"
+  }
+}

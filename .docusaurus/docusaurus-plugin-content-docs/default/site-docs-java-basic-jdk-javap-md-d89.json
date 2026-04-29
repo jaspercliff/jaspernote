@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jdk/javap",
+  "title": "javap",
+  "description": "javap 是 Java 的类文件反编译器。它是 Java Development Kit (JDK) 的一部分，用于反编译并打印 .class 文件的结构信息到控制台。",
+  "source": "@site/docs/java/basic/jdk/javap.md",
+  "sourceDirName": "java/basic/jdk",
+  "slug": "/java/basic/jdk/javap",
+  "permalink": "/jaspernote/docs/java/basic/jdk/javap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jdk/javap.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "date",
+    "permalink": "/jaspernote/docs/java/basic/commonClass/dateRelated"
+  },
+  "next": {
+    "title": "jcmd",
+    "permalink": "/jaspernote/docs/java/basic/jdk/monitor/jcmd"
+  }
+}

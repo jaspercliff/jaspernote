@@ -1,0 +1,19 @@
+{
+  "id": "java/roadmap",
+  "title": "Java 学习路线图",
+  "description": "",
+  "source": "@site/docs/java/roadmap.md",
+  "sourceDirName": "java",
+  "slug": "/java/roadmap",
+  "permalink": "/jaspernote/docs/java/roadmap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/roadmap.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Java 学习路线图"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/programmability/luascript/debug",
+  "title": "debug",
+  "description": "开发测试环境 使用monitor:实时监控命令,查看redis正在执行的所有命令 但是不推荐在生产使用",
+  "source": "@site/docs/dataLayer/nosql/redis/programmability/luascript/debug.md",
+  "sourceDirName": "dataLayer/nosql/redis/programmability/luascript",
+  "slug": "/dataLayer/nosql/redis/programmability/luascript/debug",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/debug",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/programmability/luascript/debug.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "lua script",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/"
+  },
+  "next": {
+    "title": "eval",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/programmability/luascript/eval"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "java/middleware/rocketmq/message/transaction",
+  "title": "transaction",
+  "description": "事务消息的使用限制",
+  "source": "@site/docs/java/middleware/rocketmq/message/transaction.md",
+  "sourceDirName": "java/middleware/rocketmq/message",
+  "slug": "/java/middleware/rocketmq/message/transaction",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/message/transaction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/message/transaction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "layout": "home"
+  }
+}

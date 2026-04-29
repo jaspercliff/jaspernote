@@ -1,0 +1,15 @@
+{
+  "id": "java/network/netty/index",
+  "title": "index",
+  "description": "",
+  "source": "@site/docs/java/network/netty/index.md",
+  "sourceDirName": "java/network/netty",
+  "slug": "/java/network/netty/",
+  "permalink": "/jaspernote/docs/java/network/netty/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/network/netty/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

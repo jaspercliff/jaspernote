@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springSecurity/index",
+  "title": "springSecurity",
+  "description": "- index",
+  "source": "@site/docs/java/framework/springSecurity/index.md",
+  "sourceDirName": "java/framework/springSecurity",
+  "slug": "/java/framework/springSecurity/",
+  "permalink": "/jaspernote/docs/java/framework/springSecurity/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springSecurity/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "spring data",
+    "permalink": "/jaspernote/docs/java/framework/springData/"
+  },
+  "next": {
+    "title": "springSecurity",
+    "permalink": "/jaspernote/docs/java/framework/springSecurity/impl"
+  }
+}

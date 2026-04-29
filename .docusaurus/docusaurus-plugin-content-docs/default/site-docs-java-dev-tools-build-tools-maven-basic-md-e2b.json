@@ -1,0 +1,24 @@
+{
+  "id": "java/devTools/buildTools/maven/basic",
+  "title": "basic",
+  "description": "构建：编译、运行单元测试、生成文档、打包、部署的过程",
+  "source": "@site/docs/java/devTools/buildTools/maven/basic.md",
+  "sourceDirName": "java/devTools/buildTools/maven",
+  "slug": "/java/devTools/buildTools/maven/basic",
+  "permalink": "/jaspernote/docs/java/devTools/buildTools/maven/basic",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/devTools/buildTools/maven/basic.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devTools",
+  "previous": {
+    "title": "maven",
+    "permalink": "/jaspernote/docs/java/devTools/buildTools/maven/"
+  },
+  "next": {
+    "title": "conflict",
+    "permalink": "/jaspernote/docs/java/devTools/buildTools/maven/confilct"
+  }
+}

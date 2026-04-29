@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/objectMapping/mapStruct/reuseMappingConfiguration",
+  "title": "reusing mapping configuration",
+  "description": "方法级的配置注解@Mapping，@BeanMapping 可以继承到一个类似的方法",
+  "source": "@site/docs/java/utils/objectMapping/mapStruct/reuseMappingConfiguration.md",
+  "sourceDirName": "java/utils/objectMapping/mapStruct",
+  "slug": "/java/utils/objectMapping/mapStruct/reuseMappingConfiguration",
+  "permalink": "/jaspernote/docs/java/utils/objectMapping/mapStruct/reuseMappingConfiguration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/objectMapping/mapStruct/reuseMappingConfiguration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

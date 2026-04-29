@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/process/ps",
+  "title": "ps",
+  "description": "ps 命令是 Linux 和 Unix 系统中用于查看当前系统进程状态的命令（process status 的缩写）。",
+  "source": "@site/docs/infrastructure/os/linux/process/ps.md",
+  "sourceDirName": "infrastructure/os/linux/process",
+  "slug": "/infrastructure/os/linux/process/ps",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/process/ps",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/process/ps.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "lsof",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/process/lsof"
+  },
+  "next": {
+    "title": "常用命令",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/process/常用命令"
+  }
+}

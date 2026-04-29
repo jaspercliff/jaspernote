@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/api/context/ApplicationContextAware",
+  "title": "applicationContextAware",
+  "description": "运行时根据某些条件动态选择依赖的 bean 时，通过 ApplicationContext 获取 bean 可以提供更大的灵活性。",
+  "source": "@site/docs/java/framework/spring/api/context/ApplicationContextAware.md",
+  "sourceDirName": "java/framework/spring/api/context",
+  "slug": "/java/framework/spring/api/context/ApplicationContextAware",
+  "permalink": "/jaspernote/docs/java/framework/spring/api/context/ApplicationContextAware",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/api/context/ApplicationContextAware.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "ApplicationContext",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/context/ApplicationContext"
+  },
+  "next": {
+    "title": "FactoryBean",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/context/FactoryBean"
+  }
+}

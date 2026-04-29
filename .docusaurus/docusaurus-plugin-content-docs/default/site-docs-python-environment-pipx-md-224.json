@@ -1,0 +1,24 @@
+{
+  "id": "python/environment/pipx",
+  "title": "pipx",
+  "description": "简单来说，pipx 是一个专门用来安装和运行 Python 命令行工具（CLI Applications） 的管理器。",
+  "source": "@site/docs/python/environment/pipx.md",
+  "sourceDirName": "python/environment",
+  "slug": "/python/environment/pipx",
+  "permalink": "/jaspernote/docs/python/environment/pipx",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/python/environment/pipx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "python",
+  "previous": {
+    "title": "pip",
+    "permalink": "/jaspernote/docs/python/environment/pip"
+  },
+  "next": {
+    "title": "uv",
+    "permalink": "/jaspernote/docs/python/environment/uv"
+  }
+}

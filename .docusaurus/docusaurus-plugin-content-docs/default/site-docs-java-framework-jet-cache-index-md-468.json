@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/jetCache/index",
+  "title": "jetcache",
+  "description": "area 缓存域",
+  "source": "@site/docs/java/framework/jetCache/index.md",
+  "sourceDirName": "java/framework/jetCache",
+  "slug": "/java/framework/jetCache/",
+  "permalink": "/jaspernote/docs/java/framework/jetCache/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/jetCache/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "dubbo",
+    "permalink": "/jaspernote/docs/java/framework/dubbo/"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/jaspernote/docs/java/framework/jpa/"
+  }
+}

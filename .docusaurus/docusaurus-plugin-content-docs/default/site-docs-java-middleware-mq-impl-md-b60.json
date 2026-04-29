@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/mq/impl",
+  "title": "impl",
+  "description": "p2p or pub/sub",
+  "source": "@site/docs/java/middleware/mq/impl.md",
+  "sourceDirName": "java/middleware/mq",
+  "slug": "/java/middleware/mq/impl",
+  "permalink": "/jaspernote/docs/java/middleware/mq/impl",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/mq/impl.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

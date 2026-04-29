@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/functionInterface/BiConsumer",
+  "title": "BiConsumer",
+  "description": "BiConsumer 接收两个输入参数并不返回结果的操作",
+  "source": "@site/docs/java/basic/newFeature/8/functionInterface/BiConsumer.md",
+  "sourceDirName": "java/basic/newFeature/8/functionInterface",
+  "slug": "/java/basic/newFeature/8/functionInterface/BiConsumer",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/BiConsumer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/functionInterface/BiConsumer.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "函数式接口",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/"
+  },
+  "next": {
+    "title": "BiFunction",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/biFunction"
+  }
+}

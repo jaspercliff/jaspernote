@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/problem/scrollPage",
+  "title": "滚动分页",
+  "description": "高并发、实时更新",
+  "source": "@site/docs/dataLayer/nosql/redis/problem/scrollPage.md",
+  "sourceDirName": "dataLayer/nosql/redis/problem",
+  "slug": "/dataLayer/nosql/redis/problem/scrollPage",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/scrollPage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/problem/scrollPage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "超卖和一人一单",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/oversell"
+  },
+  "next": {
+    "title": "缓存同步策略",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/update"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/shell/control",
+  "title": "流程控制",
+  "description": "if  else",
+  "source": "@site/docs/infrastructure/os/linux/shell/control.md",
+  "sourceDirName": "infrastructure/os/linux/shell",
+  "slug": "/infrastructure/os/linux/shell/control",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/shell/control.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "brace expansion",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/braceExpansion"
+  },
+  "next": {
+    "title": "数据流重定向",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/shell/dataStreamRedirection/"
+  }
+}

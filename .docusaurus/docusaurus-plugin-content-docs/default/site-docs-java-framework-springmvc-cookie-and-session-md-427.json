@@ -1,0 +1,20 @@
+{
+  "id": "java/framework/springmvc/cookieAndSession",
+  "title": "cookie and session",
+  "description": "Cookie 是客户端的状态存储",
+  "source": "@site/docs/java/framework/springmvc/cookieAndSession.md",
+  "sourceDirName": "java/framework/springmvc",
+  "slug": "/java/framework/springmvc/cookieAndSession",
+  "permalink": "/jaspernote/docs/java/framework/springmvc/cookieAndSession",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springmvc/cookieAndSession.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "springMvc",
+    "permalink": "/jaspernote/docs/java/framework/springmvc/"
+  }
+}

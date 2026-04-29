@@ -1,0 +1,15 @@
+{
+  "id": "c/index",
+  "title": "c",
+  "description": "",
+  "source": "@site/docs/c/index.md",
+  "sourceDirName": "c",
+  "slug": "/c/",
+  "permalink": "/jaspernote/docs/c/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/c/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

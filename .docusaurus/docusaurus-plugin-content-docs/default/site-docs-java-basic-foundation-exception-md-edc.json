@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/foundation/exception",
+  "title": "异常",
+  "description": "在Java中，异常是程序运行时发生的不正常条件，它打断了正常的指令流。Java提供了强大的异常处理机制，允许程序在遇到异常时优雅地恢复。这里是Java异常处理的全部知识点概览：",
+  "source": "@site/docs/java/basic/foundation/exception.md",
+  "sourceDirName": "java/basic/foundation",
+  "slug": "/java/basic/foundation/exception",
+  "permalink": "/jaspernote/docs/java/basic/foundation/exception",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/exception.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "reflection",
+    "permalink": "/jaspernote/docs/java/basic/foundation/reflection"
+  },
+  "next": {
+    "title": "SPI",
+    "permalink": "/jaspernote/docs/java/basic/foundation/spi"
+  }
+}

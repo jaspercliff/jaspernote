@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/utils/native/scp",
+  "title": "scp",
+  "description": "scp（Secure Copy Protocol）: scp 是一种通过SSH协议在本地和远程计算机之间复制文件的工具，支持文件夹的传输。",
+  "source": "@site/docs/infrastructure/os/linux/utils/native/scp.md",
+  "sourceDirName": "infrastructure/os/linux/utils/native",
+  "slug": "/infrastructure/os/linux/utils/native/scp",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/scp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/utils/native/scp.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "journalctl",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/journalctl"
+  },
+  "next": {
+    "title": "systemctl",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/utils/native/systemctl"
+  }
+}

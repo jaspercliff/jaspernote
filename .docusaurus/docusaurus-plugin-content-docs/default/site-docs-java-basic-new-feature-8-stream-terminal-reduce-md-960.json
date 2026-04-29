@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/stream/terminal/reduce",
+  "title": "reduce",
+  "description": "在Java中，Stream API提供了一种强大的方式来处理集合数据。reduce方法是Stream API中的一个重要方法，它用于将流中的元素组合起来，生成一个单一的结果。",
+  "source": "@site/docs/java/basic/newFeature/8/stream/terminal/reduce.md",
+  "sourceDirName": "java/basic/newFeature/8/stream/terminal",
+  "slug": "/java/basic/newFeature/8/stream/terminal/reduce",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/terminal/reduce",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/stream/terminal/reduce.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "collect",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/terminal/collect"
+  },
+  "next": {
+    "title": "jdk9",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/9/"
+  }
+}

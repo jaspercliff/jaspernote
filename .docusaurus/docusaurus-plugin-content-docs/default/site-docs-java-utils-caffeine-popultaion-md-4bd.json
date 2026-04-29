@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/caffeine/popultaion",
+  "title": "population 填充 加载 人口",
+  "description": "",
+  "source": "@site/docs/java/utils/caffeine/popultaion.md",
+  "sourceDirName": "java/utils/caffeine",
+  "slug": "/java/utils/caffeine/popultaion",
+  "permalink": "/jaspernote/docs/java/utils/caffeine/popultaion",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/caffeine/popultaion.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/functionInterface/consumer",
+  "title": "consumer",
+  "description": "consumer 接口是一个函数式接口，它接收一个参数并执行某些操作，但不返回结果。它通常用于需要对输入进行处理但不需要返回值的场景。",
+  "source": "@site/docs/java/basic/newFeature/8/functionInterface/consumer.md",
+  "sourceDirName": "java/basic/newFeature/8/functionInterface",
+  "slug": "/java/basic/newFeature/8/functionInterface/consumer",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/consumer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/functionInterface/consumer.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "BiFunction",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/biFunction"
+  },
+  "next": {
+    "title": "function",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/functionInterface/function"
+  }
+}

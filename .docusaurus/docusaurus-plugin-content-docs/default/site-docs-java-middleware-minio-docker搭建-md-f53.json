@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/minio/docker搭建",
+  "title": "docker compose 搭建",
+  "description": "asd",
+  "source": "@site/docs/java/middleware/minio/docker搭建.md",
+  "sourceDirName": "java/middleware/minio",
+  "slug": "/java/middleware/minio/docker搭建",
+  "permalink": "/jaspernote/docs/java/middleware/minio/docker搭建",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/minio/docker搭建.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

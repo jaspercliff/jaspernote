@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/lombok/annotations/Builder",
+  "title": "@Builder",
+  "description": "toBuilder 允许指定不同的构建器类名。",
+  "source": "@site/docs/java/utils/lombok/annotations/Builder.md",
+  "sourceDirName": "java/utils/lombok/annotations",
+  "slug": "/java/utils/lombok/annotations/Builder",
+  "permalink": "/jaspernote/docs/java/utils/lombok/annotations/Builder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/lombok/annotations/Builder.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

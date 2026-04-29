@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/nosql/redis/problem/like",
+  "title": "点赞问题",
+  "description": "",
+  "source": "@site/docs/dataLayer/nosql/redis/problem/like.md",
+  "sourceDirName": "dataLayer/nosql/redis/problem",
+  "slug": "/dataLayer/nosql/redis/problem/like",
+  "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/like",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/nosql/redis/problem/like.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "nosql",
+  "previous": {
+    "title": "全局唯一id",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/globalId"
+  },
+  "next": {
+    "title": "message queue",
+    "permalink": "/jaspernote/docs/dataLayer/nosql/redis/problem/mq"
+  }
+}

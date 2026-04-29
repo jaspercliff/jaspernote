@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/dataAccess/transaction",
+  "title": "transaction",
+  "description": "在 Spring 中，事务管理有两种主要方式：声明式事务（Declarative Transaction Management）",
+  "source": "@site/docs/java/framework/spring/dataAccess/transaction.md",
+  "sourceDirName": "java/framework/spring/dataAccess",
+  "slug": "/java/framework/spring/dataAccess/transaction",
+  "permalink": "/jaspernote/docs/java/framework/spring/dataAccess/transaction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/dataAccess/transaction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "ReflectionUtils",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/utils/ReflectionUtils"
+  },
+  "next": {
+    "title": "事务失效的场景",
+    "permalink": "/jaspernote/docs/java/framework/spring/dataAccess/transactionInvalid"
+  }
+}

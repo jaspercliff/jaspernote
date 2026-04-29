@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/core/aspect/index",
+  "title": "aspect",
+  "description": "AOP 中模块化的关键单元是切面。切面能够对跨越多种类型和对象的关注点（例如事务管理）进行模块化",
+  "source": "@site/docs/java/framework/spring/core/aspect/index.md",
+  "sourceDirName": "java/framework/spring/core/aspect",
+  "slug": "/java/framework/spring/core/aspect/",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/aspect/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/aspect/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "spring",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/aop/spring"
+  },
+  "next": {
+    "title": "start",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/aspect/start"
+  }
+}

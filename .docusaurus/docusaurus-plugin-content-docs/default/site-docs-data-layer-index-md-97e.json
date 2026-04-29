@@ -1,0 +1,15 @@
+{
+  "id": "dataLayer/index",
+  "title": "data layer",
+  "description": "relational",
+  "source": "@site/docs/dataLayer/index.md",
+  "sourceDirName": "dataLayer",
+  "slug": "/dataLayer/",
+  "permalink": "/jaspernote/docs/dataLayer/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

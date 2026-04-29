@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/runtimeDataArea/directMemory",
+  "title": "直接内存",
+  "description": "直接内存”（Direct Memory）是一个非常特殊的存在。它不属于 JVM 规范中定义的运行时数据区（即不属于堆、栈或方法区），但它却被 Java 程序频繁使用，且与 JVM 的性能息息相关。",
+  "source": "@site/docs/java/basic/jvm/runtimeDataArea/directMemory.md",
+  "sourceDirName": "java/basic/jvm/runtimeDataArea",
+  "slug": "/java/basic/jvm/runtimeDataArea/directMemory",
+  "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/directMemory",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/runtimeDataArea/directMemory.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "方法区",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/methodArea"
+  },
+  "next": {
+    "title": "system properties",
+    "permalink": "/jaspernote/docs/java/basic/jvm/systemProperties"
+  }
+}

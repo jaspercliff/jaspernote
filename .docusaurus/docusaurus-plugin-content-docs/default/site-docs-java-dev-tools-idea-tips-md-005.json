@@ -1,0 +1,24 @@
+{
+  "id": "java/devTools/idea/tips",
+  "title": "tips",
+  "description": "快速通过复制的代码生成java类",
+  "source": "@site/docs/java/devTools/idea/tips.md",
+  "sourceDirName": "java/devTools/idea",
+  "slug": "/java/devTools/idea/tips",
+  "permalink": "/jaspernote/docs/java/devTools/idea/tips",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/devTools/idea/tips.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "devTools",
+  "previous": {
+    "title": "自动补全",
+    "permalink": "/jaspernote/docs/java/devTools/idea/liveTemplate"
+  },
+  "next": {
+    "title": "jenv",
+    "permalink": "/jaspernote/docs/java/devTools/jenv/"
+  }
+}

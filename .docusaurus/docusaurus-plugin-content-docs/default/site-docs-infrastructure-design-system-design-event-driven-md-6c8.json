@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/design/systemDesign/eventDriven",
+  "title": "event driven 事件驱动架构",
+  "description": "事件驱动架构（Event-Driven Architecture，简称 EDA）是一种软件架构模式，强调通过事件来驱动系统中的数据流和控制流。在这种架构中，系统的不同组件（服务、模块、子系统等）通过事件进行交互和通信，而不需要直接的调用或依赖。每当一个事件发生时，相关的系统组件会响应这些事件并执行相应的操作。",
+  "source": "@site/docs/infrastructure/design/systemDesign/eventDriven.md",
+  "sourceDirName": "infrastructure/design/systemDesign",
+  "slug": "/infrastructure/design/systemDesign/eventDriven",
+  "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/eventDriven",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/design/systemDesign/eventDriven.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "design",
+  "previous": {
+    "title": "架构设计",
+    "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/arch"
+  },
+  "next": {
+    "title": "多租户",
+    "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/multiTenant"
+  }
+}

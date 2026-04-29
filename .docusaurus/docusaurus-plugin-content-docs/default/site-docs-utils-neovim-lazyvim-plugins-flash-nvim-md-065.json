@@ -1,0 +1,24 @@
+{
+  "id": "utils/neovim/lazyvim/plugins/flash.nvim",
+  "title": "flash.nvim",
+  "description": "- s 按下 s 后输入你要找的字符，屏幕会变暗并高亮匹配项，输入提示的标签字母即可跳过去",
+  "source": "@site/docs/utils/neovim/lazyvim/plugins/flash.nvim.md",
+  "sourceDirName": "utils/neovim/lazyvim/plugins",
+  "slug": "/utils/neovim/lazyvim/plugins/flash.nvim",
+  "permalink": "/jaspernote/docs/utils/neovim/lazyvim/plugins/flash.nvim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utils/neovim/lazyvim/plugins/flash.nvim.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "neovim",
+  "previous": {
+    "title": "keymap",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/keymap"
+  },
+  "next": {
+    "title": "gitsigns.nvim",
+    "permalink": "/jaspernote/docs/utils/neovim/lazyvim/plugins/gitsigns.nvim"
+  }
+}

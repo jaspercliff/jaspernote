@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/foundation/thread/final",
+  "title": "final",
+  "description": "In java items with the final modifier cannot be changed!",
+  "source": "@site/docs/java/basic/foundation/thread/final.md",
+  "sourceDirName": "java/basic/foundation/thread",
+  "slug": "/java/basic/foundation/thread/final",
+  "permalink": "/jaspernote/docs/java/basic/foundation/thread/final",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/foundation/thread/final.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "线程",
+    "permalink": "/jaspernote/docs/java/basic/foundation/thread/basic"
+  },
+  "next": {
+    "title": "锁",
+    "permalink": "/jaspernote/docs/java/basic/foundation/thread/lock"
+  }
+}

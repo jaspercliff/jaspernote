@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/oracle/sequence",
+  "title": "sequence",
+  "description": "在 Oracle 数据库中，NEXTVAL 是序列（Sequence）对象的一个伪列，用于生成序列的下一个值。序列是一种数据库对象，通常用于生成唯一的数字序列值，例如主键值。",
+  "source": "@site/docs/dataLayer/relational/oracle/sequence.md",
+  "sourceDirName": "dataLayer/relational/oracle",
+  "slug": "/dataLayer/relational/oracle/sequence",
+  "permalink": "/jaspernote/docs/dataLayer/relational/oracle/sequence",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/oracle/sequence.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "PL/sql",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/plsql/test"
+  },
+  "next": {
+    "title": "user and privilege",
+    "permalink": "/jaspernote/docs/dataLayer/relational/oracle/userPrivilege"
+  }
+}

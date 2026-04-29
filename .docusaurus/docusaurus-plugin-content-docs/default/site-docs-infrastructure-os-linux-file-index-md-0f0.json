@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/file/index",
+  "title": "file",
+  "description": "- privilege",
+  "source": "@site/docs/infrastructure/os/linux/file/index.md",
+  "sourceDirName": "infrastructure/os/linux/file",
+  "slug": "/infrastructure/os/linux/file/",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/file/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/file/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "env",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/env"
+  },
+  "next": {
+    "title": "btrfs",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/file/btrfs"
+  }
+}

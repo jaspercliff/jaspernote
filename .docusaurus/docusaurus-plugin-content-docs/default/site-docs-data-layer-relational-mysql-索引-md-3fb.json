@@ -1,0 +1,24 @@
+{
+  "id": "dataLayer/relational/mysql/索引",
+  "title": "index",
+  "description": "一种用于快速查询和检索数据的数据结构，排序好的数据结构",
+  "source": "@site/docs/dataLayer/relational/mysql/索引.md",
+  "sourceDirName": "dataLayer/relational/mysql",
+  "slug": "/dataLayer/relational/mysql/索引",
+  "permalink": "/jaspernote/docs/dataLayer/relational/mysql/索引",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataLayer/relational/mysql/索引.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "relational",
+  "previous": {
+    "title": "数据类型",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/数据类型"
+  },
+  "next": {
+    "title": "备份  一张表到另外一张表",
+    "permalink": "/jaspernote/docs/dataLayer/relational/mysql/表的备份"
+  }
+}

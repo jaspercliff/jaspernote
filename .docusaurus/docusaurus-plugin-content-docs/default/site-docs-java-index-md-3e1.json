@@ -1,0 +1,15 @@
+{
+  "id": "java/index",
+  "title": "java",
+  "description": "- basic",
+  "source": "@site/docs/java/index.md",
+  "sourceDirName": "java",
+  "slug": "/java/",
+  "permalink": "/jaspernote/docs/java/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

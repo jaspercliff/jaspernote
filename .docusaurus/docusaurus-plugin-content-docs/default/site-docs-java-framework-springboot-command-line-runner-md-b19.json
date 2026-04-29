@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/springboot/CommandLineRunner",
+  "title": "CommandLineRunner",
+  "description": "CommandLineRunner",
+  "source": "@site/docs/java/framework/springboot/CommandLineRunner.md",
+  "sourceDirName": "java/framework/springboot",
+  "slug": "/java/framework/springboot/CommandLineRunner",
+  "permalink": "/jaspernote/docs/java/framework/springboot/CommandLineRunner",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/springboot/CommandLineRunner.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "springboot",
+    "permalink": "/jaspernote/docs/java/framework/springboot/"
+  },
+  "next": {
+    "title": "development-time services",
+    "permalink": "/jaspernote/docs/java/framework/springboot/corefeature/dockercomposesupport"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "java/middleware/rocketmq/message/delay",
+  "title": "延时/定时消息",
+  "description": "服务端根据设置的定时时间在某一固定时刻将消息投递给消费者消费,传统的定时任务会频繁调用接口扫描，会产生性能问题，或者订单漏掉，重复消费的情况",
+  "source": "@site/docs/java/middleware/rocketmq/message/delay.md",
+  "sourceDirName": "java/middleware/rocketmq/message",
+  "slug": "/java/middleware/rocketmq/message/delay",
+  "permalink": "/jaspernote/docs/java/middleware/rocketmq/message/delay",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/middleware/rocketmq/message/delay.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

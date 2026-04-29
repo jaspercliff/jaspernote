@@ -1,0 +1,27 @@
+{
+  "id": "java/basic/jvm/runtimeDataArea/nativeStack",
+  "title": "本地方法栈",
+  "description": "为虚拟机调用本地方法服务的内存区域，主要用于处理本地方法的调用和执行。每个线程都有一个独立的本地方法栈，用于存储本地方法的参数、局部变量和返回地址等信息。",
+  "source": "@site/docs/java/basic/jvm/runtimeDataArea/nativeStack.md",
+  "sourceDirName": "java/basic/jvm/runtimeDataArea",
+  "slug": "/java/basic/jvm/runtimeDataArea/nativeStack",
+  "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/nativeStack",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/runtimeDataArea/nativeStack.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "虚拟机栈",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/vmStack"
+  },
+  "next": {
+    "title": "heap",
+    "permalink": "/jaspernote/docs/java/basic/jvm/runtimeDataArea/heap"
+  }
+}

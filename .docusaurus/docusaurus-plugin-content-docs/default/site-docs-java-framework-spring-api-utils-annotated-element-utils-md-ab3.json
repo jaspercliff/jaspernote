@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/api/utils/AnnotatedElementUtils",
+  "title": "AnnotatedElementUtils",
+  "description": "AnnotatedElementUtils是Spring框架中的一个工具类，主要用于处理Java的注解（Annotations）。它提供了静态方法来帮助开发者更容易地访问类或方法上的注解，无论这些注解是直接在元素上声明的还是通过元注解（如@Component或其他Spring注解）间接声明的。",
+  "source": "@site/docs/java/framework/spring/api/utils/AnnotatedElementUtils.md",
+  "sourceDirName": "java/framework/spring/api/utils",
+  "slug": "/java/framework/spring/api/utils/AnnotatedElementUtils",
+  "permalink": "/jaspernote/docs/java/framework/spring/api/utils/AnnotatedElementUtils",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/api/utils/AnnotatedElementUtils.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "InitializingBean",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/interfaces/InitializingBean"
+  },
+  "next": {
+    "title": "Assert",
+    "permalink": "/jaspernote/docs/java/framework/spring/api/utils/Assert"
+  }
+}

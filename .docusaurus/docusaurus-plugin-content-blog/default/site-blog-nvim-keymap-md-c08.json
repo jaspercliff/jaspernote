@@ -1,0 +1,18 @@
+{
+  "permalink": "/jaspernote/blog/nvim-keymap",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/nvim-keymap.md",
+  "source": "@site/blog/nvim-keymap.md",
+  "title": "nvim-keymap",
+  "description": "snack",
+  "date": "2026-04-16T09:59:26.000Z",
+  "tags": [],
+  "readingTime": 0.09,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "unlisted": false,
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/jaspernote/blog/welcome"
+  }
+}

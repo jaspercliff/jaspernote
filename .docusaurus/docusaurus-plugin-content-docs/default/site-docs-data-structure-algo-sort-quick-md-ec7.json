@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/algo/sort/quick",
+  "title": "quick",
+  "description": "",
+  "source": "@site/docs/dataStructure/algo/sort/quick.md",
+  "sourceDirName": "dataStructure/algo/sort",
+  "slug": "/dataStructure/algo/sort/quick",
+  "permalink": "/jaspernote/docs/dataStructure/algo/sort/quick",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/algo/sort/quick.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "bubble",
+    "permalink": "/jaspernote/docs/dataStructure/algo/sort/bubble"
+  },
+  "next": {
+    "title": "two-condition",
+    "permalink": "/jaspernote/docs/dataStructure/algo/two-condition"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/serialization/protoStuff/index",
+  "title": "protoStuff",
+  "description": "简单使用",
+  "source": "@site/docs/java/utils/serialization/protoStuff/index.md",
+  "sourceDirName": "java/utils/serialization/protoStuff",
+  "slug": "/java/utils/serialization/protoStuff/",
+  "permalink": "/jaspernote/docs/java/utils/serialization/protoStuff/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/serialization/protoStuff/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

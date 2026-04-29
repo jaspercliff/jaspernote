@@ -1,0 +1,24 @@
+{
+  "id": "java/framework/spring/core/Event",
+  "title": "ApplicationListener",
+  "description": "ApplicationListener 是 Spring 框架中的一个接口，用于监听和响应应用程序中的事件。通过实现 ApplicationListener",
+  "source": "@site/docs/java/framework/spring/core/Event.md",
+  "sourceDirName": "java/framework/spring/core",
+  "slug": "/java/framework/spring/core/Event",
+  "permalink": "/jaspernote/docs/java/framework/spring/core/Event",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/framework/spring/core/Event.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "framework",
+  "previous": {
+    "title": "bean lifecycle",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/ioc/lifecycle"
+  },
+  "next": {
+    "title": "aop",
+    "permalink": "/jaspernote/docs/java/framework/spring/core/aop/"
+  }
+}

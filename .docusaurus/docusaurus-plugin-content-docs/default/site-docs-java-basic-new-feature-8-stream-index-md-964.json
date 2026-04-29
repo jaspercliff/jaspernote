@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/newFeature/8/stream/index",
+  "title": "stream",
+  "description": "Java Stream API 是 Java 8 引入的一个强大的功能，用于处理数据流（如集合内容）的工具。Stream API 可以极大简化对集合的操作，",
+  "source": "@site/docs/java/basic/newFeature/8/stream/index.md",
+  "sourceDirName": "java/basic/newFeature/8/stream",
+  "slug": "/java/basic/newFeature/8/stream/",
+  "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/newFeature/8/stream/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "optional",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/optional"
+  },
+  "next": {
+    "title": "intStream",
+    "permalink": "/jaspernote/docs/java/basic/newFeature/8/stream/intStream"
+  }
+}

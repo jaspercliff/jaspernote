@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/design/systemDesign/multiTenant",
+  "title": "多租户",
+  "description": "什么是多租户",
+  "source": "@site/docs/infrastructure/design/systemDesign/multiTenant.md",
+  "sourceDirName": "infrastructure/design/systemDesign",
+  "slug": "/infrastructure/design/systemDesign/multiTenant",
+  "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/multiTenant",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/design/systemDesign/multiTenant.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "design",
+  "previous": {
+    "title": "event driven 事件驱动架构",
+    "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/eventDriven"
+  },
+  "next": {
+    "title": "pojo",
+    "permalink": "/jaspernote/docs/infrastructure/design/systemDesign/pojo"
+  }
+}

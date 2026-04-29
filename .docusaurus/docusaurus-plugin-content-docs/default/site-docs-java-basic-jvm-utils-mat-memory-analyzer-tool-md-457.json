@@ -1,0 +1,24 @@
+{
+  "id": "java/basic/jvm/utils/mat(memory analyzer tool)",
+  "title": "mat(memory analyzer tool)",
+  "description": "",
+  "source": "@site/docs/java/basic/jvm/utils/mat(memory analyzer tool).md",
+  "sourceDirName": "java/basic/jvm/utils",
+  "slug": "/java/basic/jvm/utils/mat(memory analyzer tool)",
+  "permalink": "/jaspernote/docs/java/basic/jvm/utils/mat(memory analyzer tool)",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/basic/jvm/utils/mat(memory analyzer tool).md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "javaBasic",
+  "previous": {
+    "title": "jmap",
+    "permalink": "/jaspernote/docs/java/basic/jvm/utils/jmap"
+  },
+  "next": {
+    "title": "vm参数",
+    "permalink": "/jaspernote/docs/java/basic/jvm/vm参数"
+  }
+}

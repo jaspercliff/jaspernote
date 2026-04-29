@@ -1,0 +1,24 @@
+{
+  "id": "infrastructure/os/linux/nohup",
+  "title": "nohup",
+  "description": "no hang up 不挂起,不挂断的运行指定的命令 推出终端不会影响命令的执行,即使用户退出登录，该命令仍然会执行完",
+  "source": "@site/docs/infrastructure/os/linux/nohup.md",
+  "sourceDirName": "infrastructure/os/linux",
+  "slug": "/infrastructure/os/linux/nohup",
+  "permalink": "/jaspernote/docs/infrastructure/os/linux/nohup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/infrastructure/os/linux/nohup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "os",
+  "previous": {
+    "title": "netstat",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/internet/netstat"
+  },
+  "next": {
+    "title": "lsof",
+    "permalink": "/jaspernote/docs/infrastructure/os/linux/process/lsof"
+  }
+}

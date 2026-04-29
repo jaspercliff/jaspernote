@@ -1,0 +1,24 @@
+{
+  "id": "dataStructure/algo/two-condition",
+  "title": "two-condition",
+  "description": "在单锁（synchronized）环境下，我们只能调用 wait() 和 notifyAll()。这会导致一个性能问题：",
+  "source": "@site/docs/dataStructure/algo/two-condition.md",
+  "sourceDirName": "dataStructure/algo",
+  "slug": "/dataStructure/algo/two-condition",
+  "permalink": "/jaspernote/docs/dataStructure/algo/two-condition",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dataStructure/algo/two-condition.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dataStructure",
+  "previous": {
+    "title": "quick",
+    "permalink": "/jaspernote/docs/dataStructure/algo/sort/quick"
+  },
+  "next": {
+    "title": "hash",
+    "permalink": "/jaspernote/docs/dataStructure/hash/"
+  }
+}

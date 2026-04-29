@@ -1,0 +1,15 @@
+{
+  "id": "java/utils/objectMapping/mapStruct/index",
+  "title": "mapStruct",
+  "description": "beanUtil.copyProperties会有什么问题",
+  "source": "@site/docs/java/utils/objectMapping/mapStruct/index.md",
+  "sourceDirName": "java/utils/objectMapping/mapStruct",
+  "slug": "/java/utils/objectMapping/mapStruct/",
+  "permalink": "/jaspernote/docs/java/utils/objectMapping/mapStruct/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/java/utils/objectMapping/mapStruct/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
