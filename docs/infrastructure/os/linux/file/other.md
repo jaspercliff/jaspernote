@@ -2,41 +2,70 @@
 
 ## 目录结构
 
-- /usr 系统级软件包管理器
-- /usr/local 本地手动安装的软件 不会覆盖影响系统工具  从源码安装推荐该路径
-- /opt 第三方软件包和可选应用程序 本地手动安装的软件  从二进制安装推荐
+- `usr` 系统级软件包管理器
+- `usr/local` 本地手动安装的软件，不会覆盖影响系统工具（源码安装推荐）
+- `opt` 第三方软件包和可选应用程序（二进制安装推荐）
+
+---
 
 ## mkdir
 
-mkdir -p /home/user/{docs,images,videos}
+```bash
+mkdir -p /home/user/{images,videos}
+```
 
-没有-p则不会创建相关文件夹
--p 递归创建目录  如果目录已经存在不会报错，不存在则创建
+说明：
 
- 使用`>` filename 可以快速清空文件内容。重定向空内容到文件
+- 不加 `-p`：不会自动创建父目录  
+- `-p`：递归创建目录，如果已存在不会报错
 
-## > >>
+---
 
-都是重定向符号 将命令的输出重定向到指定文件
+## 重定向符号
 
-`>` 文件存在，会清空文件在写入新内容
-`>>` 文件存在，会在文件末尾追加内容
+```bash
+> filename
+```
 
-du -sl /path/to/directory  查看这个目录占了多大空间
+👉 清空文件内容（将空内容重定向到文件）
 
-清空文件内容 > filename
+---
+
+```bash
+echo "hello" > file.txt
+echo "world" >> file.txt
+```
+
+说明：
+
+- `>`：覆盖写入（文件存在会被清空）
+- `>>`：追加写入（写到文件末尾）
+
+---
+
+## 查看目录大小
+
+```bash
+du -sl /path/to/directory
+```
+
+---
 
 ## 软链接
 
-```zsh
+```bash
 sudo ln -s /opt/gradle/gradle-9.1.0 /opt/gradle
 ```
 
-然后在 .bashrc 中写
+配置环境变量
 
-```zsh
+```bash
 export PATH=$PATH:/opt/gradle/bin
-这样，当你升级到 Gradle 9.2 时，只需：
+```
+
+升级 Gradle：
+
+```bash
 sudo rm /opt/gradle
 sudo ln -s /opt/gradle/gradle-9.2 /opt/gradle
 ```

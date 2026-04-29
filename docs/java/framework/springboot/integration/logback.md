@@ -120,7 +120,7 @@ public void handleRequest(String requestId) {
 </configuration>
 ```
 
-%X{key} 允许指定一个键来获取 MDC 中的值
+`%X{key}` 允许指定一个键来获取 MDC 中的值
 这里 `%X{requestId}` 表示从 MDC 中获取名为 `requestId` 的值。
 `
 

@@ -11,6 +11,7 @@
 ```shell
 name="zhangSan"
 ```
+
 等号俩侧避免有空格 可能会导致错误,有空格可能导致将name解析为一个命令 
 
 ## 变量的引用
@@ -34,10 +35,12 @@ echo ${name}
   7   readonly name-
   8   name='haha'
 ```
+
 varDemo: line 9: name: readonly variable
 
 ## 删除变量
 unset 命令用于删除变量 但是不能删除只读变量
+
 ```shell
       unset name
       echo $name
@@ -49,9 +52,12 @@ unset 命令用于删除变量 但是不能删除只读变量
 declare -i  a=30
 echo ${a}
 ```
+
 ### 字符串
-''中任何东西都会原样输出 
-""中可以有变量
+
+`''`中任何东西都会原样输出 
+`""`中可以有变量
+
 ```shell
 first_name="jasper"
 last_name="cliff"
@@ -72,21 +78,24 @@ b="is"
 # $() 用于命令替换
 c=$(awk -v a="${a}" -v b="${b}" 'BEGIN{print index(a,b)}')
 echo ${c}
-```
 full name ${first_name} ${last_name}
 full name: jasper cliff
 字符串长度为：4
 子字符串1-2:bc
 3
+```
 
 ### 数组
+
 ```shell
 my_arr=(1,2,3,4,5)
 echo ${my_arr}
 ```
 
 ###  关联数组  
+
 bash 4.0 版本之后支持关联数组
+
 ```shell
 declare -A my_arr
 my_arr=([name]='jasper' [age]=18)
@@ -95,6 +104,7 @@ echo ${my_arr[age]}
 ```
 
 ### 数组demo
+
 ```shell
 my_arr=(1 2 3 4 5)
 # 获取整个数组
