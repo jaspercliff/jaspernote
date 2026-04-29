@@ -11,10 +11,10 @@ sidebar_position: 1
 ## toc
 
 - [numerber encoding](./numEncoding.md)
-- [常见算法](./algo/index)
+- [常见算法](./algo)
 - [迭代、递归、回溯](./01iterateAndRecursion.md)
-- [栈](./stack.md)
-- [堆](./heap.md)
+- [栈](./stack)
+- [堆](./heap)
 
 ### 线性数据结构
 

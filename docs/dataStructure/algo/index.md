@@ -5,7 +5,7 @@
 
 ## 排序算法
 
-- [index](./sort/index)
+- [index](./sort)
 - [冒泡排序](./sort/bubble.md)
 
 ## 哈希算法｜摘要算法

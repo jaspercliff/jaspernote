@@ -90,7 +90,7 @@ public class App {
 
 ## serviceLoader.load 
 
-- [打破双亲委派机制](/docs/java/basic/jvm/classLoad/classLoader.md##破坏双亲委派模型)
+- [打破双亲委派机制](/docs/java/basic/jvm/classload/classLoader.md##破坏双亲委派模型)
 
 ```java
     @CallerSensitive

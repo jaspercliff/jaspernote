@@ -1,7 +1,5 @@
 # 锁
 
-[happens-before](../../../jvm/JMM.md)
-
 ## 独享模式和共享模式
 
 在 Java 并发编程中，尝试以共享模式获取对象状态通常是指在多个线程之间共享访问资源时的一种机制。
@@ -401,5 +399,5 @@ public class InventoryControl {
 
 ## 锁的优化和升级
 
-[锁的优化和升级](../../../jvm/锁的优化和升级.md)
+[锁的优化和升级](/docs/java/basic/jvm/锁的优化和升级.md)
 
