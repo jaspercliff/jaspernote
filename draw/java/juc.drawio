@@ -1,0 +1,146 @@
+<mxfile host="Electron" pages="3">
+  <diagram id="qcMqdFReOvieakDF4WYU" name="unsafe">
+    <mxGraphModel dx="2338" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=16;" value="sun.misc.Unsafe&#xa;核心功能" vertex="1">
+          <mxGeometry height="100" width="200" x="-115.5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="1. 堆外内存管理&#xa;(Off-heap Memory)" vertex="1">
+          <mxGeometry height="60" width="160" x="-400" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="allocateMemory (分配)&#xa;reallocateMemory (重新分配)&#xa;freeMemory (释放)&#xa;copyMemory (拷贝)" vertex="1">
+          <mxGeometry height="70" width="160" x="-400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="2. 原子操作 (CAS)&#xa;(Atomic Ops)" vertex="1">
+          <mxGeometry height="60" width="160" x="200" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="compareAndSwapInt&#xa;compareAndSwapLong&#xa;compareAndSwapObject&#xa;-- JUC 原子类的基础" vertex="1">
+          <mxGeometry height="70" width="160" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="3. 内存偏移量与操作&#xa;(Field/Object)" vertex="1">
+          <mxGeometry height="60" width="160" x="-520" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="objectFieldOffset (获取偏移量)&#xa;getInt/putInt (读写指定地址)&#xa;staticFieldOffset&#xa;arrayBaseOffset / arrayIndexScale" vertex="1">
+          <mxGeometry height="70" width="200" x="-520" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="4. 线程调度&#xa;(Thread Control)" vertex="1">
+          <mxGeometry height="60" width="160" x="320" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="park (挂起)&#xa;unpark (唤醒)&#xa;-- LockSupport 的底层实现" vertex="1">
+          <mxGeometry height="50" width="160" x="330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" value="5. 实例化与类操作&#xa;(Class/Instance)" vertex="1">
+          <mxGeometry height="60" width="160" x="-200" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="allocateInstance (绕过构造函数实例化)&#xa;defineClass (定义类)&#xa;defineAnonymousClass" vertex="1">
+          <mxGeometry height="50" width="220" x="-220" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="6. 内存屏障&#xa;(Memory Barrier)" vertex="1">
+          <mxGeometry height="60" width="160" x="40" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="loadFence (读屏障)&#xa;storeFence (写屏障)&#xa;fullFence (全屏障)" vertex="1">
+          <mxGeometry height="50" width="160" x="40" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-17" edge="1" parent="1" source="AuyN0sQ6HGaAy3_Hha0w-4" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="AuyN0sQ6HGaAy3_Hha0w-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-18" edge="1" parent="1" source="AuyN0sQ6HGaAy3_Hha0w-4" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="AuyN0sQ6HGaAy3_Hha0w-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-19" edge="1" parent="1" source="AuyN0sQ6HGaAy3_Hha0w-4" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="AuyN0sQ6HGaAy3_Hha0w-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-20" edge="1" parent="1" source="AuyN0sQ6HGaAy3_Hha0w-4" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="AuyN0sQ6HGaAy3_Hha0w-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-21" edge="1" parent="1" source="AuyN0sQ6HGaAy3_Hha0w-4" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AuyN0sQ6HGaAy3_Hha0w-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-22" edge="1" parent="1" source="AuyN0sQ6HGaAy3_Hha0w-4" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="AuyN0sQ6HGaAy3_Hha0w-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=10;fontSize=12;" value="⚠️ 为什么是 Unsafe?&#xa;1. 内存溢出风险：分配堆外内存需手动释放。&#xa;2. 破坏对象封装：可绕过访问控制符读写私有字段。&#xa;3. JVM 崩溃风险：非法地址访问可能导致系统级 Crash。&#xa;4. 绕过初始化：allocateInstance 可跳过构造函数执行。" vertex="1">
+          <mxGeometry height="100" width="360" x="-200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="compareAndSetInt&lt;br&gt;compareAndSetLong&lt;br&gt;compareAndSetObject&lt;br&gt;jdk9+" vertex="1">
+          <mxGeometry height="70" width="160" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RC_I0O6WgkZsHq0qVIk9-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MemorySegment jdk22" vertex="1">
+          <mxGeometry height="30" width="60" x="-485" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RC_I0O6WgkZsHq0qVIk9-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b data-path-to-node=&quot;22,1,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;code data-path-to-node=&quot;22,1,0&quot; data-index-in-node=&quot;0&quot;&gt;LockSupport&lt;/code&gt;&lt;/b&gt;：专门负责线程的挂起与唤醒" vertex="1">
+          <mxGeometry height="40" width="270" x="310" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="RC_I0O6WgkZsHq0qVIk9-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b data-path-to-node=&quot;22,0,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;code data-path-to-node=&quot;22,0,0&quot; data-index-in-node=&quot;0&quot;&gt;VarHandle&lt;/code&gt;&lt;/b&gt;：专门负责字段和数组的各种语义读写（原子、Volatile 等）" vertex="1">
+          <mxGeometry height="30" width="190" x="210" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hTut06cxMJmN4OpBZG_8" name="varhandle">
+    <mxGraphModel dx="2080" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=16;" value="java.lang.invoke&#xa;VarHandle" vertex="1">
+          <mxGeometry height="100" width="200" x="-105.5" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="1. 获取方式&#xa;(Creation)" vertex="1">
+          <mxGeometry height="60" width="160" x="-390" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="MethodHandles.lookup()&#xa;findVarHandle (实例字段)&#xa;findStaticVarHandle (静态字段)&#xa;unreflectVarHandle (反射转换)&#xa;arrayElementVarHandle (数组)" vertex="1">
+          <mxGeometry height="90" width="220" x="-420" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" value="2. 原子操作&lt;br&gt;(Atomic Operations)" vertex="1">
+          <mxGeometry height="60" width="160" x="210" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="Plain (常规读写，无屏障)&#xa;Opaque (不保证顺序，保证一致性)&#xa;Acquire/Release (获取/释放语义)&#xa;Volatile (完全内存屏障语义)" vertex="1">
+          <mxGeometry height="80" width="200" x="-530" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="&lt;span style=&quot;float: none; display: inline !important; color: rgb(0, 0, 0); background-color: rgb(236, 236, 236);&quot;&gt;3. 访问模式 (核心)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); background-color: rgb(236, 236, 236);&quot;&gt;&lt;span style=&quot;float: none; display: inline !important; color: rgb(0, 0, 0); background-color: rgb(236, 236, 236);&quot;&gt;(Access Modes)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="-510" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-7" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="compareAndSet (CAS)&#xa;getAndAdd (原子加)&#xa;getAndBitwiseOr (位运算)&#xa;getAndSet (原子交换)" vertex="1">
+          <mxGeometry height="70" width="160" x="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="4. 内存屏障&#xa;(Memory Fences)" vertex="1">
+          <mxGeometry height="60" width="160" x="330" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-9" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="fullFence&#xa;acquireFence&#xa;releaseFence&#xa;loadLoadFence" vertex="1">
+          <mxGeometry height="70" width="160" x="330" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;align=left;spacingLeft=10;fontSize=12;" value="✅ VarHandle 的优势&#xa;1. 安全性：严格的类型检查，无法操作任意内存。&#xa;2. 标准化：由 JVM 层面支持，不依赖 sun.misc 内部包。&#xa;3. 性能：与 Unsafe 相当，且优于 AtomicFieldUpdater。&#xa;4. 灵活性：提供 Opaque, Acquire/Release 等细粒度可见性控制。" vertex="1">
+          <mxGeometry height="100" width="400" x="-205.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#cccccc;fontSize=11;" value="对比 | Unsafe | VarHandle&#xa;-----------------------------------&#xa;安全性 | 低 (直接操作地址) | 高 (强类型)&#xa;可见性控制 | 只有 Volatile | 细粒度 (4级)&#xa;适用性 | 内部/高性能框架 | 业务/所有场景&#xa;可移植性 | 差 (Oracle 私有) | 强 (Java 标准)" vertex="1">
+          <mxGeometry height="100" width="369" x="-190" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-12" edge="1" parent="1" source="kKCCfk-6klujlNl_p0Jn-1" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="kKCCfk-6klujlNl_p0Jn-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-13" edge="1" parent="1" source="kKCCfk-6klujlNl_p0Jn-1" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="kKCCfk-6klujlNl_p0Jn-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-14" edge="1" parent="1" source="kKCCfk-6klujlNl_p0Jn-1" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="kKCCfk-6klujlNl_p0Jn-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-15" edge="1" parent="1" source="kKCCfk-6klujlNl_p0Jn-1" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="kKCCfk-6klujlNl_p0Jn-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kKCCfk-6klujlNl_p0Jn-16" edge="1" parent="1" source="kKCCfk-6klujlNl_p0Jn-1" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kKCCfk-6klujlNl_p0Jn-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="lock" id="1m2MprbEhRbT4pNqwqec">
+    <mxGraphModel dx="1414" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
