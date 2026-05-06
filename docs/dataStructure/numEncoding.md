@@ -1,4 +1,8 @@
-# numerber encoding
+---
+sidebar_position: 3
+---
+
+# number encoding
 
 ## 原码 反码 补码
 
