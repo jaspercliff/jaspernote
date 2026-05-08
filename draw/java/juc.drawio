@@ -1,11 +1,11 @@
 <mxfile host="Electron" pages="3">
   <diagram id="qcMqdFReOvieakDF4WYU" name="unsafe">
-    <mxGraphModel dx="2338" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2080" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=16;" value="sun.misc.Unsafe&#xa;核心功能" vertex="1">
-          <mxGeometry height="100" width="200" x="-115.5" y="280" as="geometry" />
+        <mxCell id="AuyN0sQ6HGaAy3_Hha0w-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=16;" value="sun.misc.Unsafe&lt;br&gt;核心功能&lt;div&gt;jdk.internal.misc(模块化）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="225.5" x="-132.75" y="280" as="geometry" />
         </mxCell>
         <mxCell id="AuyN0sQ6HGaAy3_Hha0w-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="1. 堆外内存管理&#xa;(Off-heap Memory)" vertex="1">
           <mxGeometry height="60" width="160" x="-400" y="100" as="geometry" />
@@ -75,6 +75,24 @@
         </mxCell>
         <mxCell id="RC_I0O6WgkZsHq0qVIk9-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b data-path-to-node=&quot;22,0,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;code data-path-to-node=&quot;22,0,0&quot; data-index-in-node=&quot;0&quot;&gt;VarHandle&lt;/code&gt;&lt;/b&gt;：专门负责字段和数组的各种语义读写（原子、Volatile 等）" vertex="1">
           <mxGeometry height="30" width="190" x="210" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Sl4mR-ps_sNI8BjcyIqW-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="670" x="-280" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="Sl4mR-ps_sNI8BjcyIqW-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="plain&amp;lt;opaque&amp;lt;acquire&amp;lt;volatile" vertex="1">
+          <mxGeometry height="30" width="210" x="-260" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="Sl4mR-ps_sNI8BjcyIqW-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="不保证可见性，可以重排序&lt;div&gt;弱可见性（保证最终级别的可见），&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;不允许明显违背直觉的重新排序，但是任然可能重排&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;读之后的操作不能被重排到读之前，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;保证看到“之前 release 写入”的数据（&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;局部排序约束 + 足够用于锁语义）&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;完整的可见性保证，禁止相关重排序（&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;volatile =&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;全局排序一致 + 强内存屏障）&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="680" x="-270" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="Sl4mR-ps_sNI8BjcyIqW-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="150" width="280" x="-815" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Sl4mR-ps_sNI8BjcyIqW-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Unsafe.getReference&lt;/span&gt;&lt;b&gt;从某个对象的某个内存偏移位置，读取一个“引用类型字段”（Object reference）&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="230" x="-800" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Sl4mR-ps_sNI8BjcyIqW-7" parent="1" style="text;whiteSpace=wrap;html=1;" value="acquire 提供的是基于 happens-before 的线程间可见性，不保证全局统一顺序" vertex="1">
+          <mxGeometry height="40" width="490" x="-160" y="960" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
