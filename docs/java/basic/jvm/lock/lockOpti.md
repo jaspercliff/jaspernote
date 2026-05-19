@@ -66,7 +66,7 @@
 - **工作机制**当锁对象第一次被线程获得时，虚拟机会在对象头中存储偏向锁的线程ID，以后该线程进入和退出同步块时不需要进行CAS操作，
 只需要简单地检查对象头的Mark Word里是否存储着指向当前线程的偏向锁。
 - **适用场景**：单一线程频繁执行同步块操作。
-- [biased lock](lock/biasedLock.md)
+- [biased lock](./biasedLock.md)
 
 ### 轻量级锁（Lightweight Locking）
 

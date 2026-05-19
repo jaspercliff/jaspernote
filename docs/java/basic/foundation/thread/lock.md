@@ -399,5 +399,5 @@ public class InventoryControl {
 
 ## 锁的优化和升级
 
-[锁的优化和升级](/docs/java/basic/jvm/锁的优化和升级.md)
+[锁的优化和升级](/docs/java/basic/jvm/lock/lockOpti.md)
 
