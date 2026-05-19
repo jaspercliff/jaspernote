@@ -1,6 +1,6 @@
 # ArrayList
 
-- 底层通过数组实现
+- 底层通过数组实现,System.arrayCopy 1.5倍扩容一个新数组
 - size(), isEmpty(), get(), set()方法均能在常数时间内完成
 - add()方法的时间开销跟插入位置有关，
 - addAll()方法的时间开销跟添加元素的个数成正比。

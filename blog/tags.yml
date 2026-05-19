@@ -12,3 +12,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+java:
+  label: java
+  permalink: /java
+  description: java tag description

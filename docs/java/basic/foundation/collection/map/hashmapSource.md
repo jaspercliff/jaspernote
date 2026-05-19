@@ -108,6 +108,7 @@
 // 对hashcode做扰动 让哈希分布更加均匀
         return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
     }
+
 final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
                    boolean evict) {
       // 数组             链表 第一个节点 

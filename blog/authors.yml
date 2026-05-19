@@ -10,16 +10,15 @@ yangshun:
     github: yangshun
     newsletter: https://www.greatfrontend.com
 
-slorber:
-  name: Sébastien Lorber
+jasper:
+  name: jasper
   title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+  url: https://jaspercliff.github.io
+  image_url: https://avatars.githubusercontent.com/u/77655034?s=400&u=cf44b0456c623b75459e2945405063200f7b582a&v=4
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/all-sebastien-lorber-articles'
   socials:
     x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
+    github: jaspercliff
     newsletter: https://thisweekinreact.com
