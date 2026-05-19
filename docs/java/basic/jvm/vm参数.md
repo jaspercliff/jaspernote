@@ -1,5 +1,47 @@
 # vm参数
 
+ JVM 参数分成三大家族：
+
+### 1. JVM 的三大家族
+
+| 参数类型 | 特点与格式 | 示例 |
+| --- | --- | --- |
+| **标准参数 (`-`)** | 所有的 JVM 都必须支持，非常稳定，基本不会变。 | `-javaagent` |
+| **非标准参数 (`-X`)** | 主要是内存设置，虽然不是所有 JVM 都通用，但大部分都很稳定。 | `-Xmx15m` |
+| **高级/系统参数 (`-XX`)** | 专门用来调优底层核心引擎。**不同的 JVM 版本或厂家，支持的 `-XX` 参数可能会有很大差异**。 | `-XX:+PrintGCDetails` |
+
+---
+
+### 2. `-XX` 参数的语法规律
+
+`-XX` 参数的写法非常死板，通常只有以下两种固定格式：
+
+#### ① 布尔型参数（开关型）
+
+用来开启或关闭某个功能。
+
+* **`-XX:+<name>`**（加号 `+` 表示**开启**）
+* *例如：* `-XX:+UseG1GC`（开启 G1 垃圾回收器）。
+
+
+* **`-XX:-<name>`**（减号 `-` 表示**关闭**）
+* *例如：* `-XX:-DoEscapeAnalysis`（关闭逃逸分析）。
+
+
+
+#### ② 键值对型参数（数值或文字型）
+
+用来给某个属性设置具体的值。
+
+* **`-XX:<name>=<value>`**
+* *例如：* `-XX:NewRatio=2`（设置老年代和年轻代的比例为 2:1）。
+* *例如：* `-XX:MetaspaceSize=128m`（设置元空间初始大小为 128MB）。
+
+
+
+---
+
+## demo 
 vm参数：命令行选项来控制jvm行为
 -Xms size: 设置JVM启动时的初始堆内存大小。  minimum size
 -Xmx size: 设置JVM的最大堆内存大小。  maximum
@@ -113,13 +155,13 @@ java -XX:+PrintFlagsFinal -version
 如果类路径太长，或者有许多VM参数，程序就无法启动。原因是大多数操作系统都有命令行长度限制。
 idea shorten command line 可以缩短类路径
 
-## idea
+###  idea
 
 - none 不会缩短
 - JAR manifest：idea 通过临时的classpath.jar传递长的类路径。原始类路径在MANIFEST.MF中定义为classpath.jar中的类路径属性。
 - classpath file：idea 将一个长类路径写入文本文件中。
 
-## manifest
+### manifest
 
 具体步骤
 创建临时的 classpath.jar 文件：
