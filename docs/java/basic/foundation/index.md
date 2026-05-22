@@ -1,6 +1,4 @@
 ---
 sidebar_position: 0
 ---
-# jvm
-
-
+# foundation
