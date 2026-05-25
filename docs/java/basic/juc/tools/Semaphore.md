@@ -17,13 +17,23 @@
 - `release()`：释放一个许可，增加可用许可证的数量。
 - `availablePermits()`：返回当前可用的许可证数量。
 
+适合资源数量控制: 数据库连接
+
 ### 示例代码
 
 下面是一个使用 `Semaphore` 的简单示例，模拟了一个停车场系统，其中停车位数量有限：
 
 ```java
-import java.util.concurrent.Semaphore;
 
+package com.jasper.tools.semaphore;
+
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
+
+/**
+ * @author jasper
+ * @since 2026-05-25 <br>
+ */
 public class ParkingLot {
     private final Semaphore semaphore;
 
@@ -34,9 +44,14 @@ public class ParkingLot {
     public void park(String car) {
         try {
             System.out.println(car + " 尝试停车");
-            semaphore.acquire();
-            System.out.println(car + " 成功停车");
-            Thread.sleep(1000); // 假设停车时长
+            // 最多等待2秒
+
+            if (!semaphore.tryAcquire(2, TimeUnit.SECONDS)) {
+                System.out.println(car + " 等待超时，离开停车场");
+                return;
+            }
+            System.out.println(car + " 成功停车=====");
+            Thread.sleep((int) (Math.random() * 1001) + 1500); // 假设停车时长
             semaphore.release();
             System.out.println(car + " 离开停车位");
         } catch (InterruptedException e) {
@@ -53,6 +68,7 @@ public class ParkingLot {
         }
     }
 }
+
 ```
 
 在这个示例中，`Semaphore` 初始化为5，表示停车场有5个停车位。每当一辆车停车时，它尝试获取一个许可；如果停车位已满，该线程将阻塞，直到有车离开并释放一个许可。
