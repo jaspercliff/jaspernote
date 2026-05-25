@@ -3,115 +3,127 @@ import { ThemeConfig } from '@docusaurus/preset-classic';
 
 // 定义并导出 navbar 对象
 export const navbar: ThemeConfig['navbar'] = {
-    title: 'jaspernote',
-    logo: {
-        alt: 'jaspernote logo',
-        src: 'img/jaspernote-logo.svg',
+  title: 'jaspernote',
+  logo: {
+    alt: 'jaspernote logo',
+    src: 'img/jaspernote-logo.svg',
+  },
+  items: [
+    {
+      type: 'docSidebar',
+      sidebarId: 'patterns',
+      position: 'left',
+      label: '设计模式',
     },
-    items: [
-        {
-            type: 'docSidebar',
-            sidebarId: 'patterns',
-            position: 'left',
-            label: '设计模式',
-        },
-        {
-            type: 'docSidebar',
-            sidebarId: 'dataStructure',
-            position: 'left',
-            label: '数据结构',
-        },
-        //================================================ java
-        {
-            type: 'dropdown',
-            label: 'java',
-            position: 'left',
-            items: [
-                { label: '开发工具', to: '/docs/java/devTools', sidebarId: 'devTools' },
-                { label: 'foundation', to: '/docs/java/basic', sidebarId: 'javaBasic' },
-                { label: 'framework', to: '/docs/java/framework', sidebarId: 'framework' },
-            ],
-        },
-        {
-            type: 'docSidebar',
-            sidebarId: 'kotlin',
-            position: 'left',
-            label: 'kotlin',
-        },
-        {
-            type: 'docSidebar',
-            sidebarId: 'python',
-            position: 'left',
-            label: 'python',
-        },
-        {
-            type: 'docSidebar',
-            sidebarId: 'lua',
-            position: 'left',
-            label: 'lua',
-        },
-        {
-            type: 'dropdown',
-            label: 'front',
-            position: 'left',
-            items: [
-                { label: 'html', to: '/docs/front/html', sidebarId: 'html' },
-                { label: 'css', to: '/docs/front/css', sidebarId: 'css' },
-                { label: 'js', to: '/docs/front/js', sidebarId: 'js' },
-                { label: 'jquery', to: '/docs/front/jquery', sidebarId: 'jquery' },
-                { label: 'vitepress', to: '/docs/front/vitepress', sidebarId: 'vitepress' },
-                { label: 'docusaurus', to: '/docs/front/docusaurus', sidebarId: 'docusaurus' },
-                { label: 'vue', to: '/docs/front/vue', sidebarId: 'vue' },
-                { label: 'react', to: '/docs/front/react', sidebarId: 'react' },
-            ],
-        },
-        //================================================ dataLayer
-        {
-            type: 'dropdown',
-            label: 'dataLayer',
-            position: 'left',
-            items: [
-                { label: '关系型数据库', to: '/docs/dataLayer/relational/', sidebarId: 'relational' },
-                { label: '分布式数据库', to: '/docs/dataLayer/distributed/', sidebarId: 'distributed' },
-                { label: 'NoSQL', to: '/docs/dataLayer/nosql/', sidebarId: 'nosql' },
-                { label: '连接池', to: '/docs/dataLayer/connectPool/', sidebarId: 'connectPool' },
-                { label: '分库分表', to: '/docs/dataLayer/sharding/', sidebarId: 'sharding' },
-            ],
-        },
-        //================================================ system design
-        {
-            type: 'dropdown',
-            label: 'system design',
-            position: 'left',
-            items: [
-                { label: 'operating system', to: '/docs/infrastructure/os', sidebarId: 'os' },
-                { label: 'system design', to: '/docs/infrastructure/design', sidebarId: 'design' },
-                { label: 'devops', to: '/docs/infrastructure/devops', sidebarId: 'devops' },
-            ],
-        },
-        //================================================ utils
-        {
-            type: 'dropdown',
-            label: 'utils',
-            position: 'left',
-            items: [
-                { label: 'git', to: '/docs/utils/git', sidebarId: 'dataStructure' },
-                { label: 'svn', to: '/docs/utils/svn', sidebarId: 'svn' },
-                { label: 'vim', to: '/docs/utils/vim', sidebarId: 'vim' },
-                { label: 'neovim', to: '/docs/utils/neovim', sidebarId: 'neovim' },
-                { label: 'jmeter', to: '/docs/utils/jmeter', sidebarId: 'jmeter' },
-            ],
-        },
-        {
-            to: '/docs/tags',
-            label: '标签云',
-            position: 'right',
-        },
-        { to: '/blog', label: 'Blog', position: 'right' },
-        {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-        },
-    ],
+    {
+      type: 'docSidebar',
+      sidebarId: 'dataStructure',
+      position: 'left',
+      label: '数据结构',
+    },
+    //================================================ java
+    {
+      type: 'dropdown',
+      label: 'java',
+      position: 'left',
+      items: [
+        { label: '开发工具', to: '/docs/java/devTools', sidebarId: 'devTools' },
+        { label: 'foundation', to: '/docs/java/basic/foundation', sidebarId: 'foundation' },
+        { label: '常用类', to: '/docs/java/basic/commonClass', sidebarId: 'commonClass' },
+        { label: 'jdk', to: '/docs/java/basic/jdk', sidebarId: 'jdk' },
+        { label: 'java 新特性', to: '/docs/java/basic/newFeature', sidebarId: 'newFeature' },
+        { label: 'juc', to: '/docs/java/basic/juc', sidebarId: 'juc' },
+        { label: 'jvm', to: '/docs/java/basic/jvm', sidebarId: 'jvm' },
+      ],
+    },
+    {
+      type: 'dropdown',
+      label: 'java框架',
+      position: 'left',
+      items: [
+        { label: 'framework', to: '/docs/java/framework', sidebarId: 'framework' },
+      ],
+    },
+    {
+      type: 'docSidebar',
+      sidebarId: 'kotlin',
+      position: 'left',
+      label: 'kotlin',
+    },
+    {
+      type: 'docSidebar',
+      sidebarId: 'python',
+      position: 'left',
+      label: 'python',
+    },
+    {
+      type: 'docSidebar',
+      sidebarId: 'lua',
+      position: 'left',
+      label: 'lua',
+    },
+    {
+      type: 'dropdown',
+      label: 'front',
+      position: 'left',
+      items: [
+        { label: 'html', to: '/docs/front/html', sidebarId: 'html' },
+        { label: 'css', to: '/docs/front/css', sidebarId: 'css' },
+        { label: 'js', to: '/docs/front/js', sidebarId: 'js' },
+        { label: 'jquery', to: '/docs/front/jquery', sidebarId: 'jquery' },
+        { label: 'vitepress', to: '/docs/front/vitepress', sidebarId: 'vitepress' },
+        { label: 'docusaurus', to: '/docs/front/docusaurus', sidebarId: 'docusaurus' },
+        { label: 'vue', to: '/docs/front/vue', sidebarId: 'vue' },
+        { label: 'react', to: '/docs/front/react', sidebarId: 'react' },
+      ],
+    },
+    //================================================ dataLayer
+    {
+      type: 'dropdown',
+      label: 'dataLayer',
+      position: 'left',
+      items: [
+        { label: '关系型数据库', to: '/docs/dataLayer/relational/', sidebarId: 'relational' },
+        { label: '分布式数据库', to: '/docs/dataLayer/distributed/', sidebarId: 'distributed' },
+        { label: 'NoSQL', to: '/docs/dataLayer/nosql/', sidebarId: 'nosql' },
+        { label: '连接池', to: '/docs/dataLayer/connectPool/', sidebarId: 'connectPool' },
+        { label: '分库分表', to: '/docs/dataLayer/sharding/', sidebarId: 'sharding' },
+      ],
+    },
+    //================================================ system design
+    {
+      type: 'dropdown',
+      label: 'system design',
+      position: 'left',
+      items: [
+        { label: 'operating system', to: '/docs/infrastructure/os', sidebarId: 'os' },
+        { label: 'system design', to: '/docs/infrastructure/design', sidebarId: 'design' },
+        { label: 'devops', to: '/docs/infrastructure/devops', sidebarId: 'devops' },
+      ],
+    },
+    //================================================ utils
+    {
+      type: 'dropdown',
+      label: 'utils',
+      position: 'left',
+      items: [
+        { label: 'git', to: '/docs/utils/git', sidebarId: 'dataStructure' },
+        { label: 'svn', to: '/docs/utils/svn', sidebarId: 'svn' },
+        { label: 'vim', to: '/docs/utils/vim', sidebarId: 'vim' },
+        { label: 'neovim', to: '/docs/utils/neovim', sidebarId: 'neovim' },
+        { label: 'jmeter', to: '/docs/utils/jmeter', sidebarId: 'jmeter' },
+      ],
+    },
+    {
+      to: '/docs/tags',
+      label: '标签云',
+      position: 'right',
+    },
+    { to: '/blog', label: 'Blog', position: 'right' },
+    {
+      href: 'https://github.com/facebook/docusaurus',
+      label: 'GitHub',
+      position: 'right',
+    },
+  ],
 };
