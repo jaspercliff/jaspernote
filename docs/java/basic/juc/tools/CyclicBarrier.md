@@ -18,44 +18,63 @@
 下面是一个示例，展示了如何使用 `CyclicBarrier` 来协调多个线程的工作，其中线程完成部分任务后等待其他线程。
 
 ```java
+package com.jasper.tools.cyclicbarrier;
+
+import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
-public class CyclicBarrierExample {
-    // 创建一个 CyclicBarrier，设置 3 个线程为参与方，所有线程到达后执行一个屏障动作
-    private static final CyclicBarrier barrier = new CyclicBarrier(3, () -> {
-        System.out.println("所有任务完成，继续执行下一阶段任务");
-    });
+/**
+ * @author jasper
+ * @since 2026-05-25 12:23:45
+ */
+public class Task implements Runnable {
 
-    static class Task implements Runnable {
-        private String name;
+    private String name;
 
-        Task(String name) {
-            this.name = name;
-        }
+    private CyclicBarrier barrier;
 
-        @Override
-        public void run() {
-            System.out.println(name + " 阶段1执行中...");
-            try {
-                Thread.sleep((long) (Math.random() * 1000)); // 模拟任务
-                System.out.println(name + " 到达屏障点");
-                barrier.await(); // 到达屏障点等待其他线程
-
-                System.out.println(name + " 阶段2执行中...");
-                Thread.sleep((long) (Math.random() * 1000)); // 模拟第二阶段任务
-                System.out.println(name + " 完成任务");
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+    public Task(String name, CyclicBarrier barrier) {
+        this.name = name;
+        this.barrier = barrier;
     }
 
-    public static void main(String[] args) {
-        new Thread(new Task("线程A")).start();
-        new Thread(new Task("线程B")).start();
-        new Thread(new Task("线程C")).start();
+    @Override
+    public void run() {
+        System.out.println(name + " phase 1 is currently underway");
+        try {
+            Thread.sleep((long) (Math.random() * 1000));
+            System.out.println(name + " reach barrier");
+            barrier.await(); // 所有线程都到达barrier之后才继续执行 can reuse
+            System.out.println(name + " phase 2 is currently underway");
+            Thread.sleep((long) (Math.random() * 1000));
+            System.out.println(name + " reach barrier");
+            barrier.await();
+            System.out.println(name + "end");
+        } catch (InterruptedException e) {
+            System.out.println(e.getMessage());
+        } catch (BrokenBarrierException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
+
+/**
+ * @author jasper
+ * @since 2026-05-25 12:23:39 <br>
+ *     允许一组线程互相等待， 直到所有线程都达到一个公共屏障点（Common Barrier Point）再继续执行 <br>
+ *     主要线程协作 例如4个线程各自计算一部分 最后汇总
+ */
+public class CyclicBarrierDemo {
+    public static void main(String[] args) {
+        CyclicBarrier barrier =
+                new CyclicBarrier(3, () -> System.out.println("all task  done 1 phase"));
+
+        new Thread(new Task("A", barrier)).start();
+        new Thread(new Task("B", barrier)).start();
+        new Thread(new Task("C", barrier)).start();
+    }
+}
+
 ```
 
 ```java
