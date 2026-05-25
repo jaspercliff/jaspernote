@@ -10,28 +10,10 @@
 ### 核心方法
 
 - **`register()`**：注册一个未参与的线程，使其能够参与 `Phaser` 同步。
+- arrive(): 到了 但是不等待别的线程 起一个通知的作用
 - **`arriveAndAwaitAdvance()`**：当前线程到达，并等待其他线程到达同步点。
-- **`arriveAndDeregister()`**：表示当前线程已完成所有阶段的执行，并从 `Phaser` 中注销，不再参与后续同步。
+- **`arriveAndDeregister()`**：表示当前线程已完成所有阶段的执行，并从 `Phaser` 中注销，不再参与后续同步。也不会等待其他线程
 - **`bulkRegister(int parties)`**：一次性注册多个参与者。
-```mermaid
-graph LR;
-    A[开始] --> B[线程注册]
-    B --> C[第一阶段]
-    C -->|等待其他线程| D[达到屏障点]
-    D --> E[第二阶段]
-    E -->|等待其他线程| F[达到屏障点]
-    F --> G[第三阶段]
-    G -->|等待其他线程| H[达到屏障点]
-    H --> I[线程完成并注销]
-    I --> J[结束]
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style J fill:#ccf,stroke:#333,stroke-width:2px
-    style D fill:#ff9,stroke:#333,stroke-width:2px
-    style F fill:#ff9,stroke:#333,stroke-width:2px
-    style H fill:#ff9,stroke:#333,stroke-width:2px
-
-```
 
 ### 示例代码
 
@@ -76,42 +58,121 @@ public class PhaserExample {
 }
 ```
 ```java
+package com.jasper.tools.phaser;
+
 import java.util.concurrent.Phaser;
 
-public class DataProcessingPhaser {
+public class PhaserDemo {
+
     public static void main(String[] args) {
-        final Phaser phaser = new Phaser(1); // 注册主线程
 
-        System.out.println("数据处理开始");
+        Phaser phaser = new Phaser(3);
 
-        for (int i = 1; i <= 10; i++) { // 假设有10个数据处理任务
-            int finalI = i;
-            phaser.register(); // 为每个任务注册一个参与者
-            new Thread(() -> {
-                System.out.println("数据预处理 " + finalI);
-                phaser.arriveAndAwaitAdvance(); // 完成预处理阶段并等待
+        // 观察者线程
+        new Thread(
+                        () -> {
+                            int phase = phaser.getPhase();
 
-                System.out.println("数据分析 " + finalI);
-                phaser.arriveAndAwaitAdvance(); // 完成分析阶段并等待
+                            while (!phaser.isTerminated()) {
 
-                System.out.println("数据汇总 " + finalI);
-                phaser.arriveAndDeregister(); // 完成汇总，注销
-            }).start();
-        }
+                                phaser.awaitAdvance(phase);
 
-        // 主线程在每个阶段也必须到达并等待
-        phaser.arriveAndAwaitAdvance(); // 等待预处理阶段完成
-        System.out.println("预处理阶段完成");
+                                phase = phaser.getPhase();
 
-        phaser.arriveAndAwaitAdvance(); // 等待分析阶段完成
-        System.out.println("分析阶段完成");
+                                System.out.println(
+                                        "\n========== 进入 Phase "
+                                                + phase
+                                                + " 当前人数:"
+                                                + phaser.getRegisteredParties()
+                                                + " ==========\n");
+                            }
+                        })
+                .start();
 
-        // 所有任务都已完成最后的汇总阶段
-        phaser.arriveAndDeregister(); // 主线程注销
-        System.out.println("所有数据处理完成");
+        new Thread(new Player("A", phaser)).start();
+        new Thread(new Player("B", phaser)).start();
+        new Thread(new Player("C", phaser)).start();
     }
 }
 
+class Player implements Runnable {
+
+    private final String name;
+    private final Phaser phaser;
+
+    public Player(String name, Phaser phaser) {
+        this.name = name;
+        this.phaser = phaser;
+    }
+
+    @Override
+    public void run() {
+
+        try {
+
+            // ================= phase 0 =================
+
+            System.out.println(name + " 加载地图...");
+            Thread.sleep(random());
+
+            System.out.println(name + " 地图加载完成");
+
+            phaser.arriveAndAwaitAdvance();
+
+            // ================= phase 1 =================
+
+            System.out.println(name + " 选择英雄...");
+            Thread.sleep(random());
+
+            // A 玩家动态拉人
+            if ("A".equals(name)) {
+
+                System.out.println("新玩家 D 加入游戏");
+
+                // 动态注册
+                phaser.register();
+
+                new Thread(new Player("D", phaser)).start();
+            }
+
+            // B 玩家退出
+            if ("B".equals(name)) {
+
+                System.out.println(name + " 退出游戏");
+
+                phaser.arriveAndDeregister();
+
+                return;
+            }
+
+            System.out.println(name + " 英雄选择完成");
+
+            phaser.arriveAndAwaitAdvance();
+
+            // ================= phase 2 =================
+
+            System.out.println(name + " 开始战斗...");
+            Thread.sleep(random());
+
+            // arrive 示例
+            System.out.println(name + " 战斗完成，通知系统");
+
+            phaser.arrive();
+
+            System.out.println(name + " 去领取奖励了（不等待别人）");
+
+            // 最终退出
+            phaser.arriveAndDeregister();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private long random() {
+        return (long) (Math.random() * 2000);
+    }
+}
 ```
 
 ### 使用注意事项
@@ -120,6 +181,4 @@ public class DataProcessingPhaser {
 2. **管理阶段**：`Phaser` 的 `getPhase()` 方法可以获取当前阶段，这对调试和监控是有帮助的。
 3. **动态参与**：`Phaser` 支持动态的线程参与，允许在任何阶段增加或减少线程的数量，这为编写动态的并行程序提供了便利。
 
-`Phaser` 提供的灵活性使其成为处理多阶段任务时的理想选择，尤其是当任务数量或参与线程数可能动态变化时。这种特性使得 `Phaser` 成为并
-
-发编程中一个非常有用的工具。
+`Phaser` 提供的灵活性使其成为处理多阶段任务时的理想选择，尤其是当任务数量或参与线程数可能动态变化时。
