@@ -42,6 +42,7 @@ export const navbar: ThemeConfig['navbar'] = {
       position: 'left',
       items: [
         { label: 'framework', to: '/docs/java/framework', sidebarId: 'framework' },
+        { label: 'cloud', to: '/docs/java/framework/cloud', sidebarId: 'cloud' },
       ],
     },
     {
