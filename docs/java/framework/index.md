@@ -9,6 +9,6 @@ sidebar_position: 1
 - [springboot](springboot/index.md)
 - [spring data](springData/index.md)
 - [spring batch](springBatch/index.md)
-- [spring cloud](springcloud/index.md)
+- [spring cloud](cloud/index.md)
 - [dubbo](dubbo/index.md)
 - [jetCache](jetCache/index.md)
