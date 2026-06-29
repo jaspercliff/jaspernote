@@ -33,6 +33,8 @@ SoftReference<Object> softRef = new SoftReference<>(new Object());
 
 // -Xmx20m -Xlog:'gc*'
 public class SoftRefDemo {
+
+    // 内存不足时会回收软引用 适合缓存(现在不推荐使用 recommend：caffeine redis)
     public static void main(String[] args) {
         // 创建一个 10MB 的软引用对象
         SoftReference<byte[]> softRef = new SoftReference<>(new byte[1024 * 1024 * 10]);
@@ -111,3 +113,6 @@ public class PhantomRefDemo {
 触发虚引用通知：GC 发现这个对象只有虚引用了，在回收它之前，会将这个虚引用丢进与之关联的 ReferenceQueue 中。
 
 执行清理：JVM 内部有一个后台线程会监控这个队列。一旦发现队列里有东西，就会取出它并调用底层的 C 语言代码（如 unsafe.freeMemory），手动把那块直接内存释放掉
+
+
+> 虚引用最大的作用不是引用对象，而是配合 ReferenceQueue 在对象被 GC 后收到通知，从而释放对象关联的非 Java 资源，例如直接内存（Direct Memory）、文件句柄等。由于 get() 永远返回 null，因此虚引用不会影响对象的生命周期，也不能通过它访问对象

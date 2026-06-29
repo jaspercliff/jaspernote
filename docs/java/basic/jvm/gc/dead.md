@@ -27,21 +27,25 @@ JVM 中的 GC Roots 主要包括以下几类：
 
 * **例子**：`User user = new User();` 这里的 `user` 变量就是一个 GC Root。只要这个方法还没执行完，`user` 指向的对象就是活的。
 
-### 2. 方法区中类静态属性引用的对象
+### 2. 本地方法栈中 JNI（Native 方法）引用的对象
+
+当 Java 程序调用了 C/C++ 实现的本地方法时，这些方法内部可能会引用 Java 对象。这些被“法外之地”引用的对象不能被回收。
+
+```Java
+JNIEnv->NewGlobalRef(obj);
+```
+
+### 3. 方法区中类静态属性引用的对象
 
 由于静态属性（`static` 关键字）属于类，而不属于某个具体的实例，它们的生命周期往往非常长，通常随类的加载而存在。
 
 * **例子**：`public static Cache cache = new Cache();` 这个 `cache` 对象就会被视为 GC Root。
 
-### 3. 方法区中常量引用的对象
+### 4. 方法区中常量引用的对象
 
 被 `final` 修饰的常量引用，如果它指向一个对象，那么这个对象也是 GC Root。
 
 * **例子**：`public static final String SIGNATURE = "RSA";` 字符串常量池里的引用。
-
-### 4. 本地方法栈中 JNI（Native 方法）引用的对象
-
-当 Java 程序调用了 C/C++ 实现的本地方法时，这些方法内部可能会引用 Java 对象。这些被“法外之地”引用的对象不能被回收。
 
 ### 5. 所有被同步锁（synchronized 关键字）持有的对象
 

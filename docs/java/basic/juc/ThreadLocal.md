@@ -216,3 +216,17 @@ public class TTLDemo {
     }
 }
 ```
+
+## weakreference 
+
+```java 
+public void doSomething() {
+    ThreadLocal<User> tl = new ThreadLocal<>();
+
+    tl.set(user);
+
+    ...
+}
+```
+
+当方法结束之后 等价于  t1 =null; 但是此时底层的map还持有key 无法gc
