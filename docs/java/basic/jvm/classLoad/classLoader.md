@@ -58,3 +58,27 @@ Java 引入了 线程上下文类加载器 (TCCL)。
         return new ServiceLoader<S>(Reflection.getCallerClass(), service, cl);
     }
 ```
+
+## SharedImageReader
+
+SharedImageReader 是整个 JVM 实现“直接委派”和“高效加载核心模块类”的底层“指路人”和“运输车”。
+
+1. 它是怎么帮 JVM 实现“直接委派”的？（指路人）
+当 JVM 启动时，它需要知道哪一个类属于哪一个模块，进而知道该直接委派给哪个类加载器。
+
+建立索引：SharedImageReader 在 JVM 启动时，会去读取 JDK_HOME/lib/modules 文件。
+
+绘制地图：它会把这个二进制镜像文件里的所有模块信息（比如 java.base 包含哪些类，java.sql 包含哪些类）在内存中梳理成一棵树或者一个高效的哈希表。
+
+当 JVM 收到类加载请求时，正是通过 SharedImageReader 建立的这套内存索引，才能实现“一眼看出该类属于哪个模块，并直接定向投递给特定加载器”。
+
+2. 当委派定位后，它负责把类读出来（运输车）
+当类加载器（比如 Platform ClassLoader）确定自己要加载 java.sql.Connection 时，它自己其实不知道怎么去解析那个神秘的 modules 二进制大文件。
+
+这时候，它就会调用 SharedImageReader：
+
+定位：加载器说：“我要 java.sql.Connection，帮我拿一下。”
+
+读取：SharedImageReader 利用底层的 java.nio.channels.FileChannel 和内存映射技术（Memory-Mapped IO），在不消耗大量 CPU 的情况下，精准地从 modules 文件里把这个类的 .class 二进制字节流挖出来。
+
+交付：把字节流交给类加载器，类加载器再调用 defineClass() 把它真正变成堆里的 java.lang.Class 对象。
