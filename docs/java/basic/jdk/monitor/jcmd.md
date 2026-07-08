@@ -20,3 +20,15 @@ Code: JIT 编译器缓存编译后的机器码占用的空间。
 Internal: 直接内存（Direct Memory）。
 
 GC: 垃圾回收器本身运行所需的内存（如 G1 的 Remembered Sets）。
+
+## 生成heap dump
+
+```zsh 
+jcmd <pid> GC.heap_dump heap.hprof 
+```
+
+这个默认生成文件是在进程目录下，如果要指定则
+
+```zsh 
+jcmd 65995 GC.heap_dump $(pwd)/heap65995.hprof
+```
