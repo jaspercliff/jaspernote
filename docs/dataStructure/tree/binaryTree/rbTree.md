@@ -15,7 +15,7 @@
 2. 右旋 (Right Rotate): 支点 9 下沉，其左子 7 上升。原本 7 的右子 8 移交给 9 作为左子。
 3. 性质维持: 旋转前后，所有节点的 BST 顺序均保持 1-6-7-8-9-18 不变。
 
-![rotate](assets/rotate.png)
+![rotate](../assets/rotate.png)
 
 ## 插入 
 
@@ -25,15 +25,15 @@
 ### 无需调整的场景
 
 
-![norotatescene](assets/norotatescene.png)
+![norotatescene](../assets/norotatescene.png)
 
 ### 需要调整 
 
 #### 叔叔是红
 
-![](assets/uncleisb.png)
+![](../assets/uncleisb.png)
 
 #### 叔叔是黑
 
 
-![](assets/uncleisblack.png)
+![](../assets/uncleisblack.png)
