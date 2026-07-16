@@ -2,7 +2,7 @@
 
 - 备份
 ``` sql
-mysqldump -u root -p sub > sub.sql 
+mysqldump -h 192.168.1.100 -P 3307  -u root -p sub > sub.sql 
 ```
 
 - 恢复
