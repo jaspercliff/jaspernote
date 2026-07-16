@@ -120,9 +120,99 @@ MyException("Another exception occurred",e);
 Java 7引入的try-with-resources语句自动管理资源，无需显式关闭资源。该语句要求资源实现`AutoCloseable`或`Closeable`接口。
 
 ``` java
-try(ResourceType resource = new ResourceType()){
-        // 使用资源的代码
+
+/**
+ * @author jasper
+ * @since 2026-07-16 20:58:24 <br>
+ *     AutoCloseable 适合 是其他通用的资源管理类 <br>
+ *     void close() throws Exception;
+ */
+
+public class MyResource implements AutoCloseable {
+    public void doSome() {
+        System.out.println("do something");
+    }
+
+    @Override
+    public void close() throws Exception {
+        System.out.println("AutoCloseable");
+    }
+/**
+ * @author jasper
+ * @since 2026-07-16 21:00:16 <br>
+ *     closable 适合 跟输入输出（I/O）相关的工具类 <br>
+ *     public void close() throws IOException;
+ */
+public class MyResource1 implements Closeable {
+
+    public void doSome() {
+        System.out.println("do something");
+    }
+
+    @Override
+    public void close() throws IOException {
+        System.out.println("Closeable");
+    }
+}
+/**
+ * @author jasper
+ * @since 2026-07-16 21:02:14 <br>
+ */
+public class ResourceDemo {
+    public static void main(String[] args) {
+
+        // jdk9 feature final resource  可以直接在try中写变量而不用重新赋值
+        final MyResource resource = new MyResource();
+        try (MyResource1 resource1 = new MyResource1();
+                resource) {
+            resource1.doSome();
+            resource.doSome();
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
         }
+    }
+}
+}
+```
+反编译代码
+```java 
+public class ResourceDemo {
+    public static void main(String[] args) {
+        MyResource resource = new MyResource();
+        try {
+            MyResource1 resource1 = new MyResource1();
+            try {
+                try {
+                    resource1.doSome();
+                    resource.doSome();
+                    if (resource != null) {
+                        resource.close();
+                    }
+                    resource1.close();
+                } catch (Throwable th) {
+                    if (resource != null) {
+                        try {
+                            resource.close();
+                        } catch (Throwable th2) {
+                            th.addSuppressed(th2);
+                        }
+                    }
+                    throw th;
+                }
+            } catch (Throwable th3) {
+                try {
+                    resource1.close();
+                } catch (Throwable th4) {
+                    th3.addSuppressed(th4);
+                }
+                throw th3;
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
 ```
 
 ### 断言
