@@ -55,30 +55,6 @@ import Link from '@docusaurus/Link';
     </div>
   </Link>
 
-  <Link className="roadmap-card" to="/docs/dataLayer/relational/h2/">
-    <div className="roadmap-badge">h2</div>
-    <div className="roadmap-title">H2</div>
-    <div className="roadmap-desc">
-      轻量级内存数据库，常用于开发与测试
-    </div>
-    <div className="roadmap-tags">
-      <span className="roadmap-tag">内存数据库</span>
-      <span className="roadmap-tag">嵌入式</span>
-    </div>
-  </Link>
-
-  <Link className="roadmap-card" to="/docs/dataLayer/relational/hsqldb/">
-    <div className="roadmap-badge">hsqldb</div>
-    <div className="roadmap-title">HSQLDB</div>
-    <div className="roadmap-desc">
-      纯 Java 的轻量级关系型数据库
-    </div>
-    <div className="roadmap-tags">
-      <span className="roadmap-tag">嵌入式</span>
-      <span className="roadmap-tag">Java</span>
-    </div>
-  </Link>
-
 </div>
 
 ## nosql
