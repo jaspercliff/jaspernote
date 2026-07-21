@@ -1,4 +1,17 @@
+---
+sidebar_position: 1
+---
 # install
+
+## mac 
+
+```shell
+brew install mysql@8.0
+echo 'export PATH=$PATH:/opt/homebrew/opt/mysql@8.0/bin' >> ~/.zshrc && source ~/.zshrc
+brew services start mysql@8.0
+# 设置mysql 密码
+mysql_secure_installation
+```
 
 ## docker install 
 

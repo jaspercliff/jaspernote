@@ -1,5 +1,9 @@
+---
+sidebar_position: 2
+---
+
 # 数据类型
-[数据类型官网](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
+[官网](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
 MySQL supports SQL data types in several categories: numeric types, date and time types, string (character and byte) types, spatial types, and the JSON data type
 MySQL 支持多种数据类型，这些类型可大致分为几个类别：数值类型、日期和时间类型、字符串（字符）类型、空间数据类型以及JSON类型。
