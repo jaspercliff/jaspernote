@@ -3,7 +3,7 @@
 - 非public方法  事务管理基于aop动态代理，只能拦截public的方法
 - 异常被内部catch spring只有捕获到异常，才会回滚
 - 传播行为设置不对 never not_support
-- 多线程调用 事务是与线程绑定的，使用threadlocal存储事务上下文
+- 多线程调用,线程中开启子线程( 事务是与线程绑定的，使用threadlocal存储事务上下文)
 - 类的内部方法自调用：非事务方法调用事务方法，a method invoke b method
 
 ```java
