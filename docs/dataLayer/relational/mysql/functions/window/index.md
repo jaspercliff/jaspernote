@@ -110,3 +110,70 @@ result:
 | 2000 | USA     | Computer   | 1500   | 4450           | 7410         | 1500 |
 | 2001 | USA     | Computer   | 2700   | 4450           | 7410         | 4200 |
 | 2001 | USA     | TV         | 250    | 4450           | 7410         | 4450 |
+
+
+## named window 
+
+```text 
+WINDOW window_name AS (window_spec)
+    [, window_name AS (window_spec)] ...
+```
+
+只定义一次窗口  指定一个名称，所有over字句都可以使用这个名称
+```sql 
+SELECT
+  val,
+  ROW_NUMBER() OVER (ORDER BY val) AS 'row_number',
+  RANK()       OVER (ORDER BY val) AS 'rank',
+  DENSE_RANK() OVER (ORDER BY val) AS 'dense_rank'
+FROM numbers;
+
+SELECT
+  val,
+  ROW_NUMBER() OVER w AS 'row_number',
+  RANK()       OVER w AS 'rank',
+  DENSE_RANK() OVER w AS 'dense_rank'
+FROM numbers
+WINDOW w AS (ORDER BY val);
+```
+
+如果某个 OVER 子句使用了 OVER (window_name ...) 而不是 OVER window_name ，那么可以通过添加其他子句来修改该窗口的定义
+
+如果命名窗口的定义中包含分区、排序或框架属性，那么引用该窗口名称的 OVER 子句就无法包含相同类型的属性，否则将会出现错误
+
+```sql 
+-- 可以添加其他子句 
+select name,age ,dept_id,
+    FIRST_VALUE(age) OVER (w ORDER BY age asc) as "first",
+    FIRST_VALUE(age) OVER (w ORDER BY age desc) as "last"
+FROM  user_simple AS us 
+-- 这里不能写order by dept_id  不然会报错 （frame partition order）
+window w as (PARTITION BY us.dept_id);
+```
+
+命名函数可以前向引用和反向引用 但是不能循环引用
+
+```sql
+select name,age ,dept_id,
+    FIRST_VALUE(age) OVER w2 as "first",
+    FIRST_VALUE(age) OVER w3 as "last"
+FROM user_simple AS us 
+window 
+ w1 as (PARTITION BY us.dept_id),
+ w2 as (w1 ORDER BY age asc),
+ w3 as (w1 ORDER BY age desc);
+```
+
+## restrictions 
+
+- 不能用于updae 和delete （但是子查询可以使用）
+- 不支持distinct  （COUNT(DISTINCT salary) OVER())
+- 不允许嵌套窗口函数 
+- 不支持动态frame endpoint  （eg：ROWS BETWEEN age PRECEDING AND CURRENT ROW 当前行的age前界的往前) 
+--- 
+todo learn 
+- GROUPS不支持 MySQL只实现ROWS/RANGE
+- EXCLUDE不支持 SQL标准扩展未实现
+- IGNORE NULLS不支持 只支持NULL参与
+- FROM LAST不支持 只支持正向计算
+- 127窗口限制解析和执行资源限制
