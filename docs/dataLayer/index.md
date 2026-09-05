@@ -158,7 +158,7 @@ import Link from '@docusaurus/Link';
     </div>
   </Link>
 
-  <Link className="roadmap-card" to="/docs/dataLayer/sharding/shardingjdbc/">
+  <Link className="roadmap-card" to="/docs/dataLayer/sharding/shardingSphere/">
     <div className="roadmap-badge">shardingjdbc</div>
     <div className="roadmap-title">Sharding-JDBC</div>
     <div className="roadmap-desc">
