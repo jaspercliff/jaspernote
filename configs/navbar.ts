@@ -46,6 +46,14 @@ export const navbar: ThemeConfig['navbar'] = {
       ],
     },
     {
+      type: 'dropdown',
+      label: 'middleWare',
+      position: 'left',
+      items: [
+        { label: 'rocketmq', to: '/docs/java/middleware/rocketmq', sidebarId: 'framework' },
+      ],
+    },
+    {
       type: 'docSidebar',
       sidebarId: 'kotlin',
       position: 'left',
