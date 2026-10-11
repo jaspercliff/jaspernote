@@ -112,6 +112,21 @@ public class Singleton {
 }
 ```
 
+### 静态内部类 
+
+```java
+private static class Holder {
+    private static final Singleton INSTANCE =
+            new Singleton();
+}
+
+public static Singleton getInstance() {
+    return Holder.INSTANCE;
+}
+```
+
+利用 JVM 的类初始化机制，实现线程安全的延迟初始化，不需要显式加锁
+
 #### violent 作用
 
 [//]: # ([volatile]&#40;/java/basic/foundation/thread/volatile.md&#41;)
